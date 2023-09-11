@@ -3,7 +3,7 @@
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.AVALONIA reporting tool in the Avalonia applications, using C# code and Avalonia components. The report builder and examples are fully compatible with .NET 6.0, and .NET 7.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
 
 ## Overview
-* [This repository has a set of examples (Visual Studio projects), each in different folders:
+This repository has a set of examples (Visual Studio projects), each in different folders:
 * [Change Theme in Avalonia](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Change%20Theme%20in%20Avalonia)
 * [Creating Chart at Runtime](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Creating%20Chart%20at%20Runtime)
 * [Creating Report at Runtime](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Creating%20Report%20at%20Runtime)
