@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Change_Theme_in_Avalonia.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Change_Theme_in_Avalonia.Views"
+		Width="450" Height="300"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
+        x:Class="Change_Theme_in_Avalonia.Views.MainWindow"
+		WindowStartupLocation="CenterScreen"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Change Theme in Avalonia">
+	<Grid>
+		<Grid RowDefinitions="*,12,*"
+			  HorizontalAlignment="Center"
+			  VerticalAlignment="Center">
+			<ComboBox x:Name="comboBoxTheme" Width="200" SelectionChanged="ComboBoxTheme_SelectionChanged">
+				<ComboBoxItem Content="Light Theme"/>
+				<ComboBoxItem Content="Dark Theme"/>
+			</ComboBox>
+
+			<Button x:Name="buttonShowViewer" Grid.Row="2" Width="200"
+					HorizontalContentAlignment="Center"
+					Content="Show Viewer"
+					Click="ButtonShowViewer_Click"/>
+		</Grid>
+	</Grid>
+</Window>

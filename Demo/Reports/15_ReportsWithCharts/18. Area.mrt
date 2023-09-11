@@ -1,0 +1,1906 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Data Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>Data</Alias>
+        <Key>ac35d2ad2e0e4d80b6fe3df4145d9f66</Key>
+        <Name>Data</Name>
+        <PathData>resource://Data</PathData>
+      </Data>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Data Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Data</Alias>
+        <Columns isList="true" count="4">
+          <value>Units,System.Double</value>
+          <value>Units_x0020_in_x0020_Stock,System.Double</value>
+          <value>Units_x0020_Ordered,System.Double</value>
+          <value>Year,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>e80387b75dd64bb89b678b0b0269c1d6</Key>
+        <Name>Data</Name>
+        <NameInSource>Data.Data</NameInSource>
+      </Data>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Data, Alias=Data, Key=cdfd1c7c1aa84232892b9ff13dd9eb2a, Type=Excel, Content=rtDWJ5mzWqReuEr3JjXY927sLiOU_x002F_uIeAXVcKpb_x002F_nMQO6B7CH5ScUOqNpo7zEemi4eBleuI9_x002B_fEt_x002B_APQrtu6TFVt9iyIi4QaDDcw8DSKGLqU0QKBF3dkHxsIerXOZf_x002F_kYNyyHvZU9kcpLoZqy0homPbCG8mjlAi9vSA4ifMEY4Ws70dekYAEQD_x002B_8F1gQXZYaiZf5Zu0gBWEIV02p64YJK3xBhQJRGflSC_x002F_7FFjROLh_x002F_9OlPuH8EpUumhLAh7v_x002F_B6PRJGFAzp3balqnnhLRAJnlbwPsTqNDxp9iNnOc4WGHlBSrQCj0ucR4FbI24PZtjz_x002F_aGnJcpX11sJGR9yt_x002F_q_x002B_o_x002F_9y_x002F__x002F_M9Fa17GoouAt8DFHldHg6Qr3LXSH_x002B_5Qr6lKEAcEk6wGZGeqlOfzkWuowDjYJZlceHgPRWqFf7RbLOaDJt7McjhAkGEJCf8uD_x002B__x002B_XUO9IS_x002F_M2BnDStfdWvwLGjeW_x002F_ei0XcYkUHBuqDAslQPawytgKgq80Ma3CAm8kw8tGy2FeLrJLbHvq_x002B_BkLtJPsACJYN_x002B_W4e1iI7ThE_x002B_X_x002B_LD9_x002F_CjjKyfh1EmQNmNGfB8Xi_x002F_8u7ZSotXha1i8mpJczfBnq0M9ePmB8FS319CwQIDCEvYwTVUcCyZ6KqvAmOv_x002F_yi6crC00oYlxvCQDHMqRmvIo68QYF9I9TC2h7YgaJcfFLo7uLYMphmD4OFvxnlrlCEx6LTbkuiZebKJasEjcJTQnuH4EBH8Vcswjuo2umRSDf_x002B_jb1y3PxhQDCq6Z7ITQQmWvmcHY9q_x002F_56c93vNS4mTIHdM3UpLcWv0j8j21JE3_x002B_N0Nkt52wb9U86p16JM9RxP6upO7bVwA1rON102KaT1RHuIxTM1vVVjcomQj9p7Q_x002B_MrkBq3SPEBAXukkN1OGA5Jd9cJv_x002B_qkTb7Wp9Zm162KhKbHjbMvewyGM5Nv3hl6Jjte624tQmqLP0Ib8zMXoQk9oPAjSIy4ZzBVHZo7m7atqchCYaeK7omoA1CGoxMbqBVPQ7CaCClutHuwUm24gerkh2plGQ2sX7BB8_x002B_QdpjPM7h4fFUN8oUJ4O_x002F_bEJ9O9gifqa7Byi148XR_x002F_bYBJRJ83ZdzKhxGWnOlG9ar2jJvjlj5qZzGDSXxQG7876VsR6CegSO_x002F_XqePbdZQvIM4J_x002B_ERRhfcBevPNcF65IECNyQ8ATbLjzlzUdV7yiUnSDWusIL7LtbIDFIJJynG_x002F_1tdAxRiFKz1DQQk90RGMhfLLEEn47_x002B_kKLuwMKEjF6bEI_x002F_b48yE8F8qjS_x002B_AXbOxIZ_x002B_rpieYzkjVi7hqGLo12TYNNXX_x002F_MFtpRy03BRDQIhMcjppZfYUjIeCrjGi0iDDs7sa3HWShBSs7QdwdMxxh_x002B_ujxPwDAggTHTb56Z_x002F_2vEpSGDbqtf_x002F_19W93f1K1AsijEPpLZZlH0ishjHlREWiJn4NLYmegS2283cMWe18bfxI_x002F_h36jFlkUD7cOM0qu8_x002F__x002F_ybRdg3oXiELgs95l88vqicd932wsKMCSx95znQkBXg200FgWP6VqbuZKix19_x002F_XAZWlfHf6M33_x002F_LehyyPJxJ0fHNwZCmqhN0sxjTZkZEH9TwLF6x77U8FfiXJnpAjr3BGZCq3dEXJD3vHhLkhcMVDwGacKFyDreZBiMngZMk_x002F_vLWFmDnIEZ6bo23mzUXe6PUxmQc_x002B__x002B_IFQwTyW4LDOCJ3LUAIg2cgnI5umKDGNdTH6fpDb9jM4pf5Gm_x002B_HryvxC_x002B_wtcKg5pIytH1BH6BPfrEHklvsECQsteYXYLqMIE7wt_x002F_yX7ACX_x002B_CCKO5vFoYfLDaqzQzsVGf9wMUxg5xE60vGyhr0H3iw2dsOXwMMWPNycaSGvuorDGpkVL9vcEJ7FqRk6cE0x8_x002F_Fu3VOifSgXdbfk_x002F_S_x002F_fYdFQlc6n_x002F_BUrWeYyBxZzyavJXBURDZXM8PFhSEAT1VegPcnHiYt8MQyM9sONoty2gI6frbJmL_x002F_LxglmbaJLKIloVWwfEFiWiAAPLKXGfrwFNXp9JphEsYtv2BpybF9iRETBF48xje8Yib3pLcCOhRSiyxJt_x002B_MWIXbEdYalX8Q8l8ojwL2mMEj627RLs4YfR8KJ3n1ZG7s4HfE5MOfZldV1FzVJn_x002B_2o_x002F_nIv5UMpW_x002B_UNmDb0FN5d8S0FSb4sZI6CGAL1pzAm5LfoyP0MUmk0UhJUMJjA9eG_x002B_kseEdTsDkVqjFkIVFSclydfWbi8MQlzZFDhkN8P1wWfZ6PJWDILgNqHrNCl5Q1na1Vw2LYqv3tSGenKX0ZnMU6qYi46EtjtrAy1jc2VvFKzMJnjosltuiBhFDzM7BGCRaczt7mobbmUmCrA5489RSXVFcklskOzDnpvyvh2sQQmjJhaL8w3ytgtuy0B5msyzbsZBB_x002B_uiofGrAbTzCdBJIzdmR3tHGw0QiPlAFfF3IwS4dlllLjeQUIA3sxB4laGgXtu4s9Z_x002B_hZi6HsMY5zUOSr1BHxAcJE5v28Nfr4Z16uINqlqD2s8R4YF_x002B__x002F_nxxVt_x002F_j5o_x002F_1t1uzFNKUKohepGAmxR6Dq9rZC4Jz5qjbQGTA_x002B_49IYvEcwqrCLzRgGeL9wSW7wOUeTo9P2_x002F_IiryuG0_x002F_yKARr8epnEYS2At4mJSr58CyzLNt_x002B_eCyK5_x002F_jUIsT3juTVRu6ZQsK5V1_x002B__x002B_was0HG7EAdWSZWT98JgnjtZzBVbKa7H58j4YUtPXXjB6XbxdlF2WegkB9a_x002B_MVfG9PjXWA5vh5_x002F_BKue9wldhR0waFwfb1WduXeEGcvhVvUhSbNEL2VxKsxEkEcZDYtjXt_x002B_DYdseNUFoRGFm9ke8YhW2i34zOSG36ZryPtkKK5daac6AilaPX8glENN5Ilv86pPorYWiu5w1Z97s6KECdjXHy1PYXKXTr75XDaflOXD6uU16jdpypwbJ6GryFYA2_x002F_FTh5_x002F_fYUYZLehfABR7Wa6GknZ81wXWRkIfP6C1TlwUeYDZyXCVfOyS8Al0i9sjNwhsPp_x002F__x002B_O03N58XNND6JFwT43Q7q2Ry5sdbRasxYBteKNur8RvN9RS716g_x002F_HBc8MpC7hN4pn_x002B_CeVVlI0OihLlyXU2Ealqcjj6ScmXHQuv_x002B_nZ5h06VxMA1398URYBPwRN941397K8gLcw1Fi_x002F_Dq_x002B_Nih1htQt80HYWiQuHSyTYZAEwf7hZv77lsrrP_x002F_iUstDQL25lvvKHPN_x002F__x002F_dIEfYHPiRpZkr5I0PE7C5dTSG6BaI9wgoc4PsSPlhZ193K48dXDB6h4bYsJiJM2if5LQGl_x002F_Qpdj7bXdq4IBGjPlmlb1uUy3UFLhpu9ppJyvkzCbDkVavBYLoKLuvIj4HEYd2IPm9l92_x002B_el7bVAlMl7WfTjC3dUk_x002B_gwH9vRW4Adluq_x002B_UCdshAkuiDePjHbBWF_x002B_yu_x002F_X3EPePK2CaJ9nzL71HOwjpk8HY0KzUD2zKr5Yayl9SDXfv7jymZpnWfC0wlRPof6IFzX2xIoNNgU_x002B_ubil6xbxst7OoHTH1AFFKZUl8QSn1ptQxFzUqLitVZOh3_x002F_cOJipT3w165BHY8IhCQdCSlTsfwH5UPEWlTWhqS7PWO2FPxlnTgsUHRrDLYYml30ZpLiLLekPKBRL9LY48DhjeHSUB3xz5ppqt7KUJgiqq2tPTZG3PLYfcZPQ92WWWCrtku1jmb59eabO5PHMdBsJFpwvMUHWOeZaQ2wlDB94MwqMTHMfk8L1JG_x002F_D1kApH5xMZ3OxI0vXofjqcOm1OtUeaze5IIqm1oTeRn2olaGMj1mG36lTpFkt2H07Up9UEDlZq5ZEnBKVgliKKk7_x002B_9siHSNaosv88V5IcHlqck6chbozi2ctx0L013_x002F_w9wTrlyy0MM0rMFF_x002B_4nWNRX23wB1b0c6FGLzei42wNqT43cZAooUi2_x002F_Ng3XwF7iVwxo_x002F_ihk2gZvImQxOgUADGFolwXCcsvw3eQ9LlPlYPhb1CDd_x002B_nGriGuqNaV_x002F_l7dE8wEIxwB0rIfILEYb_x002B_Ugd5ReyMfJLUKb5dfTbXg67VJ8GnKHOfGCy9NdC_x002B_5GXiDmjYJRVhqqZQ3YvxdPMGzQFDczwXHCud9B34djts8GL0BWNEK8pJAvBAk42PJrnVmpMwsTegrRPbnnESETqO_x002B_Idz_x002B__x002B_Wdw7Dn6CcIA8NgraZGv8HzaXELpu9vds2s6yY1vkXNYYkHnjRs6_x002B_dOr4mjWgZNL80uOE8nx8Tg500b3ocaKXclFUwS_x002B_ceq82vl8133ddYl_x002F_OTK5wcrQQsi9LVL_x002F_XUV5DUH8Vc3fPjxJ7BAs0fSYiSWDFd3emMu_x002B_MUmQTtyQmqlZoGJ4R5HCVoJlT15l9JlKSeeMxQ4QLSo6JZjxZbu1yEXnNZSPQK0Yi3b4m2WcX5gluWGL6BrscVmb5O87yV9yD8n_x002F_w7RjvPY2vmVEDLelHCAH44EcsZGxXBWW1nHZs2arRlib2e7CMysrBxVq58wZeF8NuQzKgkp9nav_x002F_l0yHPXiHd6A_x002F_KZQpvv9q8qjfIJK6hN9Y8QPi53C49Fgwj7Pe1zuW1eD_x002B_o9mS1KhdieSIOUQN11egbwhPaGc2_x002B__x002B_NM1w_x002B_doIP1nRjh6U0Zpm7HXjU0d_x002F_iJahI2uTqYZVRYdtZmz6jbxACMNVgyqSOKSJ4QeNlEEo_x002F_8X1ViGZKDFFFhNXqa9ziStJxykaq7IZ7ax4uczDZbFH2QQttSSnNmN_x002F_xiUxa1FGsY1ZgBbEggUCePlFT5Mr0StcQwq_x002B_knMvdmF5j26e3WIP4gyAVgloUpa_x002F_JJDQ_x002F_NQn2mPRfd7gnzBwtJ_x002B_hNd_x002F_Y0btNDck31oh8KDQDxvuvecGZ_x002B__x002B_YvzaHv3EKW1w9H0uAn_x002F_BrOb3qi8JhKtZfw8lddPDuD_x002B__x002B_e0HM6uJnZTo4vv7u9rTmMwm8jIgYi56HfLoVsGUycyv6oppkv7rJjGrOF7eClsSqk6bRag98FfkswWDX54P3n0ifuSaqD17UL3iE2A_x002B_RYMmRxofk9V3qN7HTgdbN4xrVEWQ_x002B_Qwzz8oJ32b1PtR5vNG_x002F_CQXXqdWSxYrBqPP0x1pUNfuYK1M_x002B_42rafCYwPOsM_x002F_4X8fFP4JexZ6ytjth5gConT6he3vltxgfbeAJ4B4C9uhmIH15shx3Zd5YyBBu6sTOf3YNx_x002F_Q00EIB03gNWPePnshvsPHEnznv2s1bwQo5SHHLSFKU0wsgXWXBKQ1Ezv_x002B_C2Km2OFHqZIVuk6z7qnFEJ3mcM0SPG_x002B_occ0IymntGcrIz8XhaXd5oQSw1iRaTIJdDPafK9yOtR41a7fdAyZNlxTSTCrnwi7sC157tnc33onAlj_x002B_g1mREgmAdJ_x002B_6UrF7d0Mkux3R1mjU6NHqQD_x002F_lX4d_x002B_8ggNmK_x002F_HKxM2EBua5MAnjFANzdJgMUTEoQ3fYlqx38Lum7rltDVkabUw_x002F_ST_x002B_1z3azxcGmj8MEqWS2GC0Imay0epCXiQE0Mm66NYH6DrcL6SKDVAuePzffHBCkO9f9FHq7Y1C0n_x002F_Wep41CTBbVDVoq5DSVG7k0t835OdWyQsf3Kyl_x002B_Z56fe9SwaG2bd64rvnskra_x002F_0LMcor4EMwAqkgBIT5U4K_x002F_7a67fczKeRm_x002F_nwG76mDcg0B5xKGKNqjSR3Hkq0v2WHXmh6JIAqGAEFrhQh4JfvYMYy2DLtj9_x002B_AjfIk3_x002B__x002B_Ax9LPHu6faCn3hrwlXhRV0Yg4QFLSQXx1I0HdKQ3l6vgZkZFnXMksgtfJO3haLVu_x002F_NHginSZ3WoCa4kRiZs4hoUGgvYKNRc7zfKV5pa1K8YQQgR2ATwQs9QlsI_x002F_XfqHG7gHS6kQCyZcDTzUAuIp3V6qEXk_x002F_2wXgl4QDCurvhGCcchJC0LSizyxFpJttXzuxKr_x002B_0TH7MiiGOl7mMoYfdxFJMk4Q5DOWPZbTUwZ0vbfxrzEoC1A8X2aShyd9rFZE2pjvpyX9Yw6HAmT_x002F_Qm1eVQKUTR1vMXDQqnI5Ce4TXQNDx7N4y3I5PDaJc_x002B_dxqu_x002B_TApN8ZuXofg_x002F_FJ7Sj8Bg1mimoSsEvBOe0LRIQr_x002F__x002F_t_x002F_lon1n0OijypgNqCVxhMq8ruWVf_x002F_PKVYpfhy2uMfQan2eC_x002F_C_x002B_IUSDHRbIH7r_x002F_aJcBsCGyxtIKpLMR10ewn2VX8iFFQk5hDL7s2_x002F_Yr1uLjrKVjoqeuodmLxIfqYzZ1TZKaLsj_x002B_1rCQNHEvzFzDEiNoBrrUP7rUo9uBRiLH8g2EAS0zIqw7KTO2cYUGLt0Ovt1pFu22hPPxBdVVefY_x002F_K8QCuht9y4d2eaW29V8F_x002F_BJsqlBMX4FF6MOtAbR05VfHaw99_x002F_j8JGgZqdAtgELuDwwTsScUE1m_x002B_5OfAGi6Yy_x002B_BE9fgp1_x002F_uOHOdbpwuMf_x002F_Aa1sUMV6uXn4hLCwFQ1UvHDVOnE_x002B_UMxE5sxAVt1TSO3I6oBjTpMcwb0Uq2sWPDn2N0Z6yEEd_x002F_Tij2gs5HeIJKWuzo7_x002F_z7YQHkSvWC5kgdOOuKiFEfaGndy5qMNcJ9RROSit8ekNKJBDIMJxktKRWRmFbJoLGSx2Thi0Z1gM8CW5_x002B_fJhN8IBN_x002B_1EhgMrkIAryaZfQHviNJ5VAtOQHZKMhiAAov_x002F_hQySbR52H0GA_x002B_qPr2DDrv4m9Uv9Ux2Icik3aVlAXX0PNwviqL15H5KEube7PLV4epXyTT_x002F_gxvddqMJ_x002F_ZP6KNnWyH6sFW6_x002B_zYXgFbbsej9KwsM4426HbX8BAE8kyAWrgre9KcT2SHPelmlSeTHre3fjb4eNY5qM42KyxVLgcY6ocHBsT0SPB4jNagZchbmtbenqrHNYRYjh_x002B_4RTo037dabN7W1nDqIP8H_x002B_yIFBWdP18_x002F_OIpKswzbkL8K2hfu_x002F_qKaCuwMt1MyfczamdEctapAKHjmroWngQVbQm_x002F_bq_x002B_Qyjq39bT85D3boFtkQCc3P_x002B_d_x002B_GzV_x002B_D9kv3I5moedZM8rMoQAJKKsL0Mc2kkuDu7rWimVZ_x002F_QVhm0LVK3ioEGtPiY8Io4_x002F_r2ZW_x002F_zPgYsd0I41ox_x002B_0LtAZg1wbpjOV4lTChE0eJkbJgTpKw5v8OwRnP3HdMd1Z1mkPXDOHZH9orwKjBw7T3aFlMGuBGu4GzH5Kzm5PmSr9Pnfk_x002F_Bgsp5eJajBHT5ExvYEKmG11ZAK8gXLyDBseOk0UfqvCJgdOe8ktNaUPnMUpLi4vh5PlTHXGFGNE8G8thVkiPsI5e0WeFSRD57wWcwmc6ErepGjzNaDzCOFLkcTWRlBIsTGm7f91VRCsKMTKCaw9VapweFy9La_x002B_bCXMfYsF12lbsHVy7FbWRXCSer22TddnTaQWU12hsfIiae3vNz9yx9QY6F_x002F_dp3fEDjtkaqvFZV5D9FgJPSzp1NCdSRhP8eswRfEPkI3QI38Zht6jqVkFOyYSFNt8IDwzkaSnS9BLSI_x002B_apT7epw_x002F_V55iTcgvdQWkbeFw4mz6Ee_x002B_y2f630wl_x002F_SN8mEveh_x002F_NXKT2Xv276Co7KNpNlftDGyL0P6ZesTNkV4aA9ZIRjjiu8PM1K2uUNkP5HZXDOdmtM4pGWWll_x002F_RcvMdOaVm85djzZ7BzslFtfox5GJmz2iY_x002F_K_x002B_NcH1fjC1VewT8zaB_x002F_f5w8mD6yMGvnwSRUBGFWn3YiPHBwfIDf3_x002F_r7ZdmGHyzNrPm7M0D2ZhHKS2IjubRtOaztJixs62xsV55bipDhSBVzI1Lb5gDV8JDfRuEDHLSFDU2o3NSxvlIuzncuDzIAWLxzvxPFCfYOKVb6RAlGC_x002F_gakJB0P_x002F_RDzdemBwBxtYluXuotPvmy3muIdc3MwZobmzfAes0PysXq0b8T68FuVPO6qaLoqMeXXbGZ_x002F__x002B_eilLkdfBVPhZHvkm9WjxcLm9Fq3ujAFSvizihM8Yawx2Q6wPH2iJBJTbZJLJG6uPyH_x002B__x002F_Y067sS86TK_x002B_zGADTvFIG5QW04bO3_x002B_8RLdzwBOqCs6OKkUrjG0V86_x002F_cXj_x002B_TaB_x002B_rPt2cFPtO9YDQXICrZUTOU3S7Uh8xizd_x002F_QsX_x002F_kl6I1vGIzYsYpalIAfWssILGk7Tdlsbyz54tDoQtH_x002F_dVoC4tRNs_x002F_i0xZWQ9sdiC_x002B_JceMecYpSk1uuDBuvOin_x002F_Yad8jqCvTJgmUQfwdfwZVYo0_x002F_W3gjlcQU4LHshtJYazay4JOdyiudYijjrkrSavkPjc_x002F_Nvt9G4ZBVgqQdfYtyWgMSvFLWtJtXvo42utlIMYYy3OMk2_x002F_HKKiFX4JS_x002B_7VwScsLBr3E_x002B__x002F_ehA4lmb9HTHabxsY_x002B_QE7xG4uZMH8YkEArd23sHvXlL5ihI_x002F_XxV2dgjiJhDwjCns4Rm_x002F_6SfvDguPV73z2T_x002B_j54CPTlUb992FmAWjAqc_x003D_</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>a9258d6255134811a36ac2d07dcca0ed</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="7">
+    <Area Ref="4" type="Page" isKey="true">
+      <Alias>Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart1 Ref="5" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="6" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="5" />
+            <GridLinesHorRight Ref="7" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="6" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="8" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="6" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="9" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="10" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="6" />
+              <Labels Ref="11" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="12" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="13" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="5" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series isList="true" count="3">
+            <Item5 Ref="14" type="Stimulsoft.Report.Chart.StiAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="5" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="15" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>105, 30, 0</BorderColor>
+                <Brush>[255:230:185]</Brush>
+              </LineMarker>
+              <Marker Ref="16" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="17" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="5" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units_in_Stock</ValueDataColumn>
+            </Item5>
+            <Item6 Ref="18" type="Stimulsoft.Report.Chart.StiAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="5" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>88, 166, 146</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="19" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>0, 16, 0</BorderColor>
+                <Brush>[138:216:196]</Brush>
+              </LineMarker>
+              <Marker Ref="20" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="21" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="5" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units_Ordered</ValueDataColumn>
+            </Item6>
+            <Item7 Ref="22" type="Stimulsoft.Report.Chart.StiAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="5" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>95, 127, 167</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="23" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>0, 0, 17</BorderColor>
+                <Brush>[145:177:217]</Brush>
+              </LineMarker>
+              <Marker Ref="24" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="25" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="5" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item7>
+          </Series>
+          <SeriesLabels Ref="26" type="Stimulsoft.Report.Chart.StiOutsideAxisLabels" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>Transparent</Brush>
+            <Chart isRef="5" />
+            <Font>Arial,7</Font>
+            <Format>N0</Format>
+            <LabelColor>38, 38, 38</LabelColor>
+            <LineColor>140, 140, 140</LineColor>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="27" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart1>
+        <ReportTitleBand2 Ref="28" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text20 Ref="29" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>b1628e3ab2484a97bd0904ad4a73c379</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="4" />
+              <Parent isRef="28" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="30" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>bccb420d0b89460dbad5467eca8598fc</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="4" />
+              <Parent isRef="28" />
+              <Text>Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text6 Ref="31" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,40</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="4" />
+              <Parent isRef="28" />
+              <Text>An area chart combines the line chart and bar chart to show how one or more groups` numeric values change over the progression of a second variable, typically of time area. </Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>f7ffd3b0a2794ffa97f5e1a42a1b4e0b</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ReportTitleBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>3a7d7edd89b2440f84fee03628209a97</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Area>
+    <Stacked_Area Ref="32" type="Page" isKey="true">
+      <Alias>Stacked Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart2 Ref="33" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="34" type="Stimulsoft.Report.Chart.StiStackedColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="33" />
+            <GridLinesHorRight Ref="35" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="34" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="36" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="34" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="37" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="38" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="34" />
+              <Labels Ref="39" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="40" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="41" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="33" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart2</Name>
+          <Page isRef="32" />
+          <Parent isRef="32" />
+          <Series isList="true" count="3">
+            <Item14 Ref="42" type="Stimulsoft.Report.Chart.StiStackedAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="33" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="43" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>105, 30, 0</BorderColor>
+                <Brush>[255:230:185]</Brush>
+              </LineMarker>
+              <Marker Ref="44" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="45" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="33" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item14>
+            <Item15 Ref="46" type="Stimulsoft.Report.Chart.StiStackedAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="33" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>88, 166, 146</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="47" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>0, 16, 0</BorderColor>
+                <Brush>[138:216:196]</Brush>
+              </LineMarker>
+              <Marker Ref="48" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="49" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="33" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item15>
+            <Item16 Ref="50" type="Stimulsoft.Report.Chart.StiStackedAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="33" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>95, 127, 167</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="51" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>0, 0, 17</BorderColor>
+                <Brush>[145:177:217]</Brush>
+              </LineMarker>
+              <Marker Ref="52" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="53" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="33" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item16>
+          </Series>
+          <SeriesLabels Ref="54" type="Stimulsoft.Report.Chart.StiOutsideAxisLabels" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>Transparent</Brush>
+            <Chart isRef="114" />
+            <Font>Arial,7</Font>
+            <Format>N0</Format>
+            <LabelColor>38, 38, 38</LabelColor>
+            <LineColor>140, 140, 140</LineColor>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="55" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart2>
+        <ReportTitleBand1 Ref="56" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text1 Ref="57" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>66f9859a68ef454387487c4b8ae1d4d6</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="32" />
+              <Parent isRef="56" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="58" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>4717e8079cab446bb78cfec2bb6cfafd</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="32" />
+              <Parent isRef="56" />
+              <Text>Stacked Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text7 Ref="59" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,60</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="32" />
+              <Parent isRef="56" />
+              <Text>A stacked area chart is the extension of a basic area chart. It displays the evolution of the value of several groups on the same graphic. The values of each group are displayed on the top of each other, what allows to check on the same figure the evolution of both the total of a numeric variable, and the importance of each group.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>8f8d11ff780a4da8b0aa509a66249f82</Guid>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="32" />
+          <Parent isRef="32" />
+        </ReportTitleBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>f0eab5edf4bd45b3bbea609a74ff8afb</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Stacked_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Stacked_Area>
+    <Full_Stacked_Area Ref="60" type="Page" isKey="true">
+      <Alias>Full-Stacked Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart3 Ref="61" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="62" type="Stimulsoft.Report.Chart.StiFullStackedColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="61" />
+            <GridLinesHorRight Ref="63" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="62" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="64" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="62" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="65" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="66" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="62" />
+              <Labels Ref="67" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="68" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="69" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="61" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart3</Name>
+          <Page isRef="60" />
+          <Parent isRef="60" />
+          <Series isList="true" count="3">
+            <Item23 Ref="70" type="Stimulsoft.Report.Chart.StiFullStackedAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="61" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="71" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>105, 30, 0</BorderColor>
+                <Brush>[255:230:185]</Brush>
+              </LineMarker>
+              <Marker Ref="72" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="73" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="61" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item23>
+            <Item24 Ref="74" type="Stimulsoft.Report.Chart.StiFullStackedAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="61" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>88, 166, 146</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="75" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>0, 16, 0</BorderColor>
+                <Brush>[138:216:196]</Brush>
+              </LineMarker>
+              <Marker Ref="76" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="77" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="61" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item24>
+            <Item25 Ref="78" type="Stimulsoft.Report.Chart.StiFullStackedAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="61" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>95, 127, 167</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="79" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>0, 0, 17</BorderColor>
+                <Brush>[145:177:217]</Brush>
+              </LineMarker>
+              <Marker Ref="80" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="81" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="61" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item25>
+          </Series>
+          <SeriesLabels Ref="82" type="Stimulsoft.Report.Chart.StiLeftAxisLabels" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>Transparent</Brush>
+            <Chart isRef="114" />
+            <Font>Arial,7</Font>
+            <Format>N0</Format>
+            <LabelColor>38, 38, 38</LabelColor>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="83" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart3>
+        <ReportTitleBand3 Ref="84" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text3 Ref="85" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>7cd1dfdb481b450c80790ecaa3cf7500</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="60" />
+              <Parent isRef="84" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="86" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>f4a72e3f21e7480c8b46eda908afabd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="60" />
+              <Parent isRef="84" />
+              <Text>Full-Stacked Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="87" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,40</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="60" />
+              <Parent isRef="84" />
+              <Text>A 100% full-stacked area is a chart type meant to show the relative percentage of multiple data series in stacked columns, where the total (cumulative) of stacked columns always equals 100%.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>22b880b00236457fb186a7c3d2e20b06</Guid>
+          <Name>ReportTitleBand3</Name>
+          <Page isRef="60" />
+          <Parent isRef="60" />
+        </ReportTitleBand3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>38f7202d621d472eaca7acfa1011f4c9</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Full_Stacked_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Full_Stacked_Area>
+    <Spline_Area Ref="88" type="Page" isKey="true">
+      <Alias>Spline Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart4 Ref="89" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="90" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="89" />
+            <GridLinesHorRight Ref="91" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="90" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="92" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="90" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="93" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="94" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="90" />
+              <Labels Ref="95" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="96" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="97" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="89" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart4</Name>
+          <Page isRef="88" />
+          <Parent isRef="88" />
+          <Series isList="true" count="3">
+            <Item32 Ref="98" type="Stimulsoft.Report.Chart.StiSplineAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="89" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="99" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="100" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="89" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item32>
+            <Item33 Ref="101" type="Stimulsoft.Report.Chart.StiSplineAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="89" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>88, 166, 146</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="102" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="103" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="89" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item33>
+            <Item34 Ref="104" type="Stimulsoft.Report.Chart.StiSplineAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="89" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>95, 127, 167</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="105" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="106" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="89" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item34>
+          </Series>
+          <SeriesLabels Ref="107" type="Stimulsoft.Report.Chart.StiInsideEndAxisLabels" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>Transparent</Brush>
+            <Chart isRef="89" />
+            <Font>Arial,7</Font>
+            <Format>N0</Format>
+            <LabelColor>38, 38, 38</LabelColor>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="108" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart4>
+        <ReportTitleBand4 Ref="109" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text8 Ref="110" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>7cd1dfdb481b450c80790ecaa3cf7500</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="88" />
+              <Parent isRef="109" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 Ref="111" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>f4a72e3f21e7480c8b46eda908afabd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="88" />
+              <Parent isRef="109" />
+              <Text>Spline Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="112" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,60</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="88" />
+              <Parent isRef="109" />
+              <Text>A spline area is an area chart delimited by one or two curve lines. We may display the following types of spline area charts: spline area chart – cartesian single-series area delimited by a curve line. Grouped spline area chart – cartesian multi-series areas with curve lines.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>22b880b00236457fb186a7c3d2e20b06</Guid>
+          <Name>ReportTitleBand4</Name>
+          <Page isRef="88" />
+          <Parent isRef="88" />
+        </ReportTitleBand4>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>7b97e55a8d8c4f889da1efa0bd626e3d</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Spline_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Spline_Area>
+    <Stacked_Spline_Area Ref="113" type="Page" isKey="true">
+      <Alias>Stacked Spline Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart5 Ref="114" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="115" type="Stimulsoft.Report.Chart.StiStackedColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="114" />
+            <GridLinesHorRight Ref="116" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="115" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="117" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="115" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="118" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="119" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="115" />
+              <Labels Ref="120" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="121" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="122" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="114" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart5</Name>
+          <Page isRef="113" />
+          <Parent isRef="113" />
+          <Series isList="true" count="3">
+            <Item41 Ref="123" type="Stimulsoft.Report.Chart.StiStackedSplineAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="114" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="124" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="125" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="114" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item41>
+            <Item42 Ref="126" type="Stimulsoft.Report.Chart.StiStackedSplineAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="114" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>88, 166, 146</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="127" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="128" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="114" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item42>
+            <Item43 Ref="129" type="Stimulsoft.Report.Chart.StiStackedSplineAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="114" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>95, 127, 167</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="130" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="131" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="114" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item43>
+          </Series>
+          <SeriesLabels Ref="132" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>Transparent</Brush>
+            <Chart isRef="114" />
+            <Font>Arial,7</Font>
+            <Format>N0</Format>
+            <LabelColor>38, 38, 38</LabelColor>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="133" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart5>
+        <ReportTitleBand5 Ref="134" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text11 Ref="135" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>7cd1dfdb481b450c80790ecaa3cf7500</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="113" />
+              <Parent isRef="134" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="136" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>f4a72e3f21e7480c8b46eda908afabd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="113" />
+              <Parent isRef="134" />
+              <Text>Stacked Spline Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="137" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,60</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="113" />
+              <Parent isRef="134" />
+              <Text>A stacked spline area chart is the extension of a basic area chart. It displays the evolution of the value of several groups on the same graphic. The values of each group are displayed on the top of each other, what allows to check on the same figure the evolution of both the total of a numeric variable, and the importance of each group.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>22b880b00236457fb186a7c3d2e20b06</Guid>
+          <Name>ReportTitleBand5</Name>
+          <Page isRef="113" />
+          <Parent isRef="113" />
+        </ReportTitleBand5>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>0442a13db8574f97803b14e817ee1a76</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Stacked_Spline_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Stacked_Spline_Area>
+    <Full_Stacked_Spline_Area Ref="138" type="Page" isKey="true">
+      <Alias>Full-Stacked Spline Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart6 Ref="139" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="140" type="Stimulsoft.Report.Chart.StiFullStackedColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="139" />
+            <GridLinesHorRight Ref="141" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="140" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="142" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="140" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="143" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="144" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="140" />
+              <Labels Ref="145" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="146" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="147" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="139" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart6</Name>
+          <Page isRef="138" />
+          <Parent isRef="138" />
+          <Series isList="true" count="3">
+            <Item50 Ref="148" type="Stimulsoft.Report.Chart.StiFullStackedSplineAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="139" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="149" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="150" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="139" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item50>
+            <Item51 Ref="151" type="Stimulsoft.Report.Chart.StiFullStackedSplineAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="139" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>88, 166, 146</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="152" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="153" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="139" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item51>
+            <Item52 Ref="154" type="Stimulsoft.Report.Chart.StiFullStackedSplineAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="139" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>95, 127, 167</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <Marker Ref="155" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="156" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="139" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item52>
+          </Series>
+          <SeriesLabels Ref="157" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <Chart isRef="139" />
+            <Format>N0</Format>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="158" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart6>
+        <ReportTitleBand6 Ref="159" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text14 Ref="160" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>7cd1dfdb481b450c80790ecaa3cf7500</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="138" />
+              <Parent isRef="159" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="161" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>f4a72e3f21e7480c8b46eda908afabd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="138" />
+              <Parent isRef="159" />
+              <Text>Full-Stacked Spline Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="162" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,40</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="138" />
+              <Parent isRef="159" />
+              <Text>A 100% full-stacked spline area is a chart type meant to show the relative percentage of multiple data series in stacked columns, where the total (cumulative) of stacked columns always equals 100%.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>22b880b00236457fb186a7c3d2e20b06</Guid>
+          <Name>ReportTitleBand6</Name>
+          <Page isRef="138" />
+          <Parent isRef="138" />
+        </ReportTitleBand6>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>5478582eaf4f4fa8bb42d823ba070cba</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Full_Stacked_Spline_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Full_Stacked_Spline_Area>
+    <Stepped_Area Ref="163" type="Page" isKey="true">
+      <Alias>Stepped Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart7 Ref="164" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="165" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="164" />
+            <GridLinesHorRight Ref="166" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Area isRef="165" />
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+            </GridLinesHorRight>
+            <YAxis Ref="167" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Area isRef="165" />
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="168" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YAxis>
+            <YRightAxis Ref="169" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Area isRef="165" />
+              <Labels Ref="170" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <LineColor>140, 140, 140</LineColor>
+              <Title Ref="171" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </YRightAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,140,750,620</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>Chart7</Name>
+          <Page isRef="163" />
+          <Parent isRef="163" />
+          <Series isList="true" count="1">
+            <Item59 Ref="172" type="Stimulsoft.Report.Chart.StiSteppedAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Chart isRef="164" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Lighting>False</Lighting>
+              <LineColor>255, 180, 135</LineColor>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <LineMarker Ref="173" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <BorderColor>105, 30, 0</BorderColor>
+                <Brush>[255:230:185]</Brush>
+              </LineMarker>
+              <Marker Ref="174" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="175" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="164" />
+                <Font>Arial,7</Font>
+                <LabelColor>38, 38, 38</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Series 1</Title>
+              <TrendLines isList="true" count="0" />
+              <ValueDataColumn>Data.Units_in_Stock</ValueDataColumn>
+            </Item59>
+          </Series>
+          <SeriesLabels Ref="176" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>Transparent</Brush>
+            <Chart isRef="164" />
+            <Font>Arial,7</Font>
+            <LabelColor>38, 38, 38</LabelColor>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="177" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart7>
+        <ReportTitleBand7 Ref="178" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text17 Ref="179" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>7cd1dfdb481b450c80790ecaa3cf7500</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="163" />
+              <Parent isRef="178" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text18 Ref="180" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>f4a72e3f21e7480c8b46eda908afabd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="163" />
+              <Parent isRef="178" />
+              <Text>Stepped Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="181" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,60</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,3,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="163" />
+              <Parent isRef="178" />
+              <Text>A stepped area chart is a form of area chart where each data point from the series is connected with vertical and horizontal lines to form a step-like progression. This type of area visualization is useful when you want to highlight the increase or decrease in values over time.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>22b880b00236457fb186a7c3d2e20b06</Guid>
+          <Name>ReportTitleBand7</Name>
+          <Page isRef="163" />
+          <Parent isRef="163" />
+        </ReportTitleBand7>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>60d9d17ddacf487085964fcb5ea4a4a5</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Stepped_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Stepped_Area>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Area Charts</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>9/5/2022 5:11:12 PM</ReportChanged>
+  <ReportCreated>2/10/2021 2:55:39 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Dashboards\CloudStorage\14.Reports with Charts\Area Charts.mrt</ReportFile>
+  <ReportGuid>1b5c3f7c7aa4469cb7eebc91393699f6</ReportGuid>
+  <ReportImage>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</ReportImage>
+  <ReportName>Area Charts</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2022.3.5.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Column_Charts : Stimulsoft.Report.StiReport
+    {
+        public Column_Charts()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="3">
+    <Chart Ref="182" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>140, 140, 140</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>140, 140, 140</AxisTitleColor>
+      <BasicStyleColor>WhiteSmoke</BasicStyleColor>
+      <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <ChartAreaBorderColor>Transparent</ChartAreaBorderColor>
+      <ChartAreaBrush>[255:255:255]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>Transparent</GridLinesHorColor>
+      <GridLinesVertColor>Transparent</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>Transparent</LegendBorderColor>
+      <LegendBrush>[255:255:255]</LegendBrush>
+      <LegendLabelsColor>140, 140, 140</LegendLabelsColor>
+      <LegendTitleColor>DimGray</LegendTitleColor>
+      <Name>Chart</Name>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>Transparent</SeriesLabelsBrush>
+      <SeriesLabelsColor>38, 38, 38</SeriesLabelsColor>
+      <SeriesLabelsLineColor>140, 140, 140</SeriesLabelsLineColor>
+      <StyleColors>[255:180:135], [88:166:146], [95:127:167], [239:127:147], [255:209:135], [147:219:116]</StyleColors>
+      <ToolTipBrush>White</ToolTipBrush>
+      <ToolTipTextBrush>Black</ToolTipTextBrush>
+      <TrendLineColor>Transparent</TrendLineColor>
+    </Chart>
+    <Header1 Ref="183" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,24,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Footer1 Ref="184" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[158:158:158]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+  </Styles>
+</StiSerializer>

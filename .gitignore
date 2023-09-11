@@ -1,0 +1,10 @@
+# Folders
+.vs/
+/*/bin/
+/*/obj/
+
+# Files
+*.user
+*.pubxml
+*.PublishSettings
+.DS_Store

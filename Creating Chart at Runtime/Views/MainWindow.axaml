@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Change_Theme_in_Avalonia.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Change_Theme_in_Avalonia.Views"
+		Width="450" Height="300"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
+        x:Class="Creating_Chart_at_Runtime.Views.MainWindow"
+		WindowStartupLocation="CenterScreen"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Creating Chart at Runtime">
+	<Grid>
+		<Button x:Name="buttonCreateChart" Width="200"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Content="Create Chart"
+				Click="ButtonCreateChart_Click"/>
+	</Grid>
+</Window>

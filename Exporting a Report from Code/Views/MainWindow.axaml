@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Change_Theme_in_Avalonia.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Exporting_a_Report_from_Code.Views"
+		Width="450" Height="300"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
+        x:Class="Exporting_a_Report_from_Code.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+		WindowStartupLocation="CenterScreen"
+        Title="Exporting a Report from Code">
+	<Grid ColumnDefinitions="*,12,*" 
+		  RowDefinitions="Auto,6,*,12,Auto"
+		  Margin="12">
+
+		<TextBlock Text="Export Type"/>
+		<TextBlock Grid.Column="2" Text="Reports"/>
+
+		<StackPanel Grid.Row="2">
+			<RadioButton x:Name="radioButtonPdf" IsChecked="True" Content="PDF"/>
+			<RadioButton x:Name="radioButtonHtml" Content="HTML"/>
+			<RadioButton x:Name="radioButtonExcel" Content="Excel"/>
+			<RadioButton x:Name="radioButtonText" Content="Text"/>
+			<RadioButton x:Name="radioButtonRtf" Content="RTF"/>
+		</StackPanel>
+
+		<ListBox x:Name="listBoxReports" Grid.Row="2" Grid.Column="2" BorderThickness="1" 
+				 SelectedIndex="0">
+			<ListBoxItem Content="SimpleList"/>
+			<ListBoxItem Content="SimpleGroup"/>
+			<ListBoxItem Content="MasterDetail"/>
+			<ListBoxItem Content="Anchors"/>
+			<ListBoxItem Content="MultiColumnList"/>
+		</ListBox>
+		
+		<StackPanel Orientation="Horizontal" 
+					Grid.Row="4" Grid.ColumnSpan="3"
+					HorizontalAlignment="Right">
+			<Button x:Name="buttonShow" Width="100" Height="30" Padding="12,0"
+					HorizontalContentAlignment="Center"
+					VerticalContentAlignment="Center"
+					Content="Preview"
+					Click="ButtonPreview_Click"/>
+			<Button x:Name="buttonExport" Width="100" Height="30" 
+					Padding="12,0" Margin="12,0,0,0"
+					HorizontalContentAlignment="Center"
+					VerticalContentAlignment="Center"
+					Content="Export"
+					Click="ButtonExport_Click"/>
+		</StackPanel>
+	</Grid>
+</Window>

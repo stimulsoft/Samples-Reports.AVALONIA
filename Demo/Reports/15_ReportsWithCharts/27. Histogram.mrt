@@ -1,0 +1,751 @@
+{
+  "ReportVersion": "2022.3.5.0",
+  "ReportGuid": "3b6dc186351a4363a0418b8a37738f06",
+  "ReportName": "Histogram Chart",
+  "ReportAlias": "Histogram Chart",
+  "ReportAuthor": "Stimulsoft",
+  "ReportCreated": "/Date(0+0300)/",
+  "ReportChanged": "/Date(1662387758626+0300)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "HundredthsOfInch",
+  "PreviewSettings": 260039167,
+  "ReportImage": "iVBORw0KGgoAAAANSUhEUgAAASAAAAGWCAMAAADvzq7aAAAABGdBTUEAALGPC/xhBQAAADBQTFRF\r\n+e/qKJec47ihd5+l2NjYOzs8/8Sfb2hllL3D5+fnTYCqAKiS/7WG9/f3+/v7////5CSZNAAAABl0\r\nRVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAA3cSURBVHhe7Z2LYto6EER9QRQ7rc3/\r\n/+2dWW1SCQxDKAHazEkCfsiy9rBeQUvIcDAXsSCBBQksSGBBAgsSWJDAggQWJLAggQUJLEhgQQIL\r\nEpwTNCy58Fnm6dYjv5Yp7xuWac6lZD7eAI4Ebfdogpuy2+aW68OdN/v9ft7uTobyPGNlu9+PuF8O\r\nmx3ve34HWSl7NDoe7JGgPcPDzbAtdcNmv6J+lWG/27/ty3aXR34wUvpTGHa7/f4NgReoOo3jSNDC\r\n4E/iPRGEYNBwKdNhKOOMqMfpMJeR7aZxKjhVmcoyjGXGZixOuA3rW55uwV3hBhyCM7FB2e3GJxna\r\ncEiMYTsMBd8YzMwQFvxwDbsRJEKbNhhy2e0Lk6gf7Img7biBJRw77NB4u0N4E3IDybfB7e4NTdDR\r\nHpvmCUt4iNACR2IY4X7LVmPcjWiLqw5dHCfVg8BjgythgwFsN7uC8dfhlgFh4Jp7DzIGu0cAjKdG\r\n85sTQQEFQf+8MIOwsTD9oASSsTYia4btbkTvXMMdUgi3oT63T3h89ljZFnSBbHsOSIgYPx9d+Hib\r\nMZaqhRumGiQ80teWD/HpYE8EYRLCDXuBVXY+LXsI2O426IbqeRXixGHmDdvLAaeLKzjyBAdgA/yh\r\nSaxgx7P8AKRPjBGPG+v0frcgtKVm0I8Ikqk1HiZGhoeYI+44EYRg6iU2Z75M/KkZhF6xJboZ0OuA\r\naxgnD4Ecyr5MG8xi5bB/C8H1aHZXO384qIMoA5RDH+VDEDMIG5FBESS2YP82BqoF1YgglyWHB1IE\r\n8wVd4gKuGRSX83sGzTgdQNIAzGITzh+HcBToDtufVINYfUIOi2kkCgQhNNxx/BDDILMGsZzw6QDW\r\nW44EFV6BZVzmsSwbzkNYGXJKQu2nZ+w9zOM4baZhgzltM9WDomlsmDlJYHcZoy2Oe9YshsHUGDBW\r\nJNPIKZihcagY4Iy5i0PmCDkTY8Cngz0SdInt/nm58Dw+IYhPlL+dn88I+p60gobJBJ2UvCfLM/my\r\ns9/ScQohx5cYZx28ymqbVJpNzWLX1znqtPDR9OPw7kRzXYy2zda4xaF6HswWzeDIMs+5o9/edBhL\r\nGMs6R4IGVOEBr0XnecIP7+MWrbhau5nLxNPOaIrXqlhkSrLlMEM+F9BmwCI2zGwZx+Pl7zxM3IfV\r\nGcsLTsRdS4SETnkmtmAf6AoN8HoFHfA+GmIL1niLg97PyA0F3WLUkIzB4Lk7toPomK9JOYjDwG2R\r\nTtyDkaOiLIweo4ghLtPqv2QdCULEOIIv0uOFOF/+4sU5n+hgkSFNGC32xj48c8AdFxlKLNVj8coY\r\ni1hlB9wOXdEl9kdP3MgT1SaUhiW0y55jMxpwGd/v9/GPBBxG9IXvvAkwnAXdYwNfsNcdDLhuQ3d4\r\nhPgiPs4SzbGD54iWuJmo+JReEDvJPmKsccN+hng0EXcIggacnSONxbp34nE8FQOp2wHWkBzT4WPU\r\nFBRnqILYcMLjy9PUBriJocdDxS5xBHfhZuAAcEtN79swhLpYcI56Qm7nZj5SS+xm8NiLruIRxHf4\r\nRMPad3zNVwjChYpGTMOarxgk0zPKFq8O5jdyO9KU1y7a8RqKfxriEUhujIQ7Yq3mM1awBQu4MOoq\r\nO43rpTYZ6u45krxeJDgTzo2CguuNK7hnEx4SQ2MznJFH8wcbayfskT+E9xEMllg64ji24UHoBb3z\r\nlpceU5w70kLLkaAe1o7rCHMBxnAzdYS1B3XuMHI1q7H/hibPcDyM96Yh9+OuDft98ajPbrUb++89\r\n6Iz9fyayp3MkCNdudcTpacDEEaUd8xSukpqgTFZGiB0L2vAq4H8GYCZ5j5/XWd3DSwWt0Jx5juuQ\r\nBQh1AOnMBtQf2/H9staOBNVKimoQZYtVDD8sbFxAXeMqp+Q6kXDSih9YjbbYBiHcQ1Bl47io2FyL\r\nTtk5V/FQRPf1Bp2/JseCIqCcVDgVMOYInKtMKOxlC26qm/mDDOKeiJMzYfQSE0U0ybWY+ENQqIJl\r\nTkf1FFj/fSm+EkeCMLng2Ro2o7bjAuO0FJcDomLtx3ZcRJx2+NQKTerzNxbU2jQuw5gSONdxK3vC\r\nsz8ew4M4VcQ8Msckhb24QvHU5cwc8nyOBD2F7sXhq/HKY3sJLEhgQQILEliQwIIEFiSwIIEFCSxI\r\nYEECCxJYkMCCBBYksCCBBQksSGBBAgsSWJDAggQWJFgTNM/NuzW+O6uC+O6rV30zwaNZE8Q3KZaJ\r\n78cb+LaM70QaaFgTNBG2jffC3BP+5/1dyX7vRhXQsl6ks+F07wzKsO5H9ns3atwt64ISZ5AS5Axy\r\nBvVk4A3OoI4MvMEZ1JGBNziDOjLwBmdQRwbe4AzqyMAbnEEdGXiDM6gjA29wBnVk4A3OoI4MvMEZ\r\n1JGBNziDOjLwBmdQRwbe4AzqyMAbnEEdGXiDM6gjA29wBnVk4A3OoI4MvMEZ1JGBNziDOjLwBmdQ\r\nRwbe4AzqyMAbnEEdGXiDM6gjA29wBnVk4A3OoI4MvMEZ1JGBNziDOjLwBmdQRwbe4AzqyMAbnEEd\r\nGXiDM6gjA29wBnVk4A3OoI4MvGFN0IDE4Qd5v34GZbcJP1Nu/etqIv6ONUFz4We44f76DOJnNq5/\r\ndWRc96M5Eb7OkqfXpIGGNUH8TLH3N5Jfx/Dj148z310XOYw/4DD+/Lld/97+t30785Wnv4XVS4yf\r\nucYFZNB1DL/O8gWCzvDf2znuLeiDv0vQz9SxQp7+Fv4hQc4gYkECCxLcJMg1KHAGEQsSWJDANUjg\r\nDBJYkMCCBK5BAmeQwIIEFiRwDRI4gwQWJLAggWuQwBkksCCBBQlcgwTOIIEFCSxI4BokcAYJLEhg\r\nQQLXIIEzSGBBgpcRFG+IdQ1aFzTw71bTkDNoXdBc4g+Cf+Z90mljhe6z3zPKP+A2QStvEL+W1Qwq\r\nQ7hZrv5VhIsZlG1IvvH9DzikjRUuCbqWNNCwniP5l7txieWBl7mcQQ0Z5R+w3FSD8vSaCLvj4kX0\r\nghk033aJXUsG3nBZ0D+SQV8nyBn0PTLoO9WgF5nFEtcg16AjMvAG16CODLzBGdSRgTe4BnVk4A1/\r\nWwZ5FhO4Bilcgy7jGqRwBl3GNUjgWUzgGqRwDbqMa5DCGXQZ1yCBZzGBa5DCNegyrkEKZ9BlXIME\r\nnsUErkEK16DLuAYpnEGXcQ0SeBYTvEQNYrv6acCuQauCpsJ3AnPhHhlU+0zQ9vfXWZbzn5B94/uk\r\nryUH0LAm6P0Tye/yRvLxPNtzX+VQfpxjmzpOuSAoh3kLawqGCVAmMug6Lgi6JaDx8COPPuWW/u7/\r\n+2KZavcQlKNfIQe/wr0FvfSvQ71CBv2lgnL0K1hQ8LgMeunfWX0FQc6g4J8TlKNfwYKCx2WQa1Dg\r\nDAq+kaAc/QoWFDwug1yDAmdQ8I0E5ehXsKDgcRnkGhQ4g4JvJChHv4IFBY/LINegwBkUfCNBOfoV\r\nLCh4XAa5BgXOoOAbCcrRr2BBweMyyDUocAYF30hQjn4FCwoel0GuQYEzKPhGgnL0K1hQ8LgMcg0K\r\nHpdB84RvvpPcgtYFlTLHG8nne7xP+nxAOfoVXl3QVKaBbySnpXwH+mVevwblQBUpoGVN0LIM891+\r\nV+MVBL30b/v824K+NINy9CuMizMIPC6DXvp3Vm8S5Awij8sg16DAGRTc0p9rUOAMCl5LkGuQa1BP\r\nBt7gGtSRgTe4BnVk4A2uQR0ZeINrUEcG3uAa1JGBN7gGdWTgDa5BHRl4g2tQRwbe4BrUkYE3uAZ1\r\nZOANrkEdGXiDa1BHBt7gGtSRgTe4BnVk4A2uQR0ZeINrUEcG3uAa1JGBN7gGdWTgDa5BHRl4g2tQ\r\nRwbe4BrUkYE3uAZ1ZOANrkEdGXiDa1BHBt7gGtSRgTecExRNXYPWBU1lmcu93kieo18hR7/C3S+x\r\nHOYtrCkoZc4P3C64v+a7bM7xa9vyM+8v8zZOefQpv8a2j+v6226Px3v2+zSFVjMIMINmHJCfJC/I\r\nBF2Db7v+ANZzCaxfvnMccfbSrruTwxX9kQNGmCO9yBLXTc/6RcRhgOG0/R+xXHvJXsvd+7sug0zD\r\nFwparsi/00fsPF3bcwdec9JP8YWCpgFfAMUekyIqOc6FTViYua8MmAOuniejIrKOluXAzjiBYCMW\r\n0SHOUdBjnGOlzv4RXylonoa5lPgbFLhBTJwgY2bEWkFkiI5RXgfUxsHDgWqhHt0dol/sOXBn2P+r\r\nBPGB5hcfZTx1wAPNOCIiZgB/K+16QVQSX0wUeEA3SCZmJx3VfczYv0fQgL452hm3dQ6O+oDF+stW\r\n5BPzJJ8jsD88p6gd8s/rRL/4YTexMVrdky8U9G9gQQILEliQwIIEFiSwIIEFCSxIYEECCxJYkMCC\r\nBBYksCCBBQksSGBBAgsSWJDAggQWJLAggQUJLEhgQQILEliQwIIEFiSwIIEFCSxIYEECCxJYkMCC\r\nBBYksCCBBQksSGBBAgsSWJDAggQWJLAggQUJLEhgQQILEliQwIIEFiSwIIEFCSxIYEECCxJYkMCC\r\nBBYksCCBBQksSGBBAgsSWJDAggQWJLAggQUJLEhgQQILEliQwIIEFiSwIIEFCSxIYEECCxJYkMCC\r\nBBYksCCBBQksSGBBAgsSWJDAggQWJLAggQUJLEhgQQILEliQwIIEFiSwIIEFCSxIYEECCxJYkMCC\r\nBBYksCCBBQksSGBBAgsSWJDAggQWJLAggQUJLEhgQQILEliQwIIEFiSwIIEFXeRw+B89iJcjdB3N\r\n5QAAAABJRU5ErkJggg==",
+  "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.Dialogs;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    public class Histogram_Chart : Stimulsoft.Report.StiReport\r\n    {\r\n        public Histogram_Chart()        {\r\n            this.InitializeComponent();\r\n        }\r\n\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}\r\n",
+  "Styles": {
+    "0": {
+      "Ident": "StiStyle",
+      "Name": "Header1",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;24;Bold;",
+      "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:64,64,64",
+      "NegativeTextBrush": "solid:255,0,0"
+    },
+    "1": {
+      "Ident": "StiStyle",
+      "Name": "Footer1",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;9.75;;",
+      "Border": ";58,78,94;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:158,158,158",
+      "NegativeTextBrush": "solid:255,0,0",
+      "AllowUseBorderSides": false
+    },
+    "2": {
+      "Ident": "StiChartStyle",
+      "Name": "Chart",
+      "Border": ";Transparent;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "ChartAreaBrush": "solid:255,255,255",
+      "ChartAreaBorderColor": "Transparent",
+      "SeriesLabelsBrush": "solid:",
+      "SeriesLabelsColor": "White",
+      "SeriesLabelsBorderColor": "Transparent",
+      "TrendLineColor": "Transparent",
+      "LegendBrush": "solid:255,255,255",
+      "LegendBorderColor": "Transparent",
+      "InterlacingHorBrush": "solid:10,155,155,155",
+      "InterlacingVertBrush": "solid:10,155,155,155",
+      "GridLinesHorColor": "Transparent",
+      "GridLinesVertColor": "Transparent",
+      "StyleColors": {
+        "0": "255,180,135",
+        "1": "88,166,146",
+        "2": "95,127,167",
+        "3": "239,127,147",
+        "4": "255,209,135",
+        "5": "147,219,116"
+      },
+      "ToolTipBrush": "solid:White",
+      "ToolTipTextBrush": "solid:Black",
+      "ToolTipCornerRadius": "0,0,0,0",
+      "ToolTipBorder": ";;;;",
+      "SeriesCornerRadius": "0,0,0,0"
+    },
+    "3": {
+      "Ident": "StiChartStyle",
+      "Name": "Chart1",
+      "Border": ";Transparent;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "ChartAreaBrush": "solid:255,255,255",
+      "ChartAreaBorderColor": "Transparent",
+      "SeriesLabelsBrush": "solid:",
+      "SeriesLabelsColor": "White",
+      "SeriesLabelsBorderColor": "Transparent",
+      "TrendLineColor": "Transparent",
+      "LegendBrush": "solid:255,255,255",
+      "LegendBorderColor": "Transparent",
+      "InterlacingHorBrush": "solid:10,155,155,155",
+      "InterlacingVertBrush": "solid:10,155,155,155",
+      "GridLinesHorColor": "Transparent",
+      "GridLinesVertColor": "Transparent",
+      "StyleColors": {
+        "0": "255,180,135",
+        "1": "88,166,146",
+        "2": "95,127,167",
+        "3": "239,127,147",
+        "4": "255,209,135",
+        "5": "147,219,116"
+      },
+      "ToolTipBrush": "solid:White",
+      "ToolTipTextBrush": "solid:Black",
+      "ToolTipCornerRadius": "0,0,0,0",
+      "ToolTipBorder": ";;;;",
+      "SeriesCornerRadius": "25,25,0,0"
+    }
+  },
+  "ReferencedAssemblies": {
+    "0": "System.Dll",
+    "1": "System.Drawing.Dll",
+    "2": "System.Windows.Forms.Dll",
+    "3": "System.Data.Dll",
+    "4": "System.Xml.Dll",
+    "5": "Stimulsoft.Controls.Dll",
+    "6": "Stimulsoft.Base.Dll",
+    "7": "Stimulsoft.Report.Dll"
+  },
+  "Dictionary": {
+    "Resources": {
+      "0": {
+        "Name": "Data",
+        "Alias": "Data",
+        "Type": "Excel",
+        "Image": "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"
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "Data",
+        "Alias": "Data",
+        "Key": "1bc4f63c384c44ed9bff38f1d500100e",
+        "Columns": {
+          "0": {
+            "Name": "Units",
+            "Index": -1,
+            "NameInSource": "Units",
+            "Alias": "Units",
+            "Type": "System.Double"
+          },
+          "1": {
+            "Name": "Units in Stock",
+            "Index": -1,
+            "NameInSource": "Units in Stock",
+            "Alias": "Units in Stock",
+            "Type": "System.Double"
+          },
+          "2": {
+            "Name": "Units Ordered",
+            "Index": -1,
+            "NameInSource": "Units Ordered",
+            "Alias": "Units Ordered",
+            "Type": "System.Double"
+          },
+          "3": {
+            "Name": "Year",
+            "Index": -1,
+            "NameInSource": "Year",
+            "Alias": "Year",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "Data.Data"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiExcelDatabase",
+        "Name": "Data",
+        "Alias": "Data",
+        "Key": "8b2af0fdeae14efe94d16964a2f2df8d",
+        "PathData": "resource://Data"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Histogram",
+      "Guid": "3a7d7edd89b2440f84fee03628209a97",
+      "Alias": "Histogram",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiChart",
+          "Name": "Chart1",
+          "ClientRectangle": "10,140,730,630",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";Transparent;;;;;;solid:0,0,0",
+          "Brush": "solid:",
+          "EditorType": "Simple",
+          "CustomStyleName": "Chart",
+          "Series": {
+            "0": {
+              "Ident": "StiHistogramSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Units in Stock",
+              "ArgumentDataColumn": "Data.Year",
+              "Title": {
+                "Value": "Series 1"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:255,180,135",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "0,0,0,0"
+            },
+            "1": {
+              "Ident": "StiHistogramSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Units Ordered",
+              "Title": {
+                "Value": "Series 2"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:88,166,146",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "0,0,0,0"
+            },
+            "2": {
+              "Ident": "StiHistogramSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Units",
+              "Title": {
+                "Value": "Series 3"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:95,127,167",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "0,0,0,0"
+            }
+          },
+          "Area": {
+            "Ident": "StiHistogramArea",
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Left"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "Transparent",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiNoneLabels",
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-"
+          },
+          "Legend": {
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "TitleColor": "DimGray",
+            "LabelsColor": "140,140,140",
+            "HorAlignment": "Center",
+            "VertAlignment": "TopOutside",
+            "Visible": false,
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            },
+            "Columns": 1
+          },
+          "Title": {
+            "Brush": "solid:140,140,140"
+          },
+          "Style": {
+            "Ident": "StiCustomStyle"
+          }
+        },
+        "1": {
+          "Ident": "StiReportTitleBand",
+          "Name": "ReportTitleBand2",
+          "Guid": "f7ffd3b0a2794ffa97f5e1a42a1b4e0b",
+          "ClientRectangle": "0,20,749,100",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text20",
+              "Guid": "b1628e3ab2484a97bd0904ad4a73c379",
+              "CanGrow": true,
+              "ClientRectangle": "570,0,179,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAuthor}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text23",
+              "Guid": "bccb420d0b89460dbad5467eca8598fc",
+              "CanGrow": true,
+              "ClientRectangle": "0,0,570,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportName}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text6",
+              "ClientRectangle": "0,40,749,40",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "A histogram is a chart that groups numeric data into bins, displaying the bins as segmented columns. They're used to depict the distribution of a dataset: how often values fall into ranges."
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:158,158,158",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 5.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            }
+          }
+        }
+      },
+      "PaperSize": "A4",
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      }
+    },
+    "1": {
+      "Ident": "StiPage",
+      "Name": "Histogram_with_Rounding",
+      "Guid": "0aa3b5214a554fd08321f2b1b5ad61ab",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiChart",
+          "Name": "Chart2",
+          "ClientRectangle": "10,140,730,630",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";Transparent;;;;;;solid:0,0,0",
+          "Brush": "solid:",
+          "EditorType": "Simple",
+          "CustomStyleName": "Chart1",
+          "Series": {
+            "0": {
+              "Ident": "StiHistogramSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Units in Stock",
+              "ArgumentDataColumn": "Data.Year",
+              "Title": {
+                "Value": "Series 1"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:255,180,135",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "25,25,0,0"
+            },
+            "1": {
+              "Ident": "StiHistogramSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Units Ordered",
+              "Title": {
+                "Value": "Series 2"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:88,166,146",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "25,25,0,0"
+            },
+            "2": {
+              "Ident": "StiHistogramSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Units",
+              "Title": {
+                "Value": "Series 3"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:95,127,167",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "25,25,0,0"
+            }
+          },
+          "Area": {
+            "Ident": "StiHistogramArea",
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Left"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "Transparent",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiNoneLabels",
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-"
+          },
+          "Legend": {
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "TitleColor": "DimGray",
+            "LabelsColor": "140,140,140",
+            "HorAlignment": "Center",
+            "VertAlignment": "TopOutside",
+            "Visible": false,
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            },
+            "Columns": 1
+          },
+          "Title": {
+            "Brush": "solid:140,140,140"
+          },
+          "Style": {
+            "Ident": "StiCustomStyle"
+          }
+        },
+        "1": {
+          "Ident": "StiReportTitleBand",
+          "Name": "ReportTitleBand1",
+          "Guid": "f7ffd3b0a2794ffa97f5e1a42a1b4e0b",
+          "ClientRectangle": "0,20,749,100",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "c0d8e753235b4a2ba0c082443083a4d7",
+              "CanGrow": true,
+              "ClientRectangle": "570,0,179,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAuthor}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "Guid": "f40b8d27837341c5bf08d85673847143",
+              "CanGrow": true,
+              "ClientRectangle": "0,0,570,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportName} with Rounding"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text3",
+              "ClientRectangle": "0,40,749,40",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "A histogram is a chart that groups numeric data into bins, displaying the bins as segmented columns. They're used to depict the distribution of a dataset: how often values fall into ranges."
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:158,158,158",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 5.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            }
+          }
+        }
+      },
+      "PaperSize": "A4",
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      }
+    }
+  }
+}

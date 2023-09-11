@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Data Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>Data</Alias>
+        <Key>f943945205c245579b07a77628cdc71a</Key>
+        <Name>Data</Name>
+        <PathData>resource://Data</PathData>
+      </Data>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Data Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Data</Alias>
+        <Columns isList="true" count="4">
+          <value>Units,System.Double</value>
+          <value>Units_x0020_in_x0020_Stock,System.Double</value>
+          <value>Units_x0020_Ordered,System.Double</value>
+          <value>Year,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>e80387b75dd64bb89b678b0b0269c1d6</Key>
+        <Name>Data</Name>
+        <NameInSource>Data.Data</NameInSource>
+      </Data>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Data, Alias=Data, Key=_x0032_264b8d3d18349d097d3788ae5a2f60b, Type=Excel, Content=KyEx80zIo6DIMltuvyFFPtft4xJECu5t36VAITjI3HdN2JUUsDJN19oDj69ecBClVowHNRvqGx7iRVumnF6kDgGg7Ev79AiHfbZRSKRwnpLF6gSxD2VwJGSwA_x002B_27aaXmj3776sECQisE1X5hK4nXwotRQcn3FOjIxC_x002B_jTdgEefgZ8FOvotn_x002B_MHrpMMgbJ_x002F_M0_x002F_lHt_x002F_W8Bs5jxmyADTl2vBcqRJN0YWDkR_x002F_b4iaGnqnFFfmlaiQvAtOcLhcAYA9zPegmYjm5MY0xl7HcjVx1YvipMFxjNQZ6xNVVmg4P_x002F_HzHHD2jzTX1aUblup3d7XnHrSJQ9fRXh3138Drs5KfveW_x002F_adQsRJleAltgRxyqUf6ubS0cBht7mJ5Rznon2E3jbltGKlPf4aCGioljIBAZo9a2pUCiWaJ_x002F_xInhHcoUZx3W25pooH5pD2YVI5WQo5s3bXd3pkq8OaI8uXp_x002B_EYph36PEpLL0QpndX5aR05WuoCYG_x002F__x002B_kqt0_x002B_j0HBvSgQ5QhZY4IIXRBY4SQo9ye_x002F_um4BGQz5pmXpzsTkqyc2UPbpEaLknkE1puj8EgD5MS9mg4pA9Tpni4_x002F_7DtBku8m4J9iKvFjH6DiIYV_x002F_Y1Norbg_x002F_ADGWIoYoZsbM0Ds_x002B_5BmgWulkbkYAzYzoRvLlM8Hj1jyOyaSq18sOrJYenCvBN7WNZoTmbwCtDe1tbuYOuopgn4DQmTkawF4QYAwh1hb5LTvHAlfrAea95cTywWykKUZSvSi6JEkN1BCRAxXNGcOx4WXfCBoccMa_x002B_VSVvly6WemN841bvSmZHoZ05v_x002B_THUFfKFp3AD49foYtwGDqYqmiDgsoOoX2EKQ9RJ0j_x002F_pf1o0oBplrKYlWv0EkfWRk2gypoKUwG6j9PSMsQe4hea2sGUXfZsXCEJ8UHhU9UIO15K6e65zfL6Fui8vXqkBougO_x002F_g_x002B_Ijl_x002B_yKDjskyW0JPLceN_x002F_jWsOw2og59_x002F_T_x002B_1cEdVKQc5hG8TFMTG18Yry6rs059i7uI05aaMNPF_x002F_NPZXu4ttBrkY9l1ocuHef5zHmteGjcEI4Qu9DZ0P1Yh0o77KYdKpB1pH4cD4NLIfs9oLIEIatd9SVq3NaOJZXEGX4fWayD1O8vxsjZNP5WGV2wkiTnD0Vt8TzrLCcDFZ3ibKQY8DSXYAKm8hflLCvJJ_x002B_42jjl_x002F_YmQZr3oElwKy6aG_x002F_jpSD4F6sh9VOl0zoifcVNXB2Zz8_x002B_FJvegVnLMaEt3sgQgW80qeFeSbtoyg5mcSAJ6GBxiXZD21X9OpBw_x002B_bi4Xwwb1pbzZOpTJSid9FZbWeNFINn8xc6T7eAfRCJEg2N78DTC1BLPizT5HO2yQxs_x002F_x_x002F__x002F_hIu0pDftuKgaRrgvpJVEvh_x002B_oxgbHjoM7QAV3tUiZD8TQ6s1ib9urC_x002F_7B8l1s_x002B_hAjd7sBqAoWsBiTogNkgYSAIOJVQTc1s_x002B_LJTEFTcLNFjyM0OjZdIjnaEd8mMGNW_x002F_JfWtjpnfL_x002F_MmHUYnzN7Mc3v5PMWurbj3gQ6tsheciBrYl0uoKzqAPT1QKrmHRmqukvDf0FmXod1VqyuW66Alu_x002F_nk_x002B_mwsBRi_x002B_GJEdW8nxOPs_x002B_tyM0m5ivl2LoywoRsyOM3S2XKuHohs3ejFpQW0VH6KGaAaBQ5cIWHIHCjpl15dSVkKSS_x002B_CH4MIJkwelqE8BHmln91ufdqp6uR7vNqNi47L7b794x6WCZmzkXLiKmFRfQLAjutKcUkVKQGLZmHe2scXhqzcWwJAFoXgo4pDAqONg206xAudDUPNzSdNiG09woJcdL6KfIfb60IUGHSXWo0aTOqOj_x002F_8dx5bMeTGLbpC7RUeKTOFFViCKUMm923oPT2wdsFp9sfydwPR6WWYPsiefRFWDdEV_x002B_jbafiT0glNWesIzbIGVkse50gvnCHa_x002B_Q_x002F_G7vD_x002B_DSff2FZuL633HvDK31GqHVIaA7F5cUHJftGhqG3lB_x002F_9SyhQjHv_x002B_z1Pr0EgUKcb4yn7zGUG68IoPmDuFdRKJ_x002F_VaB08BFaN_x002B_ZdH95HkXgMoSeoSD3JN0sufKCgENXzMrX_x002B_7yZ_x002F_Mh7KPgVe7on0yQRb3o7nnJ2cU_x002B_1qaipFXKgcz0dULv9_x002F_gwrzn1D2TeFFcp3IL1BHCP_x002B_hJFxY_x002B_lJ93XD0zq_x002B_N55ZDFAii4vMTiiF_x002B_38rzFBWE4EVtqSORWlu8FgQ_x002F_si2OQdijwLCRaef_x002F_nmNpZvwHPQT4SivGLa_x002F_fKnNzwXhaekZy36BIEArdPaNtUbi0_x002F_ZSx4eiX9pnlsKloEZn7GvYWUNLWGIRTijn8BBGWyN7RM6D5AnMJG_x002F_Qp_x002F_NR7hnWgjuxoq6AvXhplCshL5Pf8glNm8Ozw2x2WEd8fpYLbsJSC33nNoWGPUuZBlAgpGs1lzQZNfEK2370HVhfoF4_x002B_T_x002B_yBC8XlvMSAKa4KGuSqgoFLyc7m5z1VS2CRTtnwIxbVC4Lfk9chlzDRjgOiK0RZoAPlexr95e1_x002F_8rE6_x002B_I4w88t52ffIxS97ik_x002B_d9s815TCcDdiqCZNONXdbzz0Z33KoAduM1ygq_x002F_s6Hy3AEiF3C3s_x002B_cQBdtj1MqUN_x002F_yRFIGUIK9jpeCMxtx4hvvVvAWexOulcLT70F23Qo1PmWGgwrzG9bgXHn8JOWpzl79hiR_x002B_N_x002B_vjDUnd0aFo1pyoWEufR2EBv9MH7Z_x002F_BxxTgFP_x002F_L5_x002F_S4SS13HvmF8mBjkRksaip0l9T48Kqn_x002B_wQSGYtIdWzbovWZYOFgGgfdlIDN2uRJEDOlGV1NASQQaUhzlw3EQcayYcQ7q_x002F_jRndrFigHgh6HCeMD2s6yftiVX9zlIro0443gaHP9i5J6HNERu7UGU2NSr5ZzynGakBOUajF5d_x002F_e73f3f80ToOf8h8Gi0Za4it70DE1xpnwPL4Wt8sHUXRS1cFPQ3aPtQazfZCyjyMet3kwi0wdn3UTR5FqSiIMsAmYuY3WYnyRKlUpOzj5IOeJ5Y8Q9bfAXc9b_x002F_VK9w9I0X0b9WQCdbQkApbK1WouBZ0_x002B_uai_x002F_R0heK6qa7kdqZ1u08KCNuEjSFveZhQiagwEaW0UedcT3ZJm_x002F_il9UkRObnMxGq59W5ik2TmQpSiUWglliRn4PwnSIN8EZqJLivN0KWy4izs6CKOc_x002F_414HiqwasXRfMrdVb_x002B__x002B_tOKtUPVPFBNw1FWK_x002B_8KNQz82EGJVswnUemWloG_x002B_TwWRFmu0BmY6RNwRC7pH5bIOMEzQ_x002B_i6mQHhtWvRGKFk7d0qpduhoA_x002B_z9V1Y_x002F_CxFjfZBsttJGD_x002F_mq5b2FtTQhm4sFp4Xzgzud_x002B_ldC5_x002B_QvxFXsfVkGiwPKZa4PhePdm2BhuWilSRKyqKxVTBLei11GfERre1yH9NNWfwKJGtF1OpwNaTmLJ9f5c9Y1i0fbV14AQOKmla_x002F_HWSwbIxxeuSrG9fEtBGDxjIWNZM91XEohsGK5KqnFNiwNQP8LAa5b3T0Yv4ef88vPPEK5PJQvDto84HGtZajND9ZSgqDFSCzoSfmEs2tymfwm9guHZdqnUKnn07W_x002F_SH_x002F_nT33xPuaksXgYhAS_x002F_qiKWma1VJ_x002B_XQjQssPSjaE9oByDKS3grD81mCiq3mOO78MjRBBHA_x002B_1HtVqFPMzv3xNJf_x002F_TMdo0H_x002F_sstydda7_x002F_QV09NN1iaBTKbBz7dsdeFp6N2BHB7Krd90Fr0MiuPeg5koOMfztj1VB0K1mQwkFJwp_x002F_384LmUeCoU_x002F_bJRksMEMh4LGuPXiihKPYD2kvugYNXSSATBaVva0L_x002F_0qey0MsbWSJRi3IgGeGceBDclOFVSFeUCG7c43otVO2V3VVccYiknXn3ZS_x002F_CXDEYFfvluIK5vRfesTiBbifwgi_x002F_fumZPrKTOOOUykYpgm5wKWRcC_x002F_Lls7uoQf_x002F_6gfUv7Yu12U7D655lNb7w966fS_x002B_J_x002F_JH_x002F_tu0eLa7HCvY2_x002F_Heu_x002B_46cBXkclHU9dMLPjMEHPYkJKM8nDwI98brTQRmwXySbGjy8407DfJa9kJDIhUdo_x002B_8M7Wtx1Qu278_x002F_5l9CSzr9DOd8yONaHB5I5rhw1icCFS8Oxg6nZPKxpTLFfUEQXDOKWwba4pwM3LAYz_x002F_8_x002B_Cd_x002F_dfF534fQcji5v7q_x002B_W5qKAVoH_x002B_jEoMSyVQ0Um_x002F_PKPqTP7FTaYiBfmZMMproiubxgQoT2bDYQIvIUVe_x002F_gZnVWCfuQH6L_x002F_PPAKYsy4NyBEvt_x002F_JpOvqt_x002F_3huWRI7pOHZFYenZAYgoPLl6QpX23t8ptiSI9k0lEKf56oeKw8jyYUt1kgVt3Me4OWIWWLiTqkrB4AhTR0s6ss39Jh6qDe_x002F_86zF3Q1xa2Z6TokrBf8R_x002F_xrBscuscVCU4xbwyc1RItW3er0eSJ0U8nr_x002F_jEntGdfJVallElvjyg7z4iNNG79_x002B_FzNUnU_x002B_Eh48L45IvJYlZglHk68oPgmHqSiKgyuNhNtIbV42IUQpXo40bXhTo5fWrva3vwG5M0Z5a71Vs3f65x3RxYkVSFIjlkk5FMpW2qrLtmx2gvNkWIPfkClOifM3WTevkktPzOGwnKMd5o6EJSUDt4fxQHOL8H6lzfCXxg7cQE_x002B_EVqkpMXrJaINGDstLPJfNdT1gr6tihyl8t_x002F_9azuboPsyrXG_x002B_PR8tVReRD5hTxR5wlwP4yWoPudMW_x002B_MBnhHiM3SgDUGO34ZBsKjSgTvkUYOtm1tlty5PnOLIFTOgbjgysR9HwGbBOczPHx6L3zKfVcHPSRoVu4v8BWndx5cIrp5G8t6xWrHMxGdRsUOa5KJEo2YqmTVADiyxq0T7k9lt33R4AA7Wk1IwpDhSU8Yf9zFDYjBZWE6jWK_x002F_yFAMg_x002B_mzR2gIQ_x002F__x002F_y_x002B_7nY1Sik9rv4iZVAOAY_x002B_XMnetnefFO7Tozi9ZE_x002F_OmJtd230nZzMPVNOwrEd1QEUJibs48qPUCVMPk1jngt_x002F_0UhURYA4RP3ix2isEjOqj6EJIr2PbVfb1Aa213HJd7IaRbLIXK5890Ufh0JXtnItpQtuc_x002F_vxI1W2393emd1I9AMUE_x002B_73YGsIkvNpMDZmzwLHLp81iY4EwqzuBdSY80csaYytwzZeTTfIFCJu5yvTfN7BBEx6mvpH_x002B_UU2DX_x002B_RNWGIKnN1Nv_x002F_4s2nMkKWjpYL4hmJVXxNfcid9ikCQhIJ37PmuPgDiasdOqBgvm_x002B_dF_x002F_g64P1EcRFPJhC33odiOgE9_x002F_wLPVIQ8dW46_x002F_G1B4wGRkaGd2foWqkuwWcFf7tmlJQW7o2_x002B_SOWjgG5LDdMOZWOEcwSfurpyuSd_x002B_SccKAsnVFCbofWpaYFbNTAsNBdnNybkP0uyh9tLlZcw_x002F_sllDFMfSDQAtZyx1m7NwOo7C5B9Snqikpj8OHqXiOsEv2e9ospleXG0AAxeTGYFLjIYcDZsE7zwAYzqO52mzZNiT92bmkD3v2x95V3SdrRvFvSqvicUpSa85T3JcJXjHpRp3FGVWMCtIcbsVue0ECNYfDJvpeuyEml8dj6KZp0AD5xRH5ZJUu0v39Igqmafj3z2wKgM1yYvwj9eMXA1ukh6RsjaAgWUB0bnDd_x002B_BHx_x002F__x002F_sRz27WFsHMfUnDJqR_x002F_QVpsRAzsWGh5fMzNChXdgVNmLjX8SzKZdg7ONkMNN2ZsBF3EIo4CkrrfMUdM3rlFMBl_x002F_ED1_x002B_yJ808r1MB6Rclo79PUs6h_x002B_S4aI3Rz69bmfnOc_x002F_L4PcQ5D0uIGSfgomitNSrcnGpVpg6UUAzqVI9qqV4yCSgNswThDfFQtT4OIYW_x002B_8qf0PGAZ9otrsoJJ8jwxGrPmSym0VUiUhf4MU3LqEhnreeBtC6jw947nVAV0uTyBURXTWec6vvrL8UjsjIX0_x002F_wjBt_x002B_ki7moX_x002B_SsOpcEqae_x002B_ImxDoqKLmNjU0WgRMic8aAps0ChQQ9pVjvqreGkpBhE5_x002B_j31a3WsY_x002F__x002F_GdJqN4koxDjIYVF2h88igrBPs8CEuHdVUE4nx7GJvuQhRPQSOvWINzzgub5UB0IsR29oVu5y5QbocI2CikqPtoMhUP7C0LRp8rqNUsoJQgCyywIDNqwNCWeB3P74ZwfaLBfoIHqtIiXGkw9bAryOOF00U_x002F_2PfeVgOdt2LBxIbxPmgntNIkSE_x002B_fj_x002F_lejUJTLw3NTpM2fg9mGz7Gx4OcDx8mfe4vifPZsILpL1lZ4qUGSY6RLsVlxr3k9cqcAT6XXY_x002B_mti5YMZqrMVBZLIpaojcgzL_x002B_U1ybxR1jc4_x002B_BgIPx7gWSvqsr5uUjb5NahOXmBVnKoEPCo8t39Jibl9IqiTiHD2dwEvFc2TKmKfX9mWCQ_x002F_WWyOSNRqDRIDEXHSsbGi9PmxaNVB0Y6mFtdzoChi8hTy5_x002B_HcxZ2njm3vl9G_x002B_JcI56iS6tNlIqODVFzxDj6nTaqPZywou84UdJgDo95uG_x002B_okA6uGcALv0KDGJV6k4eICxGqbFKgwwOwxfIV8zmAVeM_x002B_x6mna_x002F_OW9O_x002B_s1XAphbD_x002F_tnJ5rVtv9rEOIsLYtz8P2EkoXae2W496CrpC6JGWkUs1UhwEF0KaSk9sjmDvzBnuQ4RIF2b_x002F_e1IkOPlCqFEXq5F169OyrtL_x002F_CJlnngKTSD_x002B_1i41lQDM0dk_x002F_ao53VOkoJ0LVkbCJJqcD9KmYuD4G9dNL2hRG84r1kVt9vUN1qaEBWkwTtRVvAep7Vi0iAJ8uAJcXBoezLUjNBo_x002B_SiRTItQbNvM3fHBYyOPcmxcZH_x002B_aEx1oFNeiM2oDQ_x002B_DPaK_x002B_ygGawfmWHgoW54KaM9ou2rHiQ233UmuXR_x002B_x0qh3ohOa_x002B_9R7x3Lgeh7hLBdhOkkDr4VZx6IcScxaupaXB9JXO0UXUtW1nVmFrFA5fB7vTD_x002F_h2i6xgBeCTNj9n_x002B_bnwHmWlSkodIBFPkELvQjJrgegdoL6Z8fVawe5ija09pXmG_x002F_n_x002F_3MrDNibyLgKoLL_x002B_hvy10delyesjcg7cJHF2iqM8GOQRtW9Llw3XSEdf17IkJkgNUc4_x002F_1EWmllszjJBYkkXowTETHL_x002B_G79AZ5h_x002B_g0eUVigiG_x002F_EIFZgTWG3Qi9PqAf5F4FfqeB61eDZ6Axqo8rNi0Xn5ucEmoUB0B47VYl4gSLsxKLdUvNH0TMXq8D5zlDpaOItCTWVgXCq_x002B_JVFZPuy2Fsab7BORWzd8DkJx_x002B__x002B_SNTVTnpJs_x002B_RRox_x002B_HhbmBPYLnoB55KDTeiETD_x002B_WxAcOtYl2E1CNTQmECtlwI6F_x002F_GVtUSu70a9Wx_x002F_W5kSX_x002B_uY7oUBqD2ZkntM4bAzNFXHZNVWVG_x002B_AInc4nqKJ2HBw5LMKDR2KP2ffztYMivv_x002B_Ibuy3aGShzEcsB8CF4NqgYmRGIF6gz_x002B_EpWKM6cGcPjhBnUoesAuxsv7J18ZtS8lyk5drgaln9SgtddU013NMQA6Y_x002F_vqmiLddbqD2AzHcK6k8aW9_x002F_PpoFx5_x002B_CqiMpom38yhOWw0fhXP_x002F_qqFTu8Fs7wRw15A08_x002F_1hPfhAZxHKj5WGJqXueLpx_x002F_SLwxVo9ugXUQMOKvALDPurcOmJvOusRQKVbzCkbHmd5mQ2Rjr3qfFTMoF4Ekj5HkIcyKdZ0o9RXWz8bvXvpWGWIxdhx7WdCGizUG_x002B_E35NNKJNfCK5F9KhMBt18S8_x002B_g7ru2kG16ALkNj9t2XxerhYlu6Nu2ivL0sJzEaQXFsSLQAvjgAHCm_x002F_n9eKBYKEOF4hCW9J_x002F_aS86TMYthNdg6gbW2sUE5qRkPny6fGynIhuQ_x002F_tnUm_x002B_BUV_x002F_n6qD6xHk7FdNHc7lLrp8bwh3OBXt_x002F_0VpzDiMdkv_x002B_R88z5UYIEm_x002F_BnTwUEZO1_x002B_YRcyZqhqPm_x002B_06rQKX2qCa1_x002B_9GsUi1NddxGjRmYZcgwxcVuOT2qONGsUYuraeNZmUv8NMOCbCzDrok0HKp7eONTx_x002F_tAhjno2nktvglnWI45vR6cP_x002B_SQnyc_x002F_1sdndi_x002F_O1CpSztsosyPdzXBo8nFWyvwnjGO3kVxqsmA2ruXfJl_x002F_vjQC3jxCOyql8Z9iqCXtwr2ZrXGvY_x002B_VpWdKyROX31Yj2EDihbj9sKlB_x002B_gWUjr3I4ykv8L9oCdNyl4bsekxblUJWgGI6A6U9BzsywQGe_x002F_1AnnHbU5A_x002B_V5Ghw0k8aNEM5nc2JvMtUgJHtMa9dd2mJcpJlJqSt3UURHNGctPxr8AZMCVWVD7eFDMzpIzZHtf5DJ_x002B_phpXOELjvSwQ_x002B_1ATPa_x002F_Fapeyr6Nlj6IziHJZvPpEGhBsaeHynCLYjzridxgrB4gv8_x003D_</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>a9258d6255134811a36ac2d07dcca0ed</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="3">
+    <Radar_Point Ref="4" type="Page" isKey="true">
+      <Alias>Radar Point</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart1 Ref="5" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="6" type="Stimulsoft.Report.Chart.StiRadarPointArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>EmptyBrush</Brush>
+            <Chart isRef="5" />
+            <GridLinesHor Ref="7" type="Stimulsoft.Report.Chart.StiRadarGridLinesHor" isKey="true">
+              <Area isRef="6" />
+              <Color>Transparent</Color>
+            </GridLinesHor>
+            <GridLinesVert Ref="8" type="Stimulsoft.Report.Chart.StiRadarGridLinesVert" isKey="true">
+              <Area isRef="6" />
+              <Color>Transparent</Color>
+            </GridLinesVert>
+            <XAxis Ref="9" type="Stimulsoft.Report.Chart.StiXRadarAxis" isKey="true">
+              <Area isRef="6" />
+              <Labels Ref="10" type="Stimulsoft.Report.Chart.StiRadarAxisLabels" isKey="true">
+                <BorderColor>Black</BorderColor>
+                <Brush>EmptyBrush</Brush>
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+              </Labels>
+            </XAxis>
+            <YAxis Ref="11" type="Stimulsoft.Report.Chart.StiYRadarAxis" isKey="true">
+              <Area isRef="6" />
+              <LineColor>140, 140, 140</LineColor>
+            </YAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="12" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="5" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series isList="true" count="3">
+            <Item5 Ref="13" type="Stimulsoft.Report.Chart.StiRadarPointSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Chart isRef="5" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Marker Ref="14" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="15" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="5" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item5>
+            <Item6 Ref="16" type="Stimulsoft.Report.Chart.StiRadarPointSeries" isKey="true">
+              <Chart isRef="5" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Marker Ref="17" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="18" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="5" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item6>
+            <Item7 Ref="19" type="Stimulsoft.Report.Chart.StiRadarPointSeries" isKey="true">
+              <Chart isRef="5" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Marker Ref="20" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="21" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="5" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item7>
+          </Series>
+          <SeriesLabels Ref="22" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <Chart isRef="5" />
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="23" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart1>
+        <ReportTitleBand2 Ref="24" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text20 Ref="25" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>b1628e3ab2484a97bd0904ad4a73c379</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="4" />
+              <Parent isRef="24" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="26" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>bccb420d0b89460dbad5467eca8598fc</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="4" />
+              <Parent isRef="24" />
+              <Text>Radar Point</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text6 Ref="27" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,40</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="4" />
+              <Parent isRef="24" />
+              <Text>A radar chart is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point. </Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>f7ffd3b0a2794ffa97f5e1a42a1b4e0b</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ReportTitleBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>3a7d7edd89b2440f84fee03628209a97</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Radar_Point</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Radar_Point>
+    <Radar_Line Ref="28" type="Page" isKey="true">
+      <Alias>Radar Line</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart2 Ref="29" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="30" type="Stimulsoft.Report.Chart.StiRadarLineArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>EmptyBrush</Brush>
+            <Chart isRef="29" />
+            <GridLinesHor Ref="31" type="Stimulsoft.Report.Chart.StiRadarGridLinesHor" isKey="true">
+              <Area isRef="30" />
+              <Color>Transparent</Color>
+            </GridLinesHor>
+            <GridLinesVert Ref="32" type="Stimulsoft.Report.Chart.StiRadarGridLinesVert" isKey="true">
+              <Area isRef="30" />
+              <Color>Transparent</Color>
+            </GridLinesVert>
+            <XAxis Ref="33" type="Stimulsoft.Report.Chart.StiXRadarAxis" isKey="true">
+              <Area isRef="30" />
+              <Labels Ref="34" type="Stimulsoft.Report.Chart.StiRadarAxisLabels" isKey="true">
+                <BorderColor>Black</BorderColor>
+                <Brush>EmptyBrush</Brush>
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+              </Labels>
+            </XAxis>
+            <YAxis Ref="35" type="Stimulsoft.Report.Chart.StiYRadarAxis" isKey="true">
+              <Area isRef="30" />
+              <LineColor>140, 140, 140</LineColor>
+            </YAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="36" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="29" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart2</Name>
+          <Page isRef="28" />
+          <Parent isRef="28" />
+          <Series isList="true" count="3">
+            <Item14 Ref="37" type="Stimulsoft.Report.Chart.StiRadarLineSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Chart isRef="29" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <LineColor>255, 180, 135</LineColor>
+              <Marker Ref="38" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="39" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="29" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item14>
+            <Item15 Ref="40" type="Stimulsoft.Report.Chart.StiRadarLineSeries" isKey="true">
+              <Chart isRef="29" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <LineColor>88, 166, 146</LineColor>
+              <Marker Ref="41" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="42" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="29" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item15>
+            <Item16 Ref="43" type="Stimulsoft.Report.Chart.StiRadarLineSeries" isKey="true">
+              <Chart isRef="29" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <LineColor>95, 127, 167</LineColor>
+              <Marker Ref="44" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="45" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="29" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item16>
+          </Series>
+          <SeriesLabels Ref="46" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <Chart isRef="29" />
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="47" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart2>
+        <ReportTitleBand1 Ref="48" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text1 Ref="49" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>66f9859a68ef454387487c4b8ae1d4d6</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="28" />
+              <Parent isRef="48" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="50" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>4717e8079cab446bb78cfec2bb6cfafd</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="28" />
+              <Parent isRef="48" />
+              <Text>Radar Line</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text7 Ref="51" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,40</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="28" />
+              <Parent isRef="48" />
+              <Text>A radar line is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point, connected by lines.</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>8f8d11ff780a4da8b0aa509a66249f82</Guid>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="28" />
+          <Parent isRef="28" />
+        </ReportTitleBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>f0eab5edf4bd45b3bbea609a74ff8afb</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Radar_Line</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Radar_Line>
+    <Radar_Area Ref="52" type="Page" isKey="true">
+      <Alias>Radar Area</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <Chart3 Ref="53" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Area Ref="54" type="Stimulsoft.Report.Chart.StiRadarAreaArea" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <BorderThickness>1</BorderThickness>
+            <Brush>EmptyBrush</Brush>
+            <Chart isRef="53" />
+            <GridLinesHor Ref="55" type="Stimulsoft.Report.Chart.StiRadarGridLinesHor" isKey="true">
+              <Area isRef="54" />
+              <Color>Transparent</Color>
+            </GridLinesHor>
+            <GridLinesVert Ref="56" type="Stimulsoft.Report.Chart.StiRadarGridLinesVert" isKey="true">
+              <Area isRef="54" />
+              <Color>Transparent</Color>
+            </GridLinesVert>
+            <XAxis Ref="57" type="Stimulsoft.Report.Chart.StiXRadarAxis" isKey="true">
+              <Area isRef="54" />
+              <Labels Ref="58" type="Stimulsoft.Report.Chart.StiRadarAxisLabels" isKey="true">
+                <BorderColor>Black</BorderColor>
+                <Brush>EmptyBrush</Brush>
+                <Color>140, 140, 140</Color>
+                <Font>Tahoma,8</Font>
+              </Labels>
+            </XAxis>
+            <YAxis Ref="59" type="Stimulsoft.Report.Chart.StiYRadarAxis" isKey="true">
+              <Area isRef="54" />
+              <LineColor>140, 140, 140</LineColor>
+            </YAxis>
+          </Area>
+          <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10,140,730,630</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Chart</CustomStyleName>
+          <EditorType>Simple</EditorType>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Legend Ref="60" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <BorderColor>Transparent</BorderColor>
+            <Brush>[255:255:255]</Brush>
+            <Chart isRef="53" />
+            <Font>Arial,8</Font>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <MarkerSize>10, 10</MarkerSize>
+            <ShowShadow>False</ShowShadow>
+            <TitleColor>DimGray</TitleColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <VertAlignment>TopOutside</VertAlignment>
+          </Legend>
+          <Name>Chart3</Name>
+          <Page isRef="52" />
+          <Parent isRef="52" />
+          <Series isList="true" count="3">
+            <Item23 Ref="61" type="Stimulsoft.Report.Chart.StiRadarAreaSeries" isKey="true">
+              <ArgumentDataColumn>Data.Year</ArgumentDataColumn>
+              <Brush>[200:255:180:135]</Brush>
+              <Chart isRef="53" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <LineColor>255, 180, 135</LineColor>
+              <Marker Ref="62" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>155, 80, 35</BorderColor>
+                <Brush>[255:255:235]</Brush>
+              </Marker>
+              <SeriesLabels Ref="63" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="53" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units in Stock</Title>
+              <ValueDataColumn>Data.Units in Stock</ValueDataColumn>
+            </Item23>
+            <Item24 Ref="64" type="Stimulsoft.Report.Chart.StiRadarAreaSeries" isKey="true">
+              <Brush>[200:88:166:146]</Brush>
+              <Chart isRef="53" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <LineColor>88, 166, 146</LineColor>
+              <Marker Ref="65" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 66, 46</BorderColor>
+                <Brush>[188:255:246]</Brush>
+              </Marker>
+              <SeriesLabels Ref="66" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="53" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units Ordered</Title>
+              <ValueDataColumn>Data.Units Ordered</ValueDataColumn>
+            </Item24>
+            <Item25 Ref="67" type="Stimulsoft.Report.Chart.StiRadarAreaSeries" isKey="true">
+              <Brush>[200:95:127:167]</Brush>
+              <Chart isRef="53" />
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <LineColor>95, 127, 167</LineColor>
+              <Marker Ref="68" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <BorderColor>0, 27, 67</BorderColor>
+                <Brush>[195:227:255]</Brush>
+              </Marker>
+              <SeriesLabels Ref="69" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="53" />
+                <Font>Arial,7</Font>
+                <LabelColor>White</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <ShowShadow>False</ShowShadow>
+              <Title>Units</Title>
+              <ValueDataColumn>Data.Units</ValueDataColumn>
+            </Item25>
+          </Series>
+          <SeriesLabels Ref="70" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <Chart isRef="53" />
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Width>0</Width>
+          </SeriesLabels>
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Sort isList="true" count="0" />
+          <Strips isList="true" count="0" />
+          <Style Ref="71" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name>Chart</Name>
+          </Style>
+        </Chart3>
+        <ReportTitleBand3 Ref="72" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,100</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text3 Ref="73" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>7cd1dfdb481b450c80790ecaa3cf7500</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="52" />
+              <Parent isRef="72" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="74" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>f4a72e3f21e7480c8b46eda908afabd1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="52" />
+              <Parent isRef="72" />
+              <Text>Radar Area</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="75" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,40,749,40</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="52" />
+              <Parent isRef="72" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>22b880b00236457fb186a7c3d2e20b06</Guid>
+          <Name>ReportTitleBand3</Name>
+          <Page isRef="52" />
+          <Parent isRef="52" />
+        </ReportTitleBand3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>38f7202d621d472eaca7acfa1011f4c9</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Radar_Area</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Radar_Area>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Radar Charts</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>9/5/2022 5:29:06 PM</ReportChanged>
+  <ReportCreated>2/10/2021 2:55:39 PM</ReportCreated>
+  <ReportDescription>A radar area is a grapphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point, connected by lines with a highlited area.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Dashboards\CloudStorage\14.Reports with Charts\Radar Charts.mrt</ReportFile>
+  <ReportGuid>9e943bce3fd3465c87871dee4e1e25d7</ReportGuid>
+  <ReportImage>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</ReportImage>
+  <ReportName>Radar Charts</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2022.3.5.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Column_Charts : Stimulsoft.Report.StiReport
+    {
+        public Column_Charts()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="3">
+    <Header1 Ref="76" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[158:158:158];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,24,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Footer1 Ref="77" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[158:158:158]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+    <Chart Ref="78" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>140, 140, 140</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>140, 140, 140</AxisTitleColor>
+      <BasicStyleColor>WhiteSmoke</BasicStyleColor>
+      <Border>None;Transparent;1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <ChartAreaBorderColor>Transparent</ChartAreaBorderColor>
+      <ChartAreaBrush>[255:255:255]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>Transparent</GridLinesHorColor>
+      <GridLinesVertColor>Transparent</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>Transparent</LegendBorderColor>
+      <LegendBrush>[255:255:255]</LegendBrush>
+      <LegendLabelsColor>140, 140, 140</LegendLabelsColor>
+      <LegendTitleColor>DimGray</LegendTitleColor>
+      <Name>Chart</Name>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>Transparent</SeriesLabelsBrush>
+      <SeriesLabelsColor>White</SeriesLabelsColor>
+      <SeriesLabelsLineColor>140, 140, 140</SeriesLabelsLineColor>
+      <StyleColors>[255:180:135], [88:166:146], [95:127:167], [239:127:147], [255:209:135], [147:219:116]</StyleColors>
+      <ToolTipBrush>White</ToolTipBrush>
+      <ToolTipTextBrush>Black</ToolTipTextBrush>
+      <TrendLineColor>Transparent</TrendLineColor>
+    </Chart>
+  </Styles>
+</StiSerializer>

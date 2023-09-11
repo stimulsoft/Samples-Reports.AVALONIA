@@ -1,0 +1,1211 @@
+{
+  "ReportVersion": "2023.2.4.0",
+  "ReportGuid": "389d0c7f5581496c91b3fddeea3f4e15",
+  "ReportName": "Watermark",
+  "ReportAlias": "Watermark",
+  "ReportAuthor": "Stimulsoft",
+  "ReportDescription": "This sample demonstrates how to create a report with watermark.",
+  "ReportCreated": "/Date(-21600000+0100)/",
+  "ReportChanged": "/Date(1684437618377+0200)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "HundredthsOfInch",
+  "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.Dialogs;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    public class Watermark : Stimulsoft.Report.StiReport\r\n    {\r\n        public Watermark()        {\r\n            this.InitializeComponent();\r\n        }\r\n\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}\r\n",
+  "Styles": {
+    "0": {
+      "Ident": "StiStyle",
+      "Name": "Header1",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;21.75;Bold;",
+      "Border": "Bottom;166,166,166;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:64,64,64",
+      "NegativeTextBrush": "solid:Red"
+    },
+    "1": {
+      "Ident": "StiStyle",
+      "Name": "Header2",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;12;Bold;",
+      "Border": "Left, Right;255,255,255;;;;;;solid:0,0,0",
+      "Brush": "solid:255,164,114",
+      "TextBrush": "solid:255,255,255",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseBorderFormatting": false,
+      "AllowUseBorderSides": false
+    },
+    "2": {
+      "Ident": "StiStyle",
+      "Name": "Data1",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;9.75;;",
+      "Border": ";182,182,182;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:64,64,64",
+      "NegativeTextBrush": "solid:Red"
+    },
+    "3": {
+      "Ident": "StiStyle",
+      "Name": "Data2",
+      "Font": "Segoe UI;9.75;;",
+      "Border": ";255,255,255;;;;;;solid:0,0,0",
+      "Brush": "solid:240,242,246",
+      "TextBrush": "solid:64,64,64",
+      "NegativeTextBrush": "solid:Red"
+    },
+    "4": {
+      "Ident": "StiStyle",
+      "Name": "Footer1",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;9.75;;",
+      "Border": ";58,78,94;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:166,166,166",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseBorderSides": false
+    }
+  },
+  "ReferencedAssemblies": {
+    "0": "System.Dll",
+    "1": "System.Drawing.Dll",
+    "2": "System.Windows.Forms.Dll",
+    "3": "System.Data.Dll",
+    "4": "System.Xml.Dll",
+    "5": "Stimulsoft.Controls.Dll",
+    "6": "Stimulsoft.Base.Dll",
+    "7": "Stimulsoft.Report.Dll"
+  },
+  "Dictionary": {
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "Categories",
+        "Alias": "Categories",
+        "Key": "32fae79831ca4fc3916e76401a05404b",
+        "Columns": {
+          "0": {
+            "Name": "CategoryID",
+            "Index": -1,
+            "NameInSource": "CategoryID",
+            "Alias": "CategoryID",
+            "Type": "System.Int32"
+          },
+          "1": {
+            "Name": "CategoryName",
+            "Index": -1,
+            "NameInSource": "CategoryName",
+            "Alias": "CategoryName",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "Description",
+            "Index": -1,
+            "NameInSource": "Description",
+            "Alias": "Description",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "Demo.Categories"
+      },
+      "1": {
+        "Ident": "StiDataTableSource",
+        "Name": "Countries",
+        "Alias": "Countries",
+        "Key": "ab65ea1dbc464b008ecfe250b9cbae5a",
+        "Columns": {
+          "0": {
+            "Name": "CountriesID",
+            "Index": -1,
+            "NameInSource": "CountriesID",
+            "Alias": "CountriesID",
+            "Type": "System.Int32"
+          },
+          "1": {
+            "Name": "CountryName",
+            "Index": -1,
+            "NameInSource": "CountryName",
+            "Alias": "CountryName",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "Flag",
+            "Index": -1,
+            "NameInSource": "Flag",
+            "Alias": "Flag",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "Demo.Countries"
+      },
+      "2": {
+        "Ident": "StiDataTableSource",
+        "Name": "Customers",
+        "Alias": "Customers",
+        "Key": "f0587f53be584fc4aceb7235d8348bdd",
+        "Columns": {
+          "0": {
+            "Name": "Address",
+            "Index": -1,
+            "NameInSource": "Address",
+            "Alias": "Address",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "City",
+            "Index": -1,
+            "NameInSource": "City",
+            "Alias": "City",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "CompanyName",
+            "Index": -1,
+            "NameInSource": "CompanyName",
+            "Alias": "CompanyName",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "ContactName",
+            "Index": -1,
+            "NameInSource": "ContactName",
+            "Alias": "ContactName",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "ContactTitle",
+            "Index": -1,
+            "NameInSource": "ContactTitle",
+            "Alias": "ContactTitle",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "Country",
+            "Index": -1,
+            "NameInSource": "Country",
+            "Alias": "Country",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "CustomerID",
+            "Index": -1,
+            "NameInSource": "CustomerID",
+            "Alias": "CustomerID",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "Fax",
+            "Index": -1,
+            "NameInSource": "Fax",
+            "Alias": "Fax",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "Phone",
+            "Index": -1,
+            "NameInSource": "Phone",
+            "Alias": "Phone",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "PostalCode",
+            "Index": -1,
+            "NameInSource": "PostalCode",
+            "Alias": "PostalCode",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "Region",
+            "Index": -1,
+            "NameInSource": "Region",
+            "Alias": "Region",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "Demo.Customers"
+      },
+      "3": {
+        "Ident": "StiDataTableSource",
+        "Name": "Employees",
+        "Alias": "Employees",
+        "Key": "333baac1019c4cffb3814020ab1e6254",
+        "Columns": {
+          "0": {
+            "Name": "Address",
+            "Index": -1,
+            "NameInSource": "Address",
+            "Alias": "Address",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "BirthDate",
+            "Index": -1,
+            "NameInSource": "BirthDate",
+            "Alias": "BirthDate",
+            "Type": "System.DateTime"
+          },
+          "2": {
+            "Name": "City",
+            "Index": -1,
+            "NameInSource": "City",
+            "Alias": "City",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "Country",
+            "Index": -1,
+            "NameInSource": "Country",
+            "Alias": "Country",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "EmployeeID",
+            "Index": -1,
+            "NameInSource": "EmployeeID",
+            "Alias": "EmployeeID",
+            "Type": "System.Int32"
+          },
+          "5": {
+            "Name": "FirstName",
+            "Index": -1,
+            "NameInSource": "FirstName",
+            "Alias": "FirstName",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "HireDate",
+            "Index": -1,
+            "NameInSource": "HireDate",
+            "Alias": "HireDate",
+            "Type": "System.DateTime"
+          },
+          "7": {
+            "Name": "HomePhone",
+            "Index": -1,
+            "NameInSource": "HomePhone",
+            "Alias": "HomePhone",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "LastName",
+            "Index": -1,
+            "NameInSource": "LastName",
+            "Alias": "LastName",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "Notes",
+            "Index": -1,
+            "NameInSource": "Notes",
+            "Alias": "Notes",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "PostalCode",
+            "Index": -1,
+            "NameInSource": "PostalCode",
+            "Alias": "PostalCode",
+            "Type": "System.String"
+          },
+          "11": {
+            "Name": "Region",
+            "Index": -1,
+            "NameInSource": "Region",
+            "Alias": "Region",
+            "Type": "System.String"
+          },
+          "12": {
+            "Name": "ReportsTo",
+            "Index": -1,
+            "NameInSource": "ReportsTo",
+            "Alias": "ReportsTo",
+            "Type": "System.Int32"
+          },
+          "13": {
+            "Name": "Title",
+            "Index": -1,
+            "NameInSource": "Title",
+            "Alias": "Title",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "Demo.Employees"
+      },
+      "4": {
+        "Ident": "StiDataTableSource",
+        "Name": "Order Details",
+        "Alias": "Order Details",
+        "Key": "dfb9bc9cde8d4ee68c7083a214b89104",
+        "Columns": {
+          "0": {
+            "Name": "Discount",
+            "Index": -1,
+            "NameInSource": "Discount",
+            "Alias": "Discount",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "OrderID",
+            "Index": -1,
+            "NameInSource": "OrderID",
+            "Alias": "OrderID",
+            "Type": "System.Int32"
+          },
+          "2": {
+            "Name": "ProductID",
+            "Index": -1,
+            "NameInSource": "ProductID",
+            "Alias": "ProductID",
+            "Type": "System.Int32"
+          },
+          "3": {
+            "Name": "Quantity",
+            "Index": -1,
+            "NameInSource": "Quantity",
+            "Alias": "Quantity",
+            "Type": "System.Int16"
+          },
+          "4": {
+            "Name": "UnitPrice",
+            "Index": -1,
+            "NameInSource": "UnitPrice",
+            "Alias": "UnitPrice",
+            "Type": "System.Decimal"
+          }
+        },
+        "NameInSource": "Demo.Order Details"
+      },
+      "5": {
+        "Ident": "StiDataTableSource",
+        "Name": "Orders",
+        "Alias": "Orders",
+        "Key": "aff3f233e39148feb0c6a6d957790362",
+        "Columns": {
+          "0": {
+            "Name": "CustomerID",
+            "Index": -1,
+            "NameInSource": "CustomerID",
+            "Alias": "CustomerID",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "EmployeeID",
+            "Index": -1,
+            "NameInSource": "EmployeeID",
+            "Alias": "EmployeeID",
+            "Type": "System.Int32"
+          },
+          "2": {
+            "Name": "Freight",
+            "Index": -1,
+            "NameInSource": "Freight",
+            "Alias": "Freight",
+            "Type": "System.Decimal"
+          },
+          "3": {
+            "Name": "OrderDate",
+            "Index": -1,
+            "NameInSource": "OrderDate",
+            "Alias": "OrderDate",
+            "Type": "System.DateTime"
+          },
+          "4": {
+            "Name": "OrderID",
+            "Index": -1,
+            "NameInSource": "OrderID",
+            "Alias": "OrderID",
+            "Type": "System.Int32"
+          },
+          "5": {
+            "Name": "RequiredDate",
+            "Index": -1,
+            "NameInSource": "RequiredDate",
+            "Alias": "RequiredDate",
+            "Type": "System.DateTime"
+          },
+          "6": {
+            "Name": "ShipAddress",
+            "Index": -1,
+            "NameInSource": "ShipAddress",
+            "Alias": "ShipAddress",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "ShipCity",
+            "Index": -1,
+            "NameInSource": "ShipCity",
+            "Alias": "ShipCity",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "ShipCountry",
+            "Index": -1,
+            "NameInSource": "ShipCountry",
+            "Alias": "ShipCountry",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "ShipName",
+            "Index": -1,
+            "NameInSource": "ShipName",
+            "Alias": "ShipName",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "ShippedDate",
+            "Index": -1,
+            "NameInSource": "ShippedDate",
+            "Alias": "ShippedDate",
+            "Type": "System.DateTime"
+          },
+          "11": {
+            "Name": "ShipPostalCode",
+            "Index": -1,
+            "NameInSource": "ShipPostalCode",
+            "Alias": "ShipPostalCode",
+            "Type": "System.String"
+          },
+          "12": {
+            "Name": "ShipRegion",
+            "Index": -1,
+            "NameInSource": "ShipRegion",
+            "Alias": "ShipRegion",
+            "Type": "System.String"
+          },
+          "13": {
+            "Name": "ShipVia",
+            "Index": -1,
+            "NameInSource": "ShipVia",
+            "Alias": "ShipVia",
+            "Type": "System.Int32"
+          }
+        },
+        "NameInSource": "Demo.Orders"
+      },
+      "6": {
+        "Ident": "StiDataTableSource",
+        "Name": "Products",
+        "Alias": "Products",
+        "Key": "dd9a9f99dffa4cf093114aaf5db3a640",
+        "Columns": {
+          "0": {
+            "Name": "CategoryID",
+            "Index": -1,
+            "NameInSource": "CategoryID",
+            "Alias": "CategoryID",
+            "Type": "System.Int32"
+          },
+          "1": {
+            "Name": "ProductID",
+            "Index": -1,
+            "NameInSource": "ProductID",
+            "Alias": "ProductID",
+            "Type": "System.Int32"
+          },
+          "2": {
+            "Name": "ProductName",
+            "Index": -1,
+            "NameInSource": "ProductName",
+            "Alias": "ProductName",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "QuantityPerUnit",
+            "Index": -1,
+            "NameInSource": "QuantityPerUnit",
+            "Alias": "QuantityPerUnit",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "SupplierID",
+            "Index": -1,
+            "NameInSource": "SupplierID",
+            "Alias": "SupplierID",
+            "Type": "System.Int32"
+          },
+          "5": {
+            "Name": "UnitPrice",
+            "Index": -1,
+            "NameInSource": "UnitPrice",
+            "Alias": "UnitPrice",
+            "Type": "System.Decimal"
+          },
+          "6": {
+            "Name": "UnitsInStock",
+            "Index": -1,
+            "NameInSource": "UnitsInStock",
+            "Alias": "UnitsInStock",
+            "Type": "System.Int16"
+          }
+        },
+        "NameInSource": "Demo.Products"
+      },
+      "7": {
+        "Ident": "StiDataTableSource",
+        "Name": "Shippers",
+        "Alias": "Shippers",
+        "Key": "e2e535e9ba484b75a140785e4b6a73d3",
+        "Columns": {
+          "0": {
+            "Name": "CompanyName",
+            "Index": -1,
+            "NameInSource": "CompanyName",
+            "Alias": "CompanyName",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "Phone",
+            "Index": -1,
+            "NameInSource": "Phone",
+            "Alias": "Phone",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "ShipperID",
+            "Index": -1,
+            "NameInSource": "ShipperID",
+            "Alias": "ShipperID",
+            "Type": "System.Int32"
+          }
+        },
+        "NameInSource": "Demo.Shippers"
+      },
+      "8": {
+        "Ident": "StiDataTableSource",
+        "Name": "Suppliers",
+        "Alias": "Suppliers",
+        "Key": "8fe8dd9eaccb4b4f83fd0085a470c3d3",
+        "Columns": {
+          "0": {
+            "Name": "Address",
+            "Index": -1,
+            "NameInSource": "Address",
+            "Alias": "Address",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "City",
+            "Index": -1,
+            "NameInSource": "City",
+            "Alias": "City",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "CompanyName",
+            "Index": -1,
+            "NameInSource": "CompanyName",
+            "Alias": "CompanyName",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "ContactName",
+            "Index": -1,
+            "NameInSource": "ContactName",
+            "Alias": "ContactName",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "ContactTitle",
+            "Index": -1,
+            "NameInSource": "ContactTitle",
+            "Alias": "ContactTitle",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "Country",
+            "Index": -1,
+            "NameInSource": "Country",
+            "Alias": "Country",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "Fax",
+            "Index": -1,
+            "NameInSource": "Fax",
+            "Alias": "Fax",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "HomePage",
+            "Index": -1,
+            "NameInSource": "HomePage",
+            "Alias": "HomePage",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "Phone",
+            "Index": -1,
+            "NameInSource": "Phone",
+            "Alias": "Phone",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "PostalCode",
+            "Index": -1,
+            "NameInSource": "PostalCode",
+            "Alias": "PostalCode",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "Region",
+            "Index": -1,
+            "NameInSource": "Region",
+            "Alias": "Region",
+            "Type": "System.String"
+          },
+          "11": {
+            "Name": "SupplierID",
+            "Index": -1,
+            "NameInSource": "SupplierID",
+            "Alias": "SupplierID",
+            "Type": "System.Int32"
+          }
+        },
+        "NameInSource": "Demo.Suppliers"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiXmlDatabase",
+        "Name": "Demo",
+        "Alias": "Demo",
+        "PathSchema": "D:\\Stimulsoft\\Stimulsoft.Reports\\Reports\\Demo.xsd",
+        "PathData": "D:\\Stimulsoft\\Stimulsoft.Reports\\Reports\\Demo.xml"
+      }
+    },
+    "Relations": {
+      "0": {
+        "Name": "Employees",
+        "ChildColumns": {
+          "0": "ReportsTo"
+        },
+        "ParentColumns": {
+          "0": "EmployeeID"
+        },
+        "NameInSource": "EmployeesEmployees",
+        "Alias": "Employees",
+        "ParentSource": "Employees",
+        "ChildSource": "Employees"
+      },
+      "1": {
+        "Name": "Products",
+        "ChildColumns": {
+          "0": "ProductID"
+        },
+        "ParentColumns": {
+          "0": "ProductID"
+        },
+        "NameInSource": "ProductsOrder_Details",
+        "Alias": "Products",
+        "ParentSource": "Products",
+        "ChildSource": "Order Details"
+      },
+      "2": {
+        "Name": "Orders",
+        "ChildColumns": {
+          "0": "OrderID"
+        },
+        "ParentColumns": {
+          "0": "OrderID"
+        },
+        "NameInSource": "OrdersOrder_Details",
+        "Alias": "Orders",
+        "ParentSource": "Orders",
+        "ChildSource": "Order Details"
+      },
+      "3": {
+        "Name": "Customers",
+        "ChildColumns": {
+          "0": "CustomerID"
+        },
+        "ParentColumns": {
+          "0": "CustomerID"
+        },
+        "NameInSource": "CustomersOrders",
+        "Alias": "Customers",
+        "ParentSource": "Customers",
+        "ChildSource": "Orders"
+      },
+      "4": {
+        "Name": "Shippers",
+        "ChildColumns": {
+          "0": "ShipVia"
+        },
+        "ParentColumns": {
+          "0": "ShipperID"
+        },
+        "NameInSource": "ShippersOrders",
+        "Alias": "Shippers",
+        "ParentSource": "Shippers",
+        "ChildSource": "Orders"
+      },
+      "5": {
+        "Name": "Employees",
+        "ChildColumns": {
+          "0": "EmployeeID"
+        },
+        "ParentColumns": {
+          "0": "EmployeeID"
+        },
+        "NameInSource": "EmployeesOrders",
+        "Alias": "Employees",
+        "ParentSource": "Employees",
+        "ChildSource": "Orders"
+      },
+      "6": {
+        "Name": "Categories",
+        "ChildColumns": {
+          "0": "CategoryID"
+        },
+        "ParentColumns": {
+          "0": "CategoryID"
+        },
+        "NameInSource": "CategoriesProducts",
+        "Alias": "Categories",
+        "ParentSource": "Categories",
+        "ChildSource": "Products"
+      },
+      "7": {
+        "Name": "Suppliers",
+        "ChildColumns": {
+          "0": "SupplierID"
+        },
+        "ParentColumns": {
+          "0": "SupplierID"
+        },
+        "NameInSource": "SuppliersProducts",
+        "Alias": "Suppliers",
+        "ParentSource": "Suppliers",
+        "ChildSource": "Products"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "101e13e5ba9f467fb2baf0d09b12d445",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiPageFooterBand",
+          "Name": "PageFooterBand2",
+          "Guid": "895fef99c7ac4b3fb0b7fc484a6e790b",
+          "ClientRectangle": "0,1071,749,20",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text5",
+              "Guid": "82c52027e8d54cfb8447e57737f3c666",
+              "ClientRectangle": "0,0,749,20",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{PageNofM}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:166,166,166"
+            }
+          }
+        },
+        "1": {
+          "Ident": "StiReportTitleBand",
+          "Name": "ReportTitleBand2",
+          "Guid": "af87b95df00b42c0aa26ea38f842107b",
+          "ClientRectangle": "0,20,749,80",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text20",
+              "Guid": "0d3d98a674134c38af3e02446f793bd1",
+              "ClientRectangle": "570,0,179,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAuthor}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;21.75;Bold;",
+              "Border": "Bottom;166,166,166;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Margins": {
+                "Left": 0.0,
+                "Right": 1.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text23",
+              "Guid": "a1c1a8f51e594273b65232a2095dc7eb",
+              "ClientRectangle": "0,0,570,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAlias}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;21.75;Bold;",
+              "Border": "Bottom;166,166,166;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Margins": {
+                "Left": 3.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text17",
+              "Guid": "5e2d2d0b2fee498e8dd9dfb8f8e76c65",
+              "CanGrow": true,
+              "ClientRectangle": "0,40,570,20",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportDescription}"
+              },
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:166,166,166",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 5.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text18",
+              "Guid": "e5c1a6207a7e4806bb1c1b404c97ac31",
+              "CanGrow": true,
+              "ClientRectangle": "570,40,179,20",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Date: {Today.ToString(\"Y\")}"
+              },
+              "HorAlignment": "Right",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:166,166,166",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 0.0,
+                "Right": 3.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            }
+          }
+        },
+        "2": {
+          "Ident": "StiHeaderBand",
+          "Name": "HeaderBand1",
+          "ClientRectangle": "0,140,749,40",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text11",
+              "Guid": "db6ddce4865fd2d4d1afb8836cc762e7",
+              "ClientRectangle": "260,0,210,40",
+              "ComponentStyle": "Header2",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Address"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;12;Bold;",
+              "Border": "Left, Right;255,255,255;;;;;;solid:0,0,0",
+              "Brush": "solid:255,164,114",
+              "TextBrush": "solid:255,255,255"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text10",
+              "Guid": "c9b6940cfd04cb4b5315163a80845e54",
+              "ClientRectangle": "0,0,259.5,40",
+              "ComponentStyle": "Header2",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Company"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;12;Bold;",
+              "Border": "Right;White;;;;;;solid:Black",
+              "Brush": "solid:255,164,114",
+              "TextBrush": "solid:255,255,255"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text12",
+              "Guid": "d16ba3fc23ed00f4d4811f5281c4f6e0",
+              "ClientRectangle": "470,0,120,40",
+              "ComponentStyle": "Header2",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Phone"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;12;Bold;",
+              "Border": "Left, Right;255,255,255;;;;;;solid:0,0,0",
+              "Brush": "solid:255,164,114",
+              "TextBrush": "solid:255,255,255"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text13",
+              "Guid": "17363a15396d47fdde816bde44625233",
+              "ClientRectangle": "590,0,159,40",
+              "ComponentStyle": "Header2",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Contact"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;12;Bold;",
+              "Border": "Left;White;;;;;;solid:Black",
+              "Brush": "solid:255,164,114",
+              "TextBrush": "solid:255,255,255"
+            }
+          }
+        },
+        "3": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand1",
+          "ClientRectangle": "0,220,749,20",
+          "ComponentStyle": "Data1",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";182,182,182;;;;;;solid:0,0,0",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text4",
+              "Guid": "20b0a5d437cf288ca1a4363866fbbf7a",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "470,0,120,20",
+              "ComponentStyle": "Data1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Customers.Phone}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";182,182,182;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "TextOptions": {
+                "Trimming": "Character"
+              },
+              "Margins": {
+                "Left": 3.0,
+                "Right": 3.0,
+                "Top": 3.0,
+                "Bottom": 3.0
+              }
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text3",
+              "Guid": "1c8bc23408b9c2c589048ef55085bbcf",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "590,0,159,20",
+              "ComponentStyle": "Data1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Customers.ContactTitle}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";182,182,182;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "TextOptions": {
+                "Trimming": "Character"
+              },
+              "Margins": {
+                "Left": 3.0,
+                "Right": 3.0,
+                "Top": 3.0,
+                "Bottom": 3.0
+              }
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "769da0c2a9f2fa7dcb9aed42cf4f2bec",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "0,0,260,20",
+              "ComponentStyle": "Data1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Customers.CompanyName}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";182,182,182;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "TextOptions": {
+                "Trimming": "Character"
+              },
+              "Margins": {
+                "Left": 3.0,
+                "Right": 3.0,
+                "Top": 3.0,
+                "Bottom": 3.0
+              }
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "Guid": "f0c22110ec3db9588e41986918f04bf9",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "260,0,210,20",
+              "ComponentStyle": "Data1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Customers.Address}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";182,182,182;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "TextOptions": {
+                "Trimming": "Character"
+              },
+              "Margins": {
+                "Left": 3.0,
+                "Right": 3.0,
+                "Top": 3.0,
+                "Bottom": 3.0
+              }
+            }
+          },
+          "DataSourceName": "Customers",
+          "EvenStyle": "Data2",
+          "Sort": {
+            "0": "ASC",
+            "1": "CompanyName"
+          }
+        },
+        "4": {
+          "Ident": "StiFooterBand",
+          "Name": "FooterBand1",
+          "ClientRectangle": "0,280,749,10",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text6",
+              "Guid": "34068cf10fcd48a3897bf494fd84aa25",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "0,0,749,10",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:166,166,166"
+            }
+          },
+          "PrintOnAllPages": true
+        }
+      },
+      "PaperSize": "A4",
+      "Watermark": {
+        "Font": ";80;Bold;",
+        "TextBrush": "solid:50,0,0,0",
+        "Text": "WATERMARK"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Customizing_the_Viewer.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewer="using:Stimulsoft.Report.Viewer.Avalonia.Viewer"
+		Width="800" Height="600"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+        x:Class="Customizing_the_Viewer.Views.MainWindow"
+		WindowStartupLocation="CenterScreen"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Customizing the Viewer">
+	
+	<Grid ColumnDefinitions="Auto,*">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+			<StackPanel Margin="6,0">
+				<CheckBox x:Name="checkBoxShowReportOpen" Content="Show Report Open" Click="CheckBoxShowReportOpen_Click"/>
+				<CheckBox x:Name="checkBoxShowReportSave" Content="Show Report Save" Click="CheckBoxShowReportSave_Click"/>
+				<CheckBox x:Name="checkBoxShowReportSaveDocument" Content="Show Report Save Document" Click="CheckBoxShowReportSaveDocument_Click"/>
+			
+				<CheckBox x:Name="checkBoxShowPageNew" Content="Show Page New" Click="CheckBoxShowPageNew_Click"/>
+				<CheckBox x:Name="checkBoxShowPageDelete" Content="Show Page Delete" Click="CheckBoxShowPageDelete_Click"/>
+
+				<CheckBox x:Name="checkBoxShowBookmarks" Content="Show Bookmarks" Click="CheckBoxShowBookmarks_Click"/>
+				<CheckBox x:Name="checkBoxShowParameters" Content="Show Parameters" Click="CheckBoxShowParameters_Click"/>
+
+				<CheckBox x:Name="checkBoxShowToolEditor" Content="Show Tool Editor" Click="CheckBoxShowToolEditor_Click"/>
+				<CheckBox x:Name="checkBoxShowToolFind" Content="Show Tool Find" Click="CheckBoxShowToolFind_Click"/>
+				<CheckBox x:Name="checkBoxShowSignature" Content="Show Signature" Click="CheckBoxShowSignature_Click"/>
+
+				<CheckBox x:Name="checkBoxShowClose" Content="Show Close" Click="CheckBoxShowClose_Click"/>
+
+				<CheckBox x:Name="checkBoxShowStatusBar" Content="Show Status Bar" Click="CheckBoxShowStatusBar_Click"/>
+				<CheckBox x:Name="checkBoxShowHorScrollBar" Content="Show Hor ScrollBar" Click="CheckBoxShowHorScrollBar_Click"/>
+				<CheckBox x:Name="checkBoxShowVertScrollBar" Content="Show Vert ScrollBar" Click="CheckBoxShowVertScrollBar_Click"/>
+
+				<CheckBox x:Name="checkBoxShowPageFirst" Content="Show Page First" Click="CheckBoxShowPageFirst_Click"/>
+				<CheckBox x:Name="checkBoxShowPagePrevious" Content="Show Page Previous" Click="CheckBoxShowPagePrevious_Click"/>
+				<CheckBox x:Name="checkBoxShowPageGoTo" Content="Show Page GoTo" Click="CheckBoxShowPageGoTo_Click"/>
+				<CheckBox x:Name="checkBoxShowPageNext" Content="Show Page Next" Click="CheckBoxShowPageNext_Click"/>
+				<CheckBox x:Name="checkBoxShowPageLast" Content="Show Page Last" Click="CheckBoxShowPageLast_Click"/>
+			</StackPanel>
+		</ScrollViewer>
+		
+		<viewer:StiViewerControl x:Name="viewerControl" Grid.Column="1"/>
+	</Grid>
+</Window>

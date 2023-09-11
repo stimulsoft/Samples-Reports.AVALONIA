@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Demo Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>Demo</Alias>
+        <Name>Demo</Name>
+        <PathData>D:\Stimulsoft\Stimulsoft.Reports\Reports\Demo.xml</PathData>
+        <PathSchema>D:\Stimulsoft\Stimulsoft.Reports\Reports\Demo.xsd</PathSchema>
+      </Demo>
+    </Databases>
+    <DataSources isList="true" count="9">
+      <Suppliers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>SupplierID,System.Int32</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Phone,System.String</value>
+          <value>HomePage,System.String</value>
+          <value>Fax,System.String</value>
+          <value>Country,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>City,System.String</value>
+          <value>Address,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>3d1acc96cc7e4b92b7b4fc92de3216be</Key>
+        <Name>Suppliers</Name>
+        <NameInSource>Demo.Suppliers</NameInSource>
+      </Suppliers>
+      <Shippers Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>ShipperID,System.Int32</value>
+          <value>Phone,System.String</value>
+          <value>CompanyName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>4ee8015197194f0f8af1111010a2b836</Key>
+        <Name>Shippers</Name>
+        <NameInSource>Demo.Shippers</NameInSource>
+      </Shippers>
+      <Products Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="7">
+          <value>UnitsInStock,System.Int16</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>SupplierID,System.Int32</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>ProductName,System.String</value>
+          <value>ProductID,System.Int32</value>
+          <value>CategoryID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>098d453bbbf04fb8935ed77485cac3c1</Key>
+        <Name>Products</Name>
+        <NameInSource>Demo.Products</NameInSource>
+      </Products>
+      <Orders Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>ShipVia,System.Int32</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipName,System.String</value>
+          <value>ShipCountry,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipAddress,System.String</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>OrderID,System.Int32</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>Freight,System.Decimal</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>CustomerID,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>4c08b3ac675d4994a7e88ea0b8079777</Key>
+        <Name>Orders</Name>
+        <NameInSource>Demo.Orders</NameInSource>
+      </Orders>
+      <Order_x0020_Details Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>UnitPrice,System.Decimal</value>
+          <value>Quantity,System.Int16</value>
+          <value>ProductID,System.Int32</value>
+          <value>OrderID,System.Int32</value>
+          <value>Discount,System.Single</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>d898c8aeea7e47db87e8617757a65483</Key>
+        <Name>Order Details</Name>
+        <NameInSource>Demo.Order Details</NameInSource>
+      </Order_x0020_Details>
+      <Employees Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="14">
+          <value>Title,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Notes,System.String</value>
+          <value>LastName,System.String</value>
+          <value>HomePhone,System.String</value>
+          <value>HireDate,System.DateTime</value>
+          <value>FirstName,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>Country,System.String</value>
+          <value>City,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>Address,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>e36f3e84d4b94ce3ba446a76410a03d3</Key>
+        <Name>Employees</Name>
+        <NameInSource>Demo.Employees</NameInSource>
+      </Employees>
+      <Customers Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+          <value>CustomerID,System.String</value>
+          <value>Country,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>City,System.String</value>
+          <value>Address,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>d709e37394a649f792a01fa1070ec545</Key>
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+      <Countries Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>Flag,System.Byte[]</value>
+          <value>CountryName,System.String</value>
+          <value>CountriesID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>a16abfddd0f14e4db48f0dc89fd5a11f</Key>
+        <Name>Countries</Name>
+        <NameInSource>Demo.Countries</NameInSource>
+      </Countries>
+      <Categories Ref="11" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="3">
+          <value>Description,System.String</value>
+          <value>CategoryName,System.String</value>
+          <value>CategoryID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>04ef65c5cabb410ca6a29f48f4bccdd1</Key>
+        <Name>Categories</Name>
+        <NameInSource>Demo.Categories</NameInSource>
+      </Categories>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <Employees Ref="12" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesEmployees</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Employees>
+      <Products Ref="13" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>ProductsOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </Products>
+      <Orders Ref="14" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>OrdersOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Orders>
+      <Customers Ref="15" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>CustomersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </Customers>
+      <Shippers Ref="16" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>ShippersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Shippers>
+      <Employees Ref="17" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Employees>
+      <Categories Ref="18" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>CategoriesProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="11" />
+      </Categories>
+      <Suppliers Ref="19" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>SuppliersProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Suppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>aa20d78d34a141619ddda99d645ffd57</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="20" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <Text1 Ref="21" type="Text" isKey="true">
+          <Border>None;[224:242:241];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,90,749,30</ClientRectangle>
+          <ComponentStyle>Header3</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Segoe UI,15.75,Bold,Point,False,204</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <Text>Units in stock &lt; 20 and country "Canada"</Text>
+          <TextBrush>[166:166:166]</TextBrush>
+          <Type>Expression</Type>
+        </Text1>
+        <ReportTitleBand2 Ref="22" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,60</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="23" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+              <Guid>471f67975cc4403bbad9600a07c19112</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="20" />
+              <Parent isRef="22" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="24" type="Text" isKey="true">
+              <Border>Bottom;[158:158:158];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+              <Guid>df175ce65de0420b9ee2fcc3812de0a4</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="20" />
+              <Parent isRef="22" />
+              <Text>{ReportName}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="25" type="Text" isKey="true">
+              <Border>None;[224:242:241];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,40,570,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>0c8943dd752c4d2c8a81ee04196027e7</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="20" />
+              <Parent isRef="22" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="26" type="Text" isKey="true">
+              <Border>None;[224:242:241];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>570,40,179,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>6105755d52b6453893860f7a6ce92a51</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,3,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="20" />
+              <Parent isRef="22" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>3227a79562554211b19617eca02a9848</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </ReportTitleBand2>
+        <CrossTab1 Ref="27" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,120,740,220</ClientRectangle>
+          <Components isList="true" count="8">
+            <CrossTab1_RowTotal1 Ref="28" type="CrossRowTotal" isKey="true">
+              <Border>All;[224:242:241];1;Solid;False;4;Black</Border>
+              <Brush>[194:194:194]</Brush>
+              <ClientRectangle>0,164,80,30</ClientRectangle>
+              <ComponentStyle>Footer3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,10,Bold,Point,False,204</Font>
+              <Guid>95dd39d9-88cf-44d3-83e4-c509462ccdc5</Guid>
+              <Margins>3,3,3,3</Margins>
+              <Name>CrossTab1_RowTotal1</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>Total</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+            </CrossTab1_RowTotal1>
+            <CrossTab1_ColTotal1 Ref="29" type="CrossColumnTotal" isKey="true">
+              <Border>All;[224:242:241];1;Solid;False;4;Black</Border>
+              <Brush>[194:194:194]</Brush>
+              <ClientRectangle>162,32,60,100</ClientRectangle>
+              <ComponentStyle>Footer3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,10,Bold,Point,False,204</Font>
+              <Guid>d3e983d0-70bc-4819-8fd3-39e2e7bbcd10</Guid>
+              <Margins>3,3,3,3</Margins>
+              <Name>CrossTab1_ColTotal1</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>Total</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+            </CrossTab1_ColTotal1>
+            <CrossTab1_Row1_Title Ref="30" type="CrossTitle" isKey="true">
+              <Border>Top, Left, Right;White;1;Solid;False;4;Black</Border>
+              <Brush>[255:179:135]</Brush>
+              <ClientRectangle>0,32,80,100</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <Guid>e148f5b1-469e-4142-928f-194f2b887e7a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>CrossTab1_Row1_Title</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>Country</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TypeOfComponent>Row:CrossTab1_Row1</TypeOfComponent>
+            </CrossTab1_Row1_Title>
+            <CrossTab1_LeftTitle Ref="31" type="CrossTitle" isKey="true">
+              <Border>Top, Left, Right;White;1;Solid;False;4;Black</Border>
+              <Brush>[255:179:135]</Brush>
+              <ClientRectangle>0,0,80,30</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <Guid>2167792b-8233-40d6-874e-bb22472a5078</Guid>
+              <Margins>3,3,3,3</Margins>
+              <Name>CrossTab1_LeftTitle</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>Products</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TypeOfComponent>LeftTitle</TypeOfComponent>
+            </CrossTab1_LeftTitle>
+            <CrossTab1_RightTitle Ref="32" type="CrossTitle" isKey="true">
+              <Border>Top, Left, Right;White;1;Solid;False;4;Black</Border>
+              <Brush>[255:179:135]</Brush>
+              <ClientRectangle>82,0,140,30</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <Guid>dfd4adf1-89b6-4bf3-b9db-7852b4feced5</Guid>
+              <Margins>3,3,3,3</Margins>
+              <Name>CrossTab1_RightTitle</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>Category Name</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TypeOfComponent>RightTitle</TypeOfComponent>
+            </CrossTab1_RightTitle>
+            <CrossTab1_Row1 Ref="33" type="CrossRow" isKey="true">
+              <Alias>Country</Alias>
+              <Border>All;White;1;Solid;False;4;Black</Border>
+              <Brush>[229:229:229]</Brush>
+              <ClientRectangle>0,134,80,30</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{Products.Suppliers.Country}</DisplayValue>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>f0dd6bd4-edc7-42a7-9cd2-1573f0384477</Guid>
+              <Margins>3,3,3,3</Margins>
+              <Name>CrossTab1_Row1</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>Country</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <TotalGuid>95dd39d9-88cf-44d3-83e4-c509462ccdc5</TotalGuid>
+              <Value>{Products.Suppliers.Country}</Value>
+            </CrossTab1_Row1>
+            <CrossTab1_Column1 Ref="34" type="CrossColumn" isKey="true">
+              <Alias>CategoryName</Alias>
+              <Border>All;White;1;Solid;False;4;Black</Border>
+              <Brush>[229:229:229]</Brush>
+              <ClientRectangle>82,32,80,100</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <DisplayValue>{Products.Categories.CategoryName}</DisplayValue>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>39b86a0e-b5e7-46ef-9291-e6f976199d03</Guid>
+              <Margins>3,3,3,3</Margins>
+              <MinSize>60,0</MinSize>
+              <Name>CrossTab1_Column1</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Text>CategoryName</Text>
+              <TextBrush>[74:74:74]</TextBrush>
+              <TextOptions>,,,,,Angle=90</TextOptions>
+              <TotalGuid>d3e983d0-70bc-4819-8fd3-39e2e7bbcd10</TotalGuid>
+              <Value>{Products.Categories.CategoryName}</Value>
+            </CrossTab1_Column1>
+            <CrossTab1_Sum1 Ref="35" type="CrossSummary" isKey="true">
+              <Alias>UnitsInStock</Alias>
+              <Border>All;[235:235:235];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>82,134,80,30</ClientRectangle>
+              <ComponentStyle>Footer2</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_tag_x0020__x003D__x003D__x0020__x0022_Canada_x0022__x0026__x0026_value_x0020__x003C__x0020_20_x007D_,[220:83:86],Transparent,Arial_x002C_12_x002C_Bold_x002C_Point_x002C_False_x002C_204,True,False,,,None,FontStyleBold_x002C__x0020_TextColor</value>
+              </Conditions>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Bold,Point,False,0</Font>
+              <Guid>1a4c6d66-db9f-450c-bd97-823eb6044868</Guid>
+              <Margins>0,3,0,0</Margins>
+              <Name>CrossTab1_Sum1</Name>
+              <Page isRef="20" />
+              <Parent isRef="27" />
+              <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+              <Tag>{Products.Suppliers.Country}</Tag>
+              <Text>0</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextFormat Ref="36" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Value>{Products.UnitsInStock}</Value>
+            </CrossTab1_Sum1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <CrossTabStyleIndex>-1</CrossTabStyleIndex>
+          <DataRelationName />
+          <DataSourceName>Products</DataSourceName>
+          <EmptyValue />
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <HorAlignment>Center</HorAlignment>
+          <Name>CrossTab1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <Sort isList="true" count="0" />
+        </CrossTab1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>00af4a12a7dd43e89e0169ab0318f4fd</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Cross-Tab with Highlight Condition</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>8/10/2023 5:00:59 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>The sample demonstrates how to create a report using the Cross-Tab component with highlight condition.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Reports\17. Cross-Tabs in Reports\05. Cross-Tab with Highlight Condition 2.mrt</ReportFile>
+  <ReportGuid>2cd017260ac64e4fa07237de2fd50f7e</ReportGuid>
+  <ReportImage>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
+lE4AAAAASUVORK5CYII=</ReportImage>
+  <ReportName>Cross-Tab with Highlight Condition</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2023.3.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Cross_Tab_with_Highlight_Condition : Stimulsoft.Report.StiReport
+    {
+        
+        public Cross_Tab_with_Highlight_Condition()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Header1 Ref="37" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[158:158:158];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top, Left, Right;White;1;Solid;False;4;Black</Border>
+      <Brush>[255:179:135]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,12,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Header3 Ref="39" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[224:242:241];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,15.75,Bold,Point,False,204</Font>
+      <Name>Header3</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[166:166:166]</TextBrush>
+    </Header3>
+    <Data1 Ref="40" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;White;1;Solid;False;4;Black</Border>
+      <Brush>[229:229:229]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[74:74:74]</TextBrush>
+    </Data1>
+    <Footer1 Ref="41" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[224:242:241];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[158:158:158]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+    <Footer2 Ref="42" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>All;[235:235:235];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Bold,Point,False,0</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer2>
+    <Footer3 Ref="43" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[224:242:241];1;Solid;False;4;Black</Border>
+      <Brush>[194:194:194]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,10,Bold,Point,False,204</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer3</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer3>
+  </Styles>
+</StiSerializer>
