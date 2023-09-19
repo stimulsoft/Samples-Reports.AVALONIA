@@ -6,6 +6,7 @@
 		xmlns:app1="using:Demo"
         x:Class="Demo.MainWindow"
 		WindowStartupLocation="CenterScreen"
+		Icon="/Assets/avalonia-logo.ico"
         Title="Demo"
 		WindowState="Maximized">
 	

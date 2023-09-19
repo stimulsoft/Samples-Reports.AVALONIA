@@ -32,7 +32,6 @@ namespace Demo
             StiAvaloniaTheme.ApplyNewTheme(StiAvaloniaAppThemeAppearance.Light);
 
             this.Opened += This_Opened;
-            this.Icon = new WindowIcon(StiAppIcons.GetIconStream());
         }
 
         #region Handlers.This

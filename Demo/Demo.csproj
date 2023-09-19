@@ -11,6 +11,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove=".gitignore" />
+    <None Remove="Assets\avalonia-logo.ico" />
     <None Remove="Localization\en.xml" />
     <None Remove="Localization\pl.xml" />
     <None Remove="Localization\ru.xml" />
@@ -266,6 +267,7 @@
     <None Remove="Reports\22_3dCharts\09_InternetBrowserMarketShareInEurope.mdc" />
   </ItemGroup>
   <ItemGroup>
+    <AvaloniaResource Include="Assets\avalonia-logo.ico" />
     <AvaloniaResource Include="Localization\en.xml" />
     <AvaloniaResource Include="Localization\pl.xml" />
     <AvaloniaResource Include="Localization\ru.xml" />
@@ -284,9 +286,6 @@
     <AvaloniaResource Include="Reports\03_BasicReports\06. RichText.mrt" />
     <AvaloniaResource Include="Reports\03_BasicReports\07. Watermark.mrt" />
     <AvaloniaResource Include="Reports\03_BasicReports\08. Bar-Codes.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\09. Html-Tags.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\10. Invoice.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\11. Indicators.mrt" />
     <AvaloniaResource Include="Reports\04_ReportsWithColumns\1. Multi-Column List.mrt" />
     <AvaloniaResource Include="Reports\04_ReportsWithColumns\2. Multi-Column Bands - Across then Down.mrt" />
     <AvaloniaResource Include="Reports\04_ReportsWithColumns\3. Multi-Column Bands - Down then Across.mrt" />
