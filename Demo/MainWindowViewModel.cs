@@ -252,13 +252,6 @@ public sealed class MainWindowViewModel
                     "09. Wallet.mrt",
                 }
             },
-            {
-                "Test",
-                new List<string>
-                {
-                    "01_MasterDetailReportWithTOC.mrt",
-                }
-            },
         };
         
         foreach (var key in reportsCache.Keys)
