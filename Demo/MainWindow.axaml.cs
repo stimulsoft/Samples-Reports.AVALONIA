@@ -4,12 +4,14 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Platform;
 using Avalonia.Styling;
+using Stimulsoft.Base.Json.Linq;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Viewer.Avalonia;
 using Stimulsoft.Report.Viewer.Avalonia.Theme;
 using Stimulsoft.Report.Viewer.Avalonia.Viewer;
 using System;
 using System.Diagnostics;
+using System.Linq;
 
 namespace Demo
 {

@@ -5,14 +5,26 @@ namespace Demo;
 
 public sealed class MainWindowViewModel
 {
+    #region class StiFolderInfo
+    internal class StiFolderInfo
+    {
+        public string Key { get; set; }
+
+        public string Name { get; set; }
+
+        public List<string> Reports { get; set; }
+    }
+    #endregion
+
     public MainWindowViewModel()
     {
-        
-        reportsCache = new Dictionary<string, List<string>>
+
+        reportsCache = new List<StiFolderInfo>
         {
-            {
-                "01_GetStartedWithReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "01_GetStartedWithReports",
+                Name = "Get Started with Reports",
+                Reports = new List<string>
                 {
                     "Blue Order.mrt",
                     "Invoice Green.mrt",
@@ -23,257 +35,274 @@ public sealed class MainWindowViewModel
                     "Switzerland Invoice.mrt",
                 }
             },
-            {
-                "03_BasicReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "02_BasicReports",
+                Name = "Basic Reports",
+                Reports = new List<string>
                 {
-                    "01. Simple List.mrt",
-                    "02. Two Simple Lists.mrt",
-                    "03. Highlight Condition.mrt",
-                    "04. Shapes.mrt",
-                    "05. Images.mrt",
-                    "06. RichText.mrt",
-                    "07. Watermark.mrt",
-                    "08. Bar-Codes.mrt",
-                    "09. Invoice.mrt",
-                    "10. Indicators.mrt",
+                    "Simple List.mrt",
+                    "Two Simple Lists.mrt",
+                    "Highlight Condition.mrt",
+                    "Shapes.mrt",
+                    "Images.mrt",
+                    "Watermark.mrt",
+                    "Bar-Codes.mrt",
+                    "Invoice.mrt",
+                    "Indicators.mrt",
                 }
             },
-            {
-                "04_ReportsWithColumns",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "03_ReportsWithColumns",
+                Name = "Reports with Columns",
+                Reports = new List<string>
                 {
-                    "1. Multi-Column List.mrt",
-                    "2. Multi-Column Bands - Across then Down.mrt",
-                    "3. Multi-Column Bands - Down then Across.mrt",
-                    "4. Labels.mrt",
-                    "5. GDP Growth 2000-2021.mrt",
+                    "Multi-Column List.mrt",
+                    "Multi-Column Bands - Across then Down.mrt",
+                    "Multi-Column Bands - Down then Across.mrt",
+                    "Labels.mrt",
+                    "GDP Growth 2000-2021.mrt",
                 }
             },
-            {
-                "05_MasterDetailReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "04_MasterDetailReports",
+                Name = "Master-Detail Reports",
+                Reports = new List<string>
                 {
-                    "1. Master-Detail.mrt",
-                    "2. Master-Detail-Subdetail.mrt",
-                    "3. Master-Detail with Columns.mrt",
-                    "4. Two Masters on One Detail.mrt",
-                    "5. Master-Detail with Zero Height.mrt",
-                    "6. Master-Detail on DataBand.mrt",
+                    "Master-Detail.mrt",
+                    "Master-Detail-Subdetail.mrt",
+                    "Master-Detail with Columns.mrt",
+                    "Two Masters on One Detail.mrt",
+                    "Master-Detail with Zero Height.mrt",
+                    "Master-Detail on DataBand.mrt",
                 }
             },
-            {
-                "06_ReportsWithGroups",
-                new List<string>
+             new StiFolderInfo(){
+                Key ="05_ReportsWithGroups",
+                Name ="Reports with Groups",
+                Reports = new List<string>
                 {
-                    "01. Simple Group.mrt",
-                    "02. Nested Groups.mrt",
-                    "03. Top Sales.mrt",
-                    "04. Master-Detail with Groups.mrt",
-                    "05. Multi-Column Group.mrt",
-                    "06. Groups with Ranges.mrt",
-                    "07. Simple Group with Columns.mrt",
-                    "08. All Group Footers at End.mrt",
-                    "09. Invoice with Groups.mrt",
-                    "10. Sales Invoice.mrt",
+                    "Simple Group.mrt",
+                    "Nested Groups.mrt",
+                    "Top Sales.mrt",
+                    "Master-Detail with Groups.mrt",
+                    "Multi-Column Group.mrt",
+                    "Groups with Ranges.mrt",
+                    "Simple Group with Columns.mrt",
+                    "All Group Footers at End.mrt",
+                    "Invoice with Groups.mrt",
+                    "Sales Invoice.mrt",
                 }
             },
-            {
-                "11_HierarchicalReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "06_HierarchicalReports",
+                Name = "Hierarchical Reports",
+                Reports = new List<string>
                 {
-                    "1. Tree.mrt",
-                    "2. Tree with Headers and Footers.mrt",
-                    "3. Tree with Totals.mrt",
-                    "4. Tree with Totals - All Levels.mrt",
-                    "5. Tree with Locked Components.mrt",
+                    "Tree.mrt",
+                    "Tree with Headers and Footers.mrt",
+                    "Tree with Totals.mrt",
+                    "Tree with Totals - All Levels.mrt",
+                    "Tree with Locked Components.mrt",
                 }
             },
-            {
-                "12_ParametersInReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "07_ParametersInReports",
+                Name = "Parameters in Reports",
+                Reports = new List<string>
                 {
-                    "1. Detailed Categories.mrt",
-                    "2. Detailed Orders.mrt",
-                    "3. Highlight Condition.mrt",
-                    "4. Selecting Country.mrt",
-                    "5. Invoice.mrt",
-                    "6. Dependent Parameter.mrt",
-                    "7. Two Dependent Parameters.mrt",
-                    "8. Product Units by Category.mrt",
+                    "Detailed Categories.mrt",
+                    "Detailed Orders.mrt",
+                    "Highlight Condition.mrt",
+                    "Selecting Country.mrt",
+                    "Invoice.mrt",
+                    "Dependent Parameter.mrt",
+                    "Two Dependent Parameters.mrt",
+                    "Product Units by Category.mrt",
                 }
             },
-            {
-                "13_InteractiveReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "08_InteractiveReports",
+                Name = "Interactive Reports",
+                Reports = new List<string>
                 {
-                    "01. List of Products.mrt",
-                    "02. Cross-Tab with Detailing.mrt",
-                    "03. Sorting.mrt",
-                    "04. Table with Sorting.mrt",
-                    "05. Group with Collapsing.mrt",
-                    "06. Group with Collapsing without Footer.mrt",
-                    "07. Cross-Tab with Collapsing.mrt",
-                    "08. Selection.mrt",
-                    "09. Multi-Selection.mrt",
-                    "10. Tree with Collapsing.mrt",
-                    "11. Master-Detail with Collapsing.mrt",
-                    "12. Editable.mrt",
-                    "13. Bookmarks and Hyperlinks.mrt",
-                    "14. Anchors.mrt",
-                    "15. Interactive Charts.mrt",
+                    "List of Products.mrt",
+                    "Cross-Tab with Detailing.mrt",
+                    "Sorting.mrt",
+                    "Table with Sorting.mrt",
+                    "Group with Collapsing.mrt",
+                    "Group with Collapsing without Footer.mrt",
+                    "Cross-Tab with Collapsing.mrt",
+                    "Selection.mrt",
+                    "Multi-Selection.mrt",
+                    "Tree with Collapsing.mrt",
+                    "Master-Detail with Collapsing.mrt",
+                    "Editable.mrt",
+                    "Bookmarks and Hyperlinks.mrt",
+                    "Anchors.mrt",
+                    "Interactive Charts.mrt",
                 }
             },
-            {
-                "14_ReportsWithTable",
-                new List<string>
+             new StiFolderInfo(){
+                Key = "09_ReportsWithTable",
+                Name = "Reports with Table",
+                Reports = new List<string>
                 {
-                    "1. Simple Table.mrt",
-                    "2. Master-Detail-Subdetail.mrt",
-                    "3. Simple Group.mrt",
-                    "4. Invoice with Groups.mrt",
-                    "5. Images.mrt",
-                    "6. Fixed Width of Columns.mrt",
+                    "Simple Table.mrt",
+                    "Master-Detail-Subdetail.mrt",
+                    "Simple Group.mrt",
+                    "Invoice with Groups.mrt",
+                    "Images.mrt",
+                    "Fixed Width of Columns.mrt",
                 }
             },
-            {
-                "15_ReportsWithCharts",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "10_ReportsWithCharts",
+                Name = "Reports with Charts",
+                Reports = new List<string>
                 {
-                    "01. Simple Chart.mrt",
-                    "02. Multiple Series.mrt",
-                    "03. Chart on Databand.mrt",
-                    "04. Charts with Negatives.mrt",
-                    "05. Global Growth.mrt",
-                    "06. Tasks by Date.mrt",
-                    "07. Stepped Chart.mrt",
-                    "08. Migration by Decade in USA.mrt",
-                    "09. Natural Gas Production.mrt",
-                    "10. Top Auto Sales.mrt",
-                    "11. Combined Charts.mrt",
-                    "12. Clustered Column.mrt",
-                    "13. Line.mrt",
-                    "14. Pie.mrt",
-                    "15. Doughnut.mrt",
-                    "16. Clustered Bar.mrt",
-                    "17. Gantt.mrt",
-                    "18. Area.mrt",
-                    "19. Range.mrt",
-                    "20. Scatter.mrt",
-                    "21. Bubble.mrt",
-                    "22. Funnel.mrt",
-                    "23. Financial.mrt",
-                    "24. Radar.mrt",
-                    "25. Treemap.mrt",
-                    "26. Sunburst.mrt",
-                    "27. Histogram.mrt",
-                    "28. Pareto.mrt",
-                    "29. Waterfall.mrt",
-                    "30. Pictorial.mrt",
+                    "Simple Chart.mrt",
+                    "Multiple Series.mrt",
+                    "Chart on Databand.mrt",
+                    "Charts with Negatives.mrt",
+                    "Global Growth.mrt",
+                    "Tasks by Date.mrt",
+                    "Stepped Chart.mrt",
+                    "Migration by Decade in USA.mrt",
+                    "Natural Gas Production.mrt",
+                    "Top Auto Sales.mrt",
+                    "Combined Charts.mrt",
+                    "Clustered Column.mrt",
+                    "Line.mrt",
+                    "Pie.mrt",
+                    "Doughnut.mrt",
+                    "Clustered Bar.mrt",
+                    "Gantt.mrt",
+                    "Area.mrt",
+                    "Range.mrt",
+                    "Scatter.mrt",
+                    "Bubble.mrt",
+                    "Funnel.mrt",
+                    "Financial.mrt",
+                    "Radar.mrt",
+                    "Treemap.mrt",
+                    "Sunburst.mrt",
+                    "Histogram.mrt",
+                    "Pareto.mrt",
+                    "Waterfall.mrt",
+                    "Pictorial.mrt",
                 }
             },
-            {
-                "16_ReportsWithGauges",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "11_ReportsWithGauges",
+                Name = "Reports with Gauges",
+                Reports = new List<string>
                 {
-                    "1. Linear.mrt",
-                    "2. Radial.mrt",
+                    "Linear.mrt",
+                    "Radial.mrt",
                 }
             },
-            {
-                "17_CrossTab",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "12_ReportsWithCrossTab",
+                Name = "Reports with Cross-Tab",
+                Reports = new List<string>
                 {
-                    "01. Standard Cross-Tab.mrt",
-                    "02. Cross-Tab without Columns.mrt",
-                    "03. Cross-Tab without Rows.mrt",
-                    "04. Cross-Tab with Highlight Condition 1.mrt",
-                    "05. Cross-Tab with Highlight Condition 2.mrt",
-                    "06. Cross-Tab with Two Summaries.mrt",
-                    "07. Two Cross-Tabs.mrt",
-                    "08. Wrapped Cross-Tabs.mrt",
-                    "09. Large Cross-Tab.mrt",
-                    "10. Cross-Tab on DataBand.mrt",
-                    "11. Cross-Tab and Cross-Bands.mrt",
-                    "12. Cross-Tab on Page.mrt",
-                    "13. Cross-Tab with Images.mrt",
+                    "Standard Cross-Tab.mrt",
+                    "Cross-Tab without Columns.mrt",
+                    "Cross-Tab without Rows.mrt",
+                    "Cross-Tab with Highlight Condition 1.mrt",
+                    "Cross-Tab with Highlight Condition 2.mrt",
+                    "Cross-Tab with Two Summaries.mrt",
+                    "Two Cross-Tabs.mrt",
+                    "Wrapped Cross-Tabs.mrt",
+                    "Large Cross-Tab.mrt",
+                    "Cross-Tab on DataBand.mrt",
+                    "Cross-Tab and Cross-Bands.mrt",
+                    "Cross-Tab on Page.mrt",
+                    "Cross-Tab with Images.mrt",
                 }
             },
-            {
-                "18_EmptyRowsInReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "13_EmptyRowsInReports",
+                Name = "Empty Rows in Reports",
+                Reports = new List<string>
                 {
-                    "1. Simple List.mrt",
-                    "2. Master-Detail.mrt",
-                    "3. Invoice.mrt"
+                    "Simple List.mrt",
+                    "Master-Detail.mrt",
+                    "Invoice.mrt"
                 }
             },
-            {
-                "19_UsingPanelsInReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "14_UsingPanelsInReports",
+                Name = "Using Panels in Reports",
+                Reports = new List<string>
                 {
-                    "1. Side-by-Side Lists.mrt",
-                    "2. Side-by-Side Groups.mrt",
-                    "3. Multi-Column List.mrt",
-                    "4. Multi-Panels.mrt",
-                    "5. Master-Detail Cards.mrt",
+                    "Side-by-Side Lists.mrt",
+                    "Side-by-Side Groups.mrt",
+                    "Multi-Column List.mrt",
+                    "Multi-Panels.mrt",
+                    "Master-Detail Cards.mrt",
                 }
             },
-            {
-                "20_SubReports",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "15_ReportsWithSubReports",
+                Name = "Reports with Sub-Report",
+                Reports = new List<string>
                 {
-                    "1. Side-by-Side Lists.mrt",
-                    "2. Side-by-Side Lists on DataBand.mrt",
-                    "3. Side-by-Side Groups.mrt",
-                    "4. Master-Detail.mrt",
+                    "Side-by-Side Lists.mrt",
+                    "Side-by-Side Lists on DataBand.mrt",
+                    "Side-by-Side Groups.mrt",
+                    "Master-Detail.mrt",
                 }
             },
-            {
-                "21_Maps",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "16_ReportsWithMap",
+                Name = "Reports with Map",
+                Reports = new List<string>
                 {
-                    "01. map.mrt",
-                    "Maps 1.mrt",
+                    "Individual Map.mrt",
+                    "Map with Group.mrt",
+                    "Heatmap.mrt",
+                    "Heatmap with Group.mrt",
                 }
             },
-            {
-                "22_3dCharts",
-                new List<string>
+            new StiFolderInfo(){
+                Key = "17_3dChartsInReports",
+                Name = "3D Charts in Reports",
+                Reports = new List<string>
                 {
-                    "01. 3D Pie Chart.mrt",
-                    "02. Hulu Revenue Statistics.mrt",
-                    "03. Income from Hobby Trading.mrt",
-                    "04. Internet browser market share in Europe.mrt",
-                    "05. Lab Test Turnaround.mrt",
-                    "06. Microsoft's revenue worldwide.mrt",
-                    "07. Statistic Disney.mrt",
-                    "08. The chemical composition of the Earth.mrt",
-                    "09. Wallet.mrt",
+                    "3D Pie Chart.mrt",
+                    "Hulu Revenue Statistics.mrt",
+                    "Income from Hobby Trading.mrt",
+                    "Internet browser market share in Europe.mrt",
+                    "Lab Test Turnaround.mrt",
+                    "Microsoft's revenue worldwide.mrt",
+                    "Statistic Disney.mrt",
+                    "The chemical composition of the Earth.mrt",
+                    "Wallet.mrt",
                 }
             },
         };
-        
-        foreach (var key in reportsCache.Keys)
+
+        foreach (var info in reportsCache)
         {
-            var folderNode = new Node(key)
+            var folderNode = new Node(info.Name)
             {
-                Nodes = new ()
+                Nodes = new()
             };
 
-            var values = reportsCache[key];
-            foreach (var value in values)
+            foreach (var report in info.Reports)
             {
-                var nodeReport = new Node(key, value);
+                var nodeReport = new Node(info.Key, report);
                 folderNode.Nodes.Add(nodeReport);
             }
-            
+
             ReportItems.Add(folderNode);
         }
     }
-    
+
     #region Fields
-    private Dictionary<string, List<string>> reportsCache = new Dictionary<string, List<string>>();
+    //private Dictionary<string, List<string>> reportsCache = new Dictionary<string, List<string>>();
+    private List<StiFolderInfo> reportsCache = new List<StiFolderInfo>();
     #endregion
 
     #region Properties
@@ -295,7 +324,7 @@ public sealed class MainWindowViewModel
         {
             Text = text;
         }
-        
+
         public Node(string folder, string text)
         {
             Folder = folder;

@@ -1,13 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-	<SignAssembly>True</SignAssembly>
-	<AssemblyOriginatorKeyFile>Stimulsoft.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Stimulsoft.snk</AssemblyOriginatorKeyFile>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-	  <AvaloniaNameGeneratorIsEnabled>false</AvaloniaNameGeneratorIsEnabled>
+    <AvaloniaNameGeneratorIsEnabled>false</AvaloniaNameGeneratorIsEnabled>
   </PropertyGroup>
   <ItemGroup>
     <None Remove=".gitignore" />
@@ -15,410 +15,23 @@
     <None Remove="Localization\en.xml" />
     <None Remove="Localization\pl.xml" />
     <None Remove="Localization\ru.xml" />
-    <None Remove="Reports\01_GetStartedWithReports\01_BlueOrder.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\02_InvoiceGreen.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\03_InvoiceQuotation.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\04_InvoiceSoftware.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\05_PurchaseOrder.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\06_RevenueExpenses.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\07_SwitzerlandInvoice.mdc" />
-    <None Remove="Reports\01_GetStartedWithReports\Blue Order.mrt" />
-    <None Remove="Reports\01_GetStartedWithReports\Invoice Green.mrt" />
-    <None Remove="Reports\01_GetStartedWithReports\Invoice Quotation.mrt" />
-    <None Remove="Reports\01_GetStartedWithReports\Invoice Software.mrt" />
-    <None Remove="Reports\01_GetStartedWithReports\Purchase Order.mrt" />
-    <None Remove="Reports\01_GetStartedWithReports\Revenue - Expenses.mrt" />
-    <None Remove="Reports\01_GetStartedWithReports\Switzerland Invoice.mrt" />
-    <None Remove="Reports\03_BasicReports\01. Simple List.mrt" />
-    <None Remove="Reports\03_BasicReports\02. Two Simple Lists.mrt" />
-    <None Remove="Reports\03_BasicReports\03. Highlight Condition.mrt" />
-    <None Remove="Reports\03_BasicReports\04. Shapes.mrt" />
-    <None Remove="Reports\03_BasicReports\05. Images.mrt" />
-    <None Remove="Reports\03_BasicReports\06. RichText.mrt" />
-    <None Remove="Reports\03_BasicReports\07. Watermark.mrt" />
-    <None Remove="Reports\03_BasicReports\08. Bar-Codes.mrt" />
-    <None Remove="Reports\03_BasicReports\09. Html-Tags.mrt" />
-    <None Remove="Reports\03_BasicReports\10. Invoice.mrt" />
-    <None Remove="Reports\03_BasicReports\11. Indicators.mrt" />
-    <None Remove="Reports\04_ReportsWithColumns\1. Multi-Column List.mrt" />
-    <None Remove="Reports\04_ReportsWithColumns\2. Multi-Column Bands - Across then Down.mrt" />
-    <None Remove="Reports\04_ReportsWithColumns\3. Multi-Column Bands - Down then Across.mrt" />
-    <None Remove="Reports\04_ReportsWithColumns\4. Labels.mrt" />
-    <None Remove="Reports\04_ReportsWithColumns\5. GDP Growth 2000-2021.mrt" />
-    <None Remove="Reports\05_MasterDetailReports\1. Master-Detail.mrt" />
-    <None Remove="Reports\05_MasterDetailReports\2. Master-Detail-Subdetail.mrt" />
-    <None Remove="Reports\05_MasterDetailReports\3. Master-Detail with Columns.mrt" />
-    <None Remove="Reports\05_MasterDetailReports\4. Two Masters on One Detail.mrt" />
-    <None Remove="Reports\05_MasterDetailReports\5. Master-Detail with Zero Height.mrt" />
-    <None Remove="Reports\05_MasterDetailReports\6. Master-Detail on DataBand.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\01. Simple Group.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\02. Nested Groups.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\03. Top Sales.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\04. Master-Detail with Groups.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\05. Multi-Column Group.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\06. Groups with Ranges.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\07. Simple Group with Columns.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\08. All Group Footers at End.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\09. Invoice with Groups.mrt" />
-    <None Remove="Reports\06_ReportsWithGroups\10. Sales Invoice.mrt" />
-    <None Remove="Reports\11_HierarchicalReports\1. Tree.mrt" />
-    <None Remove="Reports\11_HierarchicalReports\1_Tree.mdc" />
-    <None Remove="Reports\11_HierarchicalReports\2. Tree with Headers and Footers.mrt" />
-    <None Remove="Reports\11_HierarchicalReports\2_TreeWithHeadersAndFooters.mdc" />
-    <None Remove="Reports\11_HierarchicalReports\3. Tree with Totals.mrt" />
-    <None Remove="Reports\11_HierarchicalReports\3_TreeWithTotals.mdc" />
-    <None Remove="Reports\11_HierarchicalReports\4. Tree with Totals - All Levels.mrt" />
-    <None Remove="Reports\11_HierarchicalReports\4_TreeWithTotalsAllLevels.mdc" />
-    <None Remove="Reports\11_HierarchicalReports\5. Tree with Locked Components.mrt" />
-    <None Remove="Reports\11_HierarchicalReports\5_TreeWithLockedComponents.mdc" />
-    <None Remove="Reports\12_ParametersInReports\1. Detailed Categories.mrt" />
-    <None Remove="Reports\12_ParametersInReports\1_DetailedCategories.mrt" />
-    <None Remove="Reports\12_ParametersInReports\2. Detailed Orders.mrt" />
-    <None Remove="Reports\12_ParametersInReports\2_DetailedOrders.mrt" />
-    <None Remove="Reports\12_ParametersInReports\3. Highlight Condition.mrt" />
-    <None Remove="Reports\12_ParametersInReports\3_HighlightCondition.mrt" />
-    <None Remove="Reports\12_ParametersInReports\4. Selecting Country.mrt" />
-    <None Remove="Reports\12_ParametersInReports\4_SelectingCountry.mrt" />
-    <None Remove="Reports\12_ParametersInReports\5. Invoice.mrt" />
-    <None Remove="Reports\12_ParametersInReports\5_Invoice.mrt" />
-    <None Remove="Reports\12_ParametersInReports\6. Dependent Parameter.mrt" />
-    <None Remove="Reports\12_ParametersInReports\6_DependentParameter.mrt" />
-    <None Remove="Reports\12_ParametersInReports\7. Two Dependent Parameters.mrt" />
-    <None Remove="Reports\12_ParametersInReports\7_TwoDependentParameters.mrt" />
-    <None Remove="Reports\12_ParametersInReports\8. Product Units by Category.mrt" />
-    <None Remove="Reports\12_ParametersInReports\8_ProductUnitsbyCategory.mrt" />
-    <None Remove="Reports\13_InteractiveReports\01. List of Products.mrt" />
-    <None Remove="Reports\13_InteractiveReports\01_ListOfProducts.mrt" />
-    <None Remove="Reports\13_InteractiveReports\02. Cross-Tab with Detailing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\02_CrossTabWithDetailing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\03. Sorting.mrt" />
-    <None Remove="Reports\13_InteractiveReports\03_Sorting.mrt" />
-    <None Remove="Reports\13_InteractiveReports\04. Table with Sorting.mrt" />
-    <None Remove="Reports\13_InteractiveReports\04_TableWithSorting.mrt" />
-    <None Remove="Reports\13_InteractiveReports\05. Group with Collapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\05_GroupWithCollapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\06. Group with Collapsing without Footer.mrt" />
-    <None Remove="Reports\13_InteractiveReports\06_GroupWithCollapsingWithoutFooter.mrt" />
-    <None Remove="Reports\13_InteractiveReports\07. Cross-Tab with Collapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\07_CrossTabWithCollapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\08. Selection.mrt" />
-    <None Remove="Reports\13_InteractiveReports\08_Selection.mrt" />
-    <None Remove="Reports\13_InteractiveReports\09. Multi-Selection.mrt" />
-    <None Remove="Reports\13_InteractiveReports\09_MultiSelection.mrt" />
-    <None Remove="Reports\13_InteractiveReports\10. Tree with Collapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\10_TreeWithCollapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\11. Master-Detail with Collapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\11_MasterDetailWithCollapsing.mrt" />
-    <None Remove="Reports\13_InteractiveReports\12. Editable.mrt" />
-    <None Remove="Reports\13_InteractiveReports\12_Editable.mrt" />
-    <None Remove="Reports\13_InteractiveReports\13. Bookmarks and Hyperlinks.mrt" />
-    <None Remove="Reports\13_InteractiveReports\13_BookmarksAndHyperlinks.mrt" />
-    <None Remove="Reports\13_InteractiveReports\14. Anchors.mrt" />
-    <None Remove="Reports\13_InteractiveReports\14_Anchors.mrt" />
-    <None Remove="Reports\13_InteractiveReports\15_InteractiveCharts.mrt" />
-    <None Remove="Reports\13_InteractiveReports\Report.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\1. Simple Table.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\1_SimpleTable.mdc" />
-    <None Remove="Reports\14_ReportsWithTable\2. Master-Detail-Subdetail.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\2_MasterDetailSubdetail.mdc" />
-    <None Remove="Reports\14_ReportsWithTable\3. Simple Group.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\3_SimpleGroup.mdc" />
-    <None Remove="Reports\14_ReportsWithTable\4. Invoice with Groups.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\4_InvoiceWithGroups.mdc" />
-    <None Remove="Reports\14_ReportsWithTable\5. Images.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\5_Images.mdc" />
-    <None Remove="Reports\14_ReportsWithTable\6. Fixed Width of Columns.mrt" />
-    <None Remove="Reports\14_ReportsWithTable\6_FixedWidthOfColumns.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\01. Simple Chart.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\01_SimpleChart.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\02. Multiple Series.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\02_MultipleSeries.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\03. Chart on Databand.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\03_ChartOnDataband.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\04. Charts with Negatives.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\04_ChartsWithNegatives.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\05. Global Growth.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\05_GlobalGrowth.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\06. Tasks by Date.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\06_TasksByDate.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\07. Stepped Chart.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\07_SteppedChart.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\08. Migration by Decade in USA.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\08_MigrationByDecadeInUSA.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\09. Natural Gas Production.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\09_NaturalGasProduction.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\10. Top Auto Sales.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\10_TopAutoSales.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\11. Combined Charts.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\11_CombinedCharts.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\12. Clustered Column.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\12_ClusteredColumn.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\13. Line.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\13_Line.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\14. Pie.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\14_Pie.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\15. Doughnut.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\15_Doughnut.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\16. Clustered Bar.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\16_ClusteredBar.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\17. Gantt.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\17_Gantt.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\18. Area.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\18_Area.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\19. Range.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\19_Range.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\20. Scatter.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\20_Scatter.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\21. Bubble.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\21_Bubble.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\22. Funnel.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\22_Funnel.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\23. Financial.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\23_Financial.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\24. Radar.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\24_Radar.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\25. Treemap.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\25_Treemap.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\26. Sunburst.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\26_Sunburst.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\27. Histogram.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\27_Histogram.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\28. Pareto.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\28_Pareto.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\29. Waterfall.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\29_Waterfall.mdc" />
-    <None Remove="Reports\15_ReportsWithCharts\30. Pictorial.mrt" />
-    <None Remove="Reports\15_ReportsWithCharts\30_Pictorial.mdc" />
-    <None Remove="Reports\16_ReportsWithGauges\1. Linear.mrt" />
-    <None Remove="Reports\16_ReportsWithGauges\1_Linear.mdc" />
-    <None Remove="Reports\16_ReportsWithGauges\2. Radial.mrt" />
-    <None Remove="Reports\16_ReportsWithGauges\2_Radial.mdc" />
-    <None Remove="Reports\17_CrossTab\01. Standard Cross-Tab.mrt" />
-    <None Remove="Reports\17_CrossTab\01_StandardCrossTab.mdc" />
-    <None Remove="Reports\17_CrossTab\02. Cross-Tab without Columns.mrt" />
-    <None Remove="Reports\17_CrossTab\02_CrossTabWithoutColumns.mdc" />
-    <None Remove="Reports\17_CrossTab\03. Cross-Tab without Rows.mrt" />
-    <None Remove="Reports\17_CrossTab\03_CrossTabWithoutRows.mdc" />
-    <None Remove="Reports\17_CrossTab\04. Cross-Tab with Highlight Condition 1.mrt" />
-    <None Remove="Reports\17_CrossTab\04_CrossTabWithHighlightCondition1.mdc" />
-    <None Remove="Reports\17_CrossTab\05. Cross-Tab with Highlight Condition 2.mrt" />
-    <None Remove="Reports\17_CrossTab\05_CrossTabWithHighlightCondition2.mdc" />
-    <None Remove="Reports\17_CrossTab\06. Cross-Tab with Two Summaries.mrt" />
-    <None Remove="Reports\17_CrossTab\06_CrossTabWithTwoSummaries.mdc" />
-    <None Remove="Reports\17_CrossTab\07. Two Cross-Tabs.mrt" />
-    <None Remove="Reports\17_CrossTab\07_TwoCrossTabs.mdc" />
-    <None Remove="Reports\17_CrossTab\08. Wrapped Cross-Tabs.mrt" />
-    <None Remove="Reports\17_CrossTab\08_WrappedCrossTabs.mdc" />
-    <None Remove="Reports\17_CrossTab\09. Large Cross-Tab.mrt" />
-    <None Remove="Reports\17_CrossTab\09_LargeCrossTab.mdc" />
-    <None Remove="Reports\17_CrossTab\10. Cross-Tab on DataBand.mrt" />
-    <None Remove="Reports\17_CrossTab\10_CrossTabOnDataBand.mdc" />
-    <None Remove="Reports\17_CrossTab\11. Cross-Tab and Cross-Bands.mrt" />
-    <None Remove="Reports\17_CrossTab\11_CrossTabAndCrossBands.mdc" />
-    <None Remove="Reports\17_CrossTab\12. Cross-Tab on Page.mrt" />
-    <None Remove="Reports\17_CrossTab\12_CrossTabOnPage.mdc" />
-    <None Remove="Reports\17_CrossTab\13. Cross-Tab with Images.mrt" />
-    <None Remove="Reports\17_CrossTab\13_CrossTabWithImages.mdc" />
-    <None Remove="Reports\18_EmptyRowsInReports\1. Simple List.mrt" />
-    <None Remove="Reports\18_EmptyRowsInReports\1_SimpleList.mdc" />
-    <None Remove="Reports\18_EmptyRowsInReports\2. Master-Detail.mrt" />
-    <None Remove="Reports\18_EmptyRowsInReports\2_MasterDetail.mdc" />
-    <None Remove="Reports\18_EmptyRowsInReports\3. Invoice.mrt" />
-    <None Remove="Reports\18_EmptyRowsInReports\3_Invoice.mdc" />
-    <None Remove="Reports\19_UsingPanelsInReports\1. Side-by-Side Lists.mrt" />
-    <None Remove="Reports\19_UsingPanelsInReports\1_SideBySideLists.mdc" />
-    <None Remove="Reports\19_UsingPanelsInReports\2. Side-by-Side Groups.mrt" />
-    <None Remove="Reports\19_UsingPanelsInReports\2_SideBySideGroups.mdc" />
-    <None Remove="Reports\19_UsingPanelsInReports\3. Multi-Column List.mrt" />
-    <None Remove="Reports\19_UsingPanelsInReports\3_MultiColumnList.mdc" />
-    <None Remove="Reports\19_UsingPanelsInReports\4. Multi-Panels.mrt" />
-    <None Remove="Reports\19_UsingPanelsInReports\4_MultiPanels.mdc" />
-    <None Remove="Reports\19_UsingPanelsInReports\5. Master-Detail Cards.mrt" />
-    <None Remove="Reports\19_UsingPanelsInReports\5_MasterDetailCards.mdc" />
-    <None Remove="Reports\20_SubReports\1. Side-by-Side Lists.mrt" />
-    <None Remove="Reports\20_SubReports\1_SideBySideLists.mdc" />
-    <None Remove="Reports\20_SubReports\2. Side-by-Side Lists on DataBand.mrt" />
-    <None Remove="Reports\20_SubReports\2_SideBySideListsOnDataBand.mdc" />
-    <None Remove="Reports\20_SubReports\3. Side-by-Side Groups.mrt" />
-    <None Remove="Reports\20_SubReports\3_SideBySideGroups.mdc" />
-    <None Remove="Reports\20_SubReports\4. Master-Detail.mrt" />
-    <None Remove="Reports\20_SubReports\4_MasterDetail.mdc" />
-    <None Remove="Reports\21_Maps\01. map.mrt" />
-    <None Remove="Reports\21_Maps\01_map.mdc" />
-    <None Remove="Reports\21_Maps\Maps 1.mrt" />
-    <None Remove="Reports\22_3dCharts\01. 3D Pie Chart.mrt" />
-    <None Remove="Reports\22_3dCharts\01_Wallet.mdc" />
-    <None Remove="Reports\22_3dCharts\02. Hulu Revenue Statistics.mrt" />
-    <None Remove="Reports\22_3dCharts\02_3DPieChart.mdc" />
-    <None Remove="Reports\22_3dCharts\03. Income from Hobby Trading.mrt" />
-    <None Remove="Reports\22_3dCharts\03_HuluRevenueStatistics.mdc" />
-    <None Remove="Reports\22_3dCharts\04. Internet browser market share in Europe.mrt" />
-    <None Remove="Reports\22_3dCharts\04_StatisticDisney.mdc" />
-    <None Remove="Reports\22_3dCharts\05. Lab Test Turnaround.mrt" />
-    <None Remove="Reports\22_3dCharts\05_MicrosoftsRevenueWorldwide.mdc" />
-    <None Remove="Reports\22_3dCharts\06. Microsoft%27s revenue worldwide.mrt" />
-    <None Remove="Reports\22_3dCharts\06_LabTestTurnaround.mdc" />
-    <None Remove="Reports\22_3dCharts\07. Statistic Disney.mrt" />
-    <None Remove="Reports\22_3dCharts\07_IncomeFromHobbyTrading.mdc" />
-    <None Remove="Reports\22_3dCharts\08. Statistics of game sales in different segments.mrt" />
-    <None Remove="Reports\22_3dCharts\08. The chemical composition of the Earth.mrt" />
-    <None Remove="Reports\22_3dCharts\08_TheChemicalCompositionOfTheEarth.mdc" />
-    <None Remove="Reports\22_3dCharts\09. Wallet.mrt" />
-    <None Remove="Reports\22_3dCharts\09_InternetBrowserMarketShareInEurope.mdc" />
+    <None Remove="Reports\**\**" />
+    
   </ItemGroup>
   <ItemGroup>
     <AvaloniaResource Include="Assets\avalonia-logo.ico" />
     <AvaloniaResource Include="Localization\en.xml" />
     <AvaloniaResource Include="Localization\pl.xml" />
     <AvaloniaResource Include="Localization\ru.xml" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Blue Order.mrt" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Invoice Green.mrt" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Invoice Quotation.mrt" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Invoice Software.mrt" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Purchase Order.mrt" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Revenue - Expenses.mrt" />
-    <AvaloniaResource Include="Reports\01_GetStartedWithReports\Switzerland Invoice.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\01. Simple List.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\02. Two Simple Lists.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\03. Highlight Condition.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\04. Shapes.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\05. Images.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\06. RichText.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\07. Watermark.mrt" />
-    <AvaloniaResource Include="Reports\03_BasicReports\08. Bar-Codes.mrt" />
-    <AvaloniaResource Include="Reports\04_ReportsWithColumns\1. Multi-Column List.mrt" />
-    <AvaloniaResource Include="Reports\04_ReportsWithColumns\2. Multi-Column Bands - Across then Down.mrt" />
-    <AvaloniaResource Include="Reports\04_ReportsWithColumns\3. Multi-Column Bands - Down then Across.mrt" />
-    <AvaloniaResource Include="Reports\04_ReportsWithColumns\4. Labels.mrt" />
-    <AvaloniaResource Include="Reports\04_ReportsWithColumns\5. GDP Growth 2000-2021.mrt" />
-    <AvaloniaResource Include="Reports\05_MasterDetailReports\1. Master-Detail.mrt" />
-    <AvaloniaResource Include="Reports\05_MasterDetailReports\2. Master-Detail-Subdetail.mrt" />
-    <AvaloniaResource Include="Reports\05_MasterDetailReports\3. Master-Detail with Columns.mrt" />
-    <AvaloniaResource Include="Reports\05_MasterDetailReports\4. Two Masters on One Detail.mrt" />
-    <AvaloniaResource Include="Reports\05_MasterDetailReports\5. Master-Detail with Zero Height.mrt" />
-    <AvaloniaResource Include="Reports\05_MasterDetailReports\6. Master-Detail on DataBand.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\01. Simple Group.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\02. Nested Groups.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\03. Top Sales.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\04. Master-Detail with Groups.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\05. Multi-Column Group.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\06. Groups with Ranges.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\07. Simple Group with Columns.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\08. All Group Footers at End.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\09. Invoice with Groups.mrt" />
-    <AvaloniaResource Include="Reports\06_ReportsWithGroups\10. Sales Invoice.mrt" />
-    <AvaloniaResource Include="Reports\11_HierarchicalReports\1. Tree.mrt" />
-    <AvaloniaResource Include="Reports\11_HierarchicalReports\2. Tree with Headers and Footers.mrt" />
-    <AvaloniaResource Include="Reports\11_HierarchicalReports\3. Tree with Totals.mrt" />
-    <AvaloniaResource Include="Reports\11_HierarchicalReports\4. Tree with Totals - All Levels.mrt" />
-    <AvaloniaResource Include="Reports\11_HierarchicalReports\5. Tree with Locked Components.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\1. Detailed Categories.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\2. Detailed Orders.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\3. Highlight Condition.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\4. Selecting Country.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\5. Invoice.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\6. Dependent Parameter.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\7. Two Dependent Parameters.mrt" />
-    <AvaloniaResource Include="Reports\12_ParametersInReports\8. Product Units by Category.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\01. List of Products.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\02. Cross-Tab with Detailing.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\03. Sorting.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\04. Table with Sorting.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\05. Group with Collapsing.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\06. Group with Collapsing without Footer.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\07. Cross-Tab with Collapsing.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\08. Selection.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\09. Multi-Selection.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\10. Tree with Collapsing.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\11. Master-Detail with Collapsing.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\12. Editable.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\13. Bookmarks and Hyperlinks.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\14. Anchors.mrt" />
-    <AvaloniaResource Include="Reports\13_InteractiveReports\15. Interactive Charts.mrt" />
-    <AvaloniaResource Include="Reports\14_ReportsWithTable\1. Simple Table.mrt" />
-    <AvaloniaResource Include="Reports\14_ReportsWithTable\2. Master-Detail-Subdetail.mrt" />
-    <AvaloniaResource Include="Reports\14_ReportsWithTable\3. Simple Group.mrt" />
-    <AvaloniaResource Include="Reports\14_ReportsWithTable\4. Invoice with Groups.mrt" />
-    <AvaloniaResource Include="Reports\14_ReportsWithTable\5. Images.mrt" />
-    <AvaloniaResource Include="Reports\14_ReportsWithTable\6. Fixed Width of Columns.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\01. Simple Chart.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\02. Multiple Series.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\03. Chart on Databand.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\04. Charts with Negatives.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\05. Global Growth.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\06. Tasks by Date.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\07. Stepped Chart.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\08. Migration by Decade in USA.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\09. Natural Gas Production.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\10. Top Auto Sales.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\11. Combined Charts.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\12. Clustered Column.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\13. Line.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\14. Pie.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\15. Doughnut.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\16. Clustered Bar.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\17. Gantt.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\18. Area.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\19. Range.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\20. Scatter.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\21. Bubble.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\22. Funnel.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\23. Financial.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\24. Radar.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\25. Treemap.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\26. Sunburst.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\27. Histogram.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\28. Pareto.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\29. Waterfall.mrt" />
-    <AvaloniaResource Include="Reports\15_ReportsWithCharts\30. Pictorial.mrt" />
-    <AvaloniaResource Include="Reports\16_ReportsWithGauges\1. Linear.mrt" />
-    <AvaloniaResource Include="Reports\16_ReportsWithGauges\2. Radial.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\01. Standard Cross-Tab.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\02. Cross-Tab without Columns.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\03. Cross-Tab without Rows.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\04. Cross-Tab with Highlight Condition 1.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\05. Cross-Tab with Highlight Condition 2.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\06. Cross-Tab with Two Summaries.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\07. Two Cross-Tabs.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\08. Wrapped Cross-Tabs.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\09. Large Cross-Tab.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\10. Cross-Tab on DataBand.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\11. Cross-Tab and Cross-Bands.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\12. Cross-Tab on Page.mrt" />
-    <AvaloniaResource Include="Reports\17_CrossTab\13. Cross-Tab with Images.mrt" />
-    <AvaloniaResource Include="Reports\18_EmptyRowsInReports\1. Simple List.mrt" />
-    <AvaloniaResource Include="Reports\18_EmptyRowsInReports\2. Master-Detail.mrt" />
-    <AvaloniaResource Include="Reports\18_EmptyRowsInReports\3. Invoice.mrt" />
-    <AvaloniaResource Include="Reports\19_UsingPanelsInReports\1. Side-by-Side Lists.mrt" />
-    <AvaloniaResource Include="Reports\19_UsingPanelsInReports\2. Side-by-Side Groups.mrt" />
-    <AvaloniaResource Include="Reports\19_UsingPanelsInReports\3. Multi-Column List.mrt" />
-    <AvaloniaResource Include="Reports\19_UsingPanelsInReports\4. Multi-Panels.mrt" />
-    <AvaloniaResource Include="Reports\19_UsingPanelsInReports\5. Master-Detail Cards.mrt" />
-    <AvaloniaResource Include="Reports\20_SubReports\1. Side-by-Side Lists.mrt" />
-    <AvaloniaResource Include="Reports\20_SubReports\2. Side-by-Side Lists on DataBand.mrt" />
-    <AvaloniaResource Include="Reports\20_SubReports\3. Side-by-Side Groups.mrt" />
-    <AvaloniaResource Include="Reports\20_SubReports\4. Master-Detail.mrt" />
-    <AvaloniaResource Include="Reports\21_Maps\01. map.mrt" />
-    <AvaloniaResource Include="Reports\21_Maps\Maps 1.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\01. 3D Pie Chart.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\02. Hulu Revenue Statistics.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\03. Income from Hobby Trading.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\04. Internet browser market share in Europe.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\05. Lab Test Turnaround.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\06. Microsoft's revenue worldwide.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\07. Statistic Disney.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\08. The chemical composition of the Earth.mrt" />
-    <AvaloniaResource Include="Reports\22_3dCharts\09. Wallet.mrt" />
+    <AvaloniaResource Include="Reports\**\**" />
   </ItemGroup>
-
   <ItemGroup>
     <TrimmerRootDescriptor Include="Roots.xml" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.0.4" />
     <PackageReference Include="Avalonia.Desktop" Version="11.0.4" />
-	  <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.4" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.4" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.4" />
     <PackageReference Include="Avalonia.Themes.Simple" Version="11.0.4" />
@@ -427,9 +40,8 @@
     <PackageReference Include="Stimulsoft.Svg.NetCore" Version="2023.4.1" />
     <PackageReference Include="XamlNameReferenceGenerator" Version="1.6.1" />
   </ItemGroup>
-
   <ItemGroup>
-	<PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.4.0" />
-	<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.4.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" />
   </ItemGroup>
 </Project>

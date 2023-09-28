@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Localization language="English" description="English" cultureName="en">
+<Localization language="English (UK)" description="English (UK)" cultureName="en-GB">
   <A_WebViewer>
     <AbbreviatedDayFriday>Fr</AbbreviatedDayFriday>
     <AbbreviatedDayMonday>Mo</AbbreviatedDayMonday>
@@ -204,7 +204,7 @@
     <LabelMinorCount>Minor Count:</LabelMinorCount>
     <LabelOpenValueDataColumn>Open Value Data Column:</LabelOpenValueDataColumn>
     <Labels>Labels</Labels>
-    <LabelsCenter>Center</LabelsCenter>
+    <LabelsCenter>Centre</LabelsCenter>
     <LabelSeriesName>Series Name:</LabelSeriesName>
     <LabelsInside>Inside</LabelsInside>
     <LabelsInsideBase>Inside Base</LabelsInsideBase>
@@ -262,7 +262,7 @@
     <ScatterLine>Scatter Line</ScatterLine>
     <ScatterSpline>Scatter Spline</ScatterSpline>
     <Series>Series</Series>
-    <SeriesColorsCollectionForm>Series Colors</SeriesColorsCollectionForm>
+    <SeriesColorsCollectionForm>Series Colours</SeriesColorsCollectionForm>
     <SeriesEditorForm>Series Editor</SeriesEditorForm>
     <Serieses>Series</Serieses>
     <SparklinesArea>Area</SparklinesArea>
@@ -314,12 +314,12 @@
     <AxesXTopAxis>X Top Axis</AxesXTopAxis>
     <AxesYAxis>Y Axis</AxesYAxis>
     <AxesYRightAxis>Y Right Axis</AxesYRightAxis>
-    <CenterLabels>Center</CenterLabels>
+    <CenterLabels>Centre</CenterLabels>
     <ChangeType>Change Type</ChangeType>
     <GridLines>Grid Lines</GridLines>
     <GridLinesHorizontal>Grid Lines Horizontal</GridLinesHorizontal>
     <GridLinesVertical>Grid Lines Vertical</GridLinesVertical>
-    <HorAlCenter>&lt;b&gt;Overlay Legend at Center&lt;/b&gt;&lt;br&gt;Show Legend at center of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlCenter>
+    <HorAlCenter>&lt;b&gt;Overlay Legend at Centre&lt;/b&gt;&lt;br&gt;Show Legend at centre of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlCenter>
     <HorAlLeft>&lt;b&gt;Overlay Legend at Left&lt;/b&gt;&lt;br&gt;Show Legend at left of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlLeft>
     <HorAlLeftOutside>&lt;b&gt;Show Legend at Left&lt;/b&gt;&lt;br&gt;Show Legend and align left&lt;/br&gt;</HorAlLeftOutside>
     <HorAlRight>&lt;b&gt;Overlay Legend at Right&lt;/b&gt;&lt;br&gt;Show Legend at right of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlRight>
@@ -352,7 +352,7 @@
     <TwoColumnsPieLabels>Two Columns</TwoColumnsPieLabels>
     <VertAlBottom>&lt;b&gt;Overlay Legend at Bottom&lt;/b&gt;&lt;br&gt;Show Legend at bottom of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlBottom>
     <VertAlBottomOutside>&lt;b&gt;Show Legend at Bottom&lt;/b&gt;&lt;br&gt;Show Legend and align bottom&lt;/br&gt;</VertAlBottomOutside>
-    <VertAlCenter>&lt;b&gt;Overlay Legend at Center&lt;/b&gt;&lt;br&gt;Show Legend at center of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlCenter>
+    <VertAlCenter>&lt;b&gt;Overlay Legend at Centre&lt;/b&gt;&lt;br&gt;Show Legend at centre of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlCenter>
     <VertAlTop>&lt;b&gt;Overlay Legend at Top&lt;/b&gt;&lt;br&gt;Show Legend at top of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlTop>
     <VertAlTopOutside>&lt;b&gt;Show Legend at Top&lt;/b&gt;&lt;br&gt;Show Legend and align top&lt;/br&gt;</VertAlTopOutside>
     <VerticalMajor>&lt;b&gt;Major&lt;/b&gt;&lt;br&gt;Display Vertical Gridlines for Major units&lt;/br&gt;</VerticalMajor>
@@ -366,8 +366,8 @@
     <AccountSettings>Account Settings</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
     <AreYouSureYouWantDeleteReport>Are you sure you want to delete "{0}" report from disk?</AreYouSureYouWantDeleteReport>
-    <Authorize>Authorize</Authorize>
-    <AuthorizeWithLicenseKey>Authorize with License Key</AuthorizeWithLicenseKey>
+    <Authorize>Authorise</Authorize>
+    <AuthorizeWithLicenseKey>Authorise with License Key</AuthorizeWithLicenseKey>
     <ButtonChangePassword>Change Password</ButtonChangePassword>
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
@@ -478,7 +478,7 @@
     <RefreshList>Refresh List</RefreshList>
     <ReportDocumentFormatNotRecognized>Format of '{0}' item is not recognized as rendered report format!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Format of '{0}' item is not recognized as report template format!</ReportTemplateFormatNotRecognized>
-    <RequestChangesWhenSavingToCloud>Request Changes when Saving to Stimulsoft Cloud</RequestChangesWhenSavingToCloud>
+    <RequestChangesWhenSavingToCloud>Request Changes when Saving to Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
     <RibbonButtonAddUser>Add User</RibbonButtonAddUser>
     <RibbonButtonAddUserParameter>Add User Parameter</RibbonButtonAddUserParameter>
@@ -492,7 +492,7 @@
     <SaveAsType>Save as type</SaveAsType>
     <SaveFile>Save File</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Saving the report to Stimulsoft Cloud. Please wait!</SavingToStimulsoftCloudPleaseWait>
-    <SearchForOnlineTemplates>Search Stimulsoft templates online</SearchForOnlineTemplates>
+    <SearchForOnlineTemplates>Search for online templates</SearchForOnlineTemplates>
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
@@ -698,7 +698,7 @@
     <ChangeMapType>Change Map Type</ChangeMapType>
     <ClearAllFormatting>Clear All Formatting</ClearAllFormatting>
     <ClearFilterFrom>Clear Filter from '{0}'</ClearFilterFrom>
-    <ColorScale>Color Scale</ColorScale>
+    <ColorScale>Colour Scale</ColorScale>
     <ColumnInteractions>Column Interactions</ColumnInteractions>
     <CustomFilter>Custom &amp;Filter...</CustomFilter>
     <DashboardsNotSupportedIntheWPFDesigner>Dashboards are not supported in the WPF Designer.</DashboardsNotSupportedIntheWPFDesigner>
@@ -769,7 +769,7 @@
     <StringFilters>String Filters</StringFilters>
     <TransformationHint>Click on the table header to apply sorting, filtering or change data. This transformation will be applied only to the data of this item.</TransformationHint>
     <Trend>Trend</Trend>
-    <ViewEditCompilationNotice>You can't edit the report which has the 'Report.CalculationMode' property equals to 'Compilation' value. Please set that property to an 'Interpretation' value.</ViewEditCompilationNotice>
+    <ViewEditCompilationNotice>You can't edit the report which has the 'Report.CalculationMode' property equals to the 'Compilation' value. Please set that property to 'Interpretation'.</ViewEditCompilationNotice>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -828,7 +828,7 @@
   </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' already exists.</AlreadyExists>
-    <CanNotLoadThisReportTemplate>Can't load this template.</CanNotLoadThisReportTemplate>
+    <CanNotLoadThisReportTemplate>Can't load this report template.</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Do you want to close data source editor?</CloseDataSourceEditor>
     <CloseEditor>Do you want to close editor?</CloseEditor>
     <CompilingReport>Compiling Report</CompilingReport>
@@ -992,7 +992,7 @@
     <Auto>Auto</Auto>
     <BandsFilter>Bands Filter:</BandsFilter>
     <CancelExport>Cancel Export</CancelExport>
-    <Color>Color</Color>
+    <Color>Colour</Color>
     <Compressed>Compressed</Compressed>
     <CompressToArchive>Compress to Archive</CompressToArchive>
     <ContinuousPages>Continuous Pages</ContinuousPages>
@@ -1122,8 +1122,8 @@
     <DllFiles>DLL Files (*.dll)|*.dll</DllFiles>
     <DocumentFiles>Stimulsoft Documents (*.mdc)|*.mdc</DocumentFiles>
     <EmfFiles>Metafiles (*.emf)|*.emf</EmfFiles>
-    <EncryptedDocumentFiles>Stimulsoft Encrypted Documents (*.mdx)|*.mdx</EncryptedDocumentFiles>
-    <EncryptedReportFiles>Stimulsoft Encrypted Templates (*.mrx)|*.mrx</EncryptedReportFiles>
+    <EncryptedDocumentFiles>Encrypted Stimulsoft Documents (*.mdx)|*.mdx</EncryptedDocumentFiles>
+    <EncryptedReportFiles>Encrypted Stimulsoft Templates (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel files (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel files (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelCsvAllFiles>Microsoft Excel files (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
@@ -1134,15 +1134,15 @@
     <HtmlFiles>HTML Files (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} Classes for Inherited Reports (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG image (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
-    <JsonDocumentFiles>Stimulsoft JSON Documents (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonDocumentFiles>JSON Stimulsoft Documents (*.mdc)|*.mdc</JsonDocumentFiles>
     <JsonFiles>JSON Files (*.json)|*.json</JsonFiles>
-    <JsonReportFiles>Stimulsoft JSON Templates (*.mrt)|*.mrt</JsonReportFiles>
+    <JsonReportFiles>JSON Stimulsoft Templates (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Classes (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Classes for Silverlight Reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Metafiles</MetaFiles>
     <MhtFiles>MHT Web Archives (*.mht)|*.mht</MhtFiles>
-    <PackedDocumentFiles>Stimulsoft Packed Documents (*.mdz)|*.mdz</PackedDocumentFiles>
-    <PackedReportFiles>Stimulsoft Packed Templates (*.mrz)|*.mrz</PackedReportFiles>
+    <PackedDocumentFiles>Packed Stimulsoft Documents (*.mdz)|*.mdz</PackedDocumentFiles>
+    <PackedReportFiles>Packed Stimulsoft Templates (*.mrz)|*.mrz</PackedReportFiles>
     <PageFiles>Stimulsoft Pages (*.pg)|*.pg</PageFiles>
     <PcxFiles>PCX Images (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF Files (*.pdf)|*.pdf</PdfFiles>
@@ -1151,7 +1151,7 @@
     <ReportEmbededDataFiles>Stimulsoft Templates with Embedded Data (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Stimulsoft Templates (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
-    <StandaloneReportFiles>Stimulsoft Standalone Files (*.exe)|*.exe</StandaloneReportFiles>
+    <StandaloneReportFiles>Standalone Reports (*.exe)|*.exe</StandaloneReportFiles>
     <StylesFiles>Stimulsoft Styles (*.sts)|*.sts</StylesFiles>
     <SvgFiles>SVG Images (*.svg)|*.svg</SvgFiles>
     <SvgzFiles>Compressed SVG Images (*.svgz)|*.svgz</SvgzFiles>
@@ -1232,9 +1232,9 @@
     <title>Data Setup</title>
   </FormBand>
   <FormColorBoxPopup>
-    <Color>Color</Color>
+    <Color>Colour</Color>
     <Custom>Custom</Custom>
-    <NoColor>No Color</NoColor>
+    <NoColor>No Colour</NoColor>
     <Others>Others...</Others>
     <System>System</System>
     <Web>Web</Web>
@@ -1291,7 +1291,7 @@
     <ImportData>Import Data</ImportData>
     <InformixEdit>Edit Informix Connection</InformixEdit>
     <InformixNew>New Informix Connection</InformixNew>
-    <InitialCatalog>Initial Catalog:</InitialCatalog>
+    <InitialCatalog>Initial Catalogue:</InitialCatalog>
     <JsonEdit>Edit JSON Data</JsonEdit>
     <JsonNew>New JSON Data</JsonNew>
     <MySQLEdit>Edit MySQL Connection</MySQLEdit>
@@ -1416,7 +1416,7 @@
     <DragNewReport>drag your report directly to this panel</DragNewReport>
     <EditQuery>Edit Query</EditQuery>
     <EnableDataMonitor>Enable Data Monitor</EnableDataMonitor>
-    <ExecutedSQLStatementSuccessfully>SQL statement executed successfully</ExecutedSQLStatementSuccessfully>
+    <ExecutedSQLStatementSuccessfully>Executed SQL statement successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Hide Unsupported Data Sources</HideUnsupportedDatabases>
@@ -1427,7 +1427,7 @@
     <NewItem>New Item</NewItem>
     <OpenAssembly>Open Assembly</OpenAssembly>
     <Parent>Parent</Parent>
-    <ParentSource>Parent Source:</ParentSource>
+    <ParentSource>Parent Data Source:</ParentSource>
     <Queries>Queries</Queries>
     <QueryNew>New Query</QueryNew>
     <QueryText>Query Text</QueryText>
@@ -1535,7 +1535,7 @@
     <GridMode>Grid Mode</GridMode>
     <GridSize>Grid Size</GridSize>
     <groupAutoSaveOptions>Auto save options</groupAutoSaveOptions>
-    <groupColorScheme>Please select color scheme of GUI</groupColorScheme>
+    <groupColorScheme>Please select colour scheme of GUI</groupColorScheme>
     <groupGridDrawingOptions>Grid drawing options</groupGridDrawingOptions>
     <groupGridOptions>Grid options</groupGridOptions>
     <groupGridSize>Grid size</groupGridSize>
@@ -1544,7 +1544,7 @@
     <groupOptionsOfQuickInfo>Options of Quick Info</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Please, select the type of GUI</groupPleaseSelectTypeOfGui>
     <groupReportDisplayOptions>Report display options</groupReportDisplayOptions>
-    <labelColorScheme>Color Scheme:</labelColorScheme>
+    <labelColorScheme>Colour Scheme:</labelColorScheme>
     <labelInfoAutoSave>Change parameters of reports autosaving</labelInfoAutoSave>
     <labelInfoDrawing>Setting parameters of report drawing</labelInfoDrawing>
     <labelInfoGrid>How Grid is shown and used in a report</labelInfoGrid>
@@ -1568,7 +1568,7 @@
     <ShowSmartGuides>Show Smart Guides</ShowSmartGuides>
     <StartScreen>Start Screen</StartScreen>
     <title>Options</title>
-    <UseComponentColor>Use Component Color for Filling</UseComponentColor>
+    <UseComponentColor>Use Component Colour for Filling</UseComponentColor>
     <UseLastFormat>Use Last Format</UseLastFormat>
     <Welcome>Welcome</Welcome>
   </FormOptions>
@@ -1597,7 +1597,7 @@
     <labelPaperSourceOfFirstPage>Paper Source of First Page:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Paper Source of Other Pages:</labelPaperSourceOfOtherPages>
     <labelSelectBrush>Select Brush:</labelSelectBrush>
-    <labelSelectColor>Select Color:</labelSelectColor>
+    <labelSelectColor>Select Colour:</labelSelectColor>
     <labelSelectFont>Select Font:</labelSelectFont>
     <labelSelectImage>Select Image:</labelSelectImage>
     <labelText>Text:</labelText>
@@ -1648,7 +1648,7 @@
     <CreateStyleCollection>Create Style Collection</CreateStyleCollection>
     <CreateStyleOnBase>Create a style based on another style</CreateStyleOnBase>
     <Duplicate>Duplicate Style</Duplicate>
-    <EditColors>Edit Colors</EditColors>
+    <EditColors>Edit Colours</EditColors>
     <FromStyle>From Style</FromStyle>
     <GetStyle>Get Style from Selected Components</GetStyle>
     <MoreStyles>More Styles</MoreStyles>
@@ -1747,7 +1747,7 @@
     <Thumbnails>Thumbnails</Thumbnails>
     <title>Viewer</title>
     <titlePageSettings>Page Settings</titlePageSettings>
-    <Toolbar>Tool bar</Toolbar>
+    <Toolbar>Tool Bar</Toolbar>
     <VerScrollBar>Vertical Scroll Bar</VerScrollBar>
     <ViewMode>View Mode</ViewMode>
     <Zoom>Zoom</Zoom>
@@ -1807,24 +1807,24 @@
     <barsys_autohide_tooltip>Auto-Hide</barsys_autohide_tooltip>
     <barsys_close_tooltip>Close</barsys_close_tooltip>
     <barsys_customize_tooltip>Customize</barsys_customize_tooltip>
-    <ClickAndDragPickColor>Click and Drag to pick color</ClickAndDragPickColor>
-    <colorpicker_morecolors>&amp;More Colors...</colorpicker_morecolors>
+    <ClickAndDragPickColor>Click and Drag to pick colour</ClickAndDragPickColor>
+    <colorpicker_morecolors>&amp;More Colours...</colorpicker_morecolors>
     <colorpicker_nofill>&amp;No Fill</colorpicker_nofill>
-    <colorpicker_standardcolorslabel>Standard Colors</colorpicker_standardcolorslabel>
-    <colorpicker_themecolorslabel>Theme Colors</colorpicker_themecolorslabel>
+    <colorpicker_standardcolorslabel>Standard Colours</colorpicker_standardcolorslabel>
+    <colorpicker_themecolorslabel>Theme Colours</colorpicker_themecolorslabel>
     <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Blue:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Cancel</colorpickerdialog_cancelbutton>
-    <colorpickerdialog_caption>Colors</colorpickerdialog_caption>
-    <colorpickerdialog_colormodellabel>Color Model:</colorpickerdialog_colormodellabel>
+    <colorpickerdialog_caption>Colours</colorpickerdialog_caption>
+    <colorpickerdialog_colormodellabel>Colour Model:</colorpickerdialog_colormodellabel>
     <colorpickerdialog_currentcolorlabel>Current</colorpickerdialog_currentcolorlabel>
-    <colorpickerdialog_customcolorslabel>Colors:</colorpickerdialog_customcolorslabel>
+    <colorpickerdialog_customcolorslabel>Colours:</colorpickerdialog_customcolorslabel>
     <colorpickerdialog_greenlabel>&amp;Green:</colorpickerdialog_greenlabel>
     <colorpickerdialog_newcolorlabel>New</colorpickerdialog_newcolorlabel>
     <colorpickerdialog_okbutton>OK</colorpickerdialog_okbutton>
     <colorpickerdialog_redlabel>&amp;Red:</colorpickerdialog_redlabel>
     <colorpickerdialog_rgblabel>RGB</colorpickerdialog_rgblabel>
-    <colorpickerdialog_standardcolorslabel>Colors:</colorpickerdialog_standardcolorslabel>
+    <colorpickerdialog_standardcolorslabel>Colours:</colorpickerdialog_standardcolorslabel>
     <colorpickerdialog_tabcustom>Custom</colorpickerdialog_tabcustom>
     <colorpickerdialog_tabstandard>Standard</colorpickerdialog_tabstandard>
     <cust_btn_close>Close</cust_btn_close>
@@ -1890,8 +1890,8 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only allowed symbols for the selected chart can be displayed.</StiBarCode>
-    <StiButtonElement>This element is used to execute an event script when a user is interacting.</StiButtonElement>
-    <StiCardsElement>This element is used to display grouped data as cards.</StiCardsElement>
+    <StiButtonElement>This component is used to execute an event script when a user is interacting.</StiButtonElement>
+    <StiCardsElement>This component is used to display grouped data as cards.</StiCardsElement>
     <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, lines, areas, Gantt, scatter charts etc. </StiChart>
     <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
     <StiCheckBox>This component allows showing a checkbox in a report. It can display two modes: "enable" or "disable".</StiCheckBox>
@@ -1920,8 +1920,8 @@
     <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
     <StiHierarchicalBand>This band is connected to the data source and output as many times as there are rows in the data source. Data are output as a tree.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>This component is used to output a line.</StiHorizontalLinePrimitive>
-    <StiImage>This component is used to output images.</StiImage>
-    <StiImageElement>This element is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
+    <StiImage>This component is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
+    <StiImageElement>This element is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
     <StiIndicatorElement>The element displays the difference in values between the input data.</StiIndicatorElement>
     <StiListBoxElement>The element allows selecting items from a list.</StiListBoxElement>
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
@@ -1935,10 +1935,9 @@
     <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output on the top of each page.</StiPageHeaderBand>
     <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
     <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
-    <StiPdfDigitalSignature>This interactive component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>This component is used to specify a space for the digital signature and fields from the certificate when exporting to PDF.</StiPdfDigitalSignatureElement>
+    <StiPdfDigitalSignature>This component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
-    <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, donut, bars.</StiProgressElement>
+    <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, doughnut, bars.</StiProgressElement>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
     <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once in the end of a report.</StiReportSummaryBand>
@@ -1966,15 +1965,15 @@
     <ActiveRelation>Sets the priority Relation to bind two tables. It is used in Data Transformation and Dashboards. Only one Relation in each Data Source can be active.</ActiveRelation>
     <Align>Change the location of selected components.</Align>
     <AlignBottom>Align the contents of a component to bottom.</AlignBottom>
-    <AlignCenter>Align the contents of a component to center.</AlignCenter>
+    <AlignCenter>Align the contents of a component to centre.</AlignCenter>
     <AlignComponentBottom>Allows you to align objects horizontally along the bottom edge of selected components.</AlignComponentBottom>
-    <AlignComponentCenter>Allows you to align objects horizontally along the center edge of selected components.</AlignComponentCenter>
+    <AlignComponentCenter>Allows you to align objects horizontally along the centre edge of selected components.</AlignComponentCenter>
     <AlignComponentLeft>Allows you to align objects vertically along the left edge of selected components.</AlignComponentLeft>
-    <AlignComponentMiddle>Allows you to align objects vertically along the center edge of selected components.</AlignComponentMiddle>
+    <AlignComponentMiddle>Allows you to align objects vertically along the centre edge of selected components.</AlignComponentMiddle>
     <AlignComponentRight>Allows you to align objects vertically along the right edge of selected components.</AlignComponentRight>
     <AlignComponentTop>Allows you to align objects horizontally along the top edge of selected components.</AlignComponentTop>
     <AlignLeft>Align the contents of a component to left.</AlignLeft>
-    <AlignMiddle>Center the contents by the top and bottom borders of a component.</AlignMiddle>
+    <AlignMiddle>Centre the contents by the top and bottom borders of a component.</AlignMiddle>
     <AlignRight>Align contents of a component to right.</AlignRight>
     <AlignToGrid>Align the selected components to grid nodes.</AlignToGrid>
     <AlignTop>Align the contents of a component to top.</AlignTop>
@@ -1983,7 +1982,7 @@
     <AngleWatermark>The watermark text rotation angle.</AngleWatermark>
     <Background>Change the background of the selected components.</Background>
     <biConditions>Control list of conditions of the selected components.</biConditions>
-    <BorderColor>Select the border color of the selected component.</BorderColor>
+    <BorderColor>Select the border colour of the selected component.</BorderColor>
     <BorderSidesAll>Switch on all borders sides of the selected components.</BorderSidesAll>
     <BorderSidesBottom>Switch on bottom border side of the selected components.</BorderSidesBottom>
     <BorderSidesLeft>Switch on left border side of the selected components.</BorderSidesLeft>
@@ -2003,7 +2002,7 @@
     <CompilationAccessAsk>If a document uses the compilation process, a warning window with predefined actions will be displayed.</CompilationAccessAsk>
     <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
-    <CompilationModeEnabling>You are switching to the compilation mode. This mode allows to run different code and sometimes it could be harmful. Please, use this mode only if you understand all the risks and agree with them. Click the {0} button to proceed.</CompilationModeEnabling>
+    <CompilationModeEnabling>You are switching to compilation mode. This mode allows you to run different code, and sometimes it could be harmful. Please use this mode only if you understand all the risks and agree to them. Click the {0} button to proceed.</CompilationModeEnabling>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -2039,7 +2038,7 @@
     <FormatNumber>It is used for general display of numbers.</FormatNumber>
     <FormatPercentage>Display a value as percentage. Numbers are multiplied by 100 to convert them to percentages.</FormatPercentage>
     <FormatTime>Display a value as time. The time format is based on the regional time settings.</FormatTime>
-    <FormNew>Create a new dialog form.</FormNew>
+    <FormNew>Create a new dialogue form.</FormNew>
     <GridMode>Show grid in lines or dots.</GridMode>
     <ImageAlignment>Put a watermark image on a page.</ImageAlignment>
     <ImageTransparency>Change the transparency of the watermark image.</ImageTransparency>
@@ -2068,7 +2067,7 @@
     <menuPreviewSettings>Call the Preview Settings editor of the current report. Settings will be applied only when viewing the current report.</menuPreviewSettings>
     <menuPrint>Select a printer, number of copies, and other printing options before printing.</menuPrint>
     <menuPrintPreview>Preview a report before printing.</menuPrintPreview>
-    <menuPrintQuick>Print a report directly to the default printer. The printing dialog is not displayed.</menuPrintQuick>
+    <menuPrintQuick>Print a report directly to the default printer. The printing dialogue is not displayed.</menuPrintQuick>
     <menuReportOptions>Setup the basic report options. All options can be changed using the Property panel.</menuReportOptions>
     <menuStyleDesigner>Call the Style Designer of the current report.</menuStyleDesigner>
     <menuSupport>Go to the support page to ask a question.</menuSupport>
@@ -2086,7 +2085,7 @@
     <Orientation>Switch the pages between portrait and landscape layouts.</Orientation>
     <PageDelete>Delete current page from a report.</PageDelete>
     <PageNew>Create a new page.</PageNew>
-    <PageSetup>Show the Page Setup dialog box.</PageSetup>
+    <PageSetup>Show the Page Setup dialogue box.</PageSetup>
     <PageSize>Choose the paper size for the current page of a report.</PageSize>
     <PagesManager>Run the Pages Manager.</PagesManager>
     <PressF1>Press F1 for More Details</PressF1>
@@ -2107,9 +2106,9 @@
     <StyleDesigner>Run Style Designer.</StyleDesigner>
     <TellMeMore>Tell me more</TellMeMore>
     <Text>Watermark text.</Text>
-    <TextBrush>Change the text color.</TextBrush>
-    <TextBrushWatermark>Change the text color of the watermark.</TextBrushWatermark>
-    <TextColor>Change the text color.</TextColor>
+    <TextBrush>Change the text colour.</TextBrush>
+    <TextBrushWatermark>Change the text colour of the watermark.</TextBrushWatermark>
+    <TextColor>Change the text colour.</TextColor>
     <TextFormat>Select the format of values.</TextFormat>
     <ToolbarStyle>Set selected style to all selected components.</ToolbarStyle>
     <Undo>Undo the latest change in a report.</Undo>
@@ -2124,7 +2123,7 @@
     <StiDateTimePickerControl>Represents the control that allows selecting the date and time. It also allows you to output the date and time in specified format.</StiDateTimePickerControl>
     <StiGridControl>Represents the Grid control that consist of rows and columns.</StiGridControl>
     <StiGroupBoxControl>Represents the control that creates a container with borders and a header for the UI content.</StiGroupBoxControl>
-    <StiLabelControl>A label is an user interface control which displays text on a form. It is usually a static control having no interactivity.</StiLabelControl>
+    <StiLabelControl>A label is a user interface control which displays text on a form. It is usually a static control having no interactivity.</StiLabelControl>
     <StiListBoxControl>Contains the list of elements for selection.</StiListBoxControl>
     <StiListViewControl>Represents the ListView control that shows the list of data elements.</StiListViewControl>
     <StiLookUpBoxControl>Contains the list of elements for selection.</StiLookUpBoxControl>
@@ -2182,7 +2181,7 @@
     <ImageQuality>Allows you to choose the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQuality>
     <ImageQualityPdf>The option is available only in JPEG compression, and allows you to select the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQualityPdf>
     <ImageResolution>The number of pixels per inch. The higher the number of pixels is, the better is the quality of the image. The size of the finished file is much larger.</ImageResolution>
-    <ImageType>The color scheme of the image: color - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
+    <ImageType>The colour scheme of the image: colour - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
     <MultipleFiles>Each report page can be a separate file.</MultipleFiles>
     <Open>Open the previously saved report in the window of preview.</Open>
@@ -2236,9 +2235,9 @@
   </HelpViewer>
   <Interface>
     <Mouse>Mouse</Mouse>
-    <MouseDescription>Optimized for used with mouse</MouseDescription>
+    <MouseDescription>Optimized for using mouse</MouseDescription>
     <Touch>Touch</Touch>
-    <TouchDescription>Optimized for used with touch</TouchDescription>
+    <TouchDescription>Optimized for using touch</TouchDescription>
   </Interface>
   <MainMenu>
     <menuCheckIssues>Check for Issues</menuCheckIssues>
@@ -2369,6 +2368,12 @@
     <menuViewToolbars>Toolbars</menuViewToolbars>
   </MainMenu>
   <Map>
+    <GroupAsia>Asia</GroupAsia>
+    <GroupEurope>Europe</GroupEurope>
+    <GroupNorthAmerica>North America</GroupNorthAmerica>
+    <GroupOceania>Oceania</GroupOceania>
+    <GroupSouthAmerica>South America</GroupSouthAmerica>
+    <GroupWorld>World</GroupWorld>
     <LinkDataForm>Link Data</LinkDataForm>
     <MapEditorForm>Map Editor</MapEditorForm>
   </Map>
@@ -2392,13 +2397,13 @@
     <SwitchingBetweenModes>Switching between modes will cause the loss of changes. Do you want to proceed?</SwitchingBetweenModes>
     <SwitchParametersOrientation>Please change the value of the 'ParametersOrientation' report property to '{0}' to show this category on the parameters panel.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>
-        Registration completed successfully!
+      Registration completed successfully!
 
-        The Email was sent to "{0}".
-        It contains a link to confirm your registration. To complete the registration please follow the link from the Email you received.
+      The Email was sent to "{0}".
+      It contains a link to confirm your registration. To complete the registration please follow the link from the email you received.
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
-    <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored. Please, make a backup copy of your report firstly.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
+    <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored.Please, make a backup copy of your report firstly.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>You need to login first to start using the software. The application will close if you quit the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
@@ -2407,7 +2412,7 @@
     <ActivationContact1>Please contact our sales department at </ActivationContact1>
     <ActivationContact2> to resolve this.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
-    <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
+    <ActivationLicenseIsNotCorrect>The license file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Your account is locked.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
@@ -2452,7 +2457,7 @@
     <AuthUserNameEmailIsBlocked>This Email address cannot be used!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>The username (Email) is not specified!</AuthUserNameIsNotSpecified>
     <AuthUserNameIsTooLong>The username (Email) is too long!</AuthUserNameIsTooLong>
-    <AuthUserNameNotAssociatedWithYourAccount>Username (Email) {0} is not associated with your {1} account!</AuthUserNameNotAssociatedWithYourAccount>
+    <AuthUserNameNotAssociatedWithYourAccount>Username (email) {0} is not associated with your {1} account!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>The username (Email) or password is incorrect!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>The username should be similar to the Email address!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>The workspace name is already in use!</AuthWorkspaceNameAlreadyInUse>
@@ -2474,13 +2479,13 @@
     <IsRequiredFile>You should add at least one file!</IsRequiredFile>
     <ItemCantBeAttachedToItself>The item cannot be attached to itself!</ItemCantBeAttachedToItself>
     <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>The elements "{0}" cannot be deleted because they are attached to other elements!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
-    <ItemCantBeMovedToSpecifiedPlace>The item cannot be moved to a specified place!</ItemCantBeMovedToSpecifiedPlace>
+    <ItemCantBeMovedToSpecifiedPlace>The item cannot be moved to the specified place!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>The item does not support "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key and ToKey are equal!</KeyAndToKeyAreEqual>
     <MaximumComputers>Maximum of Computers</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Attention! The size of the file that you are trying to add exceeds the maximum-allowed size. Do you want to add this file anyway (report processing may slow down significantly)?</MessageMaximumFileSizeExceeded>
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
-    <NewProduct>The new product is added to your subscription!</NewProduct>
+    <NewProduct>A new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version</NewVersionsAvailable>
     <NotificationConnectPackage>Connect the "{0}" package for the correct work.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
@@ -2526,16 +2531,16 @@
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
     <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing report.</PleaseLogin>
-    <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles exceeded.</QuotaMaximumComputingCyclesCountExceeded>
-    <QuotaMaximumDataRowsCountExceeded>Maximum data rows in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
+    <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumDataRowsCountExceeded>Maximum data rows count in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
-    <QuotaMaximumItemsCountExceeded>Maximum items exceeded.</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumItemsCountExceeded>Maximum items count exceeded.</QuotaMaximumItemsCountExceeded>
     <QuotaMaximumRefreshCountExceeded>Maximum refresh count exceeded</QuotaMaximumRefreshCountExceeded>
-    <QuotaMaximumReportPagesCountExceeded>Maximum report pages exceeded.</QuotaMaximumReportPagesCountExceeded>
-    <QuotaMaximumResourcesCountExceeded>Maximum resources exceeded.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumReportPagesCountExceeded>Maximum report pages count exceeded.</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumResourcesCountExceeded>Maximum resources count exceeded.</QuotaMaximumResourcesCountExceeded>
     <QuotaMaximumResourceSizeExceeded>Maximum resource size exceeded.</QuotaMaximumResourceSizeExceeded>
-    <QuotaMaximumUsersCountExceeded>Maximum users exceeded.</QuotaMaximumUsersCountExceeded>
-    <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces exceeded.</QuotaMaximumWorkspacesCountExceeded>
+    <QuotaMaximumUsersCountExceeded>Maximum users count exceeded.</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces count exceeded.</QuotaMaximumWorkspacesCountExceeded>
     <SchedulerCantRunItSelf>The scheduler cannot run itself!</SchedulerCantRunItSelf>
     <SessionTimeOut>Session timeout</SessionTimeOut>
     <SnapshotAlreadyProcessed>The report snapshot is already processed!</SnapshotAlreadyProcessed>
@@ -2548,7 +2553,7 @@
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
-    <TrialToLicense>We would like to thank you for choosing our software!</TrialToLicense>
+    <TrialToLicense>Thank you for choosing Stimulsoft!</TrialToLicense>
     <VersionCopyFromItem>Copy from item "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>Created from file "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>Created from item "{0}".</VersionCreatedFromItem>
@@ -2666,7 +2671,7 @@
     <ChartCategory>Chart</ChartCategory>
     <ChartMap>Map</ChartMap>
     <CheckCategory>Check</CheckCategory>
-    <ColorsCategory>Colors</ColorsCategory>
+    <ColorsCategory>Colours</ColorsCategory>
     <ColumnsCategory>Columns</ColumnsCategory>
     <ComboBoxCategory>Combo Box</ComboBoxCategory>
     <CommonCategory>Common</CommonCategory>
@@ -2683,11 +2688,11 @@
     <EngineCategory>Engine</EngineCategory>
     <ExportCategory>Export</ExportCategory>
     <ExportEventsCategory>Export Events</ExportEventsCategory>
-    <FooterTableCategory>Footer Table</FooterTableCategory>
+    <FooterTableCategory>Table Footer</FooterTableCategory>
     <GaugeCategory>Gauge</GaugeCategory>
     <GlobalizationCategory>Globalization</GlobalizationCategory>
     <GridLinesCategory>Grid Lines</GridLinesCategory>
-    <HeaderTableCategory>Header Table</HeaderTableCategory>
+    <HeaderTableCategory>Table Header</HeaderTableCategory>
     <HierarchicalCategory>Hierarchical</HierarchicalCategory>
     <ImageAdditionalCategory>Image Additional</ImageAdditionalCategory>
     <ImageCategory>Image</ImageCategory>
@@ -2910,13 +2915,13 @@
     <ComboBoxStyleDropDown>Drop Down</ComboBoxStyleDropDown>
     <ComboBoxStyleDropDownList>Drop Down List</ComboBoxStyleDropDownList>
     <ComboBoxStyleSimple>Simple</ComboBoxStyleSimple>
-    <ContentAlignmentBottomCenter>Bottom Center</ContentAlignmentBottomCenter>
+    <ContentAlignmentBottomCenter>Bottom Centre</ContentAlignmentBottomCenter>
     <ContentAlignmentBottomLeft>Bottom Left</ContentAlignmentBottomLeft>
     <ContentAlignmentBottomRight>Bottom Right</ContentAlignmentBottomRight>
-    <ContentAlignmentMiddleCenter>Middle Center</ContentAlignmentMiddleCenter>
+    <ContentAlignmentMiddleCenter>Middle Centre</ContentAlignmentMiddleCenter>
     <ContentAlignmentMiddleLeft>Middle Left</ContentAlignmentMiddleLeft>
     <ContentAlignmentMiddleRight>Middle Right</ContentAlignmentMiddleRight>
-    <ContentAlignmentTopCenter>Top Center</ContentAlignmentTopCenter>
+    <ContentAlignmentTopCenter>Top Centre</ContentAlignmentTopCenter>
     <ContentAlignmentTopLeft>Top Left</ContentAlignmentTopLeft>
     <ContentAlignmentTopRight>Top Right</ContentAlignmentTopRight>
     <DataGridLineStyleNone>None</DataGridLineStyleNone>
@@ -2937,15 +2942,15 @@
     <DuplexHorizontal>Horizontal</DuplexHorizontal>
     <DuplexSimplex>Simplex</DuplexSimplex>
     <DuplexVertical>Vertical</DuplexVertical>
-    <FormStartPositionCenterParent>Center Parent</FormStartPositionCenterParent>
-    <FormStartPositionCenterScreen>Center Screen</FormStartPositionCenterScreen>
+    <FormStartPositionCenterParent>Centre Parent</FormStartPositionCenterParent>
+    <FormStartPositionCenterScreen>Centre Screen</FormStartPositionCenterScreen>
     <FormStartPositionManual>Manual</FormStartPositionManual>
     <FormStartPositionWindowsDefaultBounds>Windows Default Bounds</FormStartPositionWindowsDefaultBounds>
     <FormStartPositionWindowsDefaultLocation>Windows Default Location</FormStartPositionWindowsDefaultLocation>
     <FormWindowStateMaximized>Maximized</FormWindowStateMaximized>
     <FormWindowStateMinimized>Minimized</FormWindowStateMinimized>
     <FormWindowStateNormal>Normal</FormWindowStateNormal>
-    <HorizontalAlignmentCenter>Center</HorizontalAlignmentCenter>
+    <HorizontalAlignmentCenter>Centre</HorizontalAlignmentCenter>
     <HorizontalAlignmentLeft>Left</HorizontalAlignmentLeft>
     <HorizontalAlignmentRight>Right</HorizontalAlignmentRight>
     <HotkeyPrefixHide>Hide</HotkeyPrefixHide>
@@ -2954,7 +2959,7 @@
     <LeftRightAlignmentLeft>Left</LeftRightAlignmentLeft>
     <LeftRightAlignmentRight>Right</LeftRightAlignmentRight>
     <PictureBoxSizeModeAutoSize>Auto Size</PictureBoxSizeModeAutoSize>
-    <PictureBoxSizeModeCenterImage>Center Image</PictureBoxSizeModeCenterImage>
+    <PictureBoxSizeModeCenterImage>Centre Image</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>Normal</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>Stretch Image</PictureBoxSizeModeStretchImage>
     <RelationDirectionChildToParent>Child-To-Parent</RelationDirectionChildToParent>
@@ -3049,8 +3054,8 @@
     <StiCode11CheckSumNone>None</StiCode11CheckSumNone>
     <StiCode11CheckSumOneDigit>One Digit</StiCode11CheckSumOneDigit>
     <StiCode11CheckSumTwoDigits>Two Digits</StiCode11CheckSumTwoDigits>
-    <StiColorScaleTypeColor2>2-Color Scale</StiColorScaleTypeColor2>
-    <StiColorScaleTypeColor3>3-Color Scale</StiColorScaleTypeColor3>
+    <StiColorScaleTypeColor2>2-Colour Scale</StiColorScaleTypeColor2>
+    <StiColorScaleTypeColor3>3-Colour Scale</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Across Then Down</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Down Then Across</StiColumnDirectionDownThenAcross>
     <StiColumnShape3DBox>Box</StiColumnShape3DBox>
@@ -3060,11 +3065,11 @@
     <StiCompilationAccessAsk>Ask</StiCompilationAccessAsk>
     <StiCompilationAccessDeny>Deny</StiCompilationAccessDeny>
     <StiCompilationAccessForceInterpretation>Force Interpretation</StiCompilationAccessForceInterpretation>
-    <StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
+    <StiCrossHorAlignmentCenter>Centre</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Right</StiCrossHorAlignmentRight>
-    <StiDashboardContentAlignmentCenter>Center</StiDashboardContentAlignmentCenter>
+    <StiDashboardContentAlignmentCenter>Centre</StiDashboardContentAlignmentCenter>
     <StiDashboardContentAlignmentLeft>Left</StiDashboardContentAlignmentLeft>
     <StiDashboardContentAlignmentRight>Right</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Stretch X</StiDashboardContentAlignmentStretchX>
@@ -3167,17 +3172,17 @@
     <StiGaugeCalculationModeCustom>Custom</StiGaugeCalculationModeCustom>
     <StiGaugeRangeModePercentage>Percentage</StiGaugeRangeModePercentage>
     <StiGaugeRangeModeValue>Value</StiGaugeRangeModeValue>
-    <StiGaugeRangeTypeColor>Color</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeColor>Colour</StiGaugeRangeTypeColor>
     <StiGaugeRangeTypeNone>None</StiGaugeRangeTypeNone>
     <StiGaugeTypeBullet>Bullet</StiGaugeTypeBullet>
     <StiGaugeTypeFullCircular>Full Circular</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
     <StiGaugeTypeHorizontalLinear>Horizontal Linear</StiGaugeTypeHorizontalLinear>
-    <StiGaugeTypeLinear>Vertical Linear</StiGaugeTypeLinear>
+    <StiGaugeTypeLinear>Linear</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>Ascending</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Descending</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>None</StiGroupSortDirectionNone>
-    <StiHorAlignmentCenter>Center</StiHorAlignmentCenter>
+    <StiHorAlignmentCenter>Centre</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Left</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Right</StiHorAlignmentRight>
     <StiIconAlignmentBottom>Bottom</StiIconAlignmentBottom>
@@ -3226,19 +3231,34 @@
     <StiLegendDirectionLeftToRight>Left to Right</StiLegendDirectionLeftToRight>
     <StiLegendDirectionRightToLeft>Right to Left</StiLegendDirectionRightToLeft>
     <StiLegendDirectionTopToBottom>Top to Bottom</StiLegendDirectionTopToBottom>
-    <StiLegendHorAlignmentCenter>Center</StiLegendHorAlignmentCenter>
+    <StiLegendHorAlignmentCenter>Centre</StiLegendHorAlignmentCenter>
     <StiLegendHorAlignmentLeft>Left</StiLegendHorAlignmentLeft>
     <StiLegendHorAlignmentLeftOutside>Left Outside</StiLegendHorAlignmentLeftOutside>
     <StiLegendHorAlignmentRight>Right</StiLegendHorAlignmentRight>
     <StiLegendHorAlignmentRightOutside>Right Outside</StiLegendHorAlignmentRightOutside>
     <StiLegendVertAlignmentBottom>Bottom</StiLegendVertAlignmentBottom>
     <StiLegendVertAlignmentBottomOutside>Bottom Outside</StiLegendVertAlignmentBottomOutside>
-    <StiLegendVertAlignmentCenter>Center</StiLegendVertAlignmentCenter>
+    <StiLegendVertAlignmentCenter>Centre</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Top</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Top Outside</StiLegendVertAlignmentTopOutside>
     <StiLineWeightNormal>Normal</StiLineWeightNormal>
     <StiLineWeightThick>Thick</StiLineWeightThick>
     <StiLineWeightThin>Thin</StiLineWeightThin>
+    <StiMapIDAustralia>Australia</StiMapIDAustralia>
+    <StiMapIDAustria>Austria</StiMapIDAustria>
+    <StiMapIDBrazil>Brazil</StiMapIDBrazil>
+    <StiMapIDCanada>Canada</StiMapIDCanada>
+    <StiMapIDChina>China</StiMapIDChina>
+    <StiMapIDEU>EU</StiMapIDEU>
+    <StiMapIDEurope>Europe</StiMapIDEurope>
+    <StiMapIDFrance>France</StiMapIDFrance>
+    <StiMapIDGermany>Germany</StiMapIDGermany>
+    <StiMapIDItaly>Italy</StiMapIDItaly>
+    <StiMapIDNetherlands>Netherlands</StiMapIDNetherlands>
+    <StiMapIDRussia>Russia</StiMapIDRussia>
+    <StiMapIDUK>UK</StiMapIDUK>
+    <StiMapIDUSA>USA</StiMapIDUSA>
+    <StiMapIDWorld>World</StiMapIDWorld>
     <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
     <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Group</StiMapTypeGroup>
@@ -3247,7 +3267,7 @@
     <StiMapTypeIndividual>Individual</StiMapTypeIndividual>
     <StiMapTypeNone>None</StiMapTypeNone>
     <StiMapTypePoints>Points</StiMapTypePoints>
-    <StiMarkerAlignmentCenter>Center</StiMarkerAlignmentCenter>
+    <StiMarkerAlignmentCenter>Centre</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Circle</StiMarkerTypeCircle>
@@ -3267,11 +3287,11 @@
     <StiOnlineMapHeatmapColorGradientTypeAddRange>Add Range</StiOnlineMapHeatmapColorGradientTypeAddRange>
     <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Black Aqua White</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
     <StiOnlineMapHeatmapColorGradientTypeBlueRed>Blue Red</StiOnlineMapHeatmapColorGradientTypeBlueRed>
-    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Color Spectrum</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
+    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Colour Spectrum</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
     <StiOnlineMapHeatmapColorGradientTypeDeepSea>Deep Sea</StiOnlineMapHeatmapColorGradientTypeDeepSea>
     <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Heated Metal</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
     <StiOnlineMapHeatmapColorGradientTypeIncandescent>Incandescent</StiOnlineMapHeatmapColorGradientTypeIncandescent>
-    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Stepped Colors</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
+    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Stepped Colours</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
     <StiOnlineMapHeatmapColorGradientTypeSunrise>Sunrise</StiOnlineMapHeatmapColorGradientTypeSunrise>
     <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Visible Spectrum</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
     <StiOnlineMapLocationTypeAdminDivision1>AdminDivision1</StiOnlineMapLocationTypeAdminDivision1>
@@ -3364,10 +3384,10 @@
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Off</StiReportCacheModeOff>
     <StiReportCacheModeOn>On</StiReportCacheModeOn>
-    <StiReportUnitTypeCentimeters>Centimeters</StiReportUnitTypeCentimeters>
+    <StiReportUnitTypeCentimeters>Centimetres</StiReportUnitTypeCentimeters>
     <StiReportUnitTypeHundredthsOfInch>Hundredths of Inch</StiReportUnitTypeHundredthsOfInch>
     <StiReportUnitTypeInches>Inches</StiReportUnitTypeInches>
-    <StiReportUnitTypeMillimeters>Millimeters</StiReportUnitTypeMillimeters>
+    <StiReportUnitTypeMillimeters>Millimetres</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixels</StiReportUnitTypePixels>
     <StiReportUnitTypePoints>Points</StiReportUnitTypePoints>
     <StiRestrictionsAll>All</StiRestrictionsAll>
@@ -3394,10 +3414,10 @@
     <StiSeriesSortTypeArgument>Argument</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>None</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Value</StiSeriesSortTypeValue>
-    <StiSeriesXAxisBottomXAxis>Bottom X Axis</StiSeriesXAxisBottomXAxis>
-    <StiSeriesXAxisTopXAxis>Top X Axis</StiSeriesXAxisTopXAxis>
-    <StiSeriesYAxisLeftYAxis>Left Y Axis</StiSeriesYAxisLeftYAxis>
-    <StiSeriesYAxisRightYAxis>Right Y Axis</StiSeriesYAxisRightYAxis>
+    <StiSeriesXAxisBottomXAxis>X Axis Bottom</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>X Axis Top</StiSeriesXAxisTopXAxis>
+    <StiSeriesYAxisLeftYAxis>Y Axis Left</StiSeriesYAxisLeftYAxis>
+    <StiSeriesYAxisRightYAxis>Y Axis Right</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Down</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Left</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Right</StiShapeDirectionRight>
@@ -3414,14 +3434,15 @@
     <StiShowSeriesLabelsNone>None</StiShowSeriesLabelsNone>
     <StiShowXAxisBoth>Both</StiShowXAxisBoth>
     <StiShowXAxisBottom>Bottom</StiShowXAxisBottom>
-    <StiShowXAxisCenter>Center</StiShowXAxisCenter>
+    <StiShowXAxisCenter>Centre</StiShowXAxisCenter>
     <StiShowYAxisBoth>Both</StiShowYAxisBoth>
-    <StiShowYAxisCenter>Center</StiShowYAxisCenter>
+    <StiShowYAxisCenter>Centre</StiShowYAxisCenter>
     <StiShowYAxisLeft>Left</StiShowYAxisLeft>
     <StiSignatureModeDraw>Draw</StiSignatureModeDraw>
     <StiSignatureModeType>Type</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Digital Signature</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Draw</StiSignatureTypeDraw>
+    <StiSignatureTypeSelectStyle>Select Style</StiSignatureTypeSelectStyle>
     <StiSignatureTypeType>Type</StiSignatureTypeType>
     <StiSizeModeAutoSize>Auto Size</StiSizeModeAutoSize>
     <StiSizeModeFit>Fit</StiSizeModeFit>
@@ -3459,12 +3480,12 @@
     <StiTableSizeModeFit>Fit</StiTableSizeModeFit>
     <StiTargetModePercentage>Percentage</StiTargetModePercentage>
     <StiTargetModeVariation>Variation</StiTargetModeVariation>
-    <StiTextHorAlignmentCenter>Center</StiTextHorAlignmentCenter>
+    <StiTextHorAlignmentCenter>Centre</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Left</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Right</StiTextHorAlignmentRight>
     <StiTextHorAlignmentWidth>Width</StiTextHorAlignmentWidth>
-    <StiTextPositionCenterBottom>Center Bottom</StiTextPositionCenterBottom>
-    <StiTextPositionCenterTop>Center Top</StiTextPositionCenterTop>
+    <StiTextPositionCenterBottom>Centre Bottom</StiTextPositionCenterBottom>
+    <StiTextPositionCenterTop>Centre Top</StiTextPositionCenterTop>
     <StiTextPositionLeftBottom>Left Bottom</StiTextPositionLeftBottom>
     <StiTextPositionLeftTop>Left Top</StiTextPositionLeftTop>
     <StiTextPositionRightBottom>Right Bottom</StiTextPositionRightBottom>
@@ -3474,7 +3495,7 @@
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>Fit</StiTextSizeModeFit>
     <StiTextSizeModeTrimming>Trimming</StiTextSizeModeTrimming>
-    <StiTextSizeModeWordWrap>Word Wrap</StiTextSizeModeWordWrap>
+    <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
     <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
     <StiThemeAppearanceDark>Dark</StiThemeAppearanceDark>
     <StiThemeAppearanceLight>Light</StiThemeAppearanceLight>
@@ -3502,13 +3523,13 @@
     <StiUnitAlignmentSuffixInside>Suffix Inside</StiUnitAlignmentSuffixInside>
     <StiUnitAlignmentSuffixInsideWithSpace>Suffix Inside with Space</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>Bottom</StiVertAlignmentBottom>
-    <StiVertAlignmentCenter>Center</StiVertAlignmentCenter>
+    <StiVertAlignmentCenter>Centre</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Top</StiVertAlignmentTop>
     <StiViewModeNormal>Normal</StiViewModeNormal>
     <StiViewModePageBreakPreview>Page Break Preview</StiViewModePageBreakPreview>
     <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
     <StiXmlTypeXml>XML</StiXmlTypeXml>
-    <StringAlignmentCenter>Center</StringAlignmentCenter>
+    <StringAlignmentCenter>Centre</StringAlignmentCenter>
     <StringAlignmentFar>Far</StringAlignmentFar>
     <StringAlignmentNear>Near</StringAlignmentNear>
     <StringTrimmingCharacter>Character</StringTrimmingCharacter>
@@ -3657,11 +3678,11 @@
     <AggregateFunctions>Aggregate Functions</AggregateFunctions>
     <Alias>Alias</Alias>
     <Alignment>Alignment</Alignment>
-    <AllowApplyBorderColor>Allow Apply Border Color</AllowApplyBorderColor>
+    <AllowApplyBorderColor>Allow Apply Border Colour</AllowApplyBorderColor>
     <AllowApplyBrush>Allow Apply Brush</AllowApplyBrush>
     <AllowApplyBrushNegative>Allow Apply Brush Negative</AllowApplyBrushNegative>
-    <AllowApplyColorNegative>Allow Apply Color Negative</AllowApplyColorNegative>
-    <AllowApplyLineColor>Allow Apply Line Color</AllowApplyLineColor>
+    <AllowApplyColorNegative>Allow Apply Colour Negative</AllowApplyColorNegative>
+    <AllowApplyLineColor>Allow Apply Line Colour</AllowApplyLineColor>
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
     <AllowCleanSignature>Allow Clean Signature</AllowCleanSignature>
     <AllowExpressions>Allow Expressions</AllowExpressions>
@@ -3670,14 +3691,14 @@
     <AllowSeries>Allow Series</AllowSeries>
     <AllowSeriesElements>Allow Series Elements</AllowSeriesElements>
     <AllowSorting>Allow Sorting</AllowSorting>
-    <AllowUseBackColor>Allow Use Back Color</AllowUseBackColor>
+    <AllowUseBackColor>Allow Use Back Colour</AllowUseBackColor>
     <AllowUseBorder>Allow Use Border</AllowUseBorder>
     <AllowUseBorderFormatting>Allow Use Border Formatting</AllowUseBorderFormatting>
     <AllowUseBorderSides>Allow Use Border Sides</AllowUseBorderSides>
     <AllowUseBorderSidesFromLocation>Allow Use Border Sides from Location</AllowUseBorderSidesFromLocation>
     <AllowUseBrush>Allow Use Brush</AllowUseBrush>
     <AllowUseFont>Allow Use Font</AllowUseFont>
-    <AllowUseForeColor>Allow Use Fore Color</AllowUseForeColor>
+    <AllowUseForeColor>Allow Use Fore Colour</AllowUseForeColor>
     <AllowUseHorAlignment>Allow Use Hor Alignment</AllowUseHorAlignment>
     <AllowUseImage>Allow Use Image</AllowUseImage>
     <AllowUseNegativeTextBrush>Allow Use Negative Text Brush</AllowUseNegativeTextBrush>
@@ -3687,16 +3708,15 @@
     <AllowUseTextOptions>Allow Use Text Options</AllowUseTextOptions>
     <AllowUseVertAlignment>Allow Use Vert Alignment</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Allow using as SQL parameter</AllowUsingAsSqlParameter>
-    <AlternatingBackColor>Alternating Back Color</AlternatingBackColor>
-    <AlternatingCellBackColor>Alternating Cell Back Color</AlternatingCellBackColor>
-    <AlternatingCellForeColor>Alternating Cell Fore Color</AlternatingCellForeColor>
-    <AlternatingDataColor>Alternating Data Color</AlternatingDataColor>
+    <AlternatingBackColor>Alternating Back Colour</AlternatingBackColor>
+    <AlternatingCellBackColor>Alternating Cell Back Colour</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Alternating Cell Fore Colour</AlternatingCellForeColor>
+    <AlternatingDataColor>Alternating Data Colour</AlternatingDataColor>
     <AlternatingDataForeground>Alternating Data Foreground</AlternatingDataForeground>
     <Always>Always</Always>
     <Anchor>Anchor</Anchor>
     <Angle>Angle</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
-    <Appearance>Appearance</Appearance>
     <Apply>Apply</Apply>
     <Area>Area</Area>
     <Argument>Argument</Argument>
@@ -3716,22 +3736,22 @@
     <AutoRefresh>Auto Refresh</AutoRefresh>
     <AutoRotate>Auto Rotate</AutoRotate>
     <AutoScale>Auto Scale</AutoScale>
-    <AutoSeriesColorDataColumn>Auto Series Color Data Column</AutoSeriesColorDataColumn>
+    <AutoSeriesColorDataColumn>Auto Series Colour Data Column</AutoSeriesColorDataColumn>
     <AutoSeriesKeyDataColumn>Auto Series Key Data Column</AutoSeriesKeyDataColumn>
     <AutoSeriesTitleDataColumn>Auto Series Title Data Column</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto Width</AutoWidth>
     <AutoWidthType>Auto Width Type</AutoWidthType>
     <AvailableInTheViewer>Available in the Viewer</AvailableInTheViewer>
-    <AxisLabelsColor>Axis Labels Color</AxisLabelsColor>
-    <AxisLineColor>Axis Line Color</AxisLineColor>
-    <AxisTitleColor>Axis Title Color</AxisTitleColor>
+    <AxisLabelsColor>Labels Colour</AxisLabelsColor>
+    <AxisLineColor>Line Colour</AxisLineColor>
+    <AxisTitleColor>Title Colour</AxisTitleColor>
     <AxisValue>Axis Value</AxisValue>
-    <BackColor>Back Color</BackColor>
+    <BackColor>Back Colour</BackColor>
     <Background>Background</Background>
-    <BackgroundColor>Background Color</BackgroundColor>
-    <BandColor>Band Color</BandColor>
+    <BackgroundColor>Background Colour</BackgroundColor>
+    <BandColor>Band Colour</BandColor>
     <BarCodeType>Bar Code Type</BarCodeType>
-    <BasicStyleColor>Basic Style Color</BasicStyleColor>
+    <BasicStyleColor>Basic Style Colour</BasicStyleColor>
     <Blend>Blend</Blend>
     <Blocks>Blocks</Blocks>
     <BodyBrush>Body Brush</BodyBrush>
@@ -3740,7 +3760,7 @@
     <Bookmark>Bookmark</Bookmark>
     <Border>Border</Border>
     <BorderBrush>Border Brush</BorderBrush>
-    <BorderColor>Border Color</BorderColor>
+    <BorderColor>Border Colour</BorderColor>
     <BorderColorNegative>Border Color Negative</BorderColorNegative>
     <Borders>Borders</Borders>
     <BorderSize>Border Size</BorderSize>
@@ -3755,8 +3775,8 @@
     <Brush>Brush</Brush>
     <BrushNegative>Brush Negative</BrushNegative>
     <BrushType>Brush Type</BrushType>
-    <BubbleBackColor>Bubble Back Color</BubbleBackColor>
-    <BubbleBorderColor>Bubble Border Color</BubbleBorderColor>
+    <BubbleBackColor>Bubble Back Colour</BubbleBackColor>
+    <BubbleBorderColor>Bubble Border Colour</BubbleBorderColor>
     <BubbleScale>Bubble Scale</BubbleScale>
     <BusinessObject>Business Object</BusinessObject>
     <CacheAllData>Cache All Data</CacheAllData>
@@ -3772,21 +3792,21 @@
     <Category>Category</Category>
     <CategoryConnections>Connections</CategoryConnections>
     <CellAlignment>Cell Alignment</CellAlignment>
-    <CellBackColor>Cell Back Color</CellBackColor>
+    <CellBackColor>Cell Back Colour</CellBackColor>
     <CellDockStyle>Cell Dock Style</CellDockStyle>
-    <CellForeColor>Cell Fore Color</CellForeColor>
+    <CellForeColor>Cell Fore Colour</CellForeColor>
     <CellHeight>Cell Height</CellHeight>
     <CellType>Cell Type</CellType>
     <CellWidth>Cell Width</CellWidth>
-    <Center>Center</Center>
-    <CenterPoint>Center Point</CenterPoint>
-    <ChartAreaBorderColor>Chart Area Border Color</ChartAreaBorderColor>
+    <Center>Centre</Center>
+    <CenterPoint>Centre Point</CenterPoint>
+    <ChartAreaBorderColor>Border Colour</ChartAreaBorderColor>
     <ChartAreaBorderThickness>Chart Area Border Thickness</ChartAreaBorderThickness>
-    <ChartAreaBrush>Chart Area Brush</ChartAreaBrush>
-    <ChartAreaShowShadow>Chart Area Show Shadow</ChartAreaShowShadow>
+    <ChartAreaBrush>Area Brush</ChartAreaBrush>
+    <ChartAreaShowShadow>Show Shadow</ChartAreaShowShadow>
     <ChartType>Chart Type</ChartType>
     <CheckAlignment>Check Alignment</CheckAlignment>
-    <CheckColor>Check Color</CheckColor>
+    <CheckColor>Check Colour</CheckColor>
     <Checked>Checked</Checked>
     <CheckedIcon>Checked Icon</CheckedIcon>
     <CheckOnClick>Check on Click</CheckOnClick>
@@ -3799,7 +3819,7 @@
     <CheckSum2>CheckSum2</CheckSum2>
     <Child>Child</Child>
     <ChildColumns>Child Columns</ChildColumns>
-    <ChildSource>Child Source</ChildSource>
+    <ChildSource>Child Data Source</ChildSource>
     <City>City</City>
     <ClearFormat>Clear Format</ClearFormat>
     <CloneContainer>Clone Container</CloneContainer>
@@ -3811,19 +3831,19 @@
     <CollapsingEnabled>Collapsing Enabled</CollapsingEnabled>
     <Collate>Collate</Collate>
     <CollectionName>Collection Name</CollectionName>
-    <Color>Color</Color>
-    <ColorDataColumn>Color Data Column</ColorDataColumn>
-    <ColorEach>Color Each</ColorEach>
-    <ColorMeter>Color Meter</ColorMeter>
-    <Colors>Colors</Colors>
-    <ColorScaleCondition>Color Scale Condition</ColorScaleCondition>
-    <ColorScaleType>Color Scale Type</ColorScaleType>
+    <Color>Colour</Color>
+    <ColorDataColumn>Colour Data Column</ColorDataColumn>
+    <ColorEach>Colour Each</ColorEach>
+    <ColorMeter>Colour</ColorMeter>
+    <Colors>Colours</Colors>
+    <ColorScaleCondition>Colour Scale Condition</ColorScaleCondition>
+    <ColorScaleType>Colour Scale Type</ColorScaleType>
     <Column>Column</Column>
     <ColumnCount>Column Count</ColumnCount>
     <ColumnDirection>Column Direction</ColumnDirection>
     <ColumnGaps>Column Gaps</ColumnGaps>
-    <ColumnHeaderBackColor>Column Header Back Color</ColumnHeaderBackColor>
-    <ColumnHeaderForeColor>Column Header Fore Color</ColumnHeaderForeColor>
+    <ColumnHeaderBackColor>Column Header Back Colour</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Column Header Fore Colour</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Column Headers Visible</ColumnHeadersVisible>
     <Columns>Columns</Columns>
     <ColumnShape>Column Shape</ColumnShape>
@@ -3840,7 +3860,7 @@
     <Container>Container</Container>
     <ContentAlignment>Content Alignment</ContentAlignment>
     <ContinuousText>Continuous Text</ContinuousText>
-    <ContourColor>Contour Color</ContourColor>
+    <ContourColor>Contour Colour</ContourColor>
     <Converting>Converting</Converting>
     <ConvertNulls>Convert Nulls</ConvertNulls>
     <Copies>Copies</Copies>
@@ -3862,7 +3882,7 @@
     <DataBarCondition>Data Bar Condition</DataBarCondition>
     <DataBindings>Data Bindings</DataBindings>
     <DataCells>Data Cells</DataCells>
-    <DataColor>Data Color</DataColor>
+    <DataColor>Data Colour</DataColor>
     <DataColumn>Data Column</DataColumn>
     <DataColumns>Data Columns</DataColumns>
     <DataField>Data Field</DataField>
@@ -3880,7 +3900,7 @@
     <DateTimeStep>Date Time Step</DateTimeStep>
     <DecimalDigits>Decimal Digits</DecimalDigits>
     <Default>Default</Default>
-    <DefaultColor>Default Color</DefaultColor>
+    <DefaultColor>Default Colour</DefaultColor>
     <DefaultHeightCell>Default Height of Cell</DefaultHeightCell>
     <DefaultNamespace>Default Namespace</DefaultNamespace>
     <DefaultSettings>Default Settings</DefaultSettings>
@@ -3890,7 +3910,7 @@
     <Destination>Destination</Destination>
     <DetectUrls>Detect URLs</DetectUrls>
     <DeviceWidth>Device Width</DeviceWidth>
-    <DialogResult>Dialog Result</DialogResult>
+    <DialogResult>Dialogue Result</DialogResult>
     <Diameter>Diameter</Diameter>
     <Direction>Direction</Direction>
     <Disabled>Disabled</Disabled>
@@ -3932,7 +3952,7 @@
     <EncodingMode>Encoding Mode</EncodingMode>
     <EncodingType>Encoding Type</EncodingType>
     <EndCap>End Cap</EndCap>
-    <EndColor>End Color</EndColor>
+    <EndColor>End Colour</EndColor>
     <EndValue>End Value</EndValue>
     <EndValues>End Values</EndValues>
     <EndWidth>End Width</EndWidth>
@@ -3960,10 +3980,10 @@
     <Fifth>Fifth</Fifth>
     <File>File</File>
     <Fill>Fill</Fill>
-    <FillColor>Fill Color</FillColor>
+    <FillColor>Fill Colour</FillColor>
     <Filter>Filter</Filter>
     <FilterElements>Filter Elements</FilterElements>
-    <FilterEngine>Filter Engine</FilterEngine>
+    <FilterEngine>FilterEngine</FilterEngine>
     <FilterMode>Filter Mode</FilterMode>
     <FilterOn>Filter On</FilterOn>
     <Filters>Filters</Filters>
@@ -3987,9 +4007,9 @@
     <FooterCanBreak>Footer Can Break</FooterCanBreak>
     <FooterCanGrow>Footer Can Grow</FooterCanGrow>
     <FooterCanShrink>Footer Can Shrink</FooterCanShrink>
-    <FooterColor>Footer Color</FooterColor>
+    <FooterColor>Footer Colour</FooterColor>
     <FooterFont>Footer Font</FooterFont>
-    <FooterForeColor>Footer Fore Color</FooterForeColor>
+    <FooterForeColor>Footer Fore Colour</FooterForeColor>
     <FooterForeground>Footer Foreground</FooterForeground>
     <FooterPrintAtBottom>Footer Print At Bottom</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Footer Print If Empty</FooterPrintIfEmpty>
@@ -3998,7 +4018,7 @@
     <FooterPrintOnEvenOddPages>Footer Print On Even Odd Pages</FooterPrintOnEvenOddPages>
     <FooterRowsCount>Footer Rows Count</FooterRowsCount>
     <Footers>Footers</Footers>
-    <ForeColor>Fore Color</ForeColor>
+    <ForeColor>Fore Colour</ForeColor>
     <Foreground>Foreground</Foreground>
     <Format>Format</Format>
     <FormName>Form Name</FormName>
@@ -4014,31 +4034,31 @@
     <GisSettings>Gis Settings</GisSettings>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
-    <GlyphColor>Glyph Color</GlyphColor>
-    <GridColor>Grid Color</GridColor>
+    <GlyphColor>Glyph Colour</GlyphColor>
+    <GridColor>Grid Colour</GridColor>
     <GridColumns>Grid Columns</GridColumns>
-    <GridLineColor>Grid Line Color</GridLineColor>
+    <GridLineColor>Grid Line Colour</GridLineColor>
     <GridLinesHor>Grid Lines Horizontal</GridLinesHor>
-    <GridLinesHorColor>Grid Lines Horizontal Color</GridLinesHorColor>
+    <GridLinesHorColor>Grid Lines Horizontal Colour</GridLinesHorColor>
     <GridLinesHorRight>Grid Lines Horizontal Right</GridLinesHorRight>
     <GridLineStyle>Grid Line Style</GridLineStyle>
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
-    <GridLinesVertColor>Grid Lines Vertical Color</GridLinesVertColor>
+    <GridLinesVertColor>Grid Lines Vertical Colour</GridLinesVertColor>
     <GridOutline>Grid Outline</GridOutline>
     <GridVerticalStep>Grid Vertical Step</GridVerticalStep>
     <Group>Group</Group>
     <GroupDataColumn>Group Data Column</GroupDataColumn>
-    <GroupMeter>Group Meter</GroupMeter>
+    <GroupMeter>Group</GroupMeter>
     <GrowToHeight>Grow to Height</GrowToHeight>
     <Header>Header</Header>
     <HeaderAlignment>Header Alignment</HeaderAlignment>
-    <HeaderBackColor>Header Back Color</HeaderBackColor>
+    <HeaderBackColor>Header Back Colour</HeaderBackColor>
     <HeaderCanBreak>Header Can Break</HeaderCanBreak>
     <HeaderCanGrow>Header Can Grow</HeaderCanGrow>
     <HeaderCanShrink>Header Can Shrink</HeaderCanShrink>
-    <HeaderColor>Header Color</HeaderColor>
+    <HeaderColor>Header Colour</HeaderColor>
     <HeaderFont>Header Font</HeaderFont>
-    <HeaderForeColor>Header Fore Color</HeaderForeColor>
+    <HeaderForeColor>Header Fore Colour</HeaderForeColor>
     <HeaderForeground>Header Foreground</HeaderForeground>
     <HeaderPrintAtBottom>Header Print At Bottom</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Header Print If Empty</HeaderPrintIfEmpty>
@@ -4050,7 +4070,7 @@
     <HeaderText>Header Text</HeaderText>
     <Heading>Heading</Heading>
     <Heatmap>Heatmap</Heatmap>
-    <HeatmapColors>Heatmap Colors</HeatmapColors>
+    <HeatmapColors>Heatmap Colours</HeatmapColors>
     <HeatmapWithGroup>Heatmap With Group</HeatmapWithGroup>
     <Height>Height</Height>
     <Hidden>Hidden</Hidden>
@@ -4061,16 +4081,16 @@
     <HighValues>High Values</HighValues>
     <HorAlignment>Horizontal Alignment</HorAlignment>
     <HorSpacing>Horizontal Spacing</HorSpacing>
-    <HotBackColor>Hot Back Color</HotBackColor>
-    <HotColumnHeaderBackColor>Hot Column Header Back Color</HotColumnHeaderBackColor>
-    <HotForeColor>Hot Fore Color</HotForeColor>
-    <HotGlyphColor>Hot Glyph Color</HotGlyphColor>
-    <HotHeaderColor>Hot Header Color</HotHeaderColor>
+    <HotBackColor>Hot Back Colour</HotBackColor>
+    <HotColumnHeaderBackColor>Hot Column Header Back Colour</HotColumnHeaderBackColor>
+    <HotForeColor>Hot Fore Colour</HotForeColor>
+    <HotGlyphColor>Hot Glyph Colour</HotGlyphColor>
+    <HotHeaderColor>Hot Header Colour</HotHeaderColor>
     <HotkeyPrefix>Hotkey Prefix</HotkeyPrefix>
-    <HotRowHeaderBackColor>Hot Row Header Back Color</HotRowHeaderBackColor>
-    <HotSelectedBackColor>Hot Selected Back Color</HotSelectedBackColor>
-    <HotSelectedForeColor>Hot Selected Fore Color</HotSelectedForeColor>
-    <HotSelectedGlyphColor>Hot Selected Glyph Color</HotSelectedGlyphColor>
+    <HotRowHeaderBackColor>Hot Row Header Back Colour</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Hot Selected Back Colour</HotSelectedBackColor>
+    <HotSelectedForeColor>Hot Selected Fore Colour</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Hot Selected Glyph Colour</HotSelectedGlyphColor>
     <HtmlPreviewMode>HTML Preview Mode</HtmlPreviewMode>
     <HtmlTags>HTML Tags</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
@@ -4079,7 +4099,7 @@
     <Icon>Icon</Icon>
     <IconAlignment>Icon Alignment</IconAlignment>
     <IconBrush>Icon Brush</IconBrush>
-    <IconColor>Icon Color</IconColor>
+    <IconColor>Icon Colour</IconColor>
     <IconSet>Icon Set</IconSet>
     <IconSetCondition>Icon Set Condition</IconSetCondition>
     <Idents>Indents</Idents>
@@ -4103,7 +4123,7 @@
     <Indent>Indent</Indent>
     <Indicator>Indicator</Indicator>
     <IndicatorValue>Indicator Value</IndicatorValue>
-    <IndividualColor>Individual Color</IndividualColor>
+    <IndividualColor>Individual Colour</IndividualColor>
     <InitBy>Init by</InitBy>
     <Initials>Initials</Initials>
     <InitialSelection>Initial Selection</InitialSelection>
@@ -4138,15 +4158,15 @@
     <KeepSubReportTogether>Keep Sub-Report Together</KeepSubReportTogether>
     <Key>Key</Key>
     <KeyDataColumn>Key Data Column</KeyDataColumn>
-    <KeyMeter>Key Meter</KeyMeter>
-    <KeyMeters>Key Meters</KeyMeters>
+    <KeyMeter>Key</KeyMeter>
+    <KeyMeters>Keys</KeyMeters>
     <Keys>Keys</Keys>
     <Label>Label</Label>
-    <LabelColor>Label Color</LabelColor>
+    <LabelColor>Label Colour</LabelColor>
     <LabelForeground>Label Foreground</LabelForeground>
     <LabelRotationMode>Label Rotation Mode</LabelRotationMode>
     <Labels>Labels</Labels>
-    <LabelsColor>Labels Color</LabelsColor>
+    <LabelsColor>Labels Colour</LabelsColor>
     <LabelShadowForeground>Label Shadow Foreground</LabelShadowForeground>
     <LabelsOffset>Labels Offset</LabelsOffset>
     <Language>Language</Language>
@@ -4158,10 +4178,10 @@
     <Left>Left</Left>
     <LeftSide>Left Side</LeftSide>
     <Legend>Legend</Legend>
-    <LegendBorderColor>Legend Border Color</LegendBorderColor>
+    <LegendBorderColor>Border Colour</LegendBorderColor>
     <LegendBrush>Legend Brush</LegendBrush>
-    <LegendLabelsColor>Legend Labels Color</LegendLabelsColor>
-    <LegendTitleColor>Legend Title Color</LegendTitleColor>
+    <LegendLabelsColor>Labels Colour</LegendLabelsColor>
+    <LegendTitleColor>Title Colour</LegendTitleColor>
     <LegendValueType>Legend Value Type</LegendValueType>
     <Length>Length</Length>
     <LengthUnderLabels>Length under Labels</LengthUnderLabels>
@@ -4173,8 +4193,8 @@
     <LinearBarEmptyBorderBrush>Linear Bar Empty Border Brush</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>Linear Bar Empty Brush</LinearBarEmptyBrush>
     <LinearScaleBrush>Linear Scale Brush</LinearScaleBrush>
-    <LineColor>Line Color</LineColor>
-    <LineColorNegative>Line Color Negative</LineColorNegative>
+    <LineColor>Line Colour</LineColor>
+    <LineColorNegative>Line Colour Negative</LineColorNegative>
     <LineLength>Line Length</LineLength>
     <LineLimit>Line Limit</LineLimit>
     <LineMarker>Line Marker</LineMarker>
@@ -4214,7 +4234,7 @@
     <MapPopularMaps>Popular maps</MapPopularMaps>
     <Maps>Maps</Maps>
     <MapSouthAmerica>South America</MapSouthAmerica>
-    <MapStyle>Map Style</MapStyle>
+    <MapStyle>Style</MapStyle>
     <MapType>Map Type</MapType>
     <Margin>Margin</Margin>
     <Margins>Margins</Margins>
@@ -4223,7 +4243,7 @@
     <MarkerAngle>Marker Angle</MarkerAngle>
     <MarkerBorder>Marker Border</MarkerBorder>
     <MarkerBrush>Marker Brush</MarkerBrush>
-    <MarkerColor>Marker Color</MarkerColor>
+    <MarkerColor>Marker Colour</MarkerColor>
     <MarkerSize>Marker Size</MarkerSize>
     <MarkerType>Marker Type</MarkerType>
     <MarkerVisible>Marker Visible</MarkerVisible>
@@ -4248,7 +4268,7 @@
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Minimum Font Size</MinimumFontSize>
     <MinimumValue>Minimum Value</MinimumValue>
-    <MinorColor>Minor Color</MinorColor>
+    <MinorColor>Minor Colour</MinorColor>
     <MinorCount>Minor Count</MinorCount>
     <MinorInterval>Minor Interval</MinorInterval>
     <MinorLength>Minor Length</MinorLength>
@@ -4268,7 +4288,7 @@
     <Name>Name</Name>
     <NameDataColumn>Name Data Column</NameDataColumn>
     <NameInSource>Name in Source</NameInSource>
-    <NameMeter>Name Meter</NameMeter>
+    <NameMeter>Name</NameMeter>
     <NameParent>Parent Name</NameParent>
     <Namespaces>Namespaces</Namespaces>
     <NeedleBorderBrush>Needle Border Brush</NeedleBorderBrush>
@@ -4277,8 +4297,8 @@
     <NeedleCapBorderBrush>Needle Cap Border Brush</NeedleCapBorderBrush>
     <NeedleCapBrush>Needle Cap Brush</NeedleCapBrush>
     <Negative>Negative</Negative>
-    <NegativeColor>Negative Color</NegativeColor>
-    <NegativeSeriesColors>Negative Series Colors</NegativeSeriesColors>
+    <NegativeColor>Negative Colour</NegativeColor>
+    <NegativeSeriesColors>Negative Series Colours</NegativeSeriesColors>
     <NegativeTextBrush>Negative Text Brush</NegativeTextBrush>
     <NestedLevel>Nested Level</NestedLevel>
     <NewColumnAfter>New Column After</NewColumnAfter>
@@ -4308,7 +4328,7 @@
     <Options3D>Options 3D</Options3D>
     <Orientation>Orientation</Orientation>
     <OthersText>Others Text</OthersText>
-    <OverlappedColor>Overlapped Color</OverlappedColor>
+    <OverlappedColor>Overlapped Colour</OverlappedColor>
     <Padding>Padding</Padding>
     <PageHeight>Page Height</PageHeight>
     <PageNumbers>Page Numbers</PageNumbers>
@@ -4326,7 +4346,7 @@
     <ParentColumns>Parent Columns</ParentColumns>
     <ParentSource>Parent Data Source</ParentSource>
     <ParentValue>Parent Value</ParentValue>
-    <ParetoSeriesColors>Pareto Series Colors</ParetoSeriesColors>
+    <ParetoSeriesColors>Pareto Series Colours</ParetoSeriesColors>
     <PasswordChar>Password Char</PasswordChar>
     <Path>Path</Path>
     <PathData>Path Data</PathData>
@@ -4336,10 +4356,10 @@
     <Placeholder>Placeholder</Placeholder>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Place on Toolbox</PlaceOnToolbox>
-    <PointAtCenter>Point at Center</PointAtCenter>
+    <PointAtCenter>Point at Centre</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positive</Positive>
-    <PositiveColor>Positive Color</PositiveColor>
+    <PositiveColor>Positive Colour</PositiveColor>
     <PreferredColumnWidth>Preferred Column Width</PreferredColumnWidth>
     <PreferredRowHeight>Preferred Row Height</PreferredRowHeight>
     <PreventIntersection>Prevent Intersection</PreventIntersection>
@@ -4374,7 +4394,7 @@
     <Radius>Radius</Radius>
     <RadiusMode>Radius Mode</RadiusMode>
     <Range>Range</Range>
-    <RangeColorMode>Range Color Mode</RangeColorMode>
+    <RangeColorMode>Range Colour Mode</RangeColorMode>
     <RangeFrom>From</RangeFrom>
     <RangeMode>Range Mode</RangeMode>
     <RangeScrollEnabled>Range Scroll Enabled</RangeScrollEnabled>
@@ -4428,8 +4448,8 @@
     <Round>Round</Round>
     <RoundValues>Round Values</RoundValues>
     <RowCount>Row Count</RowCount>
-    <RowHeaderBackColor>Row Header Back Color</RowHeaderBackColor>
-    <RowHeaderForeColor>Row Header Fore Color</RowHeaderForeColor>
+    <RowHeaderBackColor>Row Header Back Colour</RowHeaderBackColor>
+    <RowHeaderForeColor>Row Header Fore Colour</RowHeaderForeColor>
     <RowHeadersVisible>Row Headers Visible</RowHeadersVisible>
     <RowHeaderWidth>Row Header Width</RowHeaderWidth>
     <Rows>Rows</Rows>
@@ -4441,44 +4461,44 @@
     <Second>Second</Second>
     <SegmentPerHeight>Segment per Height</SegmentPerHeight>
     <SegmentPerWidth>Segment per Width</SegmentPerWidth>
-    <SelectedBackColor>Selected Back Color</SelectedBackColor>
-    <SelectedCellBackColor>Selected Cell Back Color</SelectedCellBackColor>
-    <SelectedCellForeColor>Selected Cell Fore Color</SelectedCellForeColor>
-    <SelectedDataColor>Selected Data Color</SelectedDataColor>
+    <SelectedBackColor>Selected Back Colour</SelectedBackColor>
+    <SelectedCellBackColor>Selected Cell Back Colour</SelectedCellBackColor>
+    <SelectedCellForeColor>Selected Cell Fore Colour</SelectedCellForeColor>
+    <SelectedDataColor>Selected Data Colour</SelectedDataColor>
     <SelectedDataForeground>Selected Data Foreground</SelectedDataForeground>
-    <SelectedForeColor>Selected Fore Color</SelectedForeColor>
-    <SelectedGlyphColor>Selected Glyph Color</SelectedGlyphColor>
+    <SelectedForeColor>Selected Fore Colour</SelectedForeColor>
+    <SelectedGlyphColor>Selected Glyph Colour</SelectedGlyphColor>
     <SelectedIndex>Selected Index</SelectedIndex>
     <SelectedItem>Selected Item</SelectedItem>
     <SelectedKey>Selected Key</SelectedKey>
     <SelectedValue>Selected Value</SelectedValue>
     <Selection>Selection</Selection>
-    <SelectionBackColor>Selection Back Color</SelectionBackColor>
+    <SelectionBackColor>Selection Back Colour</SelectionBackColor>
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
-    <SelectionForeColor>Selection Fore Color</SelectionForeColor>
+    <SelectionForeColor>Selection Fore Colour</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
     <SelectionType>Selection Type</SelectionType>
     <SelectStyle>Select Style</SelectStyle>
     <SendType>Send Type</SendType>
-    <SeparatorColor>Separator Color</SeparatorColor>
+    <SeparatorColor>Separator Colour</SeparatorColor>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
-    <SeriesBorderColor>Series Border Color</SeriesBorderColor>
+    <SeriesBorderColor>Series Border Colour</SeriesBorderColor>
     <SeriesBorderThickness>Series Border Thickness</SeriesBorderThickness>
-    <SeriesColors>Series Colors</SeriesColors>
+    <SeriesColors>Series Colours</SeriesColors>
     <SeriesCornerRadius>Series Corner Radius</SeriesCornerRadius>
     <SeriesLabels>Series Labels</SeriesLabels>
-    <SeriesLabelsBorderColor>Series Labels Border Color</SeriesLabelsBorderColor>
-    <SeriesLabelsBrush>Series Labels Brush</SeriesLabelsBrush>
-    <SeriesLabelsColor>Series Labels Color</SeriesLabelsColor>
-    <SeriesLabelsLineColor>Series Labels Line Color</SeriesLabelsLineColor>
+    <SeriesLabelsBorderColor>Border Colour</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Labels Brush</SeriesLabelsBrush>
+    <SeriesLabelsColor>Labels Colour</SeriesLabelsColor>
+    <SeriesLabelsLineColor>Labels Line Colour</SeriesLabelsLineColor>
     <SeriesLighting>Series Lighting</SeriesLighting>
     <SeriesShowBorder>Series Show Border</SeriesShowBorder>
     <SeriesShowShadow>Series Show Shadow</SeriesShowShadow>
     <SeriesTitle>Series Title</SeriesTitle>
     <Shadow>Shadow</Shadow>
     <ShadowBrush>Shadow Brush</ShadowBrush>
-    <ShadowColor>Shadow Color</ShadowColor>
+    <ShadowColor>Shadow Colour</ShadowColor>
     <ShadowSize>Shadow Size</ShadowSize>
     <ShapeType>Shape Type</ShapeType>
     <Shift>Shift</Shift>
@@ -4489,7 +4509,7 @@
     <ShowBehind>Show Behind</ShowBehind>
     <ShowBlanks>Show Blanks</ShowBlanks>
     <ShowBubble>Show Bubble</ShowBubble>
-    <ShowDialog>Show Dialog</ShowDialog>
+    <ShowDialog>Show Dialogue</ShowDialog>
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
     <ShowHyperlink>Show Hyperlink</ShowHyperlink>
     <ShowImageBehind>Show Image Behind</ShowImageBehind>
@@ -4550,7 +4570,7 @@
     <SqlCommand>Sql Command</SqlCommand>
     <StartAngle>Start Angle</StartAngle>
     <StartCap>Start Cap</StartCap>
-    <StartColor>Start Color</StartColor>
+    <StartColor>Start Colour</StartColor>
     <StartFromZero>Start From Zero</StartFromZero>
     <StartMode>Start Mode</StartMode>
     <StartNewPage>Start New Page</StartNewPage>
@@ -4574,10 +4594,10 @@
     <StructuredAppendPosition>Structured Append Position</StructuredAppendPosition>
     <StructuredAppendTotal>Structured Append Total</StructuredAppendTotal>
     <Style>Style</Style>
-    <StyleColors>Style Colors</StyleColors>
+    <StyleColors>Style Colours</StyleColors>
     <Styles>Styles</Styles>
     <SubmissionMessage>Submission Message</SubmissionMessage>
-    <SubReportPage>Sub Report</SubReportPage>
+    <SubReportPage>Sub Report Page</SubReportPage>
     <Summaries>Summaries</Summaries>
     <Summary>Summary</Summary>
     <SummaryAlignment>Summary Alignment</SummaryAlignment>
@@ -4596,7 +4616,7 @@
     <TagDataColumn>Tag Data Column</TagDataColumn>
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
-    <TargetColor>Target Color</TargetColor>
+    <TargetColor>Target Colour</TargetColor>
     <TargetFormat>Target Format</TargetFormat>
     <TargetIcon>Target Icon</TargetIcon>
     <TargetMode>Target Mode</TargetMode>
@@ -4609,7 +4629,7 @@
     <TextAngle>Text Angle</TextAngle>
     <TextBefore>Text Before</TextBefore>
     <TextBrush>Text Brush</TextBrush>
-    <TextColor>Text Color</TextColor>
+    <TextColor>Text Colour</TextColor>
     <TextEnabled>Text Enabled</TextEnabled>
     <TextFont>Text Font</TextFont>
     <TextFormat>Text Format</TextFormat>
@@ -4632,10 +4652,10 @@
     <Ticks>Ticks</Ticks>
     <Title>Title</Title>
     <TitleBeforeHeader>Title Before Header</TitleBeforeHeader>
-    <TitleColor>Title Color</TitleColor>
+    <TitleColor>Title Colour</TitleColor>
     <TitleDirection>TitleDirection</TitleDirection>
     <TitleFont>Title Font</TitleFont>
-    <TitleVisible>Title Visible</TitleVisible>
+    <TitleVisible>Visible</TitleVisible>
     <To>To</To>
     <Today>Today</Today>
     <ToolTip>Tool Tip</ToolTip>
@@ -4652,18 +4672,18 @@
     <TopRight>Top-Right</TopRight>
     <TopSide>Top Side</TopSide>
     <Total>Total</Total>
-    <TotalCellColumnBackColor>Total Cell Column Back Color</TotalCellColumnBackColor>
-    <TotalCellColumnForeColor>Total Cell Column Fore Color</TotalCellColumnForeColor>
-    <TotalCellRowBackColor>Total Cell Row Back Color</TotalCellRowBackColor>
-    <TotalCellRowForeColor>Total Cell Row Fore Color</TotalCellRowForeColor>
+    <TotalCellColumnBackColor>Total Cell Column Back Colour</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Total Cell Column Fore Colour</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Total Cell Row Back Colour</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Total Cell Row Fore Colour</TotalCellRowForeColor>
     <TotalLabel>Total Label</TotalLabel>
     <Totals>Totals</Totals>
-    <TrackColor>Track Color</TrackColor>
-    <TransparentColor>Transparent Color</TransparentColor>
+    <TrackColor>Track Colour</TrackColor>
+    <TransparentColor>Transparent Colour</TransparentColor>
     <TrendLine>Trend Line</TrendLine>
-    <TrendLineColor>Trend Line Color</TrendLineColor>
+    <TrendLineColor>Colour</TrendLineColor>
     <TrendLines>Trend Lines</TrendLines>
-    <TrendLineShowShadow>Trend Line Show Shadow</TrendLineShowShadow>
+    <TrendLineShowShadow>Show Shadow</TrendLineShowShadow>
     <TrimExcessData>Trim Excess Data</TrimExcessData>
     <Trimming>Trimming</Trimming>
     <Type>Type</Type>
@@ -4684,7 +4704,7 @@
     <UseParentStyles>Use Parent Styles</UseParentStyles>
     <UseRangeColor>Use Range Color</UseRangeColor>
     <UseRectangularSymbols>Use Rectangular Symbols</UseRectangularSymbols>
-    <UseSeriesColor>Use Series Color</UseSeriesColor>
+    <UseSeriesColor>Use Series Colour</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Use Style of Summary in Row Total</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Use User Picture</UseUserPicture>
@@ -4701,7 +4721,7 @@
     <ValueFormat>Value Format</ValueFormat>
     <ValueHigh>Value High</ValueHigh>
     <ValueLow>Value Low</ValueLow>
-    <ValueMeter>Value Meter</ValueMeter>
+    <ValueMeter>Value</ValueMeter>
     <ValueOpen>Value Open</ValueOpen>
     <Values>Values</Values>
     <ValueType>Value Type</ValueType>
@@ -4721,10 +4741,10 @@
     <WeaveAngle>Weave Angle</WeaveAngle>
     <WeaveDistance>Weave Distance</WeaveDistance>
     <WeaveEnabled>Weave Enabled</WeaveEnabled>
-    <WeaveMajorColor>Weave Major Color</WeaveMajorColor>
+    <WeaveMajorColor>Weave Major Colour</WeaveMajorColor>
     <WeaveMajorIcon>Weave Major Icon</WeaveMajorIcon>
     <WeaveMajorSize>Weave Major Size</WeaveMajorSize>
-    <WeaveMinorColor>Weave Minor Color</WeaveMinorColor>
+    <WeaveMinorColor>Weave Minor Colour</WeaveMinorColor>
     <WeaveMinorIcon>Weave Minor Icon</WeaveMinorIcon>
     <WeaveMinorSize>Weave Minor Size</WeaveMinorSize>
     <Weight>Weight</Weight>
@@ -4740,7 +4760,7 @@
     <XTopAxis>X Top Axis</XTopAxis>
     <YAxis>Y Axis</YAxis>
     <YRightAxis>Y Right Axis</YRightAxis>
-    <ZeroColor>Zero Color</ZeroColor>
+    <ZeroColor>Zero Colour</ZeroColor>
     <Zoom>Zoom</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -4909,7 +4929,7 @@
     <CreateNewReportPageForm>Create a new report, add a page, add a form</CreateNewReportPageForm>
     <CreatingReport>Creating Report</CreatingReport>
     <CrossBands>Cross</CrossBands>
-    <Dialogs>Dialogs</Dialogs>
+    <Dialogs>Dialogues</Dialogs>
     <EditStyles>Edit Styles</EditStyles>
     <Enhancements>Enhancements</Enhancements>
     <EnterDataManually>Enter data manually</EnterDataManually>
@@ -4933,9 +4953,9 @@
     <LabelAuthor>Author:</LabelAuthor>
     <LabelBackground>Background:</LabelBackground>
     <LabelCategory>Category:</LabelCategory>
-    <LabelCentimeters>Centimeters:</LabelCentimeters>
+    <LabelCentimeters>Centimetres:</LabelCentimeters>
     <LabelCollectionName>Collection Name:</LabelCollectionName>
-    <LabelColor>Color:</LabelColor>
+    <LabelColor>Colour:</LabelColor>
     <LabelCountData>Count Data:</LabelCountData>
     <LabelDataBand>DataBand:</LabelDataBand>
     <LabelDataColumn>Data Column:</LabelDataColumn>
@@ -4946,7 +4966,7 @@
     <LabelFunction>Function:</LabelFunction>
     <LabelHundredthsOfInch>Hundredths of Inch:</LabelHundredthsOfInch>
     <LabelInches>Inches:</LabelInches>
-    <LabelMillimeters>Millimeters:</LabelMillimeters>
+    <LabelMillimeters>Millimetres:</LabelMillimeters>
     <LabelName>Name:</LabelName>
     <LabelNameInSource>Name in Source:</LabelNameInSource>
     <LabelNestedLevel>Nested Level:</LabelNestedLevel>
@@ -5067,6 +5087,7 @@
     <NewScheduler>New Scheduler</NewScheduler>
     <NoLogs>No Logs</NoLogs>
     <NoSchedulers>No Schedulers</NoSchedulers>
+    <NoShedulers>No Shedulers</NoShedulers>
     <NumberOfDayAll>All</NumberOfDayAll>
     <NumberOfDayFirst>First</NumberOfDayFirst>
     <NumberOfDayFourth>Fourth</NumberOfDayFourth>
@@ -5161,6 +5182,8 @@
   <Signature>
     <ClearSignature>Clear Signature</ClearSignature>
     <DigitalSignatureEmptyWatermark>Place for digital signature in PDF Viewer</DigitalSignatureEmptyWatermark>
+    <FullName>Full Name</FullName>
+    <Initials>Initials</Initials>
     <InsertImage>Insert Image</InsertImage>
     <InsertText>Insert Text</InsertText>
     <LoadSignature>Load signature</LoadSignature>
@@ -5221,7 +5244,7 @@
   <Toolbars>
     <Align>Align</Align>
     <AlignBottom>Align Bottom</AlignBottom>
-    <AlignCenter>Align Center</AlignCenter>
+    <AlignCenter>Align Centre</AlignCenter>
     <AlignLeft>Align Left</AlignLeft>
     <AlignMiddle>Align Middle</AlignMiddle>
     <AlignRight>Align Right</AlignRight>
@@ -5229,8 +5252,8 @@
     <AlignTop>Align Top</AlignTop>
     <AlignWidth>Justify</AlignWidth>
     <BringToFront>Bring to Front</BringToFront>
-    <CenterHorizontally>Center Horizontally</CenterHorizontally>
-    <CenterVertically>Center Vertically</CenterVertically>
+    <CenterHorizontally>Centre Horizontally</CenterHorizontally>
+    <CenterVertically>Centre Vertically</CenterVertically>
     <Conditions>Conditions</Conditions>
     <FontGrow>Grow Font</FontGrow>
     <FontName>Font Name</FontName>
@@ -5286,7 +5309,7 @@
     <title>Toolbox</title>
   </Toolbox>
   <WelcomeScreen>
-    <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be canceled.</AllDownloadsWillCanceled>
+    <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be cancelled.</AllDownloadsWillCanceled>
     <Description>We have selected for you reports that we think are the best for a quick start.</Description>
     <GetStarted>Get Started</GetStarted>
     <GetStartedWithDashboards>Get Started with Dashboards</GetStartedWithDashboards>
