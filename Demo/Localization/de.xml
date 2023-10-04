@@ -1940,6 +1940,7 @@
     <StiPanel>Das Panel ist eine Komponente, welche frei auf dem Bericht platziert werden kann. Darin können andere Komponenten, einschliesslich Bänder abgelegt werden. Das Panel dient quasi zur Gruppierung und Positionierung dieser anderen Kopmonenten. Das Panel kann auf einem Band oder direkt auf einer Seite des Berichtes platziert werden</StiPanel>
     <StiPanelElement>Eine rechteckige Region, die andere Elemente enthalten kann. Wenn das Panel verschoben wird, werden seine Elemente auch verschoben.</StiPanelElement>
     <StiPdfDigitalSignature>Diese Komponente wird verwendet, um ein Feld für digitale Unterschrift nach dem Export vom Bericht in Adobe PDF anzugeben.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Diese Komponente wird für die Angabe vom Standort der digitaler Unterschrift und der Zertifikat-Felder beim Export in PDF verwendet.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Das Pivot-Tabelle-Element wird verwendet, um die strukturierten Daten als Tabelle darzustellen.</StiPivotTableElement>
     <StiProgressElement>Das Element zeigt das Verhältnis der Eingabedaten an. Es kann in verschiedenen Modi - als Kreis-, Ring- oder Balkendiagramm, - dargestellt werden.</StiProgressElement>
     <StiRectanglePrimitive>Diese Komponente wird zu Ausgabe von Rechtecken verwendet.</StiRectanglePrimitive>
@@ -2390,6 +2391,7 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Anforderungs-Timeout für SQL-Quellen überschreitet Anforderungs-Timeout des Berichtsdesigners. Stellen Sie Anforderungs-Timeout für Designer-Komponente nicht weniger als {0} Sekunden ein.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Vorsicht! Diese Funktion wandelt die Datenquelle in {0} um. Um die Daten erfolgreich zu erhalten, sollen alle Namen der Tabellen und der Spalten zusammenpassen. Die Anfragen werden nicht umgewandelt werden. Wollen Sie fortfahren?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Mehr nicht anzeigen</DoNotShowAgain>
     <LatexFormat>Das LaTeX-Format wird für Anzeige von Mathematikformeln verwendet.</LatexFormat>
     <MessageTimeOutExpired>Befehl-Timeout ist abgelaufen!</MessageTimeOutExpired>
@@ -3754,6 +3756,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Anchor>Anker</Anchor>
     <Angle>Winkel</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Appearance>Gestaltung</Appearance>
     <Apply>Anwenden</Apply>
     <Area>Fläche</Area>
     <Argument>Argument</Argument>

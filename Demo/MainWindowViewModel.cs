@@ -132,8 +132,6 @@ public sealed class MainWindowViewModel
                     "Group with Collapsing.mrt",
                     "Group with Collapsing without Footer.mrt",
                     "Cross-Tab with Collapsing.mrt",
-                    "Selection.mrt",
-                    "Multi-Selection.mrt",
                     "Tree with Collapsing.mrt",
                     "Master-Detail with Collapsing.mrt",
                     "Editable.mrt",
@@ -189,7 +187,6 @@ public sealed class MainWindowViewModel
                     "Histogram.mrt",
                     "Pareto.mrt",
                     "Waterfall.mrt",
-                    "Pictorial.mrt",
                 }
             },
             new StiFolderInfo(){

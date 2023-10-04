@@ -2381,6 +2381,7 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>The request timeout for SQL queries exceeds the request timeout of the report designer. Set the request timeout for the designer component in no less than {0} seconds.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Be careful! This function converts the data source to {0}. To successfully retrieve data, all table and column names must match. Queries will not be converted. Do you want to proceed?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
     <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>

@@ -2397,6 +2397,7 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Время ожидания для SQL запросов превышает время ожидания запросов дизайнера. Установите время ожидания запросов дизайнера не менее {0} секунд.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Будьте осторожны! Эта функция преобразует источник данных в {0}. Для успешного получения данных все имена таблиц и колонок должны совпадать. Запросы не будут преобразованы. Вы хотите продолжить?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Не показывать снова</DoNotShowAgain>
     <LatexFormat>Для отображения математических формул используется формат LaTeX.</LatexFormat>
     <MessageTimeOutExpired>Истекло время ожидания исполнения команды!</MessageTimeOutExpired>

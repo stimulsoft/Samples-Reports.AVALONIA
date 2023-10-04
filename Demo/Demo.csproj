@@ -16,7 +16,6 @@
     <None Remove="Localization\pl.xml" />
     <None Remove="Localization\ru.xml" />
     <None Remove="Reports\**\**" />
-    
   </ItemGroup>
   <ItemGroup>
     <AvaloniaResource Include="Assets\avalonia-logo.ico" />
