@@ -8,7 +8,7 @@
         mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
         x:Class="Change_Theme_in_Avalonia.Views.MainWindow"
 		WindowStartupLocation="CenterScreen"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="resm:Stimulsoft.Report.app.ico?assembly=Stimulsoft.Report"
         Title="Change Theme in Avalonia">
 	<Grid>
 		<Grid RowDefinitions="*,12,*"
