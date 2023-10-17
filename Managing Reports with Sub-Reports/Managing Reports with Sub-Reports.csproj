@@ -4,8 +4,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>Stimulsoft.snk</AssemblyOriginatorKeyFile>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaNameGeneratorIsEnabled>false</AvaloniaNameGeneratorIsEnabled>
   </PropertyGroup>

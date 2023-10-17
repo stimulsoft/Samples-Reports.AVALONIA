@@ -4,8 +4,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>Stimulsoft.snk</AssemblyOriginatorKeyFile>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaNameGeneratorIsEnabled>false</AvaloniaNameGeneratorIsEnabled>
   </PropertyGroup>
@@ -21,8 +19,8 @@
   <ItemGroup>
     <AvaloniaResource Include="Data\Demo.xml" />
     <AvaloniaResource Include="Data\Demo.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Demo.Designer.cs</LastGenOutput>
+    <Generator>MSDataSetGenerator</Generator>
+    <LastGenOutput>Demo.Designer.cs</LastGenOutput>
     </AvaloniaResource>
     <AvaloniaResource Include="Reports\Details.mrt" />
     <AvaloniaResource Include="Reports\LiveReports.mrt" />

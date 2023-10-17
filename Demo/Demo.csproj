@@ -1,11 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>Stimulsoft.snk</AssemblyOriginatorKeyFile>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaNameGeneratorIsEnabled>false</AvaloniaNameGeneratorIsEnabled>
   </PropertyGroup>
@@ -19,9 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <AvaloniaResource Include="Assets\avalonia-logo.ico" />
-    <AvaloniaResource Include="Localization\en.xml" />
-    <AvaloniaResource Include="Localization\pl.xml" />
-    <AvaloniaResource Include="Localization\ru.xml" />
+    <AvaloniaResource Include="Localization\*.xml" />
     <AvaloniaResource Include="Reports\**\**" />
   </ItemGroup>
   <ItemGroup>
