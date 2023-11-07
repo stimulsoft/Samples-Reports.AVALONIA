@@ -40,6 +40,7 @@ public partial class MainWindow : Window
         report.Load(stream);
 
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Managing Reports with Sub-Reports/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -48,6 +49,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {
@@ -68,6 +70,7 @@ public partial class MainWindow : Window
         report.Load(stream);
 
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Managing Reports with Sub-Reports/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -76,6 +79,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {
@@ -96,6 +100,7 @@ public partial class MainWindow : Window
         report.Load(stream);
 
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Managing Reports with Sub-Reports/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -104,6 +109,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {
@@ -136,6 +142,7 @@ public partial class MainWindow : Window
         report.SubReports.Add(report2, checkBoxResetPageNumber.IsChecked.GetValueOrDefault(), checkBoxPrintOnPreviousPage.IsChecked.GetValueOrDefault());
         report.SubReports.Add(report3, checkBoxResetPageNumber.IsChecked.GetValueOrDefault(), checkBoxPrintOnPreviousPage.IsChecked.GetValueOrDefault());
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Managing Reports with Sub-Reports/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -144,6 +151,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {

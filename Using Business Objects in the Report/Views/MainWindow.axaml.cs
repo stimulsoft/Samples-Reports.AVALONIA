@@ -36,6 +36,7 @@ public partial class MainWindow : Window
         report.RegData("EmployeeIEnumerable", CreateBusinessObjectsIEnumerable.GetEmployees());
         report.Load(AssetLoader.Open(new Uri($@"avares://Using Business Objects in the Report/Reports/BusinessObjects_IEnumerable.mrt")));
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Using Business Objects in the Report/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -44,6 +45,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {
@@ -62,6 +64,7 @@ public partial class MainWindow : Window
         report.RegData("EmployeeITypedList", CreateBusinessObjectsITypedList.GetEmployees());
         report.Load(AssetLoader.Open(new Uri($@"avares://Using Business Objects in the Report/Reports/BusinessObjects_ITypedList.mrt")));
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Using Business Objects in the Report/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -70,6 +73,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {

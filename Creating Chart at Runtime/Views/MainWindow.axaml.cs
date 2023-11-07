@@ -188,6 +188,7 @@ public partial class MainWindow : Window
         report.Dictionary.Synchronize();
 
         report.CalculationMode = StiCalculationMode.Interpretation;
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Creating Chart at Runtime/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -196,6 +197,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {

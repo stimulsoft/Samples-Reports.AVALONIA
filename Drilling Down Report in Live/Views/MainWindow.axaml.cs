@@ -55,6 +55,7 @@ public partial class MainWindow : Window
 
         report.CalculationMode = StiCalculationMode.Interpretation;
         report.Click += new EventHandler(click);
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Drilling Down Report in Live/Assets/avalonia-logo.ico"));
 
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
@@ -63,6 +64,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {

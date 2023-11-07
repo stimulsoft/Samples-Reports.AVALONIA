@@ -54,6 +54,8 @@ public partial class MainWindow : Window
     #region Handlers
     private async void ButtonShow_Click(object sender, RoutedEventArgs e)
     {
+        var streamIcon = AssetLoader.Open(new Uri($@"avares://Using Linq in Reports/Assets/avalonia-logo.ico"));
+
         if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
         {
             var window = new Window
@@ -61,6 +63,7 @@ public partial class MainWindow : Window
                 WindowState = WindowState.Maximized,
                 Width = 450,
                 Height = 450,
+                Icon = new WindowIcon(streamIcon),
                 WindowStartupLocation = WindowStartupLocation.CenterOwner,
                 Content = new StiViewerControl
                 {
