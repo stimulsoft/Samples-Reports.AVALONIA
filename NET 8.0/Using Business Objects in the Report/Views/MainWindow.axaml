@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Using_Business_Objects_in_the_Report.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Using_Business_Objects_in_the_Report.Views"
+		Width="450" Height="300"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
+        x:Class="Using_Business_Objects_in_the_Report.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+		WindowStartupLocation="CenterScreen"
+        Title="Using Business Objects in the Report">
+	<Grid>
+		<Grid Margin="12" RowDefinitions="Auto,*,Auto">
+			<Grid RowDefinitions="*,12,*" ColumnDefinitions="Auto,12,*">
+				<TextBlock VerticalAlignment="Center" Text="IEnumerable"/>
+				<Button x:Name="buttonIEnumerableShow" Grid.Column="2" Width="100" 
+						HorizontalContentAlignment="Center" Content="Show"
+						Click="ButtonIEnumerableShow_Click"/>
+
+				<TextBlock Grid.Row="2" VerticalAlignment="Center" Text="ITypedList"/>
+				<Button x:Name="buttonITypedListShow" Grid.Row="2" Grid.Column="2" Width="100" 
+						HorizontalContentAlignment="Center" Content="Show"
+						Click="ButtonITypedListShow_Click"/>
+			</Grid>
+		</Grid>
+	</Grid>
+</Window>

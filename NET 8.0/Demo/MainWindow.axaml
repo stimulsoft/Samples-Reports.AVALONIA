@@ -1,0 +1,44 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		xmlns:app1="using:Demo"
+        x:Class="Demo.MainWindow"
+		WindowStartupLocation="CenterScreen"
+		Icon="/Assets/avalonia-logo.ico"
+        Title="Demo"
+		WindowState="Maximized">
+	
+	<Window.DataContext>
+		<app1:MainWindowViewModel/>
+	</Window.DataContext>
+
+	<Grid x:Name="rootGrid">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="250"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<TreeView x:Name="treeViewReports"
+			          ItemsSource="{Binding ReportItems}"
+			          SelectionChanged="TreeViewReports_OnSelectionChanged">
+				<TreeView.ItemTemplate>
+					<TreeDataTemplate ItemsSource="{Binding  Nodes}">
+						<TextBlock Text="{Binding Text}"/>
+					</TreeDataTemplate>
+				</TreeView.ItemTemplate>
+			</TreeView>
+
+			<Button x:Name="buttonRefresh" Grid.Row="1" Content="Refresh" Margin="6" Click="ButtonRefresh_Click"/>
+		</Grid>
+
+		<ContentPresenter Grid.Column="1" x:Name="viewerPresenter"/>
+	</Grid>
+</Window>

@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Demo Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>Demo</Alias>
+        <Name>Demo</Name>
+        <PathData>D:\Stimulsoft\Stimulsoft.Reports\Reports\Demo.xml</PathData>
+        <PathSchema>D:\Stimulsoft\Stimulsoft.Reports\Reports\Demo.xsd</PathSchema>
+      </Demo>
+    </Databases>
+    <DataSources isList="true" count="9">
+      <Suppliers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>SupplierID,System.Int32</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Phone,System.String</value>
+          <value>HomePage,System.String</value>
+          <value>Fax,System.String</value>
+          <value>Country,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>City,System.String</value>
+          <value>Address,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>375f102b429b4c749f6ef6891ecdc60c</Key>
+        <Name>Suppliers</Name>
+        <NameInSource>Demo.Suppliers</NameInSource>
+      </Suppliers>
+      <Shippers Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>ShipperID,System.Int32</value>
+          <value>Phone,System.String</value>
+          <value>CompanyName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>3d16fd10c57a48d69f3078e8aadd3377</Key>
+        <Name>Shippers</Name>
+        <NameInSource>Demo.Shippers</NameInSource>
+      </Shippers>
+      <Products Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="7">
+          <value>UnitsInStock,System.Int16</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>SupplierID,System.Int32</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>ProductName,System.String</value>
+          <value>ProductID,System.Int32</value>
+          <value>CategoryID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>cb07fb57b295439b8dd6b8fc40b01ddf</Key>
+        <Name>Products</Name>
+        <NameInSource>Demo.Products</NameInSource>
+      </Products>
+      <Orders Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>ShipVia,System.Int32</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipName,System.String</value>
+          <value>ShipCountry,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipAddress,System.String</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>OrderID,System.Int32</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>Freight,System.Decimal</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>CustomerID,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>94f79ac6fdf5404ebc40efbc54b9f1f8</Key>
+        <Name>Orders</Name>
+        <NameInSource>Demo.Orders</NameInSource>
+      </Orders>
+      <Order_x0020_Details Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>UnitPrice,System.Decimal</value>
+          <value>Quantity,System.Int16</value>
+          <value>ProductID,System.Int32</value>
+          <value>OrderID,System.Int32</value>
+          <value>Discount,System.Single</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>a384ca0abff94d00acb1173e45d08753</Key>
+        <Name>Order Details</Name>
+        <NameInSource>Demo.Order Details</NameInSource>
+      </Order_x0020_Details>
+      <Employees Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="14">
+          <value>Title,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Notes,System.String</value>
+          <value>LastName,System.String</value>
+          <value>HomePhone,System.String</value>
+          <value>HireDate,System.DateTime</value>
+          <value>FirstName,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>Country,System.String</value>
+          <value>City,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>Address,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>c521898cbe584b82b7ca24eeafe4af2c</Key>
+        <Name>Employees</Name>
+        <NameInSource>Demo.Employees</NameInSource>
+      </Employees>
+      <Customers Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>Region,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Phone,System.String</value>
+          <value>Fax,System.String</value>
+          <value>CustomerID,System.String</value>
+          <value>Country,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>City,System.String</value>
+          <value>Address,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>485551e7c9814ce2aa69a134a2de0dbb</Key>
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+      <Countries Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>Flag,System.Byte[]</value>
+          <value>CountryName,System.String</value>
+          <value>CountriesID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>62c8d8d73bf544efa50e56d275db301c</Key>
+        <Name>Countries</Name>
+        <NameInSource>Demo.Countries</NameInSource>
+      </Countries>
+      <Categories Ref="11" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="3">
+          <value>Description,System.String</value>
+          <value>CategoryName,System.String</value>
+          <value>CategoryID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>7e238ee3ae1043f5853cd1bd5f50f481</Key>
+        <Name>Categories</Name>
+        <NameInSource>Demo.Categories</NameInSource>
+      </Categories>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <Employees Ref="12" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesEmployees</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Employees>
+      <Products Ref="13" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>ProductsOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </Products>
+      <Orders Ref="14" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>OrdersOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Orders>
+      <Customers Ref="15" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>CustomersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </Customers>
+      <Shippers Ref="16" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>ShippersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Shippers>
+      <Employees Ref="17" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Employees>
+      <Categories Ref="18" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>CategoriesProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="11" />
+      </Categories>
+      <Suppliers Ref="19" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>SuppliersProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Suppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>3cfab21b4ac747c79cc1a5feb8772fb8</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="20" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <ColumnWidth>374.02</ColumnWidth>
+      <Components isList="true" count="11">
+        <PageFooterBand2 Ref="21" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1071,749,20</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text2 Ref="22" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,749,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>8a3731ee48994723981fbd5e39de7538</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="20" />
+              <Parent isRef="21" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>b2f7602e02944324a092afde92ccd1be</Guid>
+          <Name>PageFooterBand2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </PageFooterBand2>
+        <ReportTitleBand2 Ref="23" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,90</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="24" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+              <Guid>3d6c27f1979e44009f574fc9dc281106</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,1,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="20" />
+              <Parent isRef="23" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="25" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+              <Guid>fcb7e1bd76cd4f3aba09d28b371b12fe</Guid>
+              <Margins>3,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="20" />
+              <Parent isRef="23" />
+              <Text>{ReportAlias}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="26" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,40,570,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>e80f621e330c48f184a358f4fcd74c37</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="20" />
+              <Parent isRef="23" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="27" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>570,40,179,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>cfacb46cd6534e7c8be0081fb965a084</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,3,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="20" />
+              <Parent isRef="23" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>f0319a7893be41c0930a2c976d938fe3</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </ReportTitleBand2>
+        <ColumnHeaderBand2 Ref="28" type="Stimulsoft.Report.Components.StiColumnHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,150,749,40</ClientRectangle>
+          <Components isList="true" count="7">
+            <Text3 Ref="29" type="Text" isKey="true">
+              <Border>Left;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <ClientRectangle>0,0,236.5,40</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <Guid>f065fc3e0d594fedb825a6b9717d3e45</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <Text>Company</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <StartPointPrimitive1 Ref="30" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive1</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <ReferenceToGuid>a88d8cedcbe54aa4b5f70fc5653712cc</ReferenceToGuid>
+            </StartPointPrimitive1>
+            <StartPointPrimitive2 Ref="31" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>251.97,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive2</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <ReferenceToGuid>e894d5b4b6db45f8a57d2a4260b36316</ReferenceToGuid>
+            </StartPointPrimitive2>
+            <StartPointPrimitive3 Ref="32" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>503.94,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive3</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <ReferenceToGuid>2339ecc240734eab82b375513b03618a</ReferenceToGuid>
+            </StartPointPrimitive3>
+            <StartPointPrimitive4 Ref="33" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>282,40,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive4</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <ReferenceToGuid>e629cc89f252469a816c947ed348cec3</ReferenceToGuid>
+            </StartPointPrimitive4>
+            <StartPointPrimitive5 Ref="34" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>534,40,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive5</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <ReferenceToGuid>008c02eed8714c9b9ca0982d5d830156</ReferenceToGuid>
+            </StartPointPrimitive5>
+            <StartPointPrimitive6 Ref="35" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>30,40,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive6</Name>
+              <Page isRef="20" />
+              <Parent isRef="28" />
+              <ReferenceToGuid>3ed530894bdc4b3eaeb147b95ccaf5ad</ReferenceToGuid>
+            </StartPointPrimitive6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>5ac35dc5bc5d4602bc8b431dcd616e7d</Guid>
+          <Name>ColumnHeaderBand2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </ColumnHeaderBand2>
+        <DataBand2 Ref="36" type="DataBand" isKey="true">
+          <Border>None;[182:182:182];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,230,749,20</ClientRectangle>
+          <ColumnDirection>DownThenAcross</ColumnDirection>
+          <ColumnGaps>15.75</ColumnGaps>
+          <Columns>3</Columns>
+          <ColumnWidth>236.22</ColumnWidth>
+          <Components isList="true" count="2">
+            <Text4 Ref="37" type="Text" isKey="true">
+              <Border>None;[182:182:182];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>30,0,206.5,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>46723e2f875a4ffabf81b81e9fa8ce31</Guid>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text4</Name>
+              <Page isRef="20" />
+              <Parent isRef="36" />
+              <Text>{Customers.CompanyName}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextOptions>,,,Trimming=Character,,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text8 Ref="38" type="Text" isKey="true">
+              <Border>None;[182:182:182];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,30,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>ca9247736e8a437191ff416f538c0816</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text8</Name>
+              <Page isRef="20" />
+              <Parent isRef="36" />
+              <Text>{Line}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+          </Components>
+          <ComponentStyle>Data1</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Customers</DataSourceName>
+          <EvenStyle>Data2</EvenStyle>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Guid>529e97e062414748b32c7f48268587a3</Guid>
+          <MinRowsInColumn>15</MinRowsInColumn>
+          <Name>DataBand2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>CompanyName</value>
+          </Sort>
+        </DataBand2>
+        <ColumnFooterBand1 Ref="39" type="Stimulsoft.Report.Components.StiColumnFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,290,749,20</ClientRectangle>
+          <Components isList="true" count="6">
+            <EndPointPrimitive1 Ref="40" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>236.5,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive1</Name>
+              <Page isRef="20" />
+              <Parent isRef="39" />
+              <ReferenceToGuid>a88d8cedcbe54aa4b5f70fc5653712cc</ReferenceToGuid>
+            </EndPointPrimitive1>
+            <EndPointPrimitive2 Ref="41" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>488.47,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive2</Name>
+              <Page isRef="20" />
+              <Parent isRef="39" />
+              <ReferenceToGuid>e894d5b4b6db45f8a57d2a4260b36316</ReferenceToGuid>
+            </EndPointPrimitive2>
+            <EndPointPrimitive3 Ref="42" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>740.44,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="20" />
+              <Parent isRef="39" />
+              <ReferenceToGuid>2339ecc240734eab82b375513b03618a</ReferenceToGuid>
+            </EndPointPrimitive3>
+            <EndPointPrimitive4 Ref="43" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>282,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive4</Name>
+              <Page isRef="20" />
+              <Parent isRef="39" />
+              <ReferenceToGuid>e629cc89f252469a816c947ed348cec3</ReferenceToGuid>
+            </EndPointPrimitive4>
+            <EndPointPrimitive5 Ref="44" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>534,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive5</Name>
+              <Page isRef="20" />
+              <Parent isRef="39" />
+              <ReferenceToGuid>008c02eed8714c9b9ca0982d5d830156</ReferenceToGuid>
+            </EndPointPrimitive5>
+            <EndPointPrimitive6 Ref="45" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>30,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>EndPointPrimitive6</Name>
+              <Page isRef="20" />
+              <Parent isRef="39" />
+              <ReferenceToGuid>3ed530894bdc4b3eaeb147b95ccaf5ad</ReferenceToGuid>
+            </EndPointPrimitive6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>83d013506f5b453bb765d4bb1937aec3</Guid>
+          <Name>ColumnFooterBand1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </ColumnFooterBand1>
+        <RectanglePrimitive1 Ref="46" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0,150,236.5,140</ClientRectangle>
+          <Color>235, 235, 235</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>a88d8cedcbe54aa4b5f70fc5653712cc</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </RectanglePrimitive1>
+        <RectanglePrimitive2 Ref="47" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>251.97,150,236.5,140</ClientRectangle>
+          <Color>235, 235, 235</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>e894d5b4b6db45f8a57d2a4260b36316</Guid>
+          <Name>RectanglePrimitive2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </RectanglePrimitive2>
+        <RectanglePrimitive3 Ref="48" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>503.94,150,236.5,140</ClientRectangle>
+          <Color>235, 235, 235</Color>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>2339ecc240734eab82b375513b03618a</Guid>
+          <Name>RectanglePrimitive3</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+        </RectanglePrimitive3>
+        <VerticalLinePrimitive1 Ref="49" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>282,190,1,100</ClientRectangle>
+          <Color>235, 235, 235</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="50" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>e629cc89f252469a816c947ed348cec3</Guid>
+          <Name>VerticalLinePrimitive1</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <StartCap Ref="51" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive1>
+        <VerticalLinePrimitive2 Ref="52" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>534,190,1,100</ClientRectangle>
+          <Color>235, 235, 235</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="53" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>008c02eed8714c9b9ca0982d5d830156</Guid>
+          <Name>VerticalLinePrimitive2</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <StartCap Ref="54" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive2>
+        <VerticalLinePrimitive3 Ref="55" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>30,190,1,100</ClientRectangle>
+          <Color>235, 235, 235</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="56" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>3ed530894bdc4b3eaeb147b95ccaf5ad</Guid>
+          <Name>VerticalLinePrimitive3</Name>
+          <Page isRef="20" />
+          <Parent isRef="20" />
+          <StartCap Ref="57" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>1a35a3282cbe4ed2959d0764d118047e</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Multi Column Bands, Down then Across</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>5/18/2023 9:47:27 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>The sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - down then across.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Reports\04. Reports with Columns\3. Multi-Column Bands - Down then Across.mrt</ReportFile>
+  <ReportGuid>36462eb1497d4d019cc0f0b9857e5704</ReportGuid>
+  <ReportName>MultiColumnBandsDownThenAcross</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2023.2.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Components;
+using Stimulsoft.Base.Drawing;
+
+namespace StiReports
+{
+    
+    public class Multi_Column_Bands__Down_then_Across : Stimulsoft.Report.StiReport
+    {
+        
+        public Multi_Column_Bands__Down_then_Across()
+        {
+            this.InitializeComponent();
+        }
+        
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="5">
+    <Header1 Ref="58" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="59" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>Left;White;1;Solid;False;4;Black</Border>
+      <Brush>[255:164:114]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,12,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Data1 Ref="60" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[182:182:182];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="61" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[255:255:255];1;Solid;False;4;Black</Border>
+      <Brush>[240:242:246]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+    </Data2>
+    <Footer1 Ref="62" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[166:166:166]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+  </Styles>
+</StiSerializer>

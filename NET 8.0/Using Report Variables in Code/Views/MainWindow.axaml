@@ -1,0 +1,44 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Using_Report_Variables_in_Code.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Using_Report_Variables_in_Code.Views"
+		Width="450" Height="350"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="350"
+        x:Class="Using_Report_Variables_in_Code.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+		WindowStartupLocation="CenterScreen"
+        Title="Using Linq in Reports">
+	<Grid RowDefinitions="*,Auto" Margin="12">
+		<Grid ColumnDefinitions="Auto,12,*"
+			  RowDefinitions="Auto,12,Auto,12,Auto,12,Auto,12,Auto,12,Auto,12">
+			<TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Text="Name"/>
+			<TextBox x:Name="tbName" Grid.Column="2" Width="250" HorizontalAlignment="Left" Text="Name"/>
+
+			<TextBlock Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Surname"/>
+			<TextBox x:Name="tbSurname" Grid.Row="2" Grid.Column="2" Width="250" HorizontalAlignment="Left" Text="Surname"/>
+
+			<TextBlock Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Email"/>
+			<TextBox x:Name="tbEmail" Grid.Row="4" Grid.Column="2" Width="250" HorizontalAlignment="Left" Text="name@domain.com"/>
+
+			<TextBlock Grid.Row="6" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Address"/>
+			<TextBox x:Name="tbAddress" Grid.Row="6" Grid.Column="2" Width="250" HorizontalAlignment="Left" Text="Address@domain.com"/>
+			
+			<TextBlock Grid.Row="8" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Sex"/>
+			<StackPanel Grid.Row="8" Grid.Column="2" Orientation="Horizontal">
+				<RadioButton x:Name="rbMale" IsChecked="True" Content="Male"/>
+				<RadioButton x:Name="rbFemale" Margin="24,0,0,0" Content="Female"/>
+			</StackPanel>
+
+			<TextBlock Grid.Row="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Birth Day"/>
+			<DatePicker x:Name="dtBirthDay" Grid.Row="10" Grid.Column="2" HorizontalAlignment="Left"/>
+		</Grid>
+		
+		<Button x:Name="buttonShow" Grid.Row="1"  
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Center"
+				HorizontalContentAlignment="Center" Content="Show"
+				Click="ButtonShow_Click"/>
+	</Grid>
+</Window>

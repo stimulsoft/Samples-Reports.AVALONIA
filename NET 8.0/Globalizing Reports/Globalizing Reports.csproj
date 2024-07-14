@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Data\Demo.xml" />
+    <None Remove="Data\Demo.xsd" />
+    <None Remove="Reports\GlobalizedSimpleList.mrt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Data\Demo.xml" />
+    <AvaloniaResource Include="Data\Demo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Demo.Designer.cs</LastGenOutput>
+    </AvaloniaResource>
+    <AvaloniaResource Include="Reports\GlobalizedSimpleList.mrt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.8" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.8" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.8" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.8" />
+    <PackageReference Include="Stimulsoft.Reports.Avalonia" Version="2024.3.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Data\Demo.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Demo.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

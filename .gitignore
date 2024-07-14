@@ -1,7 +1,7 @@
 # Folders
-.vs/
-/*/bin/
-/*/obj/
+/*/.vs/
+/*/*/bin/
+/*/*/obj/
 
 # Files
 *.user

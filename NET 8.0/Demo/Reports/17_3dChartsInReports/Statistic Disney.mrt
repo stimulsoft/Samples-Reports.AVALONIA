@@ -1,0 +1,1352 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Excel Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>Excel</Alias>
+        <Key />
+        <Name>Excel</Name>
+        <PathData>resource://Disney Plus Revenue</PathData>
+      </Excel>
+    </Databases>
+    <DataSources isList="true" count="3">
+      <DisneyPlusQuarterlyRevenue Ref="3" type="DataTableSource" isKey="true">
+        <Alias>DisneyPlusQuarterlyRevenue</Alias>
+        <Columns isList="true" count="3">
+          <value>Data,System.Double</value>
+          <value>Quarterly,System.Double</value>
+          <value>Revenue,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>06ef5734fdc94aa2890421e64dfbae81</Key>
+        <Name>DisneyPlusQuarterlyRevenue</Name>
+        <NameInSource>Excel.DisneyPlusQuarterlyRevenue</NameInSource>
+      </DisneyPlusQuarterlyRevenue>
+      <DisneyPlusQuarterlySubscribes Ref="4" type="DataTableSource" isKey="true">
+        <Alias>DisneyPlusQuarterlySubscribes</Alias>
+        <Columns isList="true" count="3">
+          <value>Data,System.Double</value>
+          <value>Quarterly,System.Double</value>
+          <value>Subscribers,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>64c4ee4a9d2040308c2aed5a68ecb04a</Key>
+        <Name>DisneyPlusQuarterlySubscribes</Name>
+        <NameInSource>Excel.DisneyPlusQuarterlySubscribes</NameInSource>
+      </DisneyPlusQuarterlySubscribes>
+      <DisneyPlusandNetflixSubscribes Ref="5" type="DataTableSource" isKey="true">
+        <Alias>DisneyPlusandNetflixSubscribes</Alias>
+        <Columns isList="true" count="6">
+          <value>AppsD,System.String</value>
+          <value>AppsN,System.String</value>
+          <value>Data,System.Double</value>
+          <value>Quarterly,System.Double</value>
+          <value>SubscribersD,System.Double</value>
+          <value>SubscribersN,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>d8e91602f9bd4b30b55cb73a2a10d8cf</Key>
+        <Name>DisneyPlusandNetflixSubscribes</Name>
+        <NameInSource>Excel.DisneyPlusandNetflixSubscribes</NameInSource>
+      </DisneyPlusandNetflixSubscribes>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Disney_x0020_Plus_x0020_Revenue, Alias=Disney_x0020_Plus_x0020_Revenue, Key=_x0032_0a06d5d91ea48c5abe55b338c85fe44, Type=Excel, Content=QK4EU0C8FlkVmKmxfnF5SS4EF6Xc5hkKVCHyaK7QdIc7gF4bDYTZ5jo4aeU5gM1X9sts_x002B_pcxGcnCZ_x002B_ePEhBDmchrze8C8ce2LDZfv4PYq6XGWHC6JlBCSZTpUyruBDpHkytzF9Mu7pSoVMq5JHT7_x002B_8qngKXuTdLKWfYvgDGCwnduJrLxSaROQCMkjkprT3kgJyL_x002B_zD7JYBdNEWi4uAxcyPPAc6JJESgSFQWkpvZgtn6R0a6Zb9ieuD6G46t1DhJ8qSWBeSAFAQbmzQaQk1kETOBcfeJWAWhkWHrCDb9rbvimspZY6s6sSn6r9xYPbcAatKmr8u3niIxTqnSbB3CaBgE6_x002B_2z09ADFel_x002F_IOsRvZ7PRtEp_x002B_qnlmVystawFDuOe6EG6F_x002B_eY4ybOA3xK1HBDftjtgiA3GHRK0DPPCJy_x002B_d0Qd7FzlvLQxrOz_x002F__x002F_TBMoc9TkD1NHxK0yTtJUKAwyb_x002B_r5d_x002F_57D8Lpv9GaLbkcGTVQd4mcnEuo5A3PRFFGpG6QkQcsqT5cSrkFhZ_x002F__x002F_VhDjaxanSwGdSmvGPKxwrFb1yB3VSmmnfvUEP6dYkJXJhx_x002B_FBitxAW6Wk9hcCSmWb_x002B_x_x002F_1uHG73FsMDjpOz8RmKzYNRfoXtCeTp1aczIE_x002F_IPYngCdqP05oDJFvdX_x002B_iaftgv41PGR229fXG93E1OGtOyDGgjC0UPyFk2MzaR3shf_x002B_YmWq63kF5ZUKuFUSEp9gAJbq8ukP4Suw7Er3dOlVlCvmBpW2MF5DYnlNzdO3NjBjfaOxiekxpYOUvJ13ptGB_x002F_7aIcQYMVID4lsXIradxA9ApeIbKh8XGPMXFQEtwQ5oDeH0n108TLKQweajUw39epMWqF_x002F_pGb9lPpyFdvotgVwDi7ynu_x002B_SSUVwsb99ReLfVXGXUBfCljJ6JzFtH_x002B_qIKkpKhW4pQYJZGXeNbl_x002F_1CtdomDN1uZ_x002F_1aF6_x002B_u_x002B_y2ZtzCDc91tsEawT3PsHCMBdnBJ2CdKBXFKmCj1tWkXGkm5G_x002B_QDQ6pYtWdx_x002F_vciIF5HwHqGfXdvWG59UfrtXaK_x002F_0kfd04CiFzjsCeJm3DjqB2Aq1rcEyY5fAR4edycP3nVwlVFDYnm353uRgTybfKKpmMoHH_x002B_Ab3PU1SzQOiejyvSZQHQUciobQOq5ikOc_x002B_XGRw1IjtLyiIe0B17BdmyjP4LUtDoMC0ZCTcSIE4TNM4ZW92vr2HlVbFHcBs2tIaLrCNE0oV8pfrKIDtGilrzb_x002F_5QAJHWUSxaTbb9IAMlQx6M7kT_x002B_exx8SEPDCU7GPCHe8fpSbsz8PQT0Z4Su7WVjaB4EpfjWyM_x002F_ZO_x002B_al_x002F_Ku4diGDB5vdjw4RVOCVuoWKtDJYRYxmTPEBahAkqU2ebK4VaVKCaqMf4aqupRK6MbA52hEIw65kIGL4Nin_x002F_EcmNP2O8gL1Mp8YayaKuUfPrAYPOe7uzOLWTj5OctmbU4pG7_x002F_BdgwZtPsVEt8Lh3lfT03oZAInAfCuIGguAeKoTqx7O7akJqlYfZrX3jfYO_x002F_Fe7zQvjGE10RFPow0U3wk_x002F_PXUw9SxMKryQhBhIOJVbfW6rwyJIFYUbBIelkBVFU9vLod9322L5_x002B_qy4OoHH4BXSXD8TWHnLiBVoPBjbhON9wAEXs5ylevJowZyhTzfDobpkbJo_x002F_qOMBX7MGzIObYIaTM8psupwD4cpHgagPmk5Xyle5IiZbQERGM9zjuAQvORlK_x002F_B_x002F_SKDzp2oKXz9egtOavYnB_x002B_F1yyi48BnsQexNtAc140vPOuHyk4e03myyaTLJOLH8WFy3_x002B_QwUrJEDGxgCe6tl9ptmyP1aQasR9Dhw6ch5sWaqJqPwhlmLix56nFv7IPqs4ncPOwPFuXW_x002B_XE3XiDX71RhI7p0he6pRtZfveFjTQoOJOu90Frh1lPU2x29VH0LSJG65FaI7JiSfpqV1lK9J94N9XL1IXV9RI8umvneNNYU9kD_x002F_ZoPUtF1dYuI0AtrTTWcoPlaL2H0hEQq8NCxxiE3vRqzE20Qrkz0RFUT_x002F_P3dfWHDYasM4fFDVWYTZz4tW7RISOcQU68cftgiP8r4_x002F_P84AfoAl6idlJhaPBZ9DHES0phfn7fZ_x002B_djgykb5o1ZjQIYo6DfUjwB7rRbDspapbuJNT5d26hQHlAhE0R7km87Anf_x002F_D9u13v_x002B_d1qNKyhV_x002B_vR9b4uFFY_x002B_K7mBf_x002F_GrKD3lotlq2_x002B_uHU0_x002B_dkypvVRohQ3w6b0R_x002F_CGix3dX6SmWF_x002F_7C4OUhV55Wtfh04vCwohW_x002F_MPv3_x002B_mkLmL_x002B_n_x002B_fJ2_x002F_EKnmNRL21aXW33k6E9tHcZwfzTOX047nQYhelqIRLIlKZZoGzSpLQbY80LLIiMk8pK6Dkp5p9J0h2tdmc1Nw5XTPczd9pdj7s22PNAnr87IIW9spPN4KcRErQez_x002B_P2IBtzzYooy66mAFMko12hMpd4AGRl_x002F_40J6H6qCBwi8DPnDqKOVZ4eHzVl_x002B_pxFzCLw7kC7AUiWOCcNqRkSBFeWdVpr2YF6AKbVutKa0mGafyaDj6fV1zBVZtWthom8exsjwO8UJKE7Qt2Akn4hooJH5exCO44PQZ1My7PoxLJkRCToxk9B6lqdFB_x002B_ZOIpejRsS7mfqAFMzVNSkNiMJi7_x002F_Q29Obn7aNk2d_x002B_EFuPd4ziDbI0Aufz_x002B_PV1N0deaHEUSoxsLRr_x002B_6sAv5AHsHU8fSEfasKP4bnUmp_x002B_ws9uDwWH_x002F_hqaSOVyZB5yXmA_x002B_Uc2S_x002B_xMzQpfE1tJCBw4fn4UA9zP5VbhVM_x002B_X8JAodFLLqr4UrCHhuLd03WfJmmAayR30z_x002B_yVC6BnHaHBEq4QK15hDAZAMZ4K7x4UoiY0FoEIzAUfeoaHMl3dl5tRs1gxaQg9tRcCofwm7RWHsoI8Ol7F3fCCPkAYYB63ojgeiP_x002F_wHHUfTUj3UC5tRUX_x002B_Qfw4MnDSsI5_x002F_ZZLPJxIkcB8_x002F_ttW73F6VgJJPSWjyiqkUkyQo_x002F_zseEwPVEUwIXFf3Dmkcdx6ZNh7rPwHc5GqvhQeiysHq1X5ny6KS2VyX_x002B_M1bXlnT8xUEVz5vcyL2R4WS_x002F_mAb9PXtjxQJTqGlW9PyQR_x002F__x002B_jIeMSZBOAqHsBHhjPokhqKfQD5VqIQQdIXyUZXbOx3aeZ8kF_x002B_MOw1I5k4e_x002F_eifEOWA4RMbFzYs2lLJB23RQ509LVe43T0rAYwbWVaVN3Zea80_x002B_UP9g4dIgB6SyC3vKhlbn_x002F_850m6W1ALb6hntzrwNQS455_x002B_0FbMxF44dlQMByFA_x002F__x002B_EE4EP0_x002F_JNmH7hif5JbZM00dbM_x002B_4fePFBB1v7yEEbJWeMHXtRvW1Vl_x002B_MLu9iv9IE5gx2rLl3hWaLGBHjk7wpDFSsFytwh3UDVTTtowD_x002F_OKLDHGu90vYjDcdaTXxG77XydRhwgLa6F4nzuW8SU2mIOFwTUFLsJCOkF24l00bftyVEKTH4ZgDVJxjZ2srUMYlu7NvdNdNOv791oHRg8dOtbrShAdwvIqPqxnBY7AuGAiL9mT4STGnIZ3Ku4ytr9Lh85hN9sauby_x002B_jujZFcaOzWKQlGvBgoFuKW9QV_x002B_UoZAtprqO5_x002B_sTnukH05MLmaCFNd_x002F_bFMWCyBY9lQu9ATDKx_x002F_X_x002B_dCISfHoB8RaRD80gi2Mb0tjWjhnUV1I9IQDt_x002B_WU8bwYFys_x002F_ekW3pUDSyAmK_x002F_0l_x002B_3bQTgZFv843s0tCY5aYlaXKJID2GC0dECShAVMz6hIuuj0jHypQJ2wDlM_x002B_S4MdUmD6rzBuIsoul3YMtAC46_x002B_Gjb8vnmccODUkfNHK_x002F_Be8U9QwBK08Ibhvvn9uJ_x002B_4x6K53v3o_x002F_Pqj0UJiQE2LAMOxXFj0xJm935ou_x002F_SHeNfMO1ZXLRi4shMtqRXAc28yocQfq7wB_x002F_sINtePWYNk8nbUUrHTqPI6KhImRHsxL3WJp6R2x_x002F_t3BNXMXenz0vNaOfUdOs_x002B_t_x002F_O0VajB6lUV_x002B_seeMbyeoZC9TNUVQs63XM8Ovq_x002B_XyAcwH2RHz7GhmLAp_x002F_opPu4QURzG_x002F_5V68tQyjC7YG2PDZ0eugvsqF4ime1BOrcxkuflQfsDV8w2TyOZbuQpQbVPpupF49Va7yqaWsBbVnL_x002F_8kBDbN3OcjEtyYD6FC_x002F_2UkCjtPDRYXhMxnXu8V_x002F_C08r8zo3k5I0mU_x002F_CsvhL4SlcdMXSgNacRrgu0LQZxbq2du85qhMfwGI_x002B_xSPcaxjDm88IYVhk1Im9E99tILTi_x002F_QVR3FFZ4Z89x_x002B_3oWouAAaO7EndlELKg_x002F_MuSRx0iNeqegPTzyWXNDengyPJNPlZSMHaygFNFrdaS5ZFgzUVykCJOZck8GUfUZTNVaJv4hxVyPkxJjBDV2Y_x002F_L8DZCbZUTMhwCoDFUxOlndBPfJC4dfPQ76xY1OY3SMhIwxCWNNTqHlcWSLHY8LwFWFUmPhlz9o9eB_x002F_Qd9UmH2m7m1QV6mThYlqxuHpe_x002F_xLNmfIjLdozcIDaYgg0Yswz9r_x002B_bTllKpKSLmN3E2SLeW4bKvqW4j0KcqK1xGGo4u8_x002B_ROySWEKr6QsVco76CDVW54hUIRg_x002B_rsXSWGpwt44jJXPyK1XgSfw22_x002B_JCky_x002B_gkk_x002B_p4u6VAJC8hPQ6TbK1rIBZWDubFatCooLaHV0uYJjojTZgZr8E3CisUhtPgHQQe1_x002F_5YrzulxKFBi4AMPVPV9wSbSSOGJrwlTUqHRoKoArE2H9eDQjQWLsyvG3vTY9uvA1h0BjEZetn9U_x002F_JYtXyg_x002B_qrxZSDgLbYENQCIY68ixQlCO_x002B_u9VWf4hEOQk_x002B_StiBoZkyvqz0EBX1qJCbVJW9xJT03tRigSelmMDrOHhkzXN37W34ZVfkjvOQl_x002F_VHXSiUcsQ7qcCYNRri6xKE_x002F_D9kiX61gYaWzkYO7OwaAEiT3WWsYj5cjiZQMW8uDLuB6iTmg1Rz1FveV2PJHEKKaToDVaZF8Hc16c2r9k8Q52OyWt2vGdxFPSSUPvnEUEd1gGpTLTbcRdoSQGVsMoaMrxxvubddbsX2z1zeRoOsgT35lCo_x002B_Alpp35t9DvBCI_x002F__x002F_c7JtfxxRYpyKmszaOWL6cpgL5mDmb3NPFOUY4H9JpsIQtkZvKFeIdCVReopV_x002F_Vk_x002B_iNi4qE6akAAf3YJO3Y_x002B_TgOXuflcYYrpTNA_x002F_vGnU9i_x002F_ZOQY45o5Uev9N1Uu1KTlW_x002F_Nkf0xcy9rtBa5lzggVAy3rCoLRl19Qfuk678wzfGyx_x002B_A_x002B_hIls7dhW9W_x002B_LglxnMxmtdJFNo1Fq72rutk3nAZcLQmFvyafMYQo6ivm9_x002F_JMOTCfx5FWCE7a9wYpf7MMtPHojgm0pbjjHnucB8zBElxdIsADR7ZZ_x002B_ZR0YK9ijoPbEuN6Gja78msoLwV6zhU4sa_x002F_0vZs3toi7mna9lhiCYbXJHp6uUAloUoj91l07Go2SYHvnND7NZiPr57_x002F_I46dBullvWJ_x002F_DeriZkJaz9ERWymZdwFKntnoiVRf2g8Hoi_x002B_xdFvtwKCy8mv8FaoeROA3fzU1RdBomTL1_x002F_o_x002B_ED4V3_x002F_ZeJA99b4KkPa3tXDnOMZKDsD_x002B_FBwBTNKEmGnenk_x002B_EXrEIaIk1RUTcQo94dquY4WnhAAYvqEZLioM8m3hMUzz_x002B_EC0yuamxdLswipmc_x002F_5IgbRvyavNyINGCQjGFE2MhW25eJEFYiWAZjyUcH_x002F_pDVToy5XNg_x002F_WGmNYZ_x002B_Gom_x002B_2nTXM4ZEeGOghoMt4I6uzkdtSi3oNze0VfqFdWHIA3QSDXC0w5OJX_x002B_LbgFWw9ccxyFtFDXHekMJTSOYkK2TRHGnD2Qrh6CK30sA2HMBCc6H4XHlC_x002B_8CkRhpCjdlOoyK3tWR1uVRiivqVDUu_x002B__x002F_fTP51N5qEPN_x002B_AJRv_x002B_xyOd8zJ0fzTCVt38FBSH82lXLIn9JyEUAMSpnPledWkSkQR2sQdjQtFdj4IRQlRjMheDeX5jQ6ol7CkycyxCRbeI3uD3Pq2ZY5z2KFuqEbs2h_x002F_oRJ4_x002F_JXQPbzY_x002B_tObtE_x002F_b7JqHmQ7K1O3QpATqHgvDIdGGWxfcAEbj_x002F_ky_x002F_5t8LUHcxj7L3GNHQREG6VfDDYacgi7nasbJIh_x002F_aaKMz7CsyXwwcnB7QyeN8Y5MaE1LQwE4GOk_x002B_X75evAhTwM05VEQ8QDUaI8lA6qQaP5rvejDqmeABCDeKeTpSrUJuzDw5PAdc_x002F_3YsJTjAYtUMn_x002B_WPH_x002F_UD_x002B_n4gNUEp27cevVaIVTO6GsmF1n5LJGZhO6khFHF8QEXW66hCKCvLc3AAKnOXyW6SmBMDlJBXIp3u_x002B_qap8qqurGFTp5DAXuzJgFnxsB7vMziAVaLx_x002B_qYlHoEzdUwHcCVCgqNfKMkTEwf0cVqdmGTP_x002B_iounjhRU9PXbFLi_x002B_4PWwl30_x002F_njzfQIwD4zhYz7SCt4G8vb5NWOWSBI1TNzfokZ_x002F_RaSF4yv4AKwXofQJ9qVei2yFsymDX3fBCr2TRl5_x002F_H5mxy0oAGjj2O_x002F_hS7EUVGlavcelFM9CxTXiJiaNvtXenTQYPqJNv9PMxmCqRmLEBkxdlcNuqT7z85zEG3_x002F_2XGj_x002B_3btpJsE3hQcKflAtI55AVjYWobL5caU0S2bZyzDJx74L6HQVW5FUIBPBbV5_x002B_IiqYnZuqEdp_x002F_OugWn_x002F_L6wslOKtj9LN9wbIbvXiwJPPu0w_x002F_Xla9CCoyTMCMag3zegZNvFTtk2Zh8jt8gqU2FF1nWv5sDpQYiKOU_x002F_MST1nKeCW3JbB0rV1ecONeHIV7kVNaNuNQglRyB5K_x002B_hXLSal6TckMoLfohlnpYChoaOu6Z8WBsOT6wNx9sJsUfflsaBJpbjtA_x002B_n7HY46k98l7sCCR0MOtv_x002B_7sErTtoSNpZ_x002F_uyFkPgTaGNIRnxsA7mJ2_x002F_rsljVKcyaVVcB9FUH8Aq1t1L_x002F_a7fIoIb8nhSFSEKos_x002B_kGYi_x002F_zIeU5d_x002B_YDLgKaMuLFg2nMQa67NLrarl9pKubs0E5QqG0ssFDrzEYP9BFBYZ9M1cpmU9uuTgMmKg9U3kFn3oArQv0YgTfR_x002F_a5Y9poA9EN1uf_x002F_LQToc1Snl5oY5QRFk6Gc1zCXnHM59RZb6y96o33i8LFE7FUVzsv7of_x002B_2HYqHxtJ3p_x002B_VGUcaGZBRa5WP8zW31Y8csoAifhm4_x002B_utKlGup8pjg12oOhgD2AU2Ojak1suEcOM7w7QdEIZQk3mYCuVfZ07KuRYAK6YcRrnWdBWF_x002F_isULhO45rsXBZ2sXIPGDZIiI0BExAWcZ_x002B_Ewlysb1HXr7d5lQOUnS46wNWGyVl2IuC7m91Ono8QoNauz5zsSnBTtcBBuy1cE3NpfloaiLPt2fb257CFbI5_x002F_euVy6cTTcEc1aGs_x002B_YUATcpDO720YN2yC95gfQWCcabnGbiV1GsrZr2t2GOQk2p5TK9I3J6svDcUHvpMlERxvtoQU_x002F_WCyoEotTuRMPCHp10vKABQf06CnfnQASGMZmSklaoX53cA6qzjPZbQL2euHjx1Mpo0G_x002F_OYx5Tle7gGZ3CzZO2zZHaZX0My1K8qYP0iZI_x002B_v_x002F_wOG0Amd5Hm3sn2QnacKwWpO_x002B_Kn2zwVo7ZGRuOa3qLtbYNGAJ6BAT2f_x002B_aTOlB51C2fN8N7yuXIWd34Y_x002B__x002F_U6H9dIu4p48OGJl_x002B_zDRPRCMamOKgyOJZJ9upNXjXTM0GoGg2AOyrlyZhuqZK42m0zkOUuOhvATBH3U9Vu6cAGOJxfoqi0ZCct4i5jA_x002B_9K1GU2a5ukI7ask8C5nOCStdvnWWP7bOJvXgGDKU7eQY1dQWGXnl1Y4FOMaLnn8yiFEVA_x002B_b9IpdvzqVaWUDFUtuLEu3vGzQS7ponQIXyc9eWcgUS4wdQIJE9PqKPH42CtOZTkEeYv_x002B_xNd3tH_x002B_vT1nFY537ebHwNxKjFX_x002F_W9RHy5zHo39zFoSKjcf6Vj42tPcUCadqBDDY_x002B_L5OCkf497gMgLoxI46r6TKbga2lpmRbwkC1D_x002F_t0Y0BiITfpK4tAPhSD7W8yGyFBUFeAZOv_x002B_QHI_x002F_0PN_x002B_XAosLqiMUx4bUxEK9S92aQ6IlX5lm_x002F_7Yan6tRL217XG1mtPcnVd0cB8LbjJAWFgEaP748S4D82m_x002F_pfSGw5VUw5tg4dzQ0w7iYOFMLAWlO6b3m6NIEh2mtr5koL68RE_x002F_Mps4fd58icV8NgPvFahO9lE_x002B_G5AGwlf_x002F_Dmq67oYEUajUn1nzvtuMl2DmiEul6_x002F_pM_x002B_uu56eLvAc7tCWrxzWR4qUI0W_x002F_HAdGPpSk73uMsGPjoHIw6_x002B_vpRMPboKBfrgYsOkfa_x002F_INZ5ofSySXAxFH9_x002F_TVJoGhwobwOn55rhzbmUPkg7W_x002B_JgfXnKWDo4obhiJWDDafOVQWr6auDf3QJ084BboP95Tpec2ud59XoAlY4o_x002F_Q_x002B_M_x002F_OeazeqKt6xHn6rJvr7y2vnkbpzjcM4ORIj1d_x002B_i21O1PtS1JkSc25YOkD6xvrD6ktkdzQK14YhFJthMrHXDOMFbsQx2ClazmmUS5EX6NQegujpyywuRIz0q_x002B_44YcvXUz8g_x002F_GiqLNyItgOG5f4zlvmO0BV3GY4Lt4dIMnJFljzYw7T7_x002F_y4sPGDh8GAbPjafWyqEcjNc_x002F_7pmZDByhPoex_x002F_tsi_x002B_N3RzEFtyK22laF_x002F_TsidxKhNng_x002F_sGP12j5S4k1nEfJGskCk7oZmHvpxSvx7wRWll1eqwqSscEzv1KdZE3EDg0sHjZ5KYpi8JCjn4_x002B_MrmFnK_x002F_NiR2NWRAVjDZIVKZH2Dn2iZGFVYSyasXSa_x002B_y5Eacot8gNS246cZh2tx9Tgmnw_x002B_7xN0YuTF6WIpLhvgJAN3hzwDscaWnulvmjr1IUZJ_x002B_922fS51Or2X8y2mgfurOJ9PfodRw4IvHHS6k5CYR27DB0iL2b9fB2k7RJ0RixxrZErG3jUUzslmyzVaOHJChXD16c1ekmljZ8Cq7qH7iU20qewMHi9PfOEGkZskjKW8K8X8ZKY_x002F_4paptN5rjhSlvZRsNiVGFO1Mfk3QOMjPYmB7GtpJNU38dVjiz10mQqHQ5Y3XRjtOI6TDzGzugd_x002B_lDwoyhWaYphTw7nzYC4OUNUra5PZXhTN5sM_x002F_01JtaSOyoO67kSm3mePAdKaTO0Miz1UPqDzDfOhC4Bnfj_x002B_NhU7n_x002B_1i0zYn_x002F_6G9i7pfNsWoS0Obv4GoeUrcXBl1jrFmx0thd924k8VykiMsxuuM2dBcra2h3p2TM4EyJWTOYAXNn_x002F_ArFwFb09WDSHxXIsguX5l8zZZmKfa7ZkhBJssUX3Smq2YID9IRSALrXCc9oxKEpnRjy5BcOOxqjYZHNprgCrIvcfSLBkbli4q1pY1sx59HIw9yHG4YuaZ0XuYKnY933ufOVjQ4fDONRUOXY6Povn2JQraatvxs4Ofifqk42EwTP_x002F_ufNXU9HABliQx_x002B_Aq3tqYkPGkKAVFEpuAqeNeNniNlsuB14Dt_x002F_CwyEsnJCnOveeJmNUPepx2xdquJH7lgrAL711D00L_x002B_xbt9Ky8bvJpEDZUHZhtJBXrnH9Xgg1n0fI7WsUe5_x002B_eb03Lb_x002B_EPftIVsVnQZ55qiS_x002F_7G05DpndCDP107dSuDp3G7gTk5wnB2lPJRKMvytPBxxaVghEz8MM87HEsrR38mjmf4BVEu2d_x002B_TJusPhf7TrYatF1H3Cr_x002F_quZV69PrQacydkDFOLJH6Br_x002B_CKaowS7VrVhhdHg5Mt_x002F_stbiG28htXFnwluQCDCKC9aYT5o1ggM_x002F_CQki_x002F_syy_x002F_PMqb7bMBitORoK1LnGiFwJcb7jmlZgMNxvC3M_x002F_VwiDkRRtAnS0Pi_x002B_KV_x002B_0gu8rMqQgrtK29RzbvyE8QUTVMhprQBqKLWXs_x002B_Li2NeKagZ3QMYAwrvrKhDyZYfXuKmqsZMoaqAhmXYLIYuEQ2088M6TVDJnn33_x002F_eZpu6QBBx3sQXwuYDLtVGKZhwa0geAukF7waZFaK7C64U9Or_x002B_3HM3Qt_x002F_dvaoI0l8ZwTWKuIUEGcY6kXJZa789owotwkIAuVMVZ3_x002B_9_x002F_y_x002F_7d6GJszfzLFMpRF7RNLQQQV06vDYVZppF_x002B_45ylsI7YN5WLWjJy8xhIFShPGsOqlLuAj_x002B_6Ju89Zpcs24ZomWjlaKoynvwlsPVr_x002F_jA3_x002B_C4OGOxcRyotyf_x002F_LjoIuMKJb_x002B_DsWQbcAFRTyqc2tFyxOk5d6QztUsGld65Li55urFfQueq0Rqyg9COEZDgXyaJ3Xha4T7uYdkaxZc6NqEkX01q0DdakQyzBPPpgG2ZijP7aplJCf9LgmPRxftO7UoYhNpQ2VT36pGPwVpB0kyrv0cFlo4ciexItFhYJMBnO1WH6eQaMCLjI9w_x002B_Ub2g_x002F_kNQdDO5HvF46PQAMe387NUXXUvQrdMmvvzVQLdWPgH0DYRcq6FgqFsN_x002B_Fa4SDuyczID0Iv0ueGWHgl5Dr4TofuttjsizQKyCVkvLO_x002F_V_x002B_YeAvlnV0922qgQc5t_x002B_Woh9XqaJczyDuNpvIGlzujeaQpoy8P1D4xWrTRx3TWQHgLIyVO2GG9MI61Z_x002F_ftQq9nOiHv3FrvkgygcDtvpwgifFB5b9_x002B_AaNyKWiy4wchsjCcHhZCUQG1vBhwpgaXpcF_x002B_ZDurzzLsTYZr08QrqRW5TOFBv_x002F_wuxYF4lWlpIg26ISMPPXK7_x002F_ThYPU5xNzTmVDXqpdt_x002F_oipE8EJ4vchfE8QdYoDHtZGADe_x002B__x002F_dCUess5oycdIRAoLEu44uJzL1W4Vb4Af9s_x002B_G1LkF4rB7mHcw7rcEwJ2UpNwIBt_x002F_vJXBH_x002B_AJovzWNWLEFO2bbKxl8X_x002B_EJUbgLL7WiZ8fPq7rFd9g4_x002F_fFjmwryFeOV96i2Xymp2KRODytA7qFAqMyCT9g_x002F_qjx41vc1yPeVVa7aHQRWhT2D1yAx1YEFOHcoHBPNpikPU5QXdFfBCvyvBc0soIkq9hdJVUE9X79z6BH_x002F_aviTQGchDKVeFqdxB8P2t8Ujn9Pkfl90OuQW7LAuM1018dxnxspNUI2DaT_x002F_UYrDZ2qlY65nu_x002F_45_x002B_8wPj_x002B_xRQSFNv7MW56yDW8oQk8rK85utvRojNX81CQeZCmE_x002B_9juUe2KSO4OXzm1QIcLGmFwtVLQGyKte3ZAQyt9o18XxYml0saxuWx6EWZ6MQqo2Z1blDP41apr0hy3bPE8g_x002B_OJAsV9nO2AP7BIpAruVtx5zfio4y6eYOYzHJNoRyJvyZViUQzeLigv5My6ZEY4IWnEdySuFPD9Bha02874h7XlELxHCvi4QkocmXTQTaNUOSMAF44jp90w0fUeLgGtO9XtcUQjMCztPfk_x002B_oLZgJUBoHLtETf0JtQEqDDIAy8mfMSSqVyzQ_x002F_jOcUkFEk1_x002B_GxRFCA7zHKjfquPACazQR7mbSxOt220tyJrARcyQAPTKNgVh89Hmiumt9HP5g0F_x002B_s1QF_x002B_MKXcQvTWQK8vsHNPbHPUN_x002B_bcS1PnnKwlKcNFBwF9CNOpLb_x002B_3Pw2RG3Y7WL_x002F_kjLoBbEMhry0NSX_x002F_by2_x002B_isYneQbgWU4HUrqP9IX80jDA7YrxoAX2RnExt1gDFCzSQHEp9OmBZTfzUIJ1I5_x002F_tHY8kk10_x002F_G_x002F__x002B_iuQ5_x002B_H7ToAZTRT_x002B_0NmFCAzE60s4GUf0u15a43pjBhW0b4R4ScVJf2CkXvTRD8Nx_x002F_RFtgV4_x002F_rHgu52WiQlmnXWa9h4g1a_x002F_DQ96Oy1K5cMI9UY5KM4vd6lcmBnD2EEdwYS6hxvQeHbELSDhD24WCXpDBfhs7F5SVO_x002B_H0q2jnfuQAsRhvS2pSgrE0QgquyYvNbzYctx1sBnqO6rVSNa_x002B_jnLfpwSuSEspxfF1AvL7yAccN34e_x002B_EE6wf4gnAKT0dnN0cEGaZ2LRx7_x002F_9M7smCQsGVXx5HWlOjcG8_x002B_tlVuzB6pB8pXXz_x002B_yLW2cfO_x002F_YyPZNb0ceddPvqK6_x002F_LX8U9JDdcfG9Rzn72x_x002B_l5FP_x002B_hpL15_x002F_uXhAKUUSW063ES15WiLl8CehWXDnh_x002F_i2fRhJ_x002F_59fQSy_x002B_NtFVHG6h689m_x002F_Fro1WZSU5rXdCrAj4jCJ2E0dPHbO7xjT7cUuHx54x6rm57BUSxFggfgTVLEQBUlQkd9UwpyN2Oxv8qDgRC5JC1CQibzwoo5_x002B_Zrn0LqfJrKyfAj_x002F_uhE3ZcXGlqFkkWyRHAw7cslOxcLlFwLtqMdsNgLYQsFaIqHh63ajPIv7SuK5U0cFTXZnonNep6Q0hSFoiEG_x002F_Cp0_x002B_jbtZCNr1PN9TXy_x002F__x002B_xGYuOUwtdHvfAnrJ6U8z5rGNcVUo952zyrH_x002B_92uv_x002B_ow77OUA2zHRAvjSxPke7GU0k8vKvd4UdO_x002B_sn36KbzBsyn7ilCOGNFiksxb6WaGSjX_x002F_cIDZ02yjT0AiHqSPjRMsof76UyCGHSyp6Cwxhf_x002B_6BR3N5SRa70T91Bc6OMmZUw3uF5pzRXD3z_x002B_ZWmYcPPy4to45eoNb9gb_x002B_njUYh1D9nEq7CHTcCBqRbnvs5KU8pZscMD921QPBGJOtQTKfW539z7NZ7AXZ5LA8WhfYXHBmN01umk_x002B_X8lavcRXHoB1o2hT52EhbHjyU9Z_x002F_Fc9rNBuLTdcq8EjmkuY13_x002B_pb6btyRalU_x002F_7dW8H0nXN6ke9gyirAg7bg9uSmXgg96cuDisbVawfjGZClpUsfLg9vp4JTtdB548MqQ3hJlRB1oeEsyff5pIR9O1Y1kT1miKKtHkyqI</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>42ea6900cf2e4ecfba62a1a129e84dd4</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageFooterBand1 Ref="7" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1219.2,749,90</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text5 Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>250,0,260,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Underline</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Interaction Ref="9" type="Stimulsoft.Report.Components.StiInteraction" isKey="true">
+                <DrillDownEnabled>True</DrillDownEnabled>
+                <DrillDownPageGuid>4cc59beb003242379c37c7ff92a56e2d</DrillDownPageGuid>
+              </Interaction>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <Text>Disney Plus vs Netflix: subscribers</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </PageFooterBand1>
+        <ReportTitleBand1 Ref="10" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,80</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text6 Ref="11" type="Text" isKey="true">
+              <Brush>[244:160:154]</Brush>
+              <ClientRectangle>0,0,740,70</ClientRectangle>
+              <ComponentStyle>Style1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <ExceedMargins>Left, Right, Top</ExceedMargins>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text6>
+            <Text23 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,0,550,40</ClientRectangle>
+              <ComponentStyle>Style3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>a08e763dce6b4c6f9378211a6b5d0bab</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>{ReportName}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text7 Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>560,0,180,40</ClientRectangle>
+              <ComponentStyle>Style3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>e290f492b7d545a58b6c6824408dd0db</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>560,40,180,20</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <Guid>569ffaa096264dfda0d681f2e7464990</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text8>
+            <Text17 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,40,550,20</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <Guid>b3e80ad46fd343af9f33417cdc16655e</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ReportTitleBand1>
+        <HeaderBand1 Ref="16" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,140,749,460</ClientRectangle>
+          <Components isList="true" count="1">
+            <Chart1 Ref="17" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+              <Area Ref="18" type="Stimulsoft.Report.Chart.StiClusteredColumnArea3D" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <BorderThickness>1</BorderThickness>
+                <Brush>[255:255:255]</Brush>
+                <Chart isRef="17" />
+                <ColorEach>True</ColorEach>
+                <XAxis Ref="19" type="Stimulsoft.Report.Chart.StiXAxis3D" isKey="true">
+                  <Area isRef="18" />
+                  <LineColor>140, 140, 140</LineColor>
+                </XAxis>
+                <YAxis Ref="20" type="Stimulsoft.Report.Chart.StiYAxis3D" isKey="true">
+                  <Area isRef="18" />
+                  <Labels Ref="21" type="Stimulsoft.Report.Chart.StiAxisLabels3D" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                    <Format>N0</Format>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                </YAxis>
+              </Area>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>10,0,730,440</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ConstantLines isList="true" count="0" />
+              <CustomStyleName>Style2</CustomStyleName>
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>Chart1</Name>
+              <Page isRef="6" />
+              <Parent isRef="16" />
+              <Series isList="true" count="1">
+                <Item16 Ref="22" type="Stimulsoft.Report.Chart.StiClusteredColumnSeries3D" isKey="true">
+                  <ArgumentDataColumn>DisneyPlusQuarterlyRevenue.Data</ArgumentDataColumn>
+                  <BorderColor>0, 0, 0</BorderColor>
+                  <Chart isRef="17" />
+                  <Color>20, 13, 90</Color>
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <SeriesLabels Ref="23" type="Stimulsoft.Report.Chart.StiOutsideAxisLabels3D" isKey="true">
+                    <BorderColor>Transparent</BorderColor>
+                    <Brush>[119:255:255:255]</Brush>
+                    <Chart isRef="17" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>50, 58, 69</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowInLegend>False</ShowInLegend>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Series 1</Title>
+                  <TrendLines isList="true" count="0" />
+                  <ValueDataColumn>DisneyPlusQuarterlyRevenue.Revenue</ValueDataColumn>
+                </Item16>
+              </Series>
+              <SeriesLabels Ref="24" type="Stimulsoft.Report.Chart.StiCenterAxisLabels3D" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>[119:255:255:255]</Brush>
+                <Chart isRef="17" />
+                <Font>Arial,9</Font>
+                <Format>C0</Format>
+                <LabelColor>50, 58, 69</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <TextAfter>M</TextAfter>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <SeriesLabelsConditions isList="true" count="0" />
+              <Sort isList="true" count="0" />
+              <Strips isList="true" count="0" />
+              <Style Ref="25" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+                <Conditions isList="true" count="0" />
+                <Name>Style2</Name>
+              </Style>
+            </Chart1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </HeaderBand1>
+        <HeaderDisneyPlusQuarterlySubscribes Ref="26" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,640,749,30</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text9 Ref="27" type="Text" isKey="true">
+              <Brush>[244:160:154]</Brush>
+              <ClientRectangle>0,0,749,30</ClientRectangle>
+              <ComponentStyle>Style1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Margins>0,2,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="6" />
+              <Parent isRef="26" />
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text9>
+            <HeaderDisneyPlusQuarterlySubscribes_Data Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,260,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>5,0,0,0</Margins>
+              <Name>HeaderDisneyPlusQuarterlySubscribes_Data</Name>
+              <Page isRef="6" />
+              <Parent isRef="26" />
+              <Text>Year</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusQuarterlySubscribes_Data>
+            <HeaderDisneyPlusQuarterlySubscribes_Subscribers Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>520,0,220,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>HeaderDisneyPlusQuarterlySubscribes_Subscribers</Name>
+              <Page isRef="6" />
+              <Parent isRef="26" />
+              <Text>Subscribers</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusQuarterlySubscribes_Subscribers>
+            <HeaderDisneyPlusQuarterlySubscribes_Quarterly Ref="30" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>260,0,260,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDisneyPlusQuarterlySubscribes_Quarterly</Name>
+              <Page isRef="6" />
+              <Parent isRef="26" />
+              <Text>Quarterly</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusQuarterlySubscribes_Quarterly>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderDisneyPlusQuarterlySubscribes</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </HeaderDisneyPlusQuarterlySubscribes>
+        <DataDisneyPlusQuarterlySubscribes Ref="31" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,710,749,30</ClientRectangle>
+          <Components isList="true" count="3">
+            <DataDisneyPlusQuarterlySubscribes_Data Ref="32" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,260,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>5,0,0,0</Margins>
+              <Name>DataDisneyPlusQuarterlySubscribes_Data</Name>
+              <Page isRef="6" />
+              <Parent isRef="31" />
+              <Text>{DisneyPlusQuarterlySubscribes.Data}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusQuarterlySubscribes_Data>
+            <DataDisneyPlusQuarterlySubscribes_Subscribers Ref="33" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>520,0,220,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>DataDisneyPlusQuarterlySubscribes_Subscribers</Name>
+              <Page isRef="6" />
+              <Parent isRef="31" />
+              <Text>{DisneyPlusQuarterlySubscribes.Subscribers * 1000000}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="34" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>Abbreviation</State>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusQuarterlySubscribes_Subscribers>
+            <DataDisneyPlusQuarterlySubscribes_Quarterly Ref="35" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>260,0,260,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>DataDisneyPlusQuarterlySubscribes_Quarterly</Name>
+              <Page isRef="6" />
+              <Parent isRef="31" />
+              <Text>{DisneyPlusQuarterlySubscribes.Quarterly}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusQuarterlySubscribes_Quarterly>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>DisneyPlusQuarterlySubscribes</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataDisneyPlusQuarterlySubscribes</Name>
+          <OddStyle>Style6</OddStyle>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </DataDisneyPlusQuarterlySubscribes>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>28b43ef732514457b4be2ce6995dabb1</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+    <Page2 Ref="36" type="Page" isKey="true">
+      <Alias>Disney Plus vs Netflix: subscribers</Alias>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <ReportTitleBand2 Ref="37" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,70</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text1 Ref="38" type="Text" isKey="true">
+              <Brush>[31:11:146]</Brush>
+              <ClientRectangle>0,0,740,70</ClientRectangle>
+              <ComponentStyle>Style7</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <ExceedMargins>Left, Right, Top</ExceedMargins>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="36" />
+              <Parent isRef="37" />
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="39" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,0,540,40</ClientRectangle>
+              <ComponentStyle>Style3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>9df1ddf15d4345ce9fd56393ac8b2d69</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="36" />
+              <Parent isRef="37" />
+              <Text>{ReportName}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,40,540,20</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <Guid>73b08bac3b1e47bba8614c1532258b18</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="36" />
+              <Parent isRef="37" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text3>
+            <Text4 Ref="41" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>550,0,190,40</ClientRectangle>
+              <ComponentStyle>Style3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Guid>02e0eb86b00145ea80a34e62e09571a5</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="36" />
+              <Parent isRef="37" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text10 Ref="42" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>550,40,190,20</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <Guid>90b99393e0d044bcbf5b2faf5d35d395</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="36" />
+              <Parent isRef="37" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="36" />
+          <Parent isRef="36" />
+        </ReportTitleBand2>
+        <HeaderBand3 Ref="43" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,130,749,520</ClientRectangle>
+          <Components isList="true" count="1">
+            <Chart2 Ref="44" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+              <Area Ref="45" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <BorderThickness>1</BorderThickness>
+                <Brush>[255:255:255]</Brush>
+                <Chart isRef="44" />
+                <GridLinesHorRight Ref="46" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="45" />
+                  <Color>Silver</Color>
+                  <MinorColor>Gainsboro</MinorColor>
+                  <Visible>False</Visible>
+                </GridLinesHorRight>
+                <YAxis Ref="47" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+                  <Area isRef="45" />
+                  <Labels Ref="48" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                    <Format>N0</Format>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                  <Title Ref="49" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Direction>BottomToTop</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YAxis>
+                <YRightAxis Ref="50" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+                  <Area isRef="45" />
+                  <Labels Ref="51" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                    <TextAlignment>Left</TextAlignment>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                  <Title Ref="52" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Direction>TopToBottom</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YRightAxis>
+              </Area>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>10,10,730,500</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ConstantLines isList="true" count="0" />
+              <CustomStyleName>Style8</CustomStyleName>
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>Chart2</Name>
+              <Page isRef="36" />
+              <Parent isRef="43" />
+              <Series isList="true" count="2">
+                <Item35 Ref="53" type="Stimulsoft.Report.Chart.StiSplineSeries" isKey="true">
+                  <ArgumentDataColumn>DisneyPlusandNetflixSubscribes.AppsN</ArgumentDataColumn>
+                  <Chart isRef="44" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <Lighting>False</Lighting>
+                  <LineColor>31, 11, 146</LineColor>
+                  <LineColorNegative>Firebrick</LineColorNegative>
+                  <Marker Ref="54" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                    <BorderColor>0, 0, 46</BorderColor>
+                    <Brush>[131:111:246]</Brush>
+                    <Visible>False</Visible>
+                  </Marker>
+                  <SeriesLabels Ref="55" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                    <BorderColor>Transparent</BorderColor>
+                    <Brush>[119:255:255:255]</Brush>
+                    <Chart isRef="44" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>50, 58, 69</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Disney</Title>
+                  <TrendLines isList="true" count="0" />
+                  <ValueDataColumn>DisneyPlusandNetflixSubscribes.SubscribersN</ValueDataColumn>
+                </Item35>
+                <Item36 Ref="56" type="Stimulsoft.Report.Chart.StiSplineSeries" isKey="true">
+                  <ArgumentDataColumn>DisneyPlusandNetflixSubscribes.Data</ArgumentDataColumn>
+                  <Chart isRef="44" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <Lighting>False</Lighting>
+                  <LineColor>249, 118, 138</LineColor>
+                  <LineColorNegative>Firebrick</LineColorNegative>
+                  <Marker Ref="57" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                    <BorderColor>149, 18, 38</BorderColor>
+                    <Brush>[255:218:238]</Brush>
+                    <Visible>False</Visible>
+                  </Marker>
+                  <SeriesLabels Ref="58" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                    <BorderColor>Transparent</BorderColor>
+                    <Brush>[119:255:255:255]</Brush>
+                    <Chart isRef="44" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>50, 58, 69</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Netflix</Title>
+                  <TrendLines isList="true" count="0" />
+                  <ValueDataColumn>DisneyPlusandNetflixSubscribes.SubscribersD</ValueDataColumn>
+                </Item36>
+              </Series>
+              <SeriesLabels Ref="59" type="Stimulsoft.Report.Chart.StiValueAxisLabels" isKey="true">
+                <BorderColor>Transparent</BorderColor>
+                <Brush>[119:255:255:255]</Brush>
+                <Chart isRef="44" />
+                <Font>Arial,7</Font>
+                <Format>N0</Format>
+                <LabelColor>50, 58, 69</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <TextAfter>M</TextAfter>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <SeriesLabelsConditions isList="true" count="0" />
+              <Sort isList="true" count="0" />
+              <Strips isList="true" count="0" />
+              <Style Ref="60" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+                <Conditions isList="true" count="0" />
+                <Name>Style8</Name>
+              </Style>
+            </Chart2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderBand3</Name>
+          <Page isRef="36" />
+          <Parent isRef="36" />
+        </HeaderBand3>
+        <HeaderDisneyPlusandNetflixSubscribes Ref="61" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,690,749,30</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text11 Ref="62" type="Text" isKey="true">
+              <Brush>[31:11:146]</Brush>
+              <ClientRectangle>0,0,749,30</ClientRectangle>
+              <ComponentStyle>Style7</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,24,Bold</Font>
+              <Margins>0,2,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="36" />
+              <Parent isRef="61" />
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text11>
+            <HeaderDisneyPlusandNetflixSubscribes_Data Ref="63" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,190,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDisneyPlusandNetflixSubscribes_Data</Name>
+              <Page isRef="36" />
+              <Parent isRef="61" />
+              <Text>Year</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusandNetflixSubscribes_Data>
+            <HeaderDisneyPlusandNetflixSubscribes_Quarterly Ref="64" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>190,0,190,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDisneyPlusandNetflixSubscribes_Quarterly</Name>
+              <Page isRef="36" />
+              <Parent isRef="61" />
+              <Text>Quarterly</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusandNetflixSubscribes_Quarterly>
+            <HeaderDisneyPlusandNetflixSubscribes_SubscribersD Ref="65" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>380,0,190,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDisneyPlusandNetflixSubscribes_SubscribersD</Name>
+              <Page isRef="36" />
+              <Parent isRef="61" />
+              <Text>Disney</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusandNetflixSubscribes_SubscribersD>
+            <HeaderDisneyPlusandNetflixSubscribes_SubscribersN Ref="66" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,30</ClientRectangle>
+              <ComponentStyle>Style5</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDisneyPlusandNetflixSubscribes_SubscribersN</Name>
+              <Page isRef="36" />
+              <Parent isRef="61" />
+              <Text>Netflix</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDisneyPlusandNetflixSubscribes_SubscribersN>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderDisneyPlusandNetflixSubscribes</Name>
+          <Page isRef="36" />
+          <Parent isRef="36" />
+        </HeaderDisneyPlusandNetflixSubscribes>
+        <DataDisneyPlusandNetflixSubscribes Ref="67" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,760,749,30</ClientRectangle>
+          <Components isList="true" count="4">
+            <DataDisneyPlusandNetflixSubscribes_Data Ref="68" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,190,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>5,0,0,0</Margins>
+              <Name>DataDisneyPlusandNetflixSubscribes_Data</Name>
+              <Page isRef="36" />
+              <Parent isRef="67" />
+              <Text>{DisneyPlusandNetflixSubscribes.Data}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusandNetflixSubscribes_Data>
+            <DataDisneyPlusandNetflixSubscribes_Quarterly Ref="69" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>190,0,190,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>DataDisneyPlusandNetflixSubscribes_Quarterly</Name>
+              <Page isRef="36" />
+              <Parent isRef="67" />
+              <Text>{DisneyPlusandNetflixSubscribes.Quarterly}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusandNetflixSubscribes_Quarterly>
+            <DataDisneyPlusandNetflixSubscribes_SubscribersD Ref="70" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>380,0,190,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>DataDisneyPlusandNetflixSubscribes_SubscribersD</Name>
+              <Page isRef="36" />
+              <Parent isRef="67" />
+              <Text>{DisneyPlusandNetflixSubscribes.SubscribersD*1000000}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>Abbreviation</State>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusandNetflixSubscribes_SubscribersD>
+            <DataDisneyPlusandNetflixSubscribes_SubscribersN Ref="72" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>570,0,170,30</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>DataDisneyPlusandNetflixSubscribes_SubscribersN</Name>
+              <Page isRef="36" />
+              <Parent isRef="67" />
+              <Text>{DisneyPlusandNetflixSubscribes.SubscribersN*1000000}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="73" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>Abbreviation</State>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataDisneyPlusandNetflixSubscribes_SubscribersN>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>DisneyPlusandNetflixSubscribes</DataSourceName>
+          <EvenStyle>Style6Copy1</EvenStyle>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataDisneyPlusandNetflixSubscribes</Name>
+          <Page isRef="36" />
+          <Parent isRef="36" />
+          <Sort isList="true" count="0" />
+        </DataDisneyPlusandNetflixSubscribes>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>4cc59beb003242379c37c7ff92a56e2d</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page2</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page2>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Statistic Disney</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>5/24/2023 4:43:53 PM</ReportChanged>
+  <ReportCreated>10/4/2022 2:29:48 PM</ReportCreated>
+  <ReportDescription>The report demonstrates revenue and subscriber statistics for Disney Plus apps</ReportDescription>
+  <ReportFile>D:\001\Statistic Disney.mrt</ReportFile>
+  <ReportGuid>6de560d5cf8246cf920ff821834664d2</ReportGuid>
+  <ReportIcon>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</ReportIcon>
+  <ReportImage>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
+/80ALkAbogAAAABJRU5ErkJggg==</ReportImage>
+  <ReportName>Statistic Disney</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2023.3.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Statistic_Disney : Stimulsoft.Report.StiReport
+    {
+        public Statistic_Disney()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="10">
+    <Style1 Ref="74" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>[244:160:154]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,24,Bold</Font>
+      <Name>Style1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+    </Style1>
+    <Style2 Ref="75" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>140, 140, 140</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>140, 140, 140</AxisTitleColor>
+      <BasicStyleColor>White</BasicStyleColor>
+      <Brush>[255:255:255]</Brush>
+      <ChartAreaBorderColor>Transparent</ChartAreaBorderColor>
+      <ChartAreaBrush>[255:255:255]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>50, 105, 105, 105</GridLinesHorColor>
+      <GridLinesVertColor>50, 105, 105, 105</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>Transparent</LegendBorderColor>
+      <LegendBrush>[255:255:255]</LegendBrush>
+      <LegendLabelsColor>140, 140, 140</LegendLabelsColor>
+      <LegendTitleColor>DimGray</LegendTitleColor>
+      <MarkerVisible>False</MarkerVisible>
+      <Name>Style2</Name>
+      <SeriesBorderColor>Transparent</SeriesBorderColor>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>[119:255:255:255]</SeriesLabelsBrush>
+      <SeriesLabelsColor>50, 58, 69</SeriesLabelsColor>
+      <SeriesLabelsLineColor>DimGray</SeriesLabelsLineColor>
+      <SeriesShowBorder>True</SeriesShowBorder>
+      <StyleColors>[20:13:90], [31:11:146], [68:21:144], [113:47:187], [161:77:239], [217:102:238], [174:59:155], [228:102:177], [244:159:196], [240:127:119], [238:171:129]</StyleColors>
+      <ToolTipBorder>All;[140:140:140];1;Solid</ToolTipBorder>
+      <ToolTipBrush>White</ToolTipBrush>
+      <ToolTipCornerRadius>8,8,8,8</ToolTipCornerRadius>
+      <ToolTipTextBrush>DimGray</ToolTipTextBrush>
+      <TrendLineColor>DimGray</TrendLineColor>
+    </Style2>
+    <Style3 Ref="76" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,24,Bold</Font>
+      <Name>Style3</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+    </Style3>
+    <Style4 Ref="77" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,10</Font>
+      <Name>Style4</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+    </Style4>
+    <Style5 Ref="78" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,12,Bold</Font>
+      <Name>Style5</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+    </Style5>
+    <Style6 Ref="79" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>[249:226:211]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8</Font>
+      <Name>Style6</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>Black</TextBrush>
+    </Style6>
+    <Style7 Ref="80" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>[31:11:146]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,24,Bold</Font>
+      <Name>Style7</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+    </Style7>
+    <Style8 Ref="81" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>140, 140, 140</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>140, 140, 140</AxisTitleColor>
+      <BasicStyleColor>White</BasicStyleColor>
+      <Brush>[255:255:255]</Brush>
+      <ChartAreaBorderColor>Transparent</ChartAreaBorderColor>
+      <ChartAreaBrush>[255:255:255]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>50, 105, 105, 105</GridLinesHorColor>
+      <GridLinesVertColor>50, 105, 105, 105</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>Transparent</LegendBorderColor>
+      <LegendBrush>[255:255:255]</LegendBrush>
+      <LegendLabelsColor>140, 140, 140</LegendLabelsColor>
+      <LegendTitleColor>DimGray</LegendTitleColor>
+      <MarkerVisible>False</MarkerVisible>
+      <Name>Style8</Name>
+      <SeriesBorderColor>Transparent</SeriesBorderColor>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>[119:255:255:255]</SeriesLabelsBrush>
+      <SeriesLabelsColor>50, 58, 69</SeriesLabelsColor>
+      <SeriesLabelsLineColor>DimGray</SeriesLabelsLineColor>
+      <SeriesShowBorder>True</SeriesShowBorder>
+      <StyleColors>[31:11:146], [249:118:138]</StyleColors>
+      <ToolTipBorder>All;[140:140:140];1;Solid</ToolTipBorder>
+      <ToolTipBrush>White</ToolTipBrush>
+      <ToolTipCornerRadius>8,8,8,8</ToolTipCornerRadius>
+      <ToolTipTextBrush>DimGray</ToolTipTextBrush>
+      <TrendLineColor>DimGray</TrendLineColor>
+    </Style8>
+    <Style6Copy1 Ref="82" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>[242:242:242]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8</Font>
+      <Name>Style6Copy1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>Black</TextBrush>
+    </Style6Copy1>
+    <Style7Copy1 Ref="83" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>[111:129:250]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,24,Bold</Font>
+      <Name>Style7Copy1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+    </Style7Copy1>
+  </Styles>
+</StiSerializer>

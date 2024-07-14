@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Globalizing_Reports.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Globalizing_Reports.Views"
+		Width="450" Height="300"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
+        x:Class="Globalizing_Reports.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+		WindowStartupLocation="CenterScreen"
+        Title="Globalizing Reports">
+	<Grid>
+		<Grid Margin="12" RowDefinitions="Auto,*,Auto">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+				<TextBlock VerticalAlignment="Center" Text="Select Country:"/>
+				<ComboBox x:Name="cbCountry" Width="250" Margin="8,0,0,0" SelectedIndex="6">
+					<ComboBoxItem Content="France"/>
+					<ComboBoxItem Content="Germany"/>
+					<ComboBoxItem Content="Italy"/>
+					<ComboBoxItem Content="Russia"/>
+					<ComboBoxItem Content="Spain"/>
+					<ComboBoxItem Content="United Kingdom"/>
+					<ComboBoxItem Content="United States"/>
+				</ComboBox>
+			</StackPanel>
+			
+			<Button x:Name="buttonShow" Grid.Row="2" Width="200"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Content="Show"
+					Click="ButtonShow_Click"/>
+		</Grid>
+	</Grid>
+</Window>

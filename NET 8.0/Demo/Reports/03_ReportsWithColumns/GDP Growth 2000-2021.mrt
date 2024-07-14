@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <GDPGrowthStats Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>GDPGrowthStats</Alias>
+        <Key />
+        <Name>GDPGrowthStats</Name>
+        <PathData>resource://GDP Growth Stats</PathData>
+      </GDPGrowthStats>
+    </Databases>
+    <DataSources isList="true" count="2">
+      <Category Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Category</Alias>
+        <Columns isList="true" count="2">
+          <value>ID,System.Double</value>
+          <value>Name,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>a574f09aac5149589b46035774f56399</Key>
+        <Name>Category</Name>
+        <NameInSource>GDPGrowthStats.Category</NameInSource>
+      </Category>
+      <Statistics Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Statistics</Alias>
+        <Columns isList="true" count="4">
+          <value>ID,System.Double</value>
+          <value>Category,System.String</value>
+          <value>Year,System.String</value>
+          <value>GDP_x0020_Growth,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>63c6163d502840299ed7800270d91118</Key>
+        <Name>Statistics</Name>
+        <NameInSource>GDPGrowthStats.Statistics</NameInSource>
+      </Statistics>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <Categories Ref="5" type="DataRelation" isKey="true">
+        <Active>True</Active>
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ID</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>Relation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Categories>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=GDP_x0020_Growth_x0020_Stats, Alias=GDP_x0020_Growth_x0020_Stats, Type=Excel, Content=cVW5ZrM8hceDTYyoN8rIoxvAg_x002F_A2lnHvmkhadxisuB_x002B_rSzVjnEX6Li11_x002F__x002F_zePb1qacxHTi6fr5KLOrRwJY0gP1IXdLrHRj_x002F_iJdmETDBLmAp3CteMbSx22j1R3BOZ8KtefEBrK6VjS_x002B_nkehGjBubx1ANgeiqbdAVFMCNJVWn8vQn_x002B_EMSBvkyXXN906FjBLoUsi3oq1qqWzRsIy9RKCLiDMxstSe_x002B_zKxlz_x002B_ymf3KLglnuN6_x002F_qTjvdQdy7rALOSu5DkGy8WlGlKfCLbaejN8ox_x002F_2XoLTNeqI61w5yoiz4uTLvyoSBcvW7UNJmtF6wNFmFC_x002F_ETVHapnwDPmmpgP06Czn5MpKhEIHEJXWbz44zhRY_x002B_EF6FVZVWAbLZfwyjGpHTpkCWNID3PyBEbx_x002F_2ef6fGQ23ST7dCyTM6HW_x002F_s8RbvGGZ37f1wNdC4hyZsOETfpOMl8hKUoPN57Mkai_x002B_y8Hvlb2Pj9sCut3Ls6j5jxEKFq6cMf53_x002F_mwRsiYZAm_x002F_D1bQS2Aw2GnJh_x002F_Pjcrldf2YqSjC_x002B_kektRzypGINmeWmScVlv4ezJjnQIRqTXEBUVmp473cygTOFpzj_x002F_cT_x002B_tMiZqay6_x002F_OGzeSXbhhn9vIeS0JjTwe_x002B_1zWO_x002B_2qzllTR9N_x002B_lZvxyQ4Xh_x002F_WcgnJc9XtBIxfvAXg6PAAasd0utlcIbWAQGQziUibqd3GtdLfjvTD3K7nZ9M0_x002F_rAQUAf9Ju954x0Wc5mGmY21H3NPoTDcAn6nTioSUnkn_x002B_PZYkEWo_x002B__x002F_00nKWia9Kl5aQ2T4NcTxbO7rr3kSbk00tDZrvPfuf8QEztNkJ59suHSV5qGcW7TCCFqItyzv6hnwRGfsPL6t033AkOah5GVXX43sce7t_x002F_Z4qqDMCPT1IoLor4sRNZyr6yZKwuiygKIylx9f0HOveSk8rUNNpjIELZP61BIB4RpQRWvz0ERJ6PIx2WM3lAq_x002F_Jfx15UDEl_x002B_gv_x002F_2OzK4xq2NI4Qr52_x002B_UZPmDo4Jb9q6qHzSysfdIevXzV3kt4KQ58JgUPfzsTnkXAFphyXXjMFSiY7eTWwTVtvKtxaJgeZ0plkYoMoATRUmDF8GTKqqSsOHz8JiLTYe52lxXbFgoLDlBISPakkGlnmz7TGTOKJ_x002B_rNWytAPbWTRBaZAexpqs6vR6BpQLYxIi3om9BC6XTbF_x002F_qu3soPqny5LdLZEVQVggN6joTSpX6trboZaYcOMtb6RkQHlkwaGzCAxLDD5lFSy4FHt8Rg08y5XwlKoPUFmgNmQBW0tZYRtOQjD3o5pwNBhCNGRCQpuzcjAC87zEjFtCZ7ggvU38Tnr7y14_x002F_NBcJoV0y5ClvBm8yEfaK6Y065pwULLNtN5HL_x002F_NG0NAmda89ax93e13vxp_x002F_YreDGEanpVAoxcyiwkISizPz19U9v1tQ_x002F_gIo3sXMsCThZi0hlfrRr3nExsvqg25fC_x002B_cFAE6j6hkQcycFrC4wZK9t8oa4YjgSUUbvWGGM2Tlp_x002B_tVaxFftr4Kd0Er7GM1_x002F_7kWiApfiNpyAYVn4jzWVTUYDzSvABGPQkskTVkrljA7XO7O8hNNYh0_x002F_2k7YLfQK6lpjl48jA6jyemRmCRxh5fBW9AS3dvoDmLVeWDogWYG0mdjtPsCDltk1WgyScNPs5pKh98XBk8tu5ONrG5NkNWjYnwdf63vc0MPNjA_x002B_oCrbDxdqMvoZFumQL_x002F_WGM8jKK_x002F_CqTsvPLjc05MEFKMEp2ntJKMns4TrBB83zDXislBeyP05U6dMY_x002B__x002B_O6pSj3CFdjKE_x002F_nKw7gnlsaQz6O32ZtWWysWmjbz8eVqVwf2ryYsBcxlZxfRQ9uNCYgmkElxeqbMSWLlaDmE9LGctoMDY20NXV2yfY9eQ3K_x002B_vQZSFq4SG4Zo5APFhTwfHxfKU966a9_x002B_Y66adsviLsI67ANzhETB_x002B_BHxdxyfbB1_x002B_yXa9k_x002F_IRKx_x002F_eFZBo5jYHY2gOdzi5X_x002B_o0rz47DAAdWo3DY_x002B_uZ0fdwyCXNoZ4yD_x002F_3cN0p1grslXmS9A2mieAOwX8PD2M58_x002B_2VEpjE2c48DvKRxKp54pmyp13X0lFgN5c13nJTurvCVtbCGUh2V_x002B_24CSj5afOcZ1777ZARhykIwAoVNDqxpkk_x002F__x002B_AYmnwoKkEVmDe87MjqoOclFjYD3K3IpP8Db4h7yDo4fpWP0zfLPjSog5ZlPxW2j9cq32hf38KCB4GSyYhI1eJulxJwD1Y_x002F_DocUFaeWF0Hk9kdC50KY9AjLt7zORKqWG0SzLt5YVdxUCUCUdq_x002B_y8UosfYTJAx8ODACzMd_x002F_0TNw9pZZDiulCXa7fNwOVjBuPPa6aKSWuwB3DgiMQnQHulhLJs25lWBsDMj0jtCK4WHDYIOKAxYd0FxU7SEAVEPc615WktQ2ThX_x002B_5HQLL9_x002B_1ae2mpZwtD_x002B_nmDfMxsapLHZix8mYFuILBkwPG_x002B_XjXGLKpKGsi0U_x002B_T8eHF_x002F_cUyo9ls1l_x002F_AXl1JvjWf3ca2dj_x002B_ClgLsPIudq38ws0p7UGn2BFW94LvV7RK1tTFIC1hdOey603sjnqAOzzpk0dS48Gb8yUy6NS_x002F_Tz0ZsGUDaXxTDIUPnsguHdYm69WX2gFj_x002B_ucwPWx9tIPQagoupVgqu4BMZMZiyFimfRqEq4ZY_x002B_B6ZtAP0ILbMdR7QsbP_x002F_ew_x002B_oEnO_x002B_zrFroBW6QXygtkzBVSu29DzbKdwJux5qt3f70dFJsaKFK8lhJgoEIs23JOI51vQtJoueXwv_x002F_ATnyJs0IcpRWKYlTvuCXJ3DYVooY_x002F_j2EhEQO_x002F_q9l5z_x002F_p_x002F_HH_x002B_4nVvb1HVQkmm4Mbk_x002F_TNX0y6I2ZJmroheonvnvbItXopVNcXG_x002F_4ooNtK7B7bD25BUFPjEheuN97Zg69HF7CnQa3m0JYp2YEJs_x002B_qIl6Pq_x002F_d3XfmNJGwJj5gQo5c6R8kzmGIkaIBhdII10SRESitA5vWNGZZQOZZwdIcN_x002F_MrHgRNuHbOyiEKCS5KFI1bdARupVOE9k7p2s_x002F_9OV3miqrV3S4Txrp01TNYgenxTAGUGM2ewzntnkXw0mIIdc6MSEK2UzN_x002F_3iYEj8zaaS6nK2qtTl2yes7zkbsfC_x002F_vt5spHxjAocQfo9pxqQS2Yhl0zd_x002B_gT7NfcWbQHHQNq4ejYY9UDu1L_x002B_AZaI0htmwGnrpYVV7hGJS_x002F_tlvM724MvHBmP754KPPfFvAoYnu4svpfEHwxRCPGUqxR5tQuXvRjByXONOtRs0JtGeV_x002B_78Fu0WKCimGrGZle5f42GzuKuZS02hEpMiH12IcJG05oE1plUEbtcTMiE4ZaFLf89KozRZ3P3RphWDjxg42RhE3P4bVq1IZHtzBa4AY0yKvRQsBShoAytM_x002F__x002B_GyFZfZdc34O6ZmmQxnpfS5n9mH7lA_x002B_KqDTAX_x002F_j4E12HZQIhIQWaCPqU9sOgEnP3kpPacSYKKOc6gtFGRoSH0X04CvjTfXA9mLaykWnBEP2EdhZuSjafdej8_x002B_BMuNu3G94NVzQVgawSCGVQpvzuMDHrbH7njpB9hVx4IG4fU2G2fmbY82dh0brzEkyF59Kj2W4He7LvHuk0UWoDzcXW3k_x002B__x002B_CqeOuILOSwBJzhrBbMOD60DMhreb7ORx1BVYr9B50HBQ7BebWr70DMSsXuE2vHmShwXW5R_x002B_3OoV2Fbjlg_x002F_VxwRAcjK72Gk_x002B_5x_x002B_RdqzDeqfS2zT4r2uaLd_x002F_37KMmU3L08nF90tTuGS5zuuM7IoWbJ33BUL9D6zNd03_x002F_69A8NTcyJRznmVDV07Jlvkk3Ew8cD6jeQSHcSvPYxOk_x002F_tW94QJVrbc8u_x002B_y0TVRd61Qw5022qnWkqLP_x002F_Ijbf3jAuZRKcYs52_x002B_2OoXT62jSqers8ehpKcEnzJy3oZQZ_x002B_3M1rTLqE_x002F_gPp0_x002B_vAvSvaRU8f6fVEANkGhYRAjVk6OzYTRWT4To_x002F_z5HTBhH4esjPfAfmnPRw9SA69gFfoyCfo7h_x002B_4meILXwc2gK1VrcNPA9q_x002F_GGoikMSktIDYaPXby_x002B_kAxboPFEcbtrMfp1iMnwyT1iN2XEFZPIuE6EtsnEvqOJX094vWHiUAh7NytsLRA6jj0szOMFwDvBcS2c2U6FGW4OEj_x002F_OTMhkoxF8klD63OoNL1fusO7S1_x002F_eRkCD34nrnogJVQvT3hTbyT3_x002B_8vc4Tt9z0gLry_x002F_NnsgbUsGR6qXp2X0Gsbu8wwTHOYg3P1VaJC88SXCtapDexYdKa_x002B_DXKnxnhKziy0PRgIlWguMU30sXXCNxEjbNIEtzNFVfxE_x002F_zCjzJ9LK44FnkBSJcKsPOQ2XFl1Ai4JnDhqG5lpoIQ1MkTnpxufPXoCaoDMfBSeV2Is2dCJIjmWqmE3j4k_x002F_OFSasRvLfBoNntLqzlJAS7H_x002F_T0LlEzfSOuSDSz8gzriB_x002B_ul2rCChcou47VdBaa11WlxW97p6CsIghrY4ZoGYiDZ6CcMsqEt4bXCBYmKD3jOrjBbDqPrUAAzrAfZE1tky7qTRPoJC7rJ3HL5hQbH4cGKg4LxzjX6Wf7bLhTApMeiEGKy3spliMEMkRzlVxpVgnVq8d_x002B_zX0aa_x002B_Zk1hCCBmoNiQgOgqJoh2e_x002F_YgVGmCL5UghmFXbOjg6yNzgVRbz3HcbV09izQryerBdq_x002F_4E6cdDHop7zLvA27Nd0_x002B_t7lloYgUn0Rdo3bkCjpvMuwZPCkz6VeJfwGmFI7_x002B_FH2vlUsuJXRuzbgH1Upy7IrnWFVf1A8siNOZk3uEMr23EBnmZsrMVAct0_x002B_0lkjpGHjeTu1Tj_x002F_zsCUtvv3yU2Y7DJ17HeWCKVvyyXF14lv0JpBJF8EHZjJwlO7hTznWwOtvWTfUhHoeoBtdZDxlDojO5FjrBRAP6iQAI83VpV_x002B_1qNzscqUP6RLYbIa3y2C0yYOQzfZQVnT3ZKGQcYNHRiNSaVOgO3m_x002F_70vm46X720rN34CDCAvFkgWfuKLo0Eyu5NsXgeN_x002B_K1fFgCRu_x002B_jUdob2yd_x002B_fuE_x002F_WsVvrNqHOrKy8Cx9a0AgTeyeEDuQCDsz1lj_x002F_Cqka0Tf6MEL6I0sZfpEWHy4cVo4sSNbNzlb7ecNsUs2abW_x002B_Qn6EqED_x002F_3SI0SagRzezKvjkIEHbAhdchXsK_x002F_Igu1DL_x002F_fUKdsYA_x002F_QYB5qia_x002B_7QJV8PQmbnkNHFt1aCqLEQnGfwkbn4M3K23MWPYu6oENT5cEChBhmlu7R3xaSfOqZkUbosucLwfuVBdPxoTZWfMEw2Rz5OA4GaY156DpsTNNVpg9SrYtP4zli7CT9saYVseS1OAljgjyXr149xah_x002F_3Gk3GBLXMa3DQ5cEn9oaiXg1zgZyDd667Cnh_x002B_vt7qWN2X_x002F_MTO5ctH2BOnrEwaJQOPPuMf4S6kUJ0u0JNfWpjevt3qh_x002B_2eorNYoendzICpQoqEle7tI84d589HdR52JokfZ4MW8yulMVW0ImOk6BNGmexxMhw7VCDQ0NomQ6kb4exVJETywhJWL0QLvKOvG5BOxdFqzlAI2NlF0JV_x002B_GCsZ8rTZX6ElmYv_x002B_npQxx7wSAP4gtMRWMkHALj9l2usawkF2twUHQxRFoN6Lf933ljLOh55iJ_x002B_74DoTQdItaxJ2ge_x002F_dFbI5xNpUnd8R6jgw3KCSo0weDovMtImG6uDB_x002F_lSXJLWtUKvaA_x002F_NVrEYELRdFWbHYkA_x002F_zLuDoXKQVYC_x002B_J9KcGv5dJ89fE8Perg2r4jw1MHBHwt9JKz8nmuUZOs3y2nJ6_x002F_0aqz9q4BlUpCIFgS_x002F_OLsPANYLHjdQhDQi4lwPwiNDEwEe4olF26X4pHvHTcah0DBn2o_x002B_2lIwWXpIWhFO8Kv0FKE3ias0Ki9zbIN7euBoipzcmCVIjg3ab2j3FIpcxrPFzHL3fc2t1MJT0upxHPBnECBbC4sFFA4FQG5YwQYuyEsBJdRFSCaFvwZ_x002B__x002F_zUbAglQmz26T6yrYR6ficjlS7OEGHvsq_x002B_DQgCMFXZjzPYW8u7qvKO5dmuXimkhTVOIn7yO4C3i_x002F_EC3LZ4WHLWUBeLguVgA7Od4DNOAaxLwXryVstevnqU_x002F_U4VRgcAjIQavYH9QicZ4wUDDF6FfRExcIQJSQSyLQGMltTR_x002F_0xh7DfmyOrsJlrtGrFfcNgMO4Amd9dkqyMBzKQG5cKK4P9Tzz9mbMQHLyL54DXoqjouTGaYTOi57i_x002F_7fWe5yUhVy5mKzxTuORxJQaa_x002F_1gtD1JYqSakUy2X6zVO8JNL2V9tdjoFsZWrlbnZin8_x002B__x002B_lnOmIhoK99DnR29Qsa4XoMKSoEZllegZvtC4c1rRXio6WtMkdAKcFmlAAYl7DrN_x002F_gu_x002F_1wLyTWtDKumDsEnUXDuoqD9M9qfrb3MLaHICGxa_x002B_sfH3Qu_x002B_BozF2g7TjpfjDTEe4h06mjNFbZ7IrEVjBJimLLGWGllLnPj_x002B_UIRSzs7K4jLmdTlpIl_x002B_zeYKApGQaxW1Br7PNKcNcfTu6kWh6EtoSS3y_x002B_b_x002B_O3AqIcqQnSPDEamQzXodCAp4KgsDNU0CwIdBM_x002F__x002B_62P_x002F_TKAVPwbHJvzSzb5VKh74qKVwUtfoYokkbN1QNy_x002F_P_x002B_t41opv_x002B_0O61g9W6TGEEydHiIt1rvAuv8M9HKA7EQq8W9o_x002B_icwHLnxskb44SDsd67JGWRf3lGiTjGHBg7P6OO84ltrM6SXUaModvi0qYjXjHfCypL8_x002F_0KtLpIh_x002B_FS8UgCZQgEF3fQ9tb_x002F_2vzF8UB_x002B_18Lc6PfKpyIPNeyq1Gs33dsOcBv2x3CO1cEmrwOEATHMzzCxS38HMGV7uI1TupCBtSn2MZ9c6mDTe9DKjKZS6YjWWA0Ud4ctsN8cegxz58SgFjNMaJCSfl1NwqWh3MjQ61XkvlIIu2qetTfY_x002F_6qSeAurlefCbkZWRA2xA_x002B_IcbdDyJ_x002B_bYuOxjyJvXC3Xm5bY13EB_x002F_jb6PLYkFMYXeIAF_x002B_ET9bkCXTXoIapVifiurGIkGqgB5lD0w2eSuKBLVHosra4EUKD1pL3kF7RdgOEOtgtv4XARd8QwmGE9h959wJ92JPZ3gGhKu0lgcqK4DdLDYK0zMHk2m6I5Nh3_x002F_SUevbuAsTdKg8dYS3sD_x002F_F85Ke_x002B_rZ3cGrPdeArMhNBh6INJZNssFJb6dsSTI8H88vIIT2bbMxO9IkW_x002B_hvQSJgCAN0NkcM9_x002B_6bv3uT_x002F_aU0LQdY9aotizKX6lSvyLJaW0qOMpbT_x002F_exaj9p294xSbhNYspApoCugNcsR5cme675tQhSngqfA8jxbfalQAL9hmI60Uacm3Xg_x002B_edqdW1tqw41Ig_x002B_Qta2nNxvhzcyMHyihNeZ8Xdn_x002B__x002B_X8wkWJDeT1IMybss7kRlXZHPeY9SBgCP8IWx2cNpF9PYa2I_x002F_APPpWMO_x002F_SkJN74RzTQ01Kh64AIo8DlgY_x002F_Zp4HhFZ43l5f_x002B_uWfubsalcvBir_x002F_fL9VkTweRiPg5tUi_x002B__x002F_Wh311YtaOwhRGyFzAasIuzRBpgteBli5TqpOpk7kVGX2BCTJ0y7bLNpMgdzLvjz9tocRSCy_x002B_BHJD4RyPGvoSZL0AcEKBQOwja_x002F_2KrAP0QuQDdiPsa1hba3DaJUEeay7XztxDhUDtEoUtCaknrPhrsMcEVKAKOFuoJZiFcaSQ1mjDx_x002F_Amd1ct4J9rzjJLQoJdkikJ1pCUK5ZDnSE0S5g7s7zDsWlY7IidZ7d5GnITYCL2ODu3ygFRx78QwfXGD6k76Yqem9yOlnCsi9UwznBwZFJMxq5nIwPthF3uoJapzvOeWX7p5lg4xAcwdMMksYXEBDTuZCTtVZejy43jwfnCUV93X8u7dfQeF4oS49iWQOopBMijKN8A4p8fZ_x002B_oSACgeTk44MdimlVJlpEuNwhovIDDqpcz8c_x002F_JLeeOFpFHP9lbjiqFnAmwIWFSiyljXj9vygcXgmbyy7PEVB3SwR2xemghco_x002F_hAeMs1zEJ91DMOsYm8ZQVodMUGA_x002B_WCQUzMNSZQtw872iRFNJ1PT9fawzZ3nS0I9p2q39ZrNGTH2xZFqP89TAlUGq7kgJle3F0B6tGtPA0F95_x002B_NQFDPSE2tPHTkQqUqHO7_x002B_RdNqBcqKkype6uBHRJOxsOwmHZ7T1BhDUZHhywGwx7lQgwdZb5eJozYqd62BIHs64MbF7q1ZwEFZfrJQybFEI8iEwIgVspKr6nvKfdv7w1tLAOkBWNpV_x002F_ueC1LpQb0CEjnF_x002F_WGwmOwO4SJhNUf5aM33C0U_x002F_2oaNZyvksvC_x002F_0uMyMcYPI15RGXZ1jaTcliM6ZyeFSwP2AqZmnR4_x002B_3nIHbk9qpZDntRcsoGRva_x002F_YRVad_x002B_27uKUEGojoBcIOt4gd9aigtRoaCvPtd6Pz0vf5mT0H_x002B_PeAPRMCAh1guGGCWBoEzzDMklmZbIvDJQeACoT3xQumV_x002B_tifULd96NrMlpHmq3T2PUvg27FrG_x002F_lRxQpmPXZUOhuhnK16wBGoMv9ay980dhuwTHnEtqoXPFA0HrP1z_x002B_y_x002F_nthEOMixfbse9Bv0pIZjGOOzXKVFUR1g3LSi39_x002F_DUB4xRaAMNdW9VsJfOkYZKDNJ9jkiCz5dlOPWLc5xGI3T1cIczUp2xSUROQxjh_x002F_gEjwvzeAboTcUdzBKZtj73HBgf8g2ny3Fsat3dTDxgEphlbx9_x002B_wf_x002F_ReRk9n_x002F_vTnll6ugYISbWJwDfaoCGkasTd7qnsIJIS_x002B_Vl1OBYij71oOCrBcSdLhsLNpJmj5QDe18DxuXGS2IEYTVCziWALeerqmYh3YetKVyNpiWthVEFxRoM4_x002F_OslBZ_x002F_py1zY7iG5HC9n0mF0557XkSt97OQYiyeatNx9DDcFrtP5hiyk_x002B_YaqbmuqUfglWp0_x002B_S7arw8dLixu1bdJus_x002B_XmE1xI_x002F_jgl5oZPiThG2uyXOSpUTgWeAfBKMz9EzV1QJdmNvvgtNL7bV7lhW1WFDZ9yqvZDnmUY6npCJSbuK4LGriE8w8t4jDfzVkZyDVaiT9u08OUR8N_x002B_UVJoVv55nd0ItOG6MXZRcnTOrjTYZIqW1tSSPVpY2cpmdKN_x002F_EPYyUdC6yLvNus2kKP8Wt5n5_x002F_RsY_x002F_Uh_x002F_I6pBJFIEnrSmM2JQh6hJteFaz3zpfQ0tfh7omRVhy3I9QkFGtA78flkrH0Pj1OZNWf04rKServm0SGohPs_x002B_ne1J4IiEiUsfgNpuWJ4aiLUerQzj7WlMCLesV1rIXmAI5hB4MKkCSS4gbU7LwBfBhhAvarPlZDHP7Zp_x002B_kdLXHy1_x002B_drqRrNNbDOvkr79xRs91ds4SWhckd9pl_x002F_QNX2Y0rFFd3SDQYPDQgR5851ePUP8JIs4gngwQ2zxPXNygsWLnkcZloFw1qLKBK0IiV6Rzos3Lt21p5_x002B_764zUjoAFmBlgazWJQkJ_x002F_te1RX_x002F_aPik4U4KJtZcUkijkzieveDsnbVSQCbfJN6awdN1qL8e9K_x002F_v6lXg9WjZHFeeWKBG2fdBIarJAu_x002B_EFo4N8gR_x002F_pYYpX4PBGTUrtssXF5titCnj3aMu_x002F_siMFm5ho9W5YcRMxpdHN7JWi1FoeOM8wcREcUWZUmOqs9o20j_x002B_h4vEgragXO4p7YFvHYKkicREKTTvNPaJHxiCDGSZdeZ6sNOncYRNwXY57izouo8LIUJCCE2FyuCaUeg45NBIIlG3fb5iDpCCsYIHEBAfJKCNGcGDmurL0A0muDM7t4MchO9mwQ4IFT90O_x002F_rrM_x002F_4T5H5r43dNBb8hYMhX9hnF1GiCsh_x002B_flvsi6hR8ARaAIZEZWXowLDBbC7kHoD828GWnU1hpqlN_x002F_g1uNZ9EZJFAZetggUOm_x002F_yLV_x002B_Bm_x002B_3gpbxnLYmHL0XsXMcki0TxxASzetz9Lv6ERFgg2yHLJ2Nct8p3n61ODexhCZqdMBMkUL_x002B_VKrXsqquLhLDWSvER1ADVmpjjalwMrVZoHetY9M011aO2uk0_x002F_fNM05V7meSnBRKjEVEAjIMVeGaWpCx8UPn7l7IqVaeiMUUdRkARXjVUDRBfsnOWoGkkoH8qhaUxd4ZJnv_x002B_iQYBrbyLJorQ0EiYXHmZQHgFGNGY_x002F_xAz76G8MHnFzGqkrwxKXdR5ZHpGcl2_x002F_TJMwoD8kizlV7Jls22dqOXZjBiAT9lvs79N6jpumlRDj3C3Pm2uK2gBiseYevWVZAJEWPP6E2D_x002B_oRLzqBaXaoxnJoz_x002B_ZFyVC_x002F_rWkTJkqZxxRn77ByhgG_x002F_Ax_x002F_SOstN6CkaSgmY41D6GTm9UirAlfhOOrqgXD25dwPcPFGSqCsuz5if_x002F_Y7_x002B_nUU3S635zNhd66oyg7C6bsNX2vZqXwAW_x002F_n4Nc3hQYfgleS8TT7x84agFFd4Cn4AtM9rHaoXy4_x002F_LDBlGICnafT9beaGi9cd3RYFZmeQKcx849HpWl0eXFRn9H4HCl0ZLYK0bSIPrYsGGnkmKEvU_x002B_6jVZ3IsAskrgc80ZD_x002F_nW_x002F_5WW2iZ2oZG1PimuhbUDVFkccIKVM03JwnGikNeM8WhscxbbpJNUv2fuD1GWr5gYPPa7czASmghyVEC0buMn3ZY3e_x002F__x002B_rP3FjXbWs_x002F_YPaobpNTMwb_x002B_rRq8Y8YsZxUtDxWdHjJ4tOIU3QflxVCaxkEmYAG_x002F_eKQD35muntpfQWEKNZmp8xlJ3saigI60ltRcbAVXycvdb2DzXYpRoHKKgqrQ20uoxuwz5wUhI4mERbJiSAYAH4k6wbGDa37aMJUiNHpWdIp6qZlesog7nzW4b96uHaB2MN7jxdHXnnSkcYATkdDbUdjiG2A5YaOoFAHRihdr0jy5_x002F_vQxuyLPCoZTQag6UGLtXlsNmjou048W1KTmvSPxjE5pffXOOFS81MN53nhhZaGFyJFfKjdnJyD5jSQ9lLKlJ6FY8sn3PgeDWvZNpBGQHAVJ2wxUdseGwc7kADaUq6JGRxk5qlv6ZS3mRB86WYXMBTXwuAX6VQdXK8ctev8y9_x002F_dvGA0m0JXHU1cOoO_x002B_rZwDz_x002F_f90VyuM9FqTh5pdThugIpSror9z_x002B_GIxI_x002F_Rx7v7yY3awIBBwhdzzaRkorx6e9jSuvAKBwFpXTJtJCEPEGmbM19Fl5LN9MGCwhNOHvBtvjw13HJsaxsawoA8hSNkky8mZCQnpB8RQ5GxxPa4Lz5Dzd4fsbUzAidwgU_x002B_ZncvC7DcXD9NlgjuT_x002B_PJCZljXxzRbYBSVqf0aeM7e4hDWeNhWK7QUfV_x002F_eRWBky9plV4u9C0NvTrRNbWqJ_x002B_u7Fjr_x002B_x1eHIM9cpbPoTvke4Su310xUpzRVSBydjXxt0a4wKkkPrcMtviHGi_x002B_DRWFUtjeAcVC5ZY4poIu3MtC7L7JIXoaSs_x002B_8yb6aaDwD6993A9UnfWJJpAljoIEWn7YMW_x002B_GPN9ckD020FFX0_x002F_AmRDLXmyUKAlCSAQY_x002F_YZxd_x002B_vVejZDo8R8fJf6Puo193mUqalGFqTS3PVC_x002B_7p64OM0tbPOGWm5j5QyLKA9xDlV8FJ2oTno82_x002F_z_x002B_s9wxwzrQYnF160fPzyEphyEBw_x003D__x003D_</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>feb11f1774b141838099ad870da1726f</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="8">
+        <PageFooterBand1 Ref="7" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1071,749,20</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text6 Ref="8" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,749,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Guid>4678ccc389f24c6284d5b68148bdbae4</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <Text>Page {PageNumber} of {TotalPageCount}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </PageFooterBand1>
+        <ReportTitleBand1 Ref="9" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,80</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="10" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold</Font>
+              <Guid>426e9ac30a6840e7b47553f34723b8df</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,1,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>Stimulsoft</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="11" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold</Font>
+              <Guid>1bc08e78ae20472481fe55b04ade5b6a</Guid>
+              <Margins>3,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>GDP Growth in 2000-2021</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="12" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,40,570,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Guid>75b851754174412ab8c478e5c8479f92</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="13" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>570,40,179,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Guid>65f5c368912b4240a21d18c95400ea00</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,3,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ReportTitleBand1>
+        <GroupHeaderBand1 Ref="14" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,140,749,60</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text1 Ref="15" type="Text" isKey="true">
+              <Border>None;[158:158:158];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,749,50</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="6" />
+              <Parent isRef="14" />
+              <Text>{Category.Name}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+          </Components>
+          <Condition>{Category.ID}</Condition>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <SortDirection>Descending</SortDirection>
+        </GroupHeaderBand1>
+        <DataBand1 Ref="16" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,240,749,130</ClientRectangle>
+          <Components isList="true" count="1">
+            <Sparkline1 Ref="17" type="Stimulsoft.Report.Components.StiSparkline" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,20,720,90</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <DataRelationName>Relation</DataRelationName>
+              <Expressions isList="true" count="0" />
+              <Name>Sparkline1</Name>
+              <NegativeColor>220, 83, 86</NegativeColor>
+              <Page isRef="6" />
+              <Parent isRef="16" />
+              <PositiveColor>88, 166, 146</PositiveColor>
+              <ShowHighLowPoints>True</ShowHighLowPoints>
+              <Type>Column</Type>
+              <ValueDataColumn>Statistics.GDP Growth</ValueDataColumn>
+            </Sparkline1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>Category</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <ColumnHeaderBand1 Ref="18" type="Stimulsoft.Report.Components.StiColumnHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,410,749,40</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text2 Ref="19" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,180,40</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Interaction Ref="20" type="Stimulsoft.Report.Components.StiInteraction" isKey="true">
+                <SortingColumn>DataStatistics.Year</SortingColumn>
+              </Interaction>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="6" />
+              <Parent isRef="18" />
+              <Text>Year</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 Ref="21" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>180,0,170,40</ClientRectangle>
+              <ComponentStyle>Header3</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Interaction Ref="22" type="Stimulsoft.Report.Components.StiInteraction" isKey="true">
+                <SortingColumn>DataStatistics.GDP_Growth</SortingColumn>
+              </Interaction>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="6" />
+              <Parent isRef="18" />
+              <Text>Growth </Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <TextFormat Ref="23" type="PercentageFormat" isKey="true">
+                <DecimalDigits>1</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <PositivePattern>1</PositivePattern>
+                <State>DecimalDigits</State>
+                <Symbol>%</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ColumnHeaderBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ColumnHeaderBand1>
+        <DataStatistics Ref="24" type="DataBand" isKey="true">
+          <Border>None;[77:182:172];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,490,749,30</ClientRectangle>
+          <ColumnDirection>DownThenAcross</ColumnDirection>
+          <ColumnGaps>24</ColumnGaps>
+          <Columns>2</Columns>
+          <Components isList="true" count="2">
+            <DataStatistics_Year Ref="25" type="Text" isKey="true">
+              <Border>None;[77:182:172];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,180,30</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="2">
+                <value>_x007B__x0028_Line_x0020__x0026__x0020_1_x0029__x0020__x003D__x003D__x0020_0_x007D_,Red,Transparent,Arial_x002C_8,True,False,,Data2,None</value>
+                <value>_x007B__x0028_Line_x0020__x0026__x0020_1_x0029__x0020__x003D__x003D__x0020_1_x007D_,Red,Transparent,Arial_x002C_8,True,False,,Data1,None</value>
+              </Conditions>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <Margins>3,0,0,0</Margins>
+              <Name>DataStatistics_Year</Name>
+              <Page isRef="6" />
+              <Parent isRef="24" />
+              <Text>{Statistics.Year}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataStatistics_Year>
+            <DataStatistics_GDP_Growth Ref="26" type="Text" isKey="true">
+              <Border>None;[77:182:172];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>180,0,170,30</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="3">
+                <value>_x007B__x0028_Line_x0020__x0026__x0020_1_x0029__x0020__x003D__x003D__x0020_0_x007D_,Red,Transparent,Arial_x002C_8,True,False,,Data2,None</value>
+                <value>_x007B__x0028_Line_x0020__x0026__x0020_1_x0029__x0020__x003D__x003D__x0020_1_x007D_,Red,Transparent,Arial_x002C_8,True,False,,Data1,None</value>
+                <value>Statistics.GDP_Growth,LessThan,_x0030_,,Numeric,Red,Transparent,Arial_x002C_8,True,False,,,None,TextColor</value>
+              </Conditions>
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,5,0,0</Margins>
+              <Name>DataStatistics_GDP_Growth</Name>
+              <Page isRef="6" />
+              <Parent isRef="24" />
+              <Text>{Statistics.GDP_Growth /100}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextFormat Ref="27" type="PercentageFormat" isKey="true">
+                <DecimalDigits>1</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <PositivePattern>1</PositivePattern>
+                <State>DecimalDigits</State>
+                <Symbol>%</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataStatistics_GDP_Growth>
+          </Components>
+          <ComponentStyle>Data1</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Relation</DataRelationName>
+          <DataSourceName>Statistics</DataSourceName>
+          <EvenStyle>Data2</EvenStyle>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="16" />
+          <Name>DataStatistics</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </DataStatistics>
+        <ColumnFooterBand1 Ref="28" type="Stimulsoft.Report.Components.StiColumnFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,560,749,20</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ColumnFooterBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ColumnFooterBand1>
+        <GroupFooterBand1 Ref="29" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,620,749,20</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </GroupFooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>366bfdc35bcf48f3aeb38f2b5f58db21</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="30" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100,Bold</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>58663423</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>GDP Growth in 2000-2021</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>10/21/2022 2:23:49 PM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>This sample demonstrates GDP Growth in 2000-2021.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Reports\04. Reports with Columns\5. GDP Growth 2000-2021.mrt</ReportFile>
+  <ReportGuid>53d93a38efe04c42a53117c80f25a805</ReportGuid>
+  <ReportImage>R0lGODlhIAGWAYYAANPs4t7x8HjIwf8EBH7JrILMxePk5E22rNXk3ujbzvX6+vz+/kKygur29uHz
+8szDus7e6I/Qtezj2sTIxv88PNvb26ioppaVlvr9/a25wpulrcXV3sXn4+T08vr06/Ly8re5uOb0
+88a7s7nCyvLs5KW0vL7l1LjJ0dzw57bm6ESzqN/SxeHx6zywf+fr7tzm79XKwbzCvVK5jf7578PN
+027En6rbyOP29PPBwbnP1quinL21rfH59km1h5abn9PS0/WpsbaqpKKss/uOjmq+sef5+P/9+MvS
+yOn1/aObl6/Ayf/x8eH08+/4/le7kFm8ttTd3/PY2eX49vn49qyvqb3Y387U2uPv+Eu2ibTezfCh
+l+Hc2Fi3q9rV0M7a0Z3Uzfn7/PL1947Z3v/i4jywp+749Eu4s83p68/Nzf/2/Pz7+p2iotj2+q6x
+s+H7+6Lg5M/z+K/F0NbX1/b9/tju8mXDwN/39uvw9OPz8mTAmUm0qlfBxVC4jEuxpeDy8f///yH/
+C05FVFNDQVBFMi4wAwEBAAAh+QQAAAAAACwAAAAAIAGWAQAI/wD/CBxIsKDBgwgTKlzIsKHDhxAj
+SpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bNmzhz6tzJs6fPn0CDCh1K
+tKjRo0iTKl3KtKnTp1CjSp1KtarVq1izat3KtavXr0HVGBiLwcjYsQoEejh7x+BaAy4oGvnwxwMI
+CG5BvFA4Ba1AswbS/ulrAINauAsKAm4rkISBMIcDD+wLhqrYsYmn0JUAAgnEFSPmMOzSxsqfD4I9
+Sgjiw8cFCDN0+EhyQcjeFRdcr9k7EEaS1ms8S3xQYgGJCxsMktCRHOEM1rWb/BFx4UKGOTN2VB/x
+Z3nu5gMf6P++TVvDFQ/Qr/9ZIfvKVA87gCN5nnzFGvcPRWgQrVDChTYvSHDfRyQkIcQVapBwR2xK
+gCGBDho0sYIPLxRYnEC4jRBGggqQYIUBVhiHBhptbWEaCWg04cEPckBoRYEbbPGDdGpNcIURPxiw
+BRqQCTSDAWAk8Jp/EAgJwYQvwODDFQ9ocId+wv1hVhjLKcFglZThBtsObQwolZbdheEbgCRMMIcH
+JHYBhRpdWKGAEV3sJUGI+s0B5wRQSNkFngt4IIIPJxjw5wiMcaTkC3Oh5oEOJ2B4wQsJLGlEEBdO
+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</ReportImage>
+  <ReportName>GDP Growth in 2000-2021</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2023.2.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class SimpleList : Stimulsoft.Report.StiReport
+    {
+        
+		public SimpleList()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="6">
+    <Header1 Ref="31" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[166:166:166];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,21.75,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="32" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[158:158:158];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,20,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Header3 Ref="33" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <Border>Left;[255:255:255];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>[255:164:114]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,12,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header3</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header3>
+    <Data1 Ref="34" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[77:182:172];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75</Font>
+      <Name>Data1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="35" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[77:182:172];1;Solid;False;4;Black</Border>
+      <Brush>[240:242:246]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75</Font>
+      <Name>Data2</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data2>
+    <Footer1 Ref="36" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[58:78:94];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[166:166:166]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+  </Styles>
+</StiSerializer>

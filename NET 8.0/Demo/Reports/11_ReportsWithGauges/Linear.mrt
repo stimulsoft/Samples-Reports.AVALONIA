@@ -1,0 +1,2129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>b100efab70ca49edae3ade2355475eb7</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="12">
+        <Gauge1 Ref="3" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>20,120,120,240</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge1</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item3 Ref="4" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[237:125:49]</Brush>
+              <Gauge isRef="3" />
+              <Items isList="true" count="3">
+                <Item4 Ref="5" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="4" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item4>
+                <Item5 Ref="6" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <RelativeHeight>0.005</RelativeHeight>
+                  <RelativeWidth>0.05</RelativeWidth>
+                  <Scale isRef="4" />
+                </Item5>
+                <Item6 Ref="7" type="Stimulsoft.Report.Components.Gauge.StiLinearMarker" isKey="true">
+                  <BorderBrush>[136:136:136]</BorderBrush>
+                  <Brush>[136:136:136]</Brush>
+                  <Font>Arial,7</Font>
+                  <RelativeHeight>0.04</RelativeHeight>
+                  <RelativeWidth>0.1</RelativeWidth>
+                  <Scale isRef="4" />
+                  <Skin>TriangleRight</Skin>
+                  <TextBrush>DimGray</TextBrush>
+                  <Value>20</Value>
+                  <ValueObj>20</ValueObj>
+                </Item6>
+              </Items>
+              <MajorInterval>4</MajorInterval>
+              <Maximum>40</Maximum>
+              <MinorInterval>2</MinorInterval>
+            </Item3>
+          </Scales>
+          <Style Ref="8" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF24" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <Type>Linear</Type>
+          <ValueFormat Ref="9" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge1>
+        <Gauge2 Ref="10" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>170,120,120,240</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>6acab91be3104d00a6a0599518046cc6</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge2</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item8 Ref="11" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[237:125:49]</Brush>
+              <Gauge isRef="10" />
+              <Items isList="true" count="3">
+                <Item9 Ref="12" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="11" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item9>
+                <Item10 Ref="13" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <RelativeHeight>0.005</RelativeHeight>
+                  <RelativeWidth>0.05</RelativeWidth>
+                  <Scale isRef="11" />
+                </Item10>
+                <Item11 Ref="14" type="Stimulsoft.Report.Components.Gauge.StiLinearMarker" isKey="true">
+                  <BorderBrush>[136:136:136]</BorderBrush>
+                  <Brush>[136:136:136]</Brush>
+                  <Font>Arial,7</Font>
+                  <RelativeHeight>0.04</RelativeHeight>
+                  <RelativeWidth>0.1</RelativeWidth>
+                  <Scale isRef="11" />
+                  <Skin>TriangleRight</Skin>
+                  <TextBrush>DimGray</TextBrush>
+                  <Value>59</Value>
+                  <ValueObj>59</ValueObj>
+                </Item11>
+              </Items>
+              <MajorInterval>12</MajorInterval>
+              <Maximum>118</Maximum>
+              <MinorInterval>6</MinorInterval>
+            </Item8>
+          </Scales>
+          <Style Ref="15" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF24" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <Type>Linear</Type>
+          <ValueFormat Ref="16" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge2>
+        <Gauge3 Ref="17" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>320,120,120,240</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>167e6a3ba14e43de832cedfeb29cccb5</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge3</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item13 Ref="18" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[237:125:49]</Brush>
+              <Gauge isRef="17" />
+              <Items isList="true" count="3">
+                <Item14 Ref="19" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="18" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item14>
+                <Item15 Ref="20" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <RelativeHeight>0.005</RelativeHeight>
+                  <RelativeWidth>0.05</RelativeWidth>
+                  <Scale isRef="18" />
+                </Item15>
+                <Item16 Ref="21" type="Stimulsoft.Report.Components.Gauge.StiLinearMarker" isKey="true">
+                  <BorderBrush>[136:136:136]</BorderBrush>
+                  <Brush>[136:136:136]</Brush>
+                  <Font>Arial,7</Font>
+                  <RelativeHeight>0.04</RelativeHeight>
+                  <RelativeWidth>0.1</RelativeWidth>
+                  <Scale isRef="18" />
+                  <Skin>TriangleRight</Skin>
+                  <TextBrush>DimGray</TextBrush>
+                  <Value>90</Value>
+                  <ValueObj>90</ValueObj>
+                </Item16>
+              </Items>
+              <MajorInterval>18</MajorInterval>
+              <Maximum>180</Maximum>
+              <MinorInterval>9</MinorInterval>
+            </Item13>
+          </Scales>
+          <Style Ref="22" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF24" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <Type>Linear</Type>
+          <ValueFormat Ref="23" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge3>
+        <Gauge6 Ref="24" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>470,120,120,240</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge6</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item18 Ref="25" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[237:125:49]</Brush>
+              <Gauge isRef="24" />
+              <Items isList="true" count="3">
+                <Item19 Ref="26" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="25" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item19>
+                <Item20 Ref="27" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <RelativeHeight>0.005</RelativeHeight>
+                  <RelativeWidth>0.05</RelativeWidth>
+                  <Scale isRef="25" />
+                </Item20>
+                <Item21 Ref="28" type="Stimulsoft.Report.Components.Gauge.StiLinearMarker" isKey="true">
+                  <BorderBrush>[136:136:136]</BorderBrush>
+                  <Brush>[136:136:136]</Brush>
+                  <Font>Arial,7</Font>
+                  <RelativeHeight>0.04</RelativeHeight>
+                  <RelativeWidth>0.1</RelativeWidth>
+                  <Scale isRef="25" />
+                  <Skin>TriangleRight</Skin>
+                  <TextBrush>DimGray</TextBrush>
+                  <Value>55</Value>
+                  <ValueObj>55</ValueObj>
+                </Item21>
+              </Items>
+              <MajorInterval>11</MajorInterval>
+              <Maximum>110</Maximum>
+              <MinorInterval>5.5</MinorInterval>
+            </Item18>
+          </Scales>
+          <Style Ref="29" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF24" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <Type>Linear</Type>
+          <ValueFormat Ref="30" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge6>
+        <Gauge4 Ref="31" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>620,120,120,240</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>7c7325abda5948cc9370d66689413d99</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge4</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item23 Ref="32" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[237:125:49]</Brush>
+              <Gauge isRef="31" />
+              <Items isList="true" count="3">
+                <Item24 Ref="33" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="32" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item24>
+                <Item25 Ref="34" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <RelativeHeight>0.005</RelativeHeight>
+                  <RelativeWidth>0.05</RelativeWidth>
+                  <Scale isRef="32" />
+                </Item25>
+                <Item26 Ref="35" type="Stimulsoft.Report.Components.Gauge.StiLinearMarker" isKey="true">
+                  <BorderBrush>[136:136:136]</BorderBrush>
+                  <Brush>[136:136:136]</Brush>
+                  <Font>Arial,7</Font>
+                  <RelativeHeight>0.04</RelativeHeight>
+                  <RelativeWidth>0.1</RelativeWidth>
+                  <Scale isRef="32" />
+                  <Skin>TriangleRight</Skin>
+                  <TextBrush>DimGray</TextBrush>
+                  <Value>90</Value>
+                  <ValueObj>90</ValueObj>
+                </Item26>
+              </Items>
+              <MajorInterval>18</MajorInterval>
+              <Maximum>180</Maximum>
+              <MinorInterval>9</MinorInterval>
+            </Item23>
+          </Scales>
+          <Style Ref="36" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF24" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <Type>Linear</Type>
+          <ValueFormat Ref="37" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge4>
+        <Gauge5 Ref="38" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>20,390,340,80</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge5</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item28 Ref="39" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[46:198:200]</Brush>
+              <EndWidth>0.01</EndWidth>
+              <Gauge isRef="38" />
+              <Items isList="true" count="4">
+                <Item29 Ref="40" type="Stimulsoft.Report.Components.Gauge.StiLinearRangeList" isKey="true">
+                  <Ranges isList="true" count="10">
+                    <Item30 Ref="41" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[165:214:167]</Brush>
+                      <EndValue>10</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartWidth>0.5</StartWidth>
+                    </Item30>
+                    <Item31 Ref="42" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[165:214:167]</Brush>
+                      <EndValue>20</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>10</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item31>
+                    <Item32 Ref="43" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[165:214:167]</Brush>
+                      <EndValue>30</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>20</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item32>
+                    <Item33 Ref="44" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[76:175:80]</Brush>
+                      <EndValue>40</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>30</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item33>
+                    <Item34 Ref="45" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[76:175:80]</Brush>
+                      <EndValue>50</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>40</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item34>
+                    <Item35 Ref="46" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[76:175:80]</Brush>
+                      <EndValue>60</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>50</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item35>
+                    <Item36 Ref="47" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[76:175:80]</Brush>
+                      <EndValue>70</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>60</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item36>
+                    <Item37 Ref="48" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[46:125:50]</Brush>
+                      <EndValue>80</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>70</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item37>
+                    <Item38 Ref="49" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[46:125:50]</Brush>
+                      <EndValue>90</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>80</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item38>
+                    <Item39 Ref="50" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[46:125:50]</Brush>
+                      <EndValue>100</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>90</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item39>
+                  </Ranges>
+                  <Scale isRef="39" />
+                </Item29>
+                <Item40 Ref="51" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Offset>0.25</Offset>
+                  <Scale isRef="39" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item40>
+                <Item41 Ref="52" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkCustom" isKey="true">
+                  <BorderBrush>[89:87:87]</BorderBrush>
+                  <Brush>GradientBrush,[100:100:100],[10:10:10],90</Brush>
+                  <Placement>Overlay</Placement>
+                  <RelativeHeight>0.3</RelativeHeight>
+                  <RelativeWidth>0.015</RelativeWidth>
+                  <Scale isRef="39" />
+                  <ValueObj>80</ValueObj>
+                  <Values isList="true" count="0" />
+                </Item41>
+                <Item42 Ref="53" type="Stimulsoft.Report.Components.Gauge.StiLinearBar" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>[46:198:200]</Brush>
+                  <EmptyBorderBrush>EmptyBrush</EmptyBorderBrush>
+                  <EmptyBrush>EmptyBrush</EmptyBrush>
+                  <EndWidth>0.1</EndWidth>
+                  <RangeList isList="true" count="0" />
+                  <Scale isRef="39" />
+                  <StartWidth>0.1</StartWidth>
+                  <Value>20</Value>
+                </Item42>
+              </Items>
+              <MajorInterval>20</MajorInterval>
+              <Orientation>Horizontal</Orientation>
+              <RelativeHeight>0.94</RelativeHeight>
+              <StartWidth>0.01</StartWidth>
+            </Item28>
+          </Scales>
+          <Style Ref="54" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF26" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <ValueFormat Ref="55" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge5>
+        <Gauge7 Ref="56" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>400,390,340,80</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>12df394c0cfe471a958ead926da15aaa</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge7</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item44 Ref="57" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[46:198:200]</Brush>
+              <EndWidth>0.01</EndWidth>
+              <Gauge isRef="56" />
+              <Items isList="true" count="4">
+                <Item45 Ref="58" type="Stimulsoft.Report.Components.Gauge.StiLinearRangeList" isKey="true">
+                  <Ranges isList="true" count="10">
+                    <Item46 Ref="59" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[187:222:251]</Brush>
+                      <EndValue>10</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartWidth>0.5</StartWidth>
+                    </Item46>
+                    <Item47 Ref="60" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[187:222:251]</Brush>
+                      <EndValue>20</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>10</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item47>
+                    <Item48 Ref="61" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[187:222:251]</Brush>
+                      <EndValue>30</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>20</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item48>
+                    <Item49 Ref="62" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[66:165:245]</Brush>
+                      <EndValue>40</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>30</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item49>
+                    <Item50 Ref="63" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[66:165:245]</Brush>
+                      <EndValue>50</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>40</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item50>
+                    <Item51 Ref="64" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[66:165:245]</Brush>
+                      <EndValue>60</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>50</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item51>
+                    <Item52 Ref="65" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[66:165:245]</Brush>
+                      <EndValue>70</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>60</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item52>
+                    <Item53 Ref="66" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[21:101:192]</Brush>
+                      <EndValue>80</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>70</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item53>
+                    <Item54 Ref="67" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[21:101:192]</Brush>
+                      <EndValue>90</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>80</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item54>
+                    <Item55 Ref="68" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[21:101:192]</Brush>
+                      <EndValue>100</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>90</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item55>
+                  </Ranges>
+                  <Scale isRef="57" />
+                </Item45>
+                <Item56 Ref="69" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Offset>0.25</Offset>
+                  <Scale isRef="57" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item56>
+                <Item57 Ref="70" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkCustom" isKey="true">
+                  <BorderBrush>[89:87:87]</BorderBrush>
+                  <Brush>GradientBrush,[100:100:100],[10:10:10],90</Brush>
+                  <Placement>Overlay</Placement>
+                  <RelativeHeight>0.3</RelativeHeight>
+                  <RelativeWidth>0.015</RelativeWidth>
+                  <Scale isRef="57" />
+                  <ValueObj>80</ValueObj>
+                  <Values isList="true" count="0" />
+                </Item57>
+                <Item58 Ref="71" type="Stimulsoft.Report.Components.Gauge.StiLinearBar" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>[46:198:200]</Brush>
+                  <EmptyBorderBrush>EmptyBrush</EmptyBorderBrush>
+                  <EmptyBrush>EmptyBrush</EmptyBrush>
+                  <EndWidth>0.1</EndWidth>
+                  <RangeList isList="true" count="0" />
+                  <Scale isRef="57" />
+                  <StartWidth>0.1</StartWidth>
+                  <Value>40</Value>
+                </Item58>
+              </Items>
+              <MajorInterval>20</MajorInterval>
+              <Orientation>Horizontal</Orientation>
+              <RelativeHeight>0.94</RelativeHeight>
+              <StartWidth>0.01</StartWidth>
+            </Item44>
+          </Scales>
+          <Style Ref="72" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF26" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <ValueFormat Ref="73" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge7>
+        <Gauge8 Ref="74" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>20,510,340,80</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>f0f1ad6cfc39448da6e7dcd6e44fc318</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge8</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item60 Ref="75" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[46:198:200]</Brush>
+              <EndWidth>0.01</EndWidth>
+              <Gauge isRef="74" />
+              <Items isList="true" count="4">
+                <Item61 Ref="76" type="Stimulsoft.Report.Components.Gauge.StiLinearRangeList" isKey="true">
+                  <Ranges isList="true" count="10">
+                    <Item62 Ref="77" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:249:196]</Brush>
+                      <EndValue>10</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartWidth>0.5</StartWidth>
+                    </Item62>
+                    <Item63 Ref="78" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:249:196]</Brush>
+                      <EndValue>20</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>10</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item63>
+                    <Item64 Ref="79" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:249:196]</Brush>
+                      <EndValue>30</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>20</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item64>
+                    <Item65 Ref="80" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:238:88]</Brush>
+                      <EndValue>40</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>30</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item65>
+                    <Item66 Ref="81" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:238:88]</Brush>
+                      <EndValue>50</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>40</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item66>
+                    <Item67 Ref="82" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:238:88]</Brush>
+                      <EndValue>60</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>50</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item67>
+                    <Item68 Ref="83" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:238:88]</Brush>
+                      <EndValue>70</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>60</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item68>
+                    <Item69 Ref="84" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[251:192:45]</Brush>
+                      <EndValue>80</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>70</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item69>
+                    <Item70 Ref="85" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[251:192:45]</Brush>
+                      <EndValue>90</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>80</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item70>
+                    <Item71 Ref="86" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[251:192:45]</Brush>
+                      <EndValue>100</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>90</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item71>
+                  </Ranges>
+                  <Scale isRef="75" />
+                </Item61>
+                <Item72 Ref="87" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Offset>0.25</Offset>
+                  <Scale isRef="75" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item72>
+                <Item73 Ref="88" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkCustom" isKey="true">
+                  <BorderBrush>[89:87:87]</BorderBrush>
+                  <Brush>GradientBrush,[100:100:100],[10:10:10],90</Brush>
+                  <Placement>Overlay</Placement>
+                  <RelativeHeight>0.3</RelativeHeight>
+                  <RelativeWidth>0.015</RelativeWidth>
+                  <Scale isRef="75" />
+                  <ValueObj>80</ValueObj>
+                  <Values isList="true" count="0" />
+                </Item73>
+                <Item74 Ref="89" type="Stimulsoft.Report.Components.Gauge.StiLinearBar" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>[46:198:200]</Brush>
+                  <EmptyBorderBrush>EmptyBrush</EmptyBorderBrush>
+                  <EmptyBrush>EmptyBrush</EmptyBrush>
+                  <EndWidth>0.1</EndWidth>
+                  <RangeList isList="true" count="0" />
+                  <Scale isRef="75" />
+                  <StartWidth>0.1</StartWidth>
+                  <Value>60</Value>
+                </Item74>
+              </Items>
+              <MajorInterval>20</MajorInterval>
+              <Orientation>Horizontal</Orientation>
+              <RelativeHeight>0.94</RelativeHeight>
+              <StartWidth>0.01</StartWidth>
+            </Item60>
+          </Scales>
+          <Style Ref="90" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF26" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <ValueFormat Ref="91" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge8>
+        <Gauge9 Ref="92" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>400,510,340,80</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>5c9094c7cbce4b02bd5b08d1c0549acb</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge9</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item76 Ref="93" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>EmptyBrush</BorderBrush>
+              <Brush>[46:198:200]</Brush>
+              <EndWidth>0.01</EndWidth>
+              <Gauge isRef="92" />
+              <Items isList="true" count="4">
+                <Item77 Ref="94" type="Stimulsoft.Report.Components.Gauge.StiLinearRangeList" isKey="true">
+                  <Ranges isList="true" count="10">
+                    <Item78 Ref="95" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:158:128]</Brush>
+                      <EndValue>10</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartWidth>0.5</StartWidth>
+                    </Item78>
+                    <Item79 Ref="96" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:158:128]</Brush>
+                      <EndValue>20</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>10</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item79>
+                    <Item80 Ref="97" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:158:128]</Brush>
+                      <EndValue>30</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>20</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item80>
+                    <Item81 Ref="98" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:110:64]</Brush>
+                      <EndValue>40</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>30</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item81>
+                    <Item82 Ref="99" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:110:64]</Brush>
+                      <EndValue>50</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>40</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item82>
+                    <Item83 Ref="100" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:110:64]</Brush>
+                      <EndValue>60</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>50</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item83>
+                    <Item84 Ref="101" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:110:64]</Brush>
+                      <EndValue>70</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>60</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item84>
+                    <Item85 Ref="102" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:61:0]</Brush>
+                      <EndValue>80</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>70</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item85>
+                    <Item86 Ref="103" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:61:0]</Brush>
+                      <EndValue>90</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>80</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item86>
+                    <Item87 Ref="104" type="Stimulsoft.Report.Components.Gauge.StiLinearRange" isKey="true">
+                      <BorderBrush>[150:139:138:135]</BorderBrush>
+                      <Brush>[255:61:0]</Brush>
+                      <EndValue>100</EndValue>
+                      <EndWidth>0.5</EndWidth>
+                      <StartValue>90</StartValue>
+                      <StartWidth>0.5</StartWidth>
+                    </Item87>
+                  </Ranges>
+                  <Scale isRef="93" />
+                </Item77>
+                <Item88 Ref="105" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Offset>0.25</Offset>
+                  <Scale isRef="93" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item88>
+                <Item89 Ref="106" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkCustom" isKey="true">
+                  <BorderBrush>[89:87:87]</BorderBrush>
+                  <Brush>GradientBrush,[100:100:100],[10:10:10],90</Brush>
+                  <Placement>Overlay</Placement>
+                  <RelativeHeight>0.3</RelativeHeight>
+                  <RelativeWidth>0.015</RelativeWidth>
+                  <Scale isRef="93" />
+                  <ValueObj>80</ValueObj>
+                  <Values isList="true" count="0" />
+                </Item89>
+                <Item90 Ref="107" type="Stimulsoft.Report.Components.Gauge.StiLinearBar" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>[46:198:200]</Brush>
+                  <EmptyBorderBrush>EmptyBrush</EmptyBorderBrush>
+                  <EmptyBrush>EmptyBrush</EmptyBrush>
+                  <EndWidth>0.1</EndWidth>
+                  <RangeList isList="true" count="0" />
+                  <Scale isRef="93" />
+                  <StartWidth>0.1</StartWidth>
+                  <Value>90</Value>
+                </Item90>
+              </Items>
+              <MajorInterval>20</MajorInterval>
+              <Orientation>Horizontal</Orientation>
+              <RelativeHeight>0.94</RelativeHeight>
+              <StartWidth>0.01</StartWidth>
+            </Item76>
+          </Scales>
+          <Style Ref="108" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF26" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <ValueFormat Ref="109" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge9>
+        <Gauge10 Ref="110" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>20,630,80,300</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>0a613d08b98546219662f26b5d5fa1db</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge10</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item92 Ref="111" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>[150:255:255:255]</BorderBrush>
+              <Brush>[46:198:200]</Brush>
+              <EndWidth>0.17</EndWidth>
+              <Gauge isRef="110" />
+              <Items isList="true" count="5">
+                <Item93 Ref="112" type="Stimulsoft.Report.Components.Gauge.StiLinearBar" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>[46:198:200]</Brush>
+                  <EmptyBorderBrush>EmptyBrush</EmptyBorderBrush>
+                  <EmptyBrush>EmptyBrush</EmptyBrush>
+                  <EndWidth>0.1</EndWidth>
+                  <Placement>Outside</Placement>
+                  <RangeList isList="true" count="3">
+                    <Item94 Ref="113" type="Stimulsoft.Report.Components.Gauge.StiLinearIndicatorRangeInfo" isKey="true">
+                      <Brush>GradientBrush,[137:188:41],[111:163:14],0</Brush>
+                      <Color>White</Color>
+                    </Item94>
+                    <Item95 Ref="114" type="Stimulsoft.Report.Components.Gauge.StiLinearIndicatorRangeInfo" isKey="true">
+                      <Brush>GradientBrush,[217:173:45],[222:166:0],0</Brush>
+                      <Color>White</Color>
+                      <Value>40</Value>
+                    </Item95>
+                    <Item96 Ref="115" type="Stimulsoft.Report.Components.Gauge.StiLinearIndicatorRangeInfo" isKey="true">
+                      <Brush>GradientBrush,[208:49:52],[186:6:10],0</Brush>
+                      <Color>White</Color>
+                      <Value>65</Value>
+                    </Item96>
+                  </RangeList>
+                  <Scale isRef="111" />
+                  <Skin>VerticalThermometer</Skin>
+                  <StartWidth>0.1</StartWidth>
+                  <UseRangeColor>True</UseRangeColor>
+                  <Value>85</Value>
+                </Item93>
+                <Item97 Ref="116" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <Offset>-0.1</Offset>
+                  <Placement>Overlay</Placement>
+                  <RelativeHeight>0.01</RelativeHeight>
+                  <RelativeWidth>0.18</RelativeWidth>
+                  <Scale isRef="111" />
+                </Item97>
+                <Item98 Ref="117" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMinor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <Offset>-0.14</Offset>
+                  <RelativeHeight>0.005</RelativeHeight>
+                  <Scale isRef="111" />
+                </Item98>
+                <Item99 Ref="118" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Offset>0.07</Offset>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="111" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item99>
+                <Item100 Ref="119" type="Stimulsoft.Report.Components.Gauge.StiStateIndicator" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>White</Brush>
+                  <Filters isList="true" count="3">
+                    <Item101 Ref="120" type="Stimulsoft.Report.Components.Gauge.StiStateIndicatorFilter" isKey="true">
+                      <BorderBrush>EmptyBrush</BorderBrush>
+                      <Brush>[112:156:28]</Brush>
+                      <EndValue>40</EndValue>
+                    </Item101>
+                    <Item102 Ref="121" type="Stimulsoft.Report.Components.Gauge.StiStateIndicatorFilter" isKey="true">
+                      <BorderBrush>EmptyBrush</BorderBrush>
+                      <Brush>[225:174:25]</Brush>
+                      <EndValue>65</EndValue>
+                      <StartValue>40</StartValue>
+                    </Item102>
+                    <Item103 Ref="122" type="Stimulsoft.Report.Components.Gauge.StiStateIndicatorFilter" isKey="true">
+                      <BorderBrush>EmptyBrush</BorderBrush>
+                      <Brush>[194:45:48]</Brush>
+                      <EndValue>100</EndValue>
+                      <StartValue>65</StartValue>
+                    </Item103>
+                  </Filters>
+                  <Font>Microsoft Sans Serif,7</Font>
+                  <Left>0.1</Left>
+                  <RelativeHeight>0.1</RelativeHeight>
+                  <RelativeWidth>0.4</RelativeWidth>
+                  <Scale isRef="111" />
+                  <TextBrush>DimGray</TextBrush>
+                  <Top>0.9</Top>
+                  <Value>85</Value>
+                </Item100>
+              </Items>
+              <MajorInterval>20</MajorInterval>
+              <Maximum>80</Maximum>
+              <MinorInterval>4</MinorInterval>
+              <RelativeHeight>0.85</RelativeHeight>
+              <StartWidth>0.17</StartWidth>
+            </Item92>
+          </Scales>
+          <Style Ref="123" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF26" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <ValueFormat Ref="124" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge10>
+        <Gauge11 Ref="125" type="Stimulsoft.Report.Gauge.StiGauge" isKey="true">
+          <Border>None;Transparent;1;Solid;False;4;Black</Border>
+          <Brush>[255:255:255]</Brush>
+          <ClientRectangle>400,630,340,60</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <CustomStyleName />
+          <Expressions isList="true" count="0" />
+          <Guid>12c030236fe0434dae88980b748e78a7</Guid>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge11</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+          <Scales isList="true" count="1">
+            <Item105 Ref="126" type="Stimulsoft.Report.Components.Gauge.StiLinearScale" isKey="true">
+              <BorderBrush>[150:255:255:255]</BorderBrush>
+              <Brush>[46:198:200]</Brush>
+              <EndWidth>0.17</EndWidth>
+              <Gauge isRef="125" />
+              <Items isList="true" count="5">
+                <Item106 Ref="127" type="Stimulsoft.Report.Components.Gauge.StiLinearBar" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>[46:198:200]</Brush>
+                  <EmptyBorderBrush>EmptyBrush</EmptyBorderBrush>
+                  <EmptyBrush>EmptyBrush</EmptyBrush>
+                  <EndWidth>0.1</EndWidth>
+                  <Placement>Outside</Placement>
+                  <RangeList isList="true" count="3">
+                    <Item107 Ref="128" type="Stimulsoft.Report.Components.Gauge.StiLinearIndicatorRangeInfo" isKey="true">
+                      <Brush>GradientBrush,[137:188:41],[111:163:14],90</Brush>
+                      <Color>White</Color>
+                    </Item107>
+                    <Item108 Ref="129" type="Stimulsoft.Report.Components.Gauge.StiLinearIndicatorRangeInfo" isKey="true">
+                      <Brush>GradientBrush,[217:173:45],[222:166:0],90</Brush>
+                      <Color>White</Color>
+                      <Value>40</Value>
+                    </Item108>
+                    <Item109 Ref="130" type="Stimulsoft.Report.Components.Gauge.StiLinearIndicatorRangeInfo" isKey="true">
+                      <Brush>GradientBrush,[208:49:52],[186:6:10],90</Brush>
+                      <Color>White</Color>
+                      <Value>65</Value>
+                    </Item109>
+                  </RangeList>
+                  <Scale isRef="126" />
+                  <Skin>HorizontalThermometer</Skin>
+                  <StartWidth>0.1</StartWidth>
+                  <UseRangeColor>True</UseRangeColor>
+                  <Value>45</Value>
+                </Item106>
+                <Item110 Ref="131" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMajor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <Offset>-0.1</Offset>
+                  <Placement>Overlay</Placement>
+                  <RelativeHeight>0.18</RelativeHeight>
+                  <RelativeWidth>0.01</RelativeWidth>
+                  <Scale isRef="126" />
+                </Item110>
+                <Item111 Ref="132" type="Stimulsoft.Report.Components.Gauge.StiLinearTickMarkMinor" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <BorderWidth>0</BorderWidth>
+                  <Brush>[140:140:140]</Brush>
+                  <Offset>-0.14</Offset>
+                  <RelativeWidth>0.005</RelativeWidth>
+                  <Scale isRef="126" />
+                </Item111>
+                <Item112 Ref="133" type="Stimulsoft.Report.Components.Gauge.StiLinearTickLabelMajor" isKey="true">
+                  <Font>Arial,10</Font>
+                  <Offset>0.11</Offset>
+                  <Placement>Inside</Placement>
+                  <Scale isRef="126" />
+                  <TextBrush>[140:140:140]</TextBrush>
+                </Item112>
+                <Item113 Ref="134" type="Stimulsoft.Report.Components.Gauge.StiStateIndicator" isKey="true">
+                  <BorderBrush>EmptyBrush</BorderBrush>
+                  <Brush>White</Brush>
+                  <Filters isList="true" count="3">
+                    <Item114 Ref="135" type="Stimulsoft.Report.Components.Gauge.StiStateIndicatorFilter" isKey="true">
+                      <BorderBrush>EmptyBrush</BorderBrush>
+                      <Brush>[112:156:28]</Brush>
+                      <EndValue>40</EndValue>
+                    </Item114>
+                    <Item115 Ref="136" type="Stimulsoft.Report.Components.Gauge.StiStateIndicatorFilter" isKey="true">
+                      <BorderBrush>EmptyBrush</BorderBrush>
+                      <Brush>[225:174:25]</Brush>
+                      <EndValue>65</EndValue>
+                      <StartValue>40</StartValue>
+                    </Item115>
+                    <Item116 Ref="137" type="Stimulsoft.Report.Components.Gauge.StiStateIndicatorFilter" isKey="true">
+                      <BorderBrush>EmptyBrush</BorderBrush>
+                      <Brush>[194:45:48]</Brush>
+                      <EndValue>100</EndValue>
+                      <StartValue>65</StartValue>
+                    </Item116>
+                  </Filters>
+                  <Font>Microsoft Sans Serif,7</Font>
+                  <Left>0.02</Left>
+                  <RelativeHeight>0.5</RelativeHeight>
+                  <RelativeWidth>0.1</RelativeWidth>
+                  <Scale isRef="126" />
+                  <TextBrush>DimGray</TextBrush>
+                  <Top>0.07</Top>
+                  <Value>45</Value>
+                </Item113>
+              </Items>
+              <Left>0.03</Left>
+              <MajorInterval>20</MajorInterval>
+              <Maximum>80</Maximum>
+              <MinorInterval>4</MinorInterval>
+              <Orientation>Horizontal</Orientation>
+              <RelativeHeight>0.85</RelativeHeight>
+              <StartWidth>0.17</StartWidth>
+            </Item105>
+          </Scales>
+          <Style Ref="138" type="Stimulsoft.Report.Gauge.StiGaugeStyleXF26" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <ValueFormat Ref="139" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge11>
+        <ReportTitleBand2 Ref="140" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,70</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="141" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>560,0,189,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,22,Bold</Font>
+              <Guid>821f1dda78a34eb0a90a214cc7dd1feb</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="2" />
+              <Parent isRef="140" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="142" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,560,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,22,Bold</Font>
+              <Guid>4e8efa876f794beaa14d74d271717439</Guid>
+              <Margins>2,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="2" />
+              <Parent isRef="140" />
+              <Text>{ReportName}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="143" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,40,560,20</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9</Font>
+              <Guid>ab83fb97578d47aab10671348b7ba56a</Guid>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="2" />
+              <Parent isRef="140" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="144" type="Text" isKey="true">
+              <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>560,40,189,20</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9</Font>
+              <Guid>16f24b7ead1b424b99e0cb6615154564</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,3,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="2" />
+              <Parent isRef="140" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[158:158:158]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>0e923adf1f7d4bdb938822b2b3d1eebd</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="2" />
+          <Parent isRef="2" />
+        </ReportTitleBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>ca796b33cc8043b9a8ff9e61c89afaf3</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Linear Gauges</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>9/5/2022 5:38:18 PM</ReportChanged>
+  <ReportCreated>1/19/2012 7:27:11 PM</ReportCreated>
+  <ReportDescription>This sample demonstrates how to use Linear Gauges.</ReportDescription>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Dashboards\CloudStorage\15.Reports with Gauges\Linear Gauge.mrt</ReportFile>
+  <ReportGuid>6da7b4d01ad74f74a4ad2299f67a47f6</ReportGuid>
+  <ReportIcon>iVBORw0KGgoAAAANSUhEUgAAASAAAAGWCAIAAABXcsm/AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AABWrklEQVR4Xu2dCXwb
+5Zn/p+f2391uj2237dKWdttuu223BzcUckJCyEUIkIYrCeEmUCAQyEFIIEACBBJIyH3ZOI4T27Hj
++3Z8yrIsWZZkWbJOy5Jvy5YlWff8f6MRJtFhLOORbPN+P8/HHr3vO6N33vf5vdccomgCgcAZRGAE
+AocQgREIHEIERiBwCBEYgcAhRGAEAocQgREIHEIERiBwCBEYgcAhRGAEAocQgREIHEIERiBwCBEY
+gcAhRGAEAocQgREIHEIERiBwCBEYgcAh4xCYQyESCgQCqdYYCJgoPE5ta4vJbPd/8PHPHdx+MN3l
+838aN45BmUhQL2jQ91oCIWFwnN/7xpHc+sAnwlRhpHJ7BplPlv4+i93X27Ljla21hlGq+xKcfcd2
+vJrO1wQ+hsVlTT+4Y+1L25QD3sHeLqvTEwgfG9EJzNEp2/7oyrvuefDhNavu2/Ber/sLuv/lWHQP
+LbppR47E/8HHO7N/y0dnozuby3F3KTY/tnLZyodWPfSP11MrA6FhsL2xYs6jezIDnwhTAVTu1sfZ
+yl35RloNTQ/venTNwWodbVG9tn5jVdvYBGY3PD73+u0ZDYGP4eisSp5z3fxPeE0DKt7aFU80je3A
+I0QjMK9t/7q75z/2Vr/f630Oh9vj6xQXvfDo6tVPPpfX0u3U87es2y630SbeuRe37+zx0sNdsjef
+eeKll7dv2ropha9DsVQl71216sG3z5Q4PW5h1pEn1jy47s39vS7/8S36tXfN2pkn9X+ga5L37TlT
+rKkv2LL5jUMfvvXoo/8slpoQbpbXbn7qwdWb3tUMuobbBBufWrvq0SfP1GloW/v7m7ccO37w9YMJ
+Nv8RVLkH/vKHuaVdTCtgsSLMIy888+TDDzy2bY+pt+fI688/uGr120kFLp/n3TWLnj2YT3tsF/Zt
++8fqtYcKhRPachAmHnXewb/8YU5xlxfbQzZ7ybFXb7rmmjtWPJORn//BWzvFbYbEtze///HhLc8/
+8fahpNTDH6xdvS5H0dVdn71xwwd9NN2Y8eGWjxJdjv4Xlsx5r0DWIy1/6enVq57bJDX7zI0l6x9f
+/fDTLxQ2d9FWw5a1S278+/znN732whP33njdzauff1dnj8I7ohCYr0u45PqZx2rbXP1t5SWl9Y2S
+QadPK6muEglT33lu8SOvtzTk3P7nRTUDtCpr1w2LV5oczo+fXr7spd3VRam3Xv3nd0pbjZWJ8+96
+qLyi/OEVK44kJy2aNXN3SiFPIOi3M8UUJLAzGx+4e9MBcf6xq/963dHsojdXLVy66ZBrqPu5e+e/
+k1KY+Ma6e7af6NSKLwqEBUe2z7/rGaVetnb2VTMW3r35QAorWJuuYc3C625afN/+zCqE9Akzb511
+64Gskqo6vl6tqKjlictSl85YkC/X73ti2csnimvPvrPo4Zeqy7IWLr6nSDvgPwZhkmLTC9cuvP6m
+Rfd9lFkJh+9Slj90222bTxa2ifIX33JbQVPzxjuvW/rqvvwT7/75T1e9dy5v95N33/vacXHOoTk3
+r8HcpuSDR2Y/9uqww/LinfM+Ti944b7bV+04IWpsUIiqVs+bs+NMSXnizr8vvF/SP3Tx2PZbZ63M
+ETbWpH00f/byM5UyazTDqigE5tXXzrnu5uM8g1lW8sx9d141a4Gg39tenb3+8cfX3n/nwlUvCmpy
+lt94T72V1uV9MHflox0m3T0Lb93PQ7fjfn7Vov1FTVnvv3D1rXc+9+y622bO2X487YN1D92+bOXu
+9PJhNscBgcn8H+jU1x55cNvRxrxjC5Y+DGevObR+7vPvtTeWzLjllofX/fPhu26/7ckdsoaKrU89
++djqe2+98xFBs/ix2278oFjB7s5i7VUffXv99dde/VpSedmRzX9+9E023N2v3vvy808++cicGbel
+8GQfPbXitUNn392w5pY77//nusdu/PutR6tGHZcTJgG2XvWxt9ffcO3Vzx0tpenBFxYvPdzQheHT
+8rmLiqXyLXfPfae41aMuXzx7ochO1x18+Z7nd/Kyji657elumr748bqFz7wx7Bhcv/TWvXl1F3Zv
+um3uHZsPnxNmHfrj4ocNOLqj9b6/zz+jMHdVnFo453E4sas5b9G8NfJh9svHSjRDRGffWw/Ou+mZ
+XQPoIQ3Vty9cKNJ3bFw59/Wkkux9m+bf97yQX7D4unmlJlvd0S23LH+0w9y9btHMzal1TnPrivm3
+7LuoqDux/Yblj9VJ5bIGoVzf1mfur0l+509/ml9h8i9sWPQPL5v5dn5AYOe2rn3gtWONeUcXLHmk
+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
+QOAMmv7/a0LAVnI9tdEAAAAASUVORK5CYII=</ReportIcon>
+  <ReportImage>iVBORw0KGgoAAAANSUhEUgAAASAAAAGWCAIAAABXcsm/AAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAFauSURBVHhe7Z0JfBvlmf+n5/bf3W6Pbbft
+0pZ22267bbcHNxRyQkLIRQiQhisJ4SZQIBDIQUggQAIEEkjIfdk4jhPbseP7dnzKsixZlmRZsk7L
+km/LliVZ9/x/oxEm0WEs45Fs834/z8ceve87o3fe9/m91xyiaAKBwBlEYAQChxCBEQgcQgRGIHAI
+ERiBwCFEYAQChxCBEQgcQgRGIHAIERiBwCFEYAQChxCBEQgcQgRGIHAIERiBwCFEYAQChxCBEQgc
+QgRGIHAIERiBwCHjEJhDIRIKBAKp1hgImCg8Tm1ri8ls93/w8c8d3H4w3eXzfxo3jkGZSFAvaND3
+WgIhYXCc3/vGkdz6wCfCVGGkcnsGmU+W/j6L3dfbsuOVrbWGUar7Epx9x3a8ms7XBD6GxWVNP7hj
+7UvblAPewd4uq9MTCB8b0QnM0Snb/ujKu+558OE1q+7b8F6v+wu6/+VYdA8tumlHjsT/wcc7s3/L
+R2ejO5vLcXcpNj+2ctnKh1Y99I/XUysDoWGwvbFizqN7MgOfCFMBVO7Wx9nKXflGWg1ND+96dM3B
+ah1tUb22fmNV29gEZjc8Pvf67RkNgY/h6KxKnnPd/E94TQMq3toVTzSN7cAjRCMwr23/urvnP/ZW
+v9/rfQ6H2+PrFBe98Ojq1U8+l9fS7dTzt6zbLrfRJt65F7fv7PHSw12yN5954qWXt2/auimFr0Ox
+VCXvXbXqwbfPlDg9bmHWkSfWPLjuzf29Lv/xLfq1d83amSf1f6BrkvftOVOsqS/YsvmNQx++9eij
+/yyWmhBultdufurB1Zve1Qy6htsEG59au+rRJ8/UaWhb+/ubtxw7fvD1gwk2/xFUuQf+8oe5pV1M
+K2CxIswjLzzz5MMPPLZtj6m358jrzz+4avXbSQUun+fdNYuePZhPe2wX9m37x+q1hwqFE9pyECYe
+dd7Bv/xhTnGXF9tDNnvJsVdvuuaaO1Y8k5Gf/8FbO8VthsS3N7//8eEtzz/x9qGk1MMfrF29LkfR
+1V2fvXHDB3003Zjx4ZaPEl2O/heWzHmvQNYjLX/p6dWrntskNfvMjSXrH1/98NMvFDZ30VbDlrVL
+bvz7/Oc3vfbCE/feeN3Nq59/V2ePwjuiEJivS7jk+pnHattc/W3lJaX1jZJBp08rqa4SCVPfeW7x
+I6+3NOTc/udFNQO0KmvXDYtXmhzOj59evuyl3dVFqbde/ed3SluNlYnz73qovKL84RUrjiQnLZo1
+c3dKIU8g6LczxRQksDMbH7h70wFx/rGr/3rd0eyiN1ctXLrpkGuo+7l757+TUpj4xrp7tp/o1Iov
+CoQFR7bPv+sZpV62dvZVMxbevflACitYm65hzcLrblp83/7MKoT0CTNvnXXrgaySqjq+Xq2oqOWJ
+y1KXzliQL9fve2LZyyeKa8++s+jhl6rLshYuvqdIO+A/BmGSYtML1y68/qZF932UWQmH71KWP3Tb
+bZtPFraJ8hffcltBU/PGO69b+uq+/BPv/vlPV713Lm/3k3ff+9pxcc6hOTevwdym5INHZj/26rDD
+8uKd8z5OL3jhvttX7TghamxQiKpWz5uz40xJeeLOvy+8X9I/dPHY9ltnrcwRNtakfTR/9vIzlTJr
+NMOqKATm1dfOue7m4zyDWVbyzH13XjVrgaDf216dvf7xx9fef+fCVS8KanKW33hPvZXW5X0wd+Wj
+HSbdPQtv3c9Dt+N+ftWi/UVNWe+/cPWtdz737LrbZs7Zfjztg3UP3b5s5e708mE2xwGByfwf6NTX
+Hnlw29HGvGMLlj4MZ685tH7u8++1N5bMuOWWh9f98+G7br/tyR2yhoqtTz352Op7b73zEUGz+LHb
+bvygWMHuzmLtVR99e/311179WlJ52ZHNf370TTbc3a/e+/LzTz75yJwZt6XwZB89teK1Q2ff3bDm
+ljvv/+e6x278+61Hq0YdlxMmAbZe9bG3199w7dXPHS2l6cEXFi893NCF4dPyuYuKpfItd899p7jV
+oy5fPHuhyE7XHXz5nud38rKOLrnt6W6avvjxuoXPvDHsGFy/9Na9eXUXdm+6be4dmw+fE2Yd+uPi
+hw04uqP1vr/PP6Mwd1WcWjjncTixqzlv0bw18mH2y8dKNENEZ99bD8676ZldA+ghDdW3L1wo0nds
+XDn39aSS7H2b5t/3vJBfsPi6eaUmW93RLbcsf7TD3L1u0czNqXVOc+uK+bfsu6ioO7H9huWP1Unl
+sgahXN/WZ+6vSX7nT3+aX2HyL2xY9A8vm/l2fkBg57aufeC1Y415RxcseaSTpss/+ufs598z60SL
+Zs34ILNCLm+RSkWvPrL4n/vSy5N2z124ukHe+Oi8uQmCdnZ3YO3psTqZjZ2r59y14Tg/e/81C1bL
+B1w+lzXz3ecWPP6asDp/2azZybzmj55YvvnYhYQdT85/4rWmZrmYL9APsMNMwiQFlWvxV+6uNXNv
+X3fIR/c9e+ut75Yove21d81ZCIFtXn7bOwXyoeaChbOX1A/SlR+uv/uF9xryTsydeX+r1Z6y+YE7
+1r3JCGzJnF0ZvAHLoJ6XMefaGdt37Zq/YGlFl3tYmjtnzpI6s8dQcPj22Y+oMBAVZcy7eTmv2/+t
+Yya6RY4BZd0/19y79N77779rybInNrabh07vePqOFWtefnr1Hfc9397fsfPJO29d/uBza1feet/j
+HV668ezuObfd/tQL6xfOnbmrsIXua9246p57H3jgiQ3viRvKHlm7atWKZY9s/rBz2D9EHGp7dgVO
+6t5/3HvPzrSS82+uY3uwO5YyAivb99zMp9/y+bx5+19dtuSeB1Y9kV4lLTi6fd6y+15Z/+Qdyx6F
+wB6bP/ckv82fUwZjVcaqpcvuv3/F7cv+kd6go+2dO5++f/4dix7Z/FZJ5uk7Fy16cePLi+befrau
+ed+Tdz13tNisETy5fOnKhx54duv+Xg+ZhU1q2qszHrrzrpX3r7jjzn+k89WYYJ95/dEbb70/JTXp
+vkXL/D3YPFZgi+YwAqv46MWlT+8ydyjX3TNn6UNPPLFy4V3rd0FgLy6bv//Mhe0bn3nggRX3rH1R
+1mY6v3vD4qV33bl4waaTuRhatWYfuGPOo0o3Tfer1989846Htqo5moMFcNu0qlaVStNv8890HFat
+Vj8wONDVxSwmeGxmjb5tcNBs6ux0+Ty9nfpWjUpacX7xbXNSGpglCu9Qv1qp0Hb2el3ONq1apdbY
+/OJi8Lp7O406LQ7fauwftJq7O/sGHdZBY0cXztNu7m7vxuyUSdehVSvVmiGcs9eB9ObBwe6uLofT
+0W00WoYRGsDrtLVpcDBVp/nTft1t06mUWmMXNjvbdZ19A/3dnZZh50B3R7eZ6bKG+7uUSqWhl0zA
+JjtM5TKeovr0ug5GWFa9RtdnNnd2dNiczt4OY7/NiWQmo8nhhf/0mLoY/3GYu7QGk2Wgt7OnD+11
+T4dxcMjabWpTKlt7rQ7/gTxGTavawLgrcFkHjMYup99L7dhX246jjZ3oBRYF3gsfv7psxcp7li9/
+82TJZ45PIHxp4FRgUP+gsb29g3QIhC8rYxKYw+GwWq226Bl2OFwul9vpHA4EEAhTHmhheHisi4lj
+EpjRaJTL5QqFUtdmMBjaNBp1q1KB4a8K/8aASqUOSqlWq1vHsC+mQ8pLUgV9ZFC2atSqwHYwoanD
+wJxEqxI5HCUtjqNta2vT6z7/cIT408p4aZu+NVCjYdxAo9XBIwMfIqBsVekNbWqVSqdv02rU2EWv
+06rUGhxZ0dICdwho4/OIaojoqi88n5ZbqmzvwAeftbd/bCuWdnNH0Nqm2dwdzUpMZDw2Xd9QYHtc
+2Cx99mFPby+z7DEKzeWF2eXkZsUpgbOuMCulsIpdrwiLSS01DX7emoC9Oy+7sGPIKq4samzrbG+s
+LWlsHTK0XCisGeXIoUQjMJ9X1cIXClrFvNyjidlNyhaxkF9cXsPcg9SvKyq+aNCqsgore7oMudl5
+hUUFlWJVu6oxMyOnsrqiRiwpKKkwu7w07ZVXF+xNTBHVC4p5Td2GlvOZeblFhU2GXl1DeVZ+ZXOz
+MCfrolotK6+ozEpLySuqqK4R8irLKsXN+eeSqgSS8vJyQ5epoihfa3bRw52nEk4VVQr1ClF6em6r
+Ro/2pl2v77Z7fAOaE8dSZE0N6WlZRpuHdvR39vWbjLqasqImtUFaW85TmaBxnaqprdNq0DTX1Fbm
+5/O6OrUFpTVmc1dBXlGbqb26vKbH6ulT8i9Wi2QKdZu8Ibtc0Nvf1dPXpzXoq/LOFwmbW/iVPIVO
+LayoalIHCooQP7w240WeRC6pq7xYlVtU3izjJyRmtDQJyviSdlNb/7CP9jnzzp6qkOrbpHUpOZVG
+XfPpxHPKzoEuTXNJaX5+1vnEzAL0HB7rgEJUX1qUXSuoKyorbjN1XSzK1fb21pfmy7qiWFOIbpGj
+u1fTruuT15VfKMg/k5VRUFKaXVRhd/ucncrz2YUtMsGBN/cVl5ekZ2Wl51yoLy1Jzc+vEwjPJyae
+PHN85+49go4h2tpRJeCXl+fu/+j9fUdO5ZaWpmedT8sp4BflFIvFCkHN4SNJuSXFOcVFReXltWKJ
+uLQ4s05Sl3n64LG0Grm8qSjjjV3vFtXwCnOylP0u2m7KyMwtyEtPKa1plolTzqQUZGWl5ZR1DKGE
++urKeXx+TYO4sU5qpAc1QoWqlncxO7eAV1328Qc7j2WWemjaoJX1DbrkdbmHU7JLygpPnDy0a8/H
+9bKm07v35eTmninlu7w+g6hK3dlz8WJ+dXHu/p1HqpoErRrNubSz9c2yzLRTe99/93haDq+iuFjU
+GigmQvzwWY2Nml7fUFdlTvaJd/dd4PGkfOGFpH3vHEzQD6EyaU+v6tDb2w5llpTlJO04kFRTW1bE
+FzXU8coyz5druhw6WZGg0Q0ZDg/yJBKDQq7UqRsaG5oUcpG+22E2VjbJAzcejY3oBNbXpzfpe7Wa
+5latuqjiYkVFaVJy5sCw19EhP5OYWlR0/p23D9WKhJKWZoVSoZXw07LOHDieUlRRWVqac/xocpvV
+SzssxecSPjqTXpiZkpySK2mVy5qb5C2tCgmvJO/8uQz0exKtTlVWVpySniOQNBbnFMi0uoyje46f
+K5O2NFYUZJ88kihWKDMTE+o77LSjux5zw5am3NzMT9IKRE11pWXF1ZUC/72Nw7yi4rLCCwlJ5zVm
+B+3svXDyyInM3OKM9OzKmuykY1nVciTqbOF9ciQxrzi/WKzQalqKCi6cSkhrFlW989aessrqOi1z
+McTerU0+mZBTUlOQcfL9D880yQUJHx9KLSnJTzm1N+lsdvKJ7HKR6GJOck65svNzhpoErvG5ejPQ
+nmfmNtYUv7Pjg5oWJXyiKPN0UlqR2tg26KL7WoViralNys/MOP3+R6eqRfUas1NaWdzQKk09m9bc
+3Kru6MRx+uVVb+89KJDKslOTS6przycfScouLc46/f6xM+q+KG6Xik5gQXicw8MOZizrczvtwy6m
+f7ajDx7BJRbVafrZIatv2Gpjn27BXjanGwNOm20kMfPf58Lh2Nt0R47sdTiZEJcDMR6f1+P2eJ12
+u8vlstsvHwl73TZb8NjY7XZ5PO5hW6A43MN2p8vtsDOzP++nOae9HqvF4nKPXDtEPu1en9duR8cc
+CAIuHMXh9npcdgdmk75hm81r6Uw6tC+9TuFFth1OHM/t9rjd5Gpf/HHahuz+p7ZsNrvPBzdgKsYO
+B3UzPZgPQX5QcawXDfdocwvL0Cg77Va4GRsLZ7MPWezwIOcwZjZwO8uQ1eVywluc0dzl84UE9qXG
+50FrEtgmTGX8DXcUmokKIjACgUOIwAgEDiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4hAiMQOAQ
+IjACgUOIwAgEDiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4
+hAiMQOAQIjACgUOIwAgEDiECIxA4hAiMQOAQIjACgUMmncCampoGBgbEYrFMJvN6o/k13C8lLper
+ubnZ4XC0tLRIJBIUXUVFhcFgCERPAlCJ7M/VOZ1ObCOrPT09bFRcQB7kcrnVatVqtSKRyGKx1NTU
+tLZy9cMdk0tgKPr8/HycOVyks7NzaOgL/fbXlwH4a0NDAwoKvsLn81F0fX19Op1u5A3scQe+i+YS
+bl1bWzs4OKhWq4VCYRw15na7UVZoidCCI0sajQaZQYl5PNH8aMqYibXA+vv7BQKBQqHwej20spIW
+ZdKNWYwNMSWO8LS0NHgMHEWv16OZYff6MoMmFh4plcrc8AAtnxZmMMWFcusPdFNwWZRqfX29VCpF
+P9bW1oaQWAoM8jYajX1mc+Dz5fT29mJUgvwolUq4ckdHB84I6QPRHGC32xsbG6Fqh9NNtzcFSgx/
+uwLdFFwLzRBKFX0+W2IqlYqj4VKsBYb2I/ATt14Xved2+rmv0y9+hzFVFZsAdYACwmnjnOPZDBd/
+SB+5jz65lj60gm4pDwTGA7SsNpsNZcKUxfE19LMU/dJ3mXJrSGMToMQw+kKJYayIlOjHuru72ajY
+AAnhqw2mTtoko4+vok8+TB97kD6/iY2FnODH2ECjaTabIX4ej9fVxeHvPEEq/t9StjFdUvpGf4l9
+n/lbso9NAHXBA9F3QfkoWCiNu0F1/IaIXjd94G5648/oV3/NmIYXCJ8knHyUfuFf6I0/ZSqGlxwI
+jDtJT9Gv/JTe+hum3BovBAInD61V9Ibv0xt/TL/4Xfq9WWwY20BgA6NZdg7GqbqCyXqdfuXH9Nbf
+Mn8vHg0ExhAisAgkPR2oGDR+/LOBwLgzyQWmqqE3X8lkb9PP6b23BwLjCxEYEVgUEIFFCxHYFBIY
+phAY5GAEjzk6Ntrb2xHCRsWIMQgsnhPXqSkwTktscgkMo/PGxsbBwUH2qk48fSVEYE6ns6ysDIpS
+KpUymQzqqq+vj3UmQwTmdrtbW1uRN7VaLRaL+/v7RSKRTqdjk8eacAIbHh622+3YsFgscajQEIGh
+ZVSpVJgWGgyGhoYGVGhTU9P0uQ6GKS9KHA4RVmCoCalUCve9ePFiXV1djH/yGHmDa7ai9O0OOnld
+kMDgHMhbR0dHT08POjGtVisQCODNXDsNuzCAEmO+JkRgKDF4CbKEEuPxeAMDA8hbc3Ozf9eYEyIw
+l8uFIkIzhHJDcbW1tbEJOQU1ghIDTImFCAwlyV6Iq6ysrK6uxgaUz15I8O89wcRaYKh+NPwtCqXP
+7aQP3hskMPRdaEtQE/iLJjnG18HgyiaTSW8wDDucoQID6FeRQ7gvXBmjRHg2ewmVjeUIfCO+CNpm
+fsE7CbkKHiJqNJrOzk7kSq/XYwO+EuOBK9pB6NzpcoUKzGa3KxQK9BhoNKEu5I3dhVOQGagaQyFm
+nT57R5DAAHKCgkKRYgM1jg3IjI2acGItMLQT8EimtYgwRISjwKXgNNAY153DaISbg7E9Klpldswz
+NDSEbX8MtwRKDISbg3V3d6NVhq9g7IqBK5qnmK6D0zR6Jz6fr2oz0uraIIFhUICutby8HOOxnJwc
+uDK7C9d8VmLh5mC9vb0YRiHbcDYoDS0+dxe+ySJHBMgqYjQEvDncHAy+CydGS4QhCXODQYwZ2yoi
+d005EVgEiMDGwdRcReQUIrAIEIGNAyKwECadwNg1A3TZ3PXaYyKcwAYGBpArTHgsFgsbEmuIwKKF
+COxSgWG8XldX19fXJ5FIRCIRpshs2jgQIjDMiZuamjBZx0y9oqKCXeeINSECg9oxU8dfTHLYe2qR
+Q+6m7J9DOIG53W52KSg+JRYiMORHLpcPDQ2hrWQvY/b09Gg0Gjb5hDO5BIaagBPDPxz+JwhjPCdG
+WZvN5t7+fpfb7V8Qv0xgOp1OpVIJhcKGhgZUTKzv4WAJERgKClmC70JmlZWVyFV5eTl37vI5hAjM
+6/WJxWIUV3d3N5/Pb29vZxPGjnACY29mQCmVlZVhVFJdXS2TydjkE06sBdbf3w+HULaqwl4Hg38o
+lUqtVos2JvbNMIoeqm6SSIasdjr5mSCBoQfLzc1FTajV6lgKDMNROERzszzSdTDkB+4CPy4oKEAr
+AKdBE8BGxQabzcZcrh2yhhOYl70cj9qsqalBzbK7cAqaGzTTqKPhCNfB9Ho9qg9NUn5+PmQGgQE2
+asKJtcDQR+HchlAZ4Xqw3t5ehUKBISJcCn4zqYaIGIahAUaWkH+TycSmigGQPVpZ5j4jfGByFSww
+FBryhg32MTB0+0jvj4kR+F7IW2fqDL0ONuzvYBGLFhMyi811MNQRWhyAFonOeiNUYGjl2fEq2gUM
+W1DCCGGjJpxJt8gxWSCriOMgpAeD+6LvAnBo9BVwejZh7CCLHERgUUBWEaOFCIwILAqIwKKFCCxI
+YOy8C0ML9mPcCCewSZCriAJD3thLiOzf+DDVBDZy0ZX9yAWTS2Amkwlz4q6uLoWfePpKiMB6e3tH
+7qOVxeudjSECY6/qYIaD4pJKpZis19XVTarnwdhrdMgnNuKwahUiMMippaVlaGgIc8KmpiaUWEND
+g1KpZJNPOLEWGE4PZc0UdDiBORwOTIjZJ1Zw2rGvD3wjssc0aSECa29vLy8v12q1qJjS0lIkY3fh
+ms9KDIQIbHh4GAUFd4H7qlQqlFtlZWXMbloPJkRgHq8Xykeu0HSKRCJ4NpuQU9gSA0zHFCIwqB2N
+uNlsRomhNrFdVVWFv/5dJ55YCyzwPFiLIux1MPQPcA6cPJ/Pb2xshN7YvWIDqkQikUDZg0M2+kzw
+dTC9Xo+csx1FVlZWzBbE8EVwUIkk4vNg0JXVasVfdFzwGOaZUc6ezw0LOnN4LdMEhOvB0ASwPSo0
+hpplAzkF/fnoz4MhPwMDA+wDPgaDAYWGDY5a81gLjK0MuHLYHgyeIfY/944TBkxPEluQMWQvbA8G
+50CdYaCIbTQEMRsiIjOBEgPh5mDIEgSGNhilxz6cy93jg2H59Hmw9tDrYADejKLDWcSm+wIjJRa2
+BwNwMJQYCoq9Z6q5uZm7C5uTbpFjskBWEccM2hp4M0aDYXsw6J91d+4u5o4GWUUkAouCSSmwz5hq
+q4gxgAgsAkRg44AILAQisAgQgY0DIrAQJpfA2tvbeTweu4Sq5OzSxJgIEVhXV1dlZWVra6tGoxEI
+BJhXsAljSojAkA1kCcWFmTpm7QMDA/X19bG8F/kypoLAPB6Pyv9eRNRjQ0PD4OCgUChk1zm5YHIJ
+zG63G41GvV4v8/92E5swPoQIDFN5g8EAmbELUH19fWzCmBIisOHhYagdmYHT4K9Coaiuro7Zel0w
+IQLz+XyoSrFYDOWz77pjE8aOEIG53W7oqre3Fw0TmnL8haehQtnkE06sBYZTwsmoNVra4wq9DgYX
+QUs8NDSEc87Pz49xL4Gih4NKpNIhW5jnwdDysVcOuru70fhhg92La1AaEolEoVC6mIsH4d+LCHeB
+qNj3kKE9njwCswwNVVRUoFOFxqqqquRyOZuQU9DooBzAKM+D9fT0IDOdnZ0jz9FwVKGxFpjD/wui
+5oEBRmAhPRg8A/7BPs4U+9YOfRT0719WDvNEM6oNI1hUAwaK0D8+sntxDVoZZAkZY55uYvrVYIGx
+70XEIAf6x4AH7ReUxkbFBmSgsbFRbwzzPNigxYJcwaFRrajQ2CgfDSVaasBcCAv3PBjKE9WHgTR6
+V4vFAnW1cfbKYbLIEYFRFzli1n0FMykXOTCwh8sOWW3hhojMA9fsvSbxGVeTRY6pKLC4QVYRo4UI
+jAgsCojAouXLLbDloQJj77mM2xhshKkjsJG7IuNfaFNEYLEssfgJzOOmP15Bb/wR/eovRgSGuWZt
+bW1XV5dYLMbUk6MbnMdEiMAwddZoNJhv9Pf3czcn/hwSn6Ff+SG99RcjAuvp6WHfJMmuH8bn6twI
+k1BgmTv8JXYl/cp/sgIbGBhAicHHMDPEBtdPbMRBYGg2gMc5nL5/Z8XrD1lfu2FEYPCPjo4OiURi
+NBpRBENDQ+wucSARfcX36K3/PSIwrVabmZkpl8sxa29sbDTH8L2IbInhf96Jj4q2PTywbQa98ees
+wJRKJTSG9kin07GLjewu8aEVAruCaTE3/WxEYCguFB27yBGz7H1aYvTFtFNZ2x7t3j6HfuUKVmBo
+JeFaMpkMRYf8sK/i4o5YCwxtLfNUlVLpHbae/Hjvhrf3vrnznZo3HqLVjMDYX21iH1dBrbC/Th8z
+MHJABqBtp91WnnSg7rV7PK9dTb/0rzQ/BbGoEjgx/sKhAbyZ3YtrBtnfB5PJfG5X2snDL771wfZd
+u4u3raJF2YhFX1pYWAjfbW1t1ev17BWOGANXRtHhr0EmvPD6413bbmV6sD23Icrj9ZWVlaFOUZsF
+BQUoXnYXTsEoAy0g8LjdRemnX3pz96vv7L3w2iOeiwmIhaJQYohtaWlB6XFdj7EWGEZ9OH/0y16n
+PWH/Bwk7XlS8vtS39a+swNA/sLdKwV3Q8rGNUMxA3thn7+xDA6lJCRve3L1r1zsVW5bT9ecRC+fA
+iAJVgorBBppkdi+uge+ixIYxkvF5U08cOvrGBskb97g3/5HtwaAo+Mqw/6FGZCzGJcbCPg+ma2vT
+yUSvvvXOa+/sObXjxe6P1iLvLrcbDRaKFP0GOzYJ7MMlKDEUCEBpFKQm7X/jFcGOlcOb/sj2YGi1
+RSIRBkdsfkbmYxwRtzmYz+227F9Nb7qS3oJBxS8n2SqiJyXx5Ls7thW/9XjvK3+j+alsKJSPOnM6
+nTFTVxCWUy/SG39Jv/pzeuNPJ88qIman8GZmjioV7XjzraS3NzS/toj+cDmiPF4vui8IDB0F+mGM
+zdhdYoYl4x16438zo9ZXfvAlXEW8i974X0GriJMDX3viNhfaPEyOX/rWZFpFfIKZrE/WZfrBFkHH
+1pn+7P2Q3js/EPopXPcV4cna7l/kINfBJpfAWFf+wZRYpp9EqKvpzT9hVobIdbBPIQKLwBS5DoZ5
+o8vlYjuHuEzALmMqXAdDWcWyxCaXwDCUVygUOH+ZTNbU1BRPj4kgsPjOwUIF1tPT0+j/oQzArnaw
+CePDVBAYJtJwLbgZewsy15eCYi2wkVXEsALD2cJLOjs7y8vL+Xw+5s3sXnEgnMAkEklHR0dLS0t9
+fT3Ogg3kGrS1zCri8DDT2IQbIsJR4DRIIJfL4/bTmyzhBIZKNBgM2Ojt7Y3Nzb6flRiKLNwQ0Wg0
+IjNwQqVSyXWWYi0w9jpYi0IZ9r2IQKVSmUwmNDBokmPcUaB3QsXYbDbmBUkhAoO0cnNzdTodZFZd
+XR2za3SB62BSWdj3IqK3R4lhgy2xOI8SQwSG/Gg0Gh6Ph3xWVVWxSuMaVCKaabFYHPa9iGjiW/3v
+jWQvbLBjRe6YdHOw7u5u9qYk+E2M3QXfK5VKhSKRJdyLR9E0VFZWoubQUdTW1sbnJWQhPRicCd0X
+nAYZQ4nBj9mEsQS9AcqtrbM79Hkwl9tdXFxcWFiIviIjIwNDMnaX2BHSg6GI2IvLaCjRKqEA/em4
+gixyRCDcEBGtHUSIaY82Jr/UGIZJuYrIXrQ1D1rCDhExZUXXiqLr6upCMjYwdpBVxCkksPgzKQX2
+GVNhkSPGEIFFgAhsHBCBhUAEFgEisHFABBbC5BKYw+HAvHN4eFgkEmEOOtmW6dn8+Py/jsOGxJoQ
+gfX395eUlOAvsiSXyyfbKmL8CRGY1WotLS01mUwoq+bmZq6XhSaXwDBdrq+vh8BsNhvcBRts2jgQ
+IrC+vj4ej4eKUSqVNTU1XD+oF54QganV6uLi4u7ubmxUVlZOQoEZjcbOzk4UV2traxwu0IcIDDVY
+WFiIXLW3t5eVlTmdTjYhR8RaYGhrG5gfFGyNdB0M7ovKgLugCNiQ+BAiMHQRWq0WXatAIKirqxuM
+1e+DWSwWfKlM1hz2Ohj7ZJrM/57WzMzMyXah2ePx6HQ6FBeaJ7FYzF6A4hq73Y7vampqCvteRHgg
+Sgx9F5/Pz8jIQAGye3FErAWGHhmuyVyljTAH6+rqQoKLFy9iiIjqYQNjAyQET410HcxsNqtUKuQK
+f+EoMbsOhkKAbND2M31TSA8GX0G/yuoKbTPXl03DMsoyPXpU9rIvGk20mBiVsLtwCgoBWQLMmyRD
+ejD2HcPspTB0rV+uIWJ8gTdA+agYjyfMnRxwYvgHYtEEQGNxceXJucgBZx3lQjOaJJQb1IUuBQMT
+dpfYQRY5Jo/ALoOsIo6DcHMw9F0AG2ib4jBFJAIjAouCKSiwOEMEFiSwGM+7IjJ1BDZSYvEZtV7K
+FBHYSInFwNkml8Aw6RQKhXFeCmOZIgLr6+sTiUT9/f0KhUIgEMTtAh3LVBDY4OAgSqynp4dd3uT6
+UlCsBYZW1sX+Zn44galUqosXL3K9cjomQgRmNpshfnb1SRPDny/CFwVKDIQIDFEtLS0ymaympqa+
+vj5mD9GEJ9wqotEPpmGo3Nhc22BLDDA1FCIwlKRarZZKpbW1tXw+H9Xq34krYi2wwPNgLYqw18Ga
+m5sbGhri9t7cSwkRGObocBSlUmkymcrKymImMDgluiaJRBr2Ohj8A+6CQoPMtFot1+7yOYQIzO3x
+oNAaGxvb29vRY2CDTcgpdrsdfRS+K+zzYBgfISdoK6Ex9ofC2L04ItYCg1+iCWHGvuF6sC7/S7Pj
+NURErlD0rSqVze6gk8P8Phj0j7zBm7OysmLTGAOUGDLGlBgI6cGgqCb/L8fCVzBKjJnsL4UdoJq6
+e0OX6QEaJnT4GLkYDAa2/+eay0ospAezWq0SiQQNfUdHB3p+rgfVk26RI47ACdA76Q2GYYczVGDo
+H6qqqtDgoeYw2uG6YsIzKVcR0dZA3t3mgVCBOV1u9PboY1F65eXlXL+nOgxkFXHyCOwyQoaIn/W9
+cWRSCuwzQoaIXq8PfT5A/49uluvHh8NABDZVBDYpmGoCiz9EYERgUUAEFi1EYEECw7wT02J2O55M
+EYG5XC6FQuFwOFpaWpqamuJ8rXkqCAyDfKVSabPZNBqNUCicbo+rfEY4gfX09GRnZ8fsRvXRCCcw
+zOZRPZipt7e3x2W9LlRgkFZDQwOaJKiLx+Nx7S6fQziBQfPsxVzkLQ4rQyECQx6gK0wI5XJ5dXU1
+1615rAVmNpuZF4yp1bTHFXodTK1WZ2Zmxu2dTZcSIjC4cnFxMSrGYDAIBIKYtQKseFpaFC5IOuQ6
+GEBLjFJFllCwce78wwkMHaxIJMIGvDk2l+mgZ6lUiqFQ2OfBgF6vR/Wx18q4rsdYCwxu2tfXx1xE
+gsDCDRG7urridTsCOiV4QG9/vwsNLePKwT2YRCJBztESY4wRs74Cg0A4gdk8yHSZjOyDBYZuHy6l
+UqmQq7hcPLDb7b29vUNWW1iBIfMoN2y0trbGRmAYZeCLgBsllvVGqMDggcgzZIZO7Ms1RIwv8E5m
+JiORDFntdHLwA5cAsejB6urq0EDGxZUn5yIHxszoCvTGzrAXmtEkoQfGBoYnsRHYZZBFjskjsMsI
+NwdDZ4LWERpDgx2fC2JTcBURBcVe/sLgJQ6FRgQ2hQQWf8gyfbQQgRGBRQERWLQQgV0qMIzm2UVn
+Nkk8mSICw6xGIBDEYW4TlqkgMKvVCh/ritWvRcdaYD6fz+v1MheRILA9t9PPfZ1+8TuMqaoQq1Qq
+4SuTc5keee7r64vL1AslBpit42voZyn6pe8y5daQhgB2aS42r0P7fMIJDM2lJeaPR3xWYukb/SX2
+feZvyT4EsFc1YlZisRbYyPNgXo+brk6gs9+ic3cx1qdDLASGpkWnY7bjTOJT9Ms/ZLpWiJ+fggCj
+0Yi+IvZ5G/T/PphEInV7vIyost6k83Yx5WaUIlalUqHbx182cZyBwDZhSPIr5rft9zA/gu5yu8V+
+HDF8T+vI82B2l5uWFdJZO+i8d5i/qlrEogbhY/A0NjHXxFpg6AFQ1pEuPvT09NTV1cXh/a9+kDfm
+uUC93g5vwGBsg19g6/+NrmMEZjAYbDZbbH5C7lLQErMlFvbeETTGKLH4DhEHBgYw6Oju6/9MYK9c
+Qe+Zh6ghqw36D1z5jBUoKJQYCFtiqEQ+n49cBT5zTPzmYJMPCKytrU2tVtvsw3RHM91SRisraHkp
+bTYhFtpDuzgphq+TDHbE1dHdQ9vMtOIiU2j4q61HlNPpavLD3i31JYQIbKygJ8HQwhWPn5Cc0qB/
+i28HG1+IwAgEDiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4
+hAiMQOAQIjACgUOIwAgEDplIgbGPLQU+RInH42EfA3O5XDgOGxgt7EOsdrt9fM8dj+R/3C9mxI4+
+/49Tse9RihY2/zgINnCccRwEO4478wD7sq+j+yIHATjI+J5PQf7Zs8buX7wS2fKMCvYRshEnHLcv
+jTBhAkOeBAJBQ0PD+B7o0Ov1dXV1JpNJIpHgOOMQKr6Xx+OZzeba2trm5uawD9uNAr6xsrISX200
+GquqqpCTQMSYwVdXV1fjRFpbW2tqaqJ9Th7fKJfLBwYG8O1arValUuEg0T7ooVAoxrEXCxo4oVAo
+k8lwChUVFZ2dnYGIaBCJRGwl1tfXj6OhRAmUlpZ2d3dj98bGxmgVAmH7n/6W9Pb2oi6ifdAbcuLz
++dA2vhongoPAl77g0+ITJrD+/n5kCEUzvtpFUba1tTEPxnZ34zjws0DEmIFnlJWVKZVKFBNcJFqd
+d3V1oUpQNyhQNH7jeHIZ2YY2oO329nYcAUINRIwNFCCUiX1x7vh2tVoNiUbr5RAY/GMcrQNAk4Rs
+w8VREUNDQyjDQMSYQd3l5OSgBJD/wcHBvr6+QMTYgDzg33BuHAE50Wg00b7dFZUOZYrFYlQitnGE
+qNpZ7IJvR7ZR7HBjFCbOAtUaiB4XEyYwVEmLn/E98I8SQZuBYkXhgnEcBOIsKiqCwHAoZCPanp0t
+UJ1OBw/D7uN49wa0gapFJ4AMIBvRPpSO9h4Owf6uKdSFPCAn0b78CPviLMbX+aDw0cTAvZANVME4
+fikbvog2DiWAnLPeGYgYG5ATzhr1iH3R1kil0mh7MDRJqALsiCpgayEQMWaQAXgCTh/7Iic4EZRG
+IG5cTOQcDM4xvqoFaPNQrNAV/HJ8DTCAyNFiQRvj60XR5+Db0YzBv8cxvMEgk+124Fjj0CdaBNYj
+Ua/sm5iwEa2HYUc4xDjmHgD7wp9QiagFnMj45h7oP1F06I3H9/ISVByKjh3O4CCB0DGD2kczh1PA
+EVAO42imMXzAQdCuwQlxEFTB+HxphIkUGIFACGIiBeb1eEUKcaWstrq5LozJ66oktZXimhp5SJTf
+EF7VVAOLnIBfLqpIrstIEmQkhzOEp9ZmpdSPmoCXlVwfHH6p4QiREjCHrc88W37+ZGlyQmlKqJ0s
+TUksPXu6NA0bQVGsITyp9FxySWqkBCdKk0+XpQ5aop6CjtBm6uQ3qxsU2rAmaNHWiWVBgZeaoEVT
+J24WKnRB4awhXNDcmlorT6jTfVKnDbVEvu50rfJMTQs2gqJYQ/iZWgVslARna+Snea2fRP6K5ArJ
+kVzh4XxxJEvMrz+a3xgUeKklFtQHhVxqH2c3SDXtgQL9YkyowJzuk/Wprzed2Nl0KtTekia8U3v0
+vYtHdkoTgqICJk14t/Lou5WHIyV4V/bJa0V7qaT5VNoMKnVWOJv5/VMrqLMLsBES5be0GT85tZI6
+Nzc4/DOb/YtT91PnZoeE+4353nn/umsh9fLPqI1XhrOfU5v/SL02l3rlipAov73yM2rL1dSrMyMm
+ePmn1Oa/tZnG/3K4uhbdqWbb6VZHsnI4yJhAufVUueSMwh4UNWKn5UMnL0rPqFxB4aydUTnPNnX/
+9ISMOmWnTg2FsQQ7dUxPHVUwG0FRrDEJ1NRxTeQEw9RROXW8nTplC45iLXGY+qCeWp1PrSqnVpWF
+sYfKqGfSqYeLg8MvtWfTg0NGDLuvLDxeKA4U6BdjQoeIHt9p8YWdiqTd8tOh9p4i+QNB4t6aU7sV
+yUFRAVMk7+El7OFFTLBHmfJW+QHq3GIq81Yqc144u/U3yauo80tHSfD75NVUxu0h4SM2/0/Ja6iM
++SHhrOGwi371wXJqy6+prb8NZ7+htv3tO28uoF79VUiU3179NfX6jdQb8yIm2PJLavt1ho7xN58C
+tTFF7Tmn96VqvUHGBKpcp6tb0jSeoKgRO6dyJtUoUtvooPCAtdHn5eb/TVJSyR4q2RnGzniohA7q
+lIbZCIpijUlgoBLbIyfwUqdUVGI3lewOjmItxUvtb6QeK6EeraYerQpjj1RRL2ZRT1wMDr/UXsoK
+Dhkx7L6qLKGEea/rF2fCBIYZYUpy8j83Pre9eN8HrSlB2oBNnMCWUJm3QQnhbJ5fYHf6xRAUxdpt
+foEtCAkfsdv9AoMCg8JZw/cu9gvsN9TW34Wz31Lbrvrhm3cwQgqO8turv6Fev+kbb8yPmGDLr6jt
+149bYKKGhlc2bdmZkJ3eRqfpIAkI6RJDiMrpF5g7OOpTO6dyQGBpeggsOAqWpvedl/f7BQbvd4Sx
+M24qweQX2CgJ2qhEQ+QEHr/AuqhkV3AUaymeL6PAXC7XhpdeWrJg8ZZz7+5Rnw3SBowIjDGOBZae
+lnb73Nkvbn+XCGy6Ccztdr/yyisLZ89569yuQ5qUj1s+CbL9yqRDgpOHa04cUCYFRbGG8EO8k3uJ
+wL6AwDIzMm695abNW98pMNB5ejpXd7khRO3JqFbkaX3BUZ9ajtqVUaPMawsOZw3hBS0D1yW0Ukk+
+KskVznzUyU4isBEmUmAbXniBevIpqvAsJc2nGnOCTZxL8bOomixmIyiKNXHuj2ouvFn/yQeKYGmx
+RgT2uWSmpv72rmVUwtm/NHf+n8z0R6nxUvu9zPR/EsP/1TT9UdoeFDViv/cn+ENzR1A4a39oNl3T
+qKaymqhsI5XdHsZyjFRWC5WkHbWLIwKLHo/Hs/6pp6gTpyhhE1XDD2+19YwFBX5m9VRVzQbhmb0t
+4ZdJxiKwKz9PYL/5PIH9/vME9rPPE5h/kWM0gVGcCexCUhKFZq5JStXURrTauuCQIKvlBYdcZjyK
+B6uNbNXUWR2VNLUFdmISCuyfjz1GHTtJiSQBtYRaQGCRrIGqqiUC+0I9WFIite4ZSiKjampChPGp
+fY5+xpCgjkfV4W8EmyYCkwTK9IsxYQLzer1Prl1L3fcAVZxGSQooUV6wNeZRdblUDUaDIVGsNeZT
+Ndk7yBDxCwgsLTmZuuUWKiGFajZS0nZKYrjMpAaqSf/tGjElaQuOGjE2Qei+rEnbvy1SUzliKreN
+ytWHszYqu5kMEUeYSIGtWbPmp//+/e1n3z6sPRu0gAHbrzz96SLH6aAo1g4okw6SRY4vJrBz5859
+91++8fRzm4qMkRY53OeZRQ5vcNSnlqN2pY9pkcMbsrzht2QvWeS4lAkTmM/nu2f58m9+7RubUnbt
+1ZwL0gaMLNMzxrHAkhITKYp66OmXMo1kmX56CQycPpX48DOPbCMXmuMnMIFAsO6Z5948eeG8gWbk
+FKQQIrARm4oCA6mKgl3KYGGwNqECG/1WKQiMu1ulWIFBHiF3OTHG3ioFgY1+qxQExtWtUjKT+Rzk
+wagrxHRjvVXKL7DgKBjCx3CrFCuwURKwAhv9VikIDAoMiYV9OW+VAh6H6wT/3Hbx8beaTobaDump
+XTVH3y0/slN6KigqYEhQeXRX5WFsBEf5bZcs8bVC/82+qTOpc7PC2cwfnVxBpSzARkiU31JnXnHy
+H9TZucHhn9nsX55cSZ2dHRLuN+Z7/Tf7bvg59cqV4ewX1Cb/zb4vXxES5beXP73ZN1KCDV/0Zl+e
+XHtKOjTKzb4ny5pGv9n3RLlklJt9zzR1/+y4lDppp04OhbFTduqojjrSwmwERbHGJFBTxzSREwxT
+R5qpY+3USVtwFGsJw9QHfGp1HmRArSoNYw+VUs+kUQ8XBYdfas+mBYeMGHZfWXBiEt7s6/V4m1TS
+2ub6OrkgnDXUSet5Ej6/pSEkym8tDTwpH4aN4Ci/Yccace2FhoJMUX6mCH9DLT9XUHhBWDhKgpx6
+xAYFXma5TIKIu2eJCrJq8lKrstLDGcLPV2VnVuaMO0Fa5YXMqpxo3+dxKYaOrga5SqTQihSaEGMC
+BRL55YGXmbBFLZA0i5Rhd9c0Ilzemlvfkt6gPd+gCWfaC/XKC/wWbIREseZPUK+MdASEZ/NbLtS3
+BoVfYtoLtbIzpeLkMkkkSy8TppQ1BQVeamllDUEhl1pSUaNCN86nfoOY4CEigUC4FCIwAoFDiMAI
+BA4hAiMQOIQIjEDgECIwAoFDiMAIBA4hAiMQOIQIjEDgECIwAoFDiMAIBA4hAiMQOIQIjEDgECIw
+AoFDiMAIBA4hAiMQOIQIjEDgECIwAoFDiMAIBA6ZSIH19PT09vYGPkSJxWLR6XQej6e/vz/a3+cf
+YXBw0Ov1Go3G8b3TAvnv6+tzu91tbW0ulysQOmbw1e3t7Q6HY2hoCHkIhI4Z7M5mGwex2+02mw0b
+Pp+PjR0j2NFgMES7FwsygBM3m804BWzgYyAiGpBtp9M5MDAwvp/Dt1qtKDp8tclkYn8SPlrYSsQG
+ygGlwQaOHVQBSg9HwHHwEZlBbbJR42PCBIaikclkzc3NKOJAUDSgPqRSqVKpbGlpwcY4DoKiqa6u
+7urqQh5wkGj9A/kvKyurr6/XarUSiUSv1wcixgyqhMfjtfpBHqJta+DTYrEYB2lqalKr1TgFZCPa
+tgZVAFAIgc/RgBLAuTc2NiL/yAMcNBAxZuCaqAIUHU4fjKOZa2hoKCoqQlMrl8tx+tFWIrQtFAqx
+I9omZADuFIgYG/A65B/ZRhkiAzgRHAp1EYgeFxMmMIgewKvQBAaCogFFidqFZ8ClcBw0gYGIMQNt
+5OXlQZwo5XF0QWgy2dJEraDlQw0FIsYMtFFTUwORYN/h4eFoj8D6N9waLTf+ajQahETbDygUCvQ/
+OJfA5yjB8AHOjZzjq8fRxGCXzMxMuDiOgIYf9RiIGBuoOAgMhQB5owBRAhhNBOLGBvaCG7BtBEZD
+OEJUnTmcEO0afBh+CDdGYY7jLIKYMIGxpQOwEQiKBvhlXV0dGg9sCAQCeEkgYszAL7EjfIvP56MF
+irbxg6hEIhHKFB4GnYxDYOxXo+XDQdCVRdtG4JTx1XBxfDs8Azqvra2NtrXCt+OrcZDA52jAdxUX
+F+MskI2qqqpxqBT+jUYKzo2/qItoR2ioMuwLB8DADI6E6oi2EtEF4XvZNg7lEG0PBpABNC74agCZ
+sUOSQNy4mMg5GHI2jlEvC/ZFBbvdHuhz3Adh6wOtjssVXcvHYrXaWGEPDo7ztYTmgQG0mG6PxzKu
+gTt2xF+LZQitLxjHJARN/vimLgCF3282oyLQ6g9+gRczAqfLZR3XTGGk6IasVleU3RcLKtHm9x+c
+gtcb9VyUrQKH04mjYAOFOY7Z+KVMpMAAKsludwwPhzF/uNPhcDrCJXA4XU6nG/+cTpfD4QqKHTEk
+GHZ47MPe4XDmcPgcDrfThb++oCjWsKPD6Q4KHDGHEyXrQzbQBw87gmM/NY/D6bE7feGMdrjpYZfP
+6fIOu+mQWMZszF98kce/EWzDLmYvJ1PFXwiby22PbMMuV1BIwNweh9fn8HgdbrfD67W7QxK43OyR
+h90eq8dnC2te3zCO4PHafXRwlN+wI3bHd4U9gt1LY0ckcGDDO9oRbF7a6gtjkDUMeRiG2GAhCVhD
+gqAQ1rAv+3c8y0ThmEiBuVwejbLGqCsz6spDzaQvVzcXtTTld7RdDIpiDeFKaQHMpI+UoEImytQ1
+be1q3dKp3BpqCJfx3zbIto2SQMp/29TyWlD4iHUotkp4b3cqtnaFRMG6Wl81tGyTF28yl67pL3s4
+1MxlD3cUP6HMWz9QHiFB+Rpj0dPqvBciJihbbSpeN2gezyoFS08jf+jMR8Nph2whxgSmHtKePRIU
+fqkNpR3Wnj0cdncYwvtSj5gObPd98Lxnzwuh5t3zgvnDjV0fbfHtiZTg+b6PNvfu2xwpAcK79r1q
++fAVHCooijXv3vXGD152vrSUXr+QfnFRGFu/sHP7I94Nd0ZM8OIiJAgK+czWL/Q+e9tAdWGgQL8Y
+EykwtP09pkrae5F2VYQxT+VgV0GHLoemK4OjWPNV9rbn9hpyaW9VcBRr3hqDKsWun0cP3kybZ4Sx
+wZvbm+73mBaMkkAveoDumxMcPmL9szTCB/GXHgiJgg3c4uudbyq8jS6j6PJwdpGii77Xk3kDsxEU
+xdpFypf/c3PWVRETwPKv6Osa/7vpLTXF9IGX6KObw9uRzQMHtwcHXmZbLAe3hQReats8G++iH/8L
+/eTVYeyJv9LPzqFfXMhsBEWxhvDn59Hr50dO8Bf6pcX0s7MjJnjqKvfTc+gbKPoqir46nF1Fee76
+5WgJrqZcSBASGDDs9SfKmnkiUKBfjIkUmMVi1bUW004IrJJ2hpi7aqCzsEOXR3urg6NY81T3tOf1
+GPKwERzFmqfWoDpn0y+hB+bR5vlhbGBee9Mat2nZKAl0jQ/TvQuDw0esb4FGtBZ/g8MDNs/bs9RU
+tJiRARQSahUUXXxlT9YsZiMoirUKylP4v/3ZN0VMcJHyFv6uv3ucv67i8Xo7ynPpA6/QJ7aFt+Pb
+Bo68GRx4mW0fPLIjJPBS2+F5dSW97nr62b+HsWduoF+8nX5lGbMRFMUawjcspl9eEjnB9fTG5fSL
+8yMmeO4m1/ML6FkUfSNF/z2c3Uh5Vv5+tAR/p5xIEBIYMOx1DWXLSgyU6RdjwgSGSflHe/c+9cQj
+sobTtK82WBswIjAYxwIrKyt79OGHs155ij65PUQYfiMC89vUE5jL5Xrl5Zfnz1/Iu3icpnmXCYM1
+IjAYxwI7n54+a/4dB559hD4VpIpPjQjMb1NPYG63++UNG26bMVNaeYym6zDjCjZfpbu7wKLHHKwq
+OIo1uspuzB1uz42coLZffZZum09bMB3CNCnELDPMkvvpzjtGSdDT+ADdPzc4fMTMswyi1VNXYBkZ
+GTfPmHXy8fvpE6/Sx7aEsaNbXIdeDw68zF51H9oeEnipbWcEgJnSU9eEsSf/Sj/nn4NhIyiKNYS/
+4J+DRUyAOdgS+rlZERM8fQ29bg4jg8hzMHr5laMluJry3fPrYF2N2OQUmMftfum556g336L4lVQz
+n5Lygk3GoxprKGE1JasLjmIN4aLqz0nQUEEJU6mmc5Q4nCGcf54SjZqg7nxw4KUmytgifI9RYLC0
+WJvsAss6e5Z65BEqO5sqyaNKcsNYMSw/OPAyy6OKI+wbsDwqO+3HmUk/zjwdzpKozBQq69xoCbLO
+wkZNcI7KPBM5wWl8xf8kHbg2cX8ko1JP/TFyAirlaOIbT9DXhUiLtUkqMI/nhSefpE6cooRiqopP
+VdcFGxNYT9Xww8fCEI7Yz08goqobI1qt6PMTVEdOUNl8g/Aos4oYLC3WGIEZP09g3RBYZUgUa36B
+9XEmsAtJSdRzz1NSOVUnoOoaItgoUayNnkBA1Qup+sbIJvJbUOClNhEJhE2UUBLRBOLREsjU6/dv
+h4qCpcWaX2CWrIRAmX4xJlJgzz76KHX4GCOwmjqurBYCaxjNaqHhkMBLbfQEVZK5wiOjC2xSDxET
+E6knn6KapBSvnkMLKBB/Q20knLsEfuND5JGN3zBagqaWjR9tG11g1snWg3m93sfWrv3W1dceqzpT
+b60TmquCrGGwurStNK+1UGCpDopiDeGFmiJY5AS12S2ZVaonxV1rmzoeDTWE5zRuqNOtGyVBlvDl
+BuNjQeEj1mB8olb0DN13e4i0WJvsAks9e+Zb//O7f778TMe5PZ1n3g+19uT3q5I+6ggJHzHDmQ+q
+kvYGBV5qijN7G9/95+DWewa2rQi1wdfuVe14WPL2k9gIimIN4S1vPaZ86/HICe5p2vm0fseaSAkG
+tq8Qvr6254Hf2e/9hX1FOLv3F+Jn7xh44H8iJbCu/GX7IzcyQgqSFmuTc4gIga1ater7//pv4vIj
+zCKHuzLYvFWursIBdpEjKIo1X7XVmGttz8VGcBRrvtpeZpHjdtoykx6YHcYsM/uaHqQ7Fo2SoLvx
+Qbr/tuDwETPPmdKLHGfPnv36N7/1wcpFdMK2kMUJvx3d4vy8RQ7X5y5ybLqbfuJv9NPXhrEnr6af
+n0u/tIjZCIpiDeHr5zMrjRET/I3esIR+fk7EBOuupZ+ZyygBXdC14Qzhd/9q9AS+e3/zmaKCbHIK
+zOfzrVix4pvf/HZN2VFGYEEr7DCyTA/jWGDJmIN97Rs77l9GJ0ZYaifL9H6besv0oKCgaP+H27va
+s2hvTbA2YERgMI4FplKp9r2+VfXms+Q62DQUGLCa65kRoIuRU7B5qwe7Cjv1uTRdExzFmq+m15jX
+256HjeAo1ny8dvU5e9sienAObb41jA3OMUpWezruHCWBXowRIKZYIVGs9c/TQoH98+iBkCjYwFy6
+d3FH0SJGYFBIqFVCYFf0Zt3CbARFsVYJ/fzPQPYNERNUUL7C34xbYMAjqqKPbqJPbA1vx7f69RMS
+/pltsxx5IyTwUnvDu+UfzFANAgi1ddfR6+fRLy9lNoKiWEP4SwvpDYsiJ7iWfuUuev1tERM8e4P7
+uXn0DIq+nmJuOAy16ynvit+OluAGyo0EIYEBw15XQWCTbBUROBwuvarEZi609RWFMXOxUZOlbs6w
+D5QER/nNbi7RKzP1ikybOVKCUqXkk275UqdxgaN9YaghvJW/xqxaHjGBaYGctwZ9YFD4iA23LWqu
+XYO/zpAomNO4cFB3lzp7CZ3/fbrgP8NY4X/Yc36nT59DF34nOIq1wu8NZv3FmH5LxAQF37Zk/bm/
+e/w3+/ZUFdH7XqYPbw1vh7aaDrweHHiZvdbx8faQwM/Me3j74Gb0YOhMZoSxZ26h1y+0b0APdnNw
+FGvP3Ox+aYlnw9JREgy9fDe9/g7mUEFRrD03c+DZO+i5X2EkNDOczaAGV/5ptAQzKTMShAQGDHvd
+QA1Owh4M07DurnaTUdNh0oY1k0FtbFN1hoSzhvB2gwo2WgK90mQQdRjFYa3LKG7XizoMjUHhI4YE
+bUjQHjEBzKCLeHzG2sXt6oZObX0k69DUt6vqu0PCWUO4SS0wqgQRE2j4XRqByzHOR06Bpbe7SyHt
+aW2OZB0to8V2K5tNLdK+kPAR61LKOmVCs0zYF8F6ZMJuibC/WRQUzlp/s7BbyljkBKJOKXOQoPAR
+Q4KuJkG/sMYsqo1k3cLa/pDAS61LGBxyqfU1VFq7x/nahSAmeIhIIBAuhQiMQOAQIjACgUOIwAgE
+DiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4hAiMQOAQIjACgUOIwAgEDiECIxA4hAiMQOAQIjAC
+gUOIwAgEDiECIxA4hAiMQOCQWAvM7XYbjO0qlcpgMHzBX78lECY/MRUY1CWRSJStrbo2Q6tKJRaL
+w2rM6/X29/f7fD673W4Z169x+1wDLvVBR9199po7HZItXnNTIIJAiC0xFZjdapVIpXaH02Iftjtd
+UpnMagnza/zt7e1VVVX4CzUKBILh4eFAxNjwDWlsJf83eI4aTKUsqRQ2hjIpt/ZkIJpAiCExFdiw
+zVYvFOn6BnT9g/r+wYbGJnp42NLX19rSolQwtLS0oMsymUwQGD729PSY/QT2HwM+l8Vaeh1EZcn4
+zIbSqaHzlKdzYn7WmkAYO7HtwYaHBQ2ivtfe6L3nvsFNWwt5/Plq9fqsnJ07d76ze/cHu3fv2rUL
+ulKr1Y2NjUqlsrm5GZ3Y0FCYXi4SLvXhIHWxht7MVnY9hp+BdARCTIiDwHpnzzN85auWG29Jqaqh
+yiuosotUftG7suauzk70XRgQOp3OtrY2TM/Qd6ETC+w8NoarFmBYGKQu2JD/b7OwQCDRCJuUcTNJ
+q1AsE4pEsbQGoRDNFma2gTIixJBYCwxDxN4Fi43f/FfL7HmpEFhFFVVXT9XW7eztCyT6Avi8Llvx
+7y3pl0lrxDBKNFY8pRcc1NfviZe11b2nlRerjd1qgylmpjV2iiQyg2H8bwsmjJu4Ccw6e156bR1V
+XUvVN+Dvrq7uQKIvgs9rL/2bJS1YWiPWd47qORtXS6J66l/rHHB39g/EzLrNFq3BiE4sUEqEGBJr
+gfGFop4Fi0zf/LZhzm3HUtO+lXKWyrxAVdW81T0RAqNph+DhsENEmC2LsuX/cCjvB0O5/wGzMts/
+Ct3GBvOR3b7cRkkW8WhBlk1ZZXsGbb5Bi9UyZINhI2ib+Wi97OOIjZLs0qigZENWu77d1NraGigj
+QgyJh8DmMwLTzZ53OPnMjMREKjVtAgXm6bmIISJGg0HqcqVT7VnzqytL5ZJ6uYQPq6ksaBRUtEjr
+5VI+r7JQVM9swxoFlYiSS+pgzRK+VFqPv8xHJllgl0uSMYdCrP9olezRPjuypE4qxRH8u/uttiJf
+LKpvUSjlLS01tbzGRnFLiwKGDXyUtygQLpe31NTUisVNCMe2tEUBwwabrDZcMphQ1FjL47HbjY2N
+gWTyFhlSKltFosaoFmMJE0VcBLaw/Rvfssyam17Dg7QovmDChoh+HJLNzELipzOxoQyKTqf4Ob/4
+l8zEBw6dokorqNJK2EOHj1Pns6jyaqqs8sHDJ6j0TP92FZWZvebQMTYNVXyRyi9h/mKvQLILgWQZ
+WasPf5qstJLZJSObPZr/yP5kiCosZSyQrGItk+wCVVZOlZStOnSISj9PlZYzB09PZz6WliGcKil9
++OBBKiOTiSoppQqKGMNG2UUqLf3BS5I9gmTo/5EMUefS7jtyJLCdlv7AocP+ZPj2okOixkGirjgR
+N4ENzpobWOTg8SdWYLTP41K8N5RDYTJmx7wrgzqSPZuqyqbyL/7kVCIFVWPuB0v4hMotYH7SG9uJ
+SVROvv8XvvlUfuH3T33CBGK7uOyZjw/AR8Mkyyv8NxyBPVRtHbNLXmEgGXPkQLL/Sjr9V3xEeoTX
+8L6PDORfmgwZ4DMfkX7kaIFk+FJmr2tPJf44KSmQDN+OPv/TZMzpFBQHorLyqKTTlyRLYtJgu6Do
+w2PHiMDiRRwWORiBff1frLPmnq/lpAdj8dlN3t7y+ozN+8+891d9+2/1pkUa7QqVeoZON0sL02N7
+gUY7Q6eHYRux7DYC8RFpbtC33S8U7Xn//dX1ghv0hkjJWLs0amQbR9ienLwj4RNs+KOYZOyXBmXg
+07whXHdpMuy4IyFh+5kz7BEiJbs06tLt69oMD/LrcQrdXV2BciHElvgIzPSNb+lmzcUcbA6a7Qmd
+gwWRlllwLu1C4EP0WLq79+zZ028a/09F5WRlZaSnBz6Mi/NpablZWYEP0dNnNOIUuojA4kQ8BDbv
+DuPX/qV91txjaekTvooYRFZW1tmzZwMfogd+uXv37o6OjsDn6MnIyEhNTQ18GBcpKSk4i8CH6Glv
+b8cp9Pb2Bj4TYkt8BGb42jeHZs45z5vo62CX43Q6a2trNRpN4HM0eL1ek8nU09MjEolUKtX4boOw
+2+3sbV/9/f2BoGiwWq3IAI7A5/NxqEBoNPT19aF1aGpqQiF4PJ5AKCGGxENgty0wfO0blhmz06q5
+WeT4FAhDLpdHe7MVy8DAgEKhkMlk6AHgoEajMRARDVVVVd3d3S0tLVKpNFqF+Hw+gUBQUlICheAs
+kJNAxJjBNzY0NOAs2tracArkTo64EDeBDc2YnV5TS1VWM7dKcbHI4fOh7UezrdVqA0FRgm4HrgmB
+wVPHITB0GpmZmfBsKGRwcDDay1D4UgistbVVIpGgK8a54IwCcWMDR+DxeNgdGsMRiMDiQqwF1iBs
+hMDav/oN9Yw5Hyck/OPYid8kn4HMuJiDwTvr6uo6OzsDn6MBk5bS0lL0P9AnDoLhYiBizAwNDdXX
+1yuVSrFYjFFitE+1oWlguz6IHB0RDhKtwKBqZAAKRx4wyERLEYggxJA4CKwbPdhXv26cMftUVjZ1
+PpO5BMTNIofL5cL4MFq/ZEHzD2VioAhHh9jGdxC3240dLRYLjhMIigabzcb2e5hKRatPFnTC+Hbk
+AeVA7qaPC/EQ2K0L2r76dcvNs877Z18Un6tFDgIh7sRHYLqvfo0IjPBlIB4Cm3t721e+1n7LLK6H
+iARC3ImPwAxf+VrrLbO4XuQgEOJOrAUmFIm7587XfeVrg3+fydxNz9kyPYEwGYinwNIwAWNfGVDD
+29Xz2b08w8PDCoXCarV2dHRotdrxreARCJOBWAtMIBJ3zZmv/cpXB26cERAY+rGKqnfbjW4ng9fr
+lcvlRUVF0JhKpVIqlYODg4H9CYSpRrwFBktNf33P3t0HDhw9fPjjjz9ubW1tbm42mUzs3x7/qxED
++xMIU414CGz2PC311YEbbmEEVlVD5eRflZj4fnZ2eWkpOq7u7u7e3l4ej9fZ2SmTyerr68kr7AlT
+l3gLjJ2D8fg7+y673xxjRfzF7IvcA06Y0sRDYLNu1VBfgcCYm325vJueQIg7cRPY4A23ZPDqmCEi
+N68MIBAmA3EQWOesW7XUV9Q33nLkTMqEv7aNQJhUxENgM+dCYLobbj7O/SsDCIT4Eh+BqTEHu/7m
+jDr/zb6cvTKAQIg78RQY804OMgcjTGtiLbCGRlZgVMf1N58uKKJy8qjiEsiMCIwwLYmPwDAHk99w
+877jJx8/fPjviUn+u+nH82oaAmGSEw+BzZijoqjea29i3ip1sZJ5wzMZIhKmKXETWP+1NzGvziaP
+qxCmNXEQWMeM2a0UZb72hsAqIlnkIExf4iMw9GCG625KyMphfqQnt4BcByNMV2ItMBGGiLfMUlOU
+4rqbDiQk3EdeGUCY1sRHYBgi9l9zY2ZtHZmDEaY3sRaYUCzuuHmWkqL6rr4+w/8sM7mbnjCNiZvA
++q++PtPfd5FbpQjTmJgKzBYQ2EwVRWmvuf7E+fPU2XNUZhZZ5CBMV+ImsNZrrj905sytCZ9Q51KJ
+wAjTldgLrMn095kKzMGuui6zjv+5N/uSd7YRpjSxnoM1XiqwWv8iB2ZitXWXvhcRtLa29vb2yuXy
+hoYGt9sdCCUQphrxFlhlFdOJlZa/p9FaLZbBwUGPx9Pf319cXKxSqUwmU1dX1/h++4dAmAzEQ2A3
+zpBTVM/frmUEVl1LnT23G+zdu//DD99//32lUtnR0VFYWIi+S6PRQGbkxaOEqUu8BVZVTRUUU2dT
+d5eWCevr6+rq2J9UtlgsVqu1vb193D9ATiBMBuItMMzB+AKKx9/VT17fS5iGxENgN9wCgfX99Zqs
+MawiEghTmrgJzPC3a84UFlE5+VRxGWRGBEaYlsRaYGJxk/GGmxUUJbnq2n0nTjx26PDMhE/IKwMI
+05U4CKz92pukFNX5x79mVNdQ5RXMzxeRISJhmhKHIWLf/EWG//dt66y5F3jkcRXCNCemArMxApM4
+Hlxt+dVv6RX3ZdUzyxtkkYMwjYmxwOxisWT4/ocGf/Yry/J7PsnJY14ZkEdeGUCYtsRHYEO/+JVx
+2d0HEhLuP3rs9+SVAYTpSxwEZr/vQfMVV3qWr8jC7IvMwQjTmrgJzEsERvgSEOtFDkZgKx8w/9cv
+XHfdc766hiorZ9Y5iMAI05T4CMxyxZVty+766NiJpw4enHsqkVxoJkxXYj1EbGoK9GD2ZXenlpZR
++YVsJ0Z6MMK0JD4C6//pzz3L7s7mC8jNvoTpTVwFRhY5CNOdOAjMtuJ+CMx+5/L08gqqqJj5BSMi
+MMI0JT4CG/jpz/VLlu0/dmzdwYO3kUUOwvQlPgLr+8kVjjuXZ1RWUSWlzCiR9GCEaUrMBSaBwO7r
++/F/ee+8K5sffg7mdDpNJpPH4xkaGjKbyasECFOYuAnMfeddzCsDPn0v4s7evkAimu7o6GhublYo
+FPgrFoutVmsggkCYasRBYNZ7V/b8509dS/0CQw+WlbP4+Mnd6en5OTlZWVkGgwEpjUajTqfr7u5G
+D0Y6McLUJd4Cq6qh0s+/vG/f+0ePJpw8efToUa1Wq9frq6qqBgYGmpqahEKh3W4P7E8gTDXiIbB7
+Vvb+8CeuJcsCQ8TaOualNx2dPi8DkkFaGCXabDYMDkn3RZjSxFNg2SNzsBreTrJMT5iOxEVg/+j9
+jx97Ft+ZK2B+eo/cKkWYxsRJYD/4sXnR0qTcfCrzAvvKgJ3kiWbCdCQeArv7H30/+HHboqUHEj65
+/+ixPyYl++/kIAIjTEPiIbDlK7q//5+uRXdeiHChmUCYNsRJYN/7T/eiOyPdyUEgTBviJbAfDS9a
+mllTS5VdZNY5iMAI05RYC0wikQ7dtaLvez/S3rF43/HjTx08OCchwT8HI8v0hGlIfATW9e8/Glq4
+JLW0nHllAP6SHowwTYmLwO7p/Pf/cC9cklPfQF4ZQJjexEFglmX3dnznB647luRAWmSRgzCtiYvA
+7u78zvetdyw+X1HJvDIAf4nACNOU+Ais599/oFmwkLwygDDtibXAZGwP9m/fs6EHq6pmfj8Wo0TS
+gxGmKfERWMe/fc95x+KcejIHI0xzYiywYUZgdy43/et3nQsWMXfTk1VEwrQmPgLr+NfvDsxfeK6k
+lMrNZ14sRQRGmKbEVGBWp1Mqa7Ysvavr29/VzFvw8fGTTxw6NDPhE7LIQZiuxLYHs9tlQpFlyTLT
+//uOY/7CrLo6qryCquGRHowwXYmVwGw2x7FTPXff23bDze1/+mvbFb8cnrcwSyhi5mAhrwwwm81C
+oZC8jYMwDYiJwLq7++9/UPOTn+t++eu23/y+7fd/bPvfP3b/4f8qt2ylannMS28uF5hSqezs7NTr
+9YHPBMKUhXuBud0DTz6t+ckVbf/7p0vN8Ls/aH/567eTztxYfnHJvn27TiWeS0lJSkpqa2vTaDRE
+YITpAecC81bX6H71W3+vdZnAYLor/9u9ao2mqSk7NTUzLS01NTUlJQUCGxoaamhoIENEwjSAc4HZ
+3tut+ekvgqQVsN/9of3PV9E6XSApgTDt4FxgQ5u2aK+4Mlhan5ruv3/na5IGkhII0w7ue7Cd72h+
++vMgXQXsd38w/OlvPrU6kJRAmHZwLjBPWTnmWpHmYD3L7qadzkBSAmHawbnAaJer76E1oZ2Y/n/+
+V/uzX7qzcwPJCITpCPcCo2lfm6Fn0VLNT36uvfK/A/azX2p/8Sv7nr2BFATCNCUWAmPo77e/+17f
+yvv773+o774HzGsf9RaVBqIIhOlLrARGIHwpIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA
+4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIj
+EDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jA
+CAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAi
+MAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiE
+CIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4BAiMAKBQ4jACAQOIQIjEDiECIxA4Aya/v9rQsBWcj21
+0QAAAABJRU5ErkJggg==</ReportImage>
+  <ReportName>Linear Gauges</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2022.3.5.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Linear_Gauges : Stimulsoft.Report.StiReport
+    {
+        public Linear_Gauges()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="2">
+    <Header1 Ref="145" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,22,Bold</Font>
+      <Name>Header1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="146" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[102:77:38];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9</Font>
+      <Name>Header2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[158:158:158]</TextBrush>
+    </Header2>
+  </Styles>
+</StiSerializer>

@@ -1,0 +1,715 @@
+{
+  "ReportVersion": "2022.3.5.0",
+  "ReportGuid": "d55b63d95a694bf9b1aaf49d4c7830c0",
+  "ReportName": "Waterfall Chart",
+  "ReportAlias": "Waterfall Chart",
+  "ReportAuthor": "Stimulsoft",
+  "ReportCreated": "/Date(0+0300)/",
+  "ReportChanged": "/Date(1662388631498+0300)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "HundredthsOfInch",
+  "PreviewSettings": 260039167,
+  "ReportImage": "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\r\ngg==",
+  "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.Dialogs;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    public class Waterfall_Chart : Stimulsoft.Report.StiReport\r\n    {\r\n        public Waterfall_Chart()        {\r\n            this.InitializeComponent();\r\n        }\r\n\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}\r\n",
+  "Styles": {
+    "0": {
+      "Ident": "StiStyle",
+      "Name": "Header1",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;24;Bold;",
+      "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:64,64,64",
+      "NegativeTextBrush": "solid:255,0,0"
+    },
+    "1": {
+      "Ident": "StiStyle",
+      "Name": "Footer1",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Segoe UI;9.75;;",
+      "Border": ";58,78,94;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "TextBrush": "solid:158,158,158",
+      "NegativeTextBrush": "solid:255,0,0",
+      "AllowUseBorderSides": false
+    },
+    "2": {
+      "Ident": "StiChartStyle",
+      "Name": "Chart",
+      "Border": ";Transparent;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "ChartAreaBrush": "solid:255,255,255",
+      "ChartAreaBorderColor": "Transparent",
+      "SeriesLabelsBrush": "solid:",
+      "SeriesLabelsColor": "White",
+      "SeriesLabelsBorderColor": "Transparent",
+      "TrendLineColor": "Transparent",
+      "LegendBrush": "solid:255,255,255",
+      "LegendBorderColor": "Transparent",
+      "InterlacingHorBrush": "solid:10,155,155,155",
+      "InterlacingVertBrush": "solid:10,155,155,155",
+      "GridLinesHorColor": "Transparent",
+      "GridLinesVertColor": "Transparent",
+      "StyleColors": {
+        "0": "255,180,135",
+        "1": "88,166,146",
+        "2": "95,127,167",
+        "3": "239,127,147",
+        "4": "255,209,135",
+        "5": "147,219,116"
+      },
+      "ToolTipBrush": "solid:White",
+      "ToolTipTextBrush": "solid:Black",
+      "ToolTipCornerRadius": "0,0,0,0",
+      "ToolTipBorder": ";;;;",
+      "SeriesCornerRadius": "0,0,0,0"
+    },
+    "3": {
+      "Ident": "StiChartStyle",
+      "Name": "Chart1",
+      "Border": ";Transparent;;;;;;solid:0,0,0",
+      "Brush": "solid:",
+      "ChartAreaBrush": "solid:255,255,255",
+      "ChartAreaBorderColor": "Transparent",
+      "SeriesLabelsBrush": "solid:",
+      "SeriesLabelsColor": "White",
+      "SeriesLabelsBorderColor": "Transparent",
+      "TrendLineColor": "Transparent",
+      "LegendBrush": "solid:255,255,255",
+      "LegendBorderColor": "Transparent",
+      "InterlacingHorBrush": "solid:10,155,155,155",
+      "InterlacingVertBrush": "solid:10,155,155,155",
+      "GridLinesHorColor": "Transparent",
+      "GridLinesVertColor": "Transparent",
+      "StyleColors": {
+        "0": "255,180,135",
+        "1": "88,166,146",
+        "2": "95,127,167",
+        "3": "239,127,147",
+        "4": "255,209,135",
+        "5": "147,219,116"
+      },
+      "ToolTipBrush": "solid:White",
+      "ToolTipTextBrush": "solid:Black",
+      "ToolTipCornerRadius": "0,0,0,0",
+      "ToolTipBorder": ";;;;",
+      "SeriesCornerRadius": "10,10,0,0"
+    }
+  },
+  "ReferencedAssemblies": {
+    "0": "System.Dll",
+    "1": "System.Drawing.Dll",
+    "2": "System.Windows.Forms.Dll",
+    "3": "System.Data.Dll",
+    "4": "System.Xml.Dll",
+    "5": "Stimulsoft.Controls.Dll",
+    "6": "Stimulsoft.Base.Dll",
+    "7": "Stimulsoft.Report.Dll"
+  },
+  "Dictionary": {
+    "Resources": {
+      "0": {
+        "Name": "Data",
+        "Alias": "Data",
+        "Type": "Excel",
+        "Image": "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"
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "Data",
+        "Alias": "Data",
+        "Key": "d8b119d350b24ee6843a1136685979a6",
+        "Columns": {
+          "0": {
+            "Name": "Column1",
+            "Index": -1,
+            "NameInSource": "Column1",
+            "Alias": "Column1",
+            "Type": "System.Double",
+            "Key": "d892317ec9074d1fa6ef064eeb2461c9"
+          },
+          "1": {
+            "Name": "Column2",
+            "Index": -1,
+            "NameInSource": "Column2",
+            "Alias": "Column2",
+            "Type": "System.Double",
+            "Key": "ebcea521a50f43aa856f7d7924656417"
+          }
+        },
+        "NameInSource": "Data.Data"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiExcelDatabase",
+        "Name": "Data",
+        "Alias": "Data",
+        "Key": "7b99de448dd14e6cb6a6a8bdca5d2d71",
+        "PathData": "resource://Data"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "3a7d7edd89b2440f84fee03628209a97",
+      "Alias": "Waterfall",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiChart",
+          "Name": "Chart1",
+          "ClientRectangle": "10,140,730,630",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";Transparent;;;;;;solid:0,0,0",
+          "Brush": "solid:",
+          "EditorType": "Simple",
+          "CustomStyleName": "Chart",
+          "Series": {
+            "0": {
+              "Ident": "StiWaterfallSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Column1",
+              "Title": {
+                "Value": "Series 1"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:255,180,135",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "0,0,0,0",
+              "ConnectorLine": {
+                "ShowShadow": true
+              },
+              "Total": {
+                "Text": "Total"
+              }
+            },
+            "1": {
+              "Ident": "StiWaterfallSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Column2",
+              "Title": {
+                "Value": "Series 2"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:88,166,146",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "0,0,0,0",
+              "ConnectorLine": {
+                "ShowShadow": true
+              },
+              "Total": {
+                "Text": "Total"
+              }
+            }
+          },
+          "Area": {
+            "Ident": "StiWaterfallArea",
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Left"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "Transparent",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiCenterAxisLabels",
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-",
+            "Format": "N0",
+            "LabelColor": "White",
+            "BorderColor": "Transparent",
+            "Brush": "solid:"
+          },
+          "Legend": {
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "TitleColor": "DimGray",
+            "LabelsColor": "140,140,140",
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            }
+          },
+          "Title": {
+            "Brush": "solid:140,140,140"
+          },
+          "Style": {
+            "Ident": "StiCustomStyle"
+          }
+        },
+        "1": {
+          "Ident": "StiReportTitleBand",
+          "Name": "ReportTitleBand2",
+          "Guid": "f7ffd3b0a2794ffa97f5e1a42a1b4e0b",
+          "ClientRectangle": "0,20,749,110",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text20",
+              "Guid": "b1628e3ab2484a97bd0904ad4a73c379",
+              "CanGrow": true,
+              "ClientRectangle": "570,0,179,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAuthor}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text23",
+              "Guid": "bccb420d0b89460dbad5467eca8598fc",
+              "CanGrow": true,
+              "ClientRectangle": "0,0,570,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportName}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text6",
+              "ClientRectangle": "0,40,749,60",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "A waterfall chart shows a running total as values are added or subtracted. It's useful for understanding how an initial value (for example, net income) is affected by a series of positive and negative values. The columns are color coded so you can quickly tell positive from negative numbers."
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:158,158,158",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 5.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            }
+          }
+        }
+      },
+      "PaperSize": "A4",
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      }
+    },
+    "1": {
+      "Ident": "StiPage",
+      "Name": "Waterfall_with_Rounding_",
+      "Guid": "ed75d8d4979c44ada87b77d36fea9258",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiChart",
+          "Name": "Chart2",
+          "ClientRectangle": "10,140,730,630",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";Transparent;;;;;;solid:0,0,0",
+          "Brush": "solid:",
+          "EditorType": "Simple",
+          "CustomStyleName": "Chart1",
+          "Series": {
+            "0": {
+              "Ident": "StiWaterfallSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Column1",
+              "Title": {
+                "Value": "Series 1"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:255,180,135",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "10,10,0,0",
+              "ConnectorLine": {
+                "ShowShadow": true
+              },
+              "Total": {
+                "Text": "Total"
+              }
+            },
+            "1": {
+              "Ident": "StiWaterfallSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "White",
+                "BorderColor": "Transparent",
+                "Brush": "solid:"
+              },
+              "ValueDataColumn": "Data.Column2",
+              "Title": {
+                "Value": "Series 2"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:88,166,146",
+              "BrushNegative": "solid:Firebrick",
+              "CornerRadius": "10,10,0,0",
+              "ConnectorLine": {
+                "ShowShadow": true
+              },
+              "Total": {
+                "Text": "Total"
+              }
+            }
+          },
+          "Area": {
+            "Ident": "StiWaterfallArea",
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Area": true
+            },
+            "GridLinesHor": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "Color": "Transparent",
+              "MinorColor": "Transparent",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Left"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "Color": "140,140,140"
+              },
+              "LineColor": "140,140,140",
+              "Title": {
+                "Color": "140,140,140"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "Transparent",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiCenterAxisLabels",
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-",
+            "Format": "N0",
+            "LabelColor": "White",
+            "BorderColor": "Transparent",
+            "Brush": "solid:"
+          },
+          "Legend": {
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "solid:255,255,255",
+            "TitleColor": "DimGray",
+            "LabelsColor": "140,140,140",
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            }
+          },
+          "Title": {
+            "Brush": "solid:140,140,140"
+          },
+          "Style": {
+            "Ident": "StiCustomStyle"
+          }
+        },
+        "1": {
+          "Ident": "StiReportTitleBand",
+          "Name": "ReportTitleBand1",
+          "Guid": "f7ffd3b0a2794ffa97f5e1a42a1b4e0b",
+          "ClientRectangle": "0,20,749,110",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "2f14305f040240cf8cde13345f7d8325",
+              "CanGrow": true,
+              "ClientRectangle": "570,0,179,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAuthor}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "Guid": "f69d707660084bdda1bbf9beb258b041",
+              "CanGrow": true,
+              "ClientRectangle": "0,0,570,40",
+              "ComponentStyle": "Header1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportName} with Rounding "
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;24;Bold;",
+              "Border": "Bottom;158,158,158;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:64,64,64",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text3",
+              "ClientRectangle": "0,40,749,60",
+              "ComponentStyle": "Footer1",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "A waterfall chart shows a running total as values are added or subtracted. It's useful for understanding how an initial value (for example, net income) is affected by a series of positive and negative values. The columns are color coded so you can quickly tell positive from negative numbers."
+              },
+              "VertAlignment": "Center",
+              "Font": "Segoe UI;9.75;;",
+              "Border": ";58,78,94;;;;;;solid:0,0,0",
+              "Brush": "solid:",
+              "TextBrush": "solid:158,158,158",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 5.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "Bottom": 0.0
+              },
+              "Type": "Expression"
+            }
+          }
+        }
+      },
+      "PaperSize": "A4",
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      }
+    }
+  }
+}

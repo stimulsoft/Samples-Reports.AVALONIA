@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Managing_Reports_with_Sub_Reports.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Managing_Reports_with_Sub_Reports.Views"
+		Width="450" Height="300"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="300"
+        x:Class="Managing_Reports_with_Sub_Reports.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+		WindowStartupLocation="CenterScreen"
+        Title="Managing Reports with Sub-Reports">
+	<Grid>
+		<Grid Margin="12" RowDefinitions="Auto,*,Auto">
+			<Grid RowDefinitions="*,12,*,12,*" ColumnDefinitions="Auto,12,*">
+				<TextBlock VerticalAlignment="Center" Text="Report 1:"/>
+				<Button x:Name="buttonReport1Show" Grid.Column="2" Width="100" 
+						HorizontalContentAlignment="Center" Content="Show"
+						Click="ButtonReport1Show_Click"/>
+
+				<TextBlock Grid.Row="2" VerticalAlignment="Center" Text="Report 2:"/>
+				<Button x:Name="buttonReport2Show" Grid.Row="2" Grid.Column="2" Width="100" 
+						HorizontalContentAlignment="Center" Content="Show"
+						Click="ButtonReport2Show_Click"/>
+
+				<TextBlock Grid.Row="4" VerticalAlignment="Center" Text="Report 3:"/>
+				<Button x:Name="buttonReport3Show" Grid.Row="4" Grid.Column="2" Width="100" 
+						HorizontalContentAlignment="Center" Content="Show"
+						Click="ButtonReport3Show_Click"/>
+			</Grid>
+
+			<StackPanel Grid.Row="1" VerticalAlignment="Center">
+				<CheckBox x:Name="checkBoxPrintOnPreviousPage" Content="Print on Previous Page"/>
+				<CheckBox x:Name="checkBoxResetPageNumber" Content="Reset Page Number"/>
+			</StackPanel>
+			
+			<Button x:Name="buttonShow" Grid.Row="2" Grid.ColumnSpan="3"
+					HorizontalAlignment="Stretch"
+					VerticalAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Content="Show"
+					Click="ButtonShow_Click"/>
+		</Grid>
+	</Grid>
+</Window>

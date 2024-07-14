@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Assets\avalonia-logo.ico" />
+    <None Remove="Localization\en.xml" />
+    <None Remove="Localization\pl.xml" />
+    <None Remove="Localization\ru.xml" />
+    <None Remove="Reports\**\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\avalonia-logo.ico" />
+    <AvaloniaResource Include="Localization\*.xml" />
+    <AvaloniaResource Include="Reports\**\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootDescriptor Include="Roots.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.8" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.8" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.8" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.8" />
+    <PackageReference Include="Stimulsoft.Reports.Avalonia" Version="2024.3.2" />
+  </ItemGroup>
+</Project>

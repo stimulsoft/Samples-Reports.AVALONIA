@@ -1,23 +1,26 @@
 # Avalonia C# samples for Stimulsoft Reports.AVALONIA
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.AVALONIA reporting tool in the Avalonia applications, using C# code and Avalonia components. The report builder and examples are fully compatible with .NET 6.0, and .NET 7.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.AVALONIA reporting tool in the Avalonia applications, using C# code and Avalonia components. The report builder and examples are fully compatible with .NET 6.0, .NET 7.0, and .NET 8.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
 
 ## Overview
 This repository has a set of examples (Visual Studio projects), each in different folders:
-* [Change Theme in Avalonia](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Change%20Theme%20in%20Avalonia)
-* [Creating Chart at Runtime](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Creating%20Chart%20at%20Runtime)
-* [Creating Report at Runtime](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Creating%20Report%20at%20Runtime)
-* [Customizing the Viewer](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Customizing%20the%20Viewer)
-* [Demo](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Demo)
-* [Drilling Down Report in Live](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Drilling%20Down%20Report%20in%20Live)
-* [Exporting a Report from Code](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Exporting%20a%20Report%20from%20Code)
-* [Globalizing Reports](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Globalizing%20Reports)
-* [Managing Reports with Sub-Reports](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Managing%20Reports%20with%20Sub-Reports)
-* [Using Business Objects in the Report](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Using%20Business%20Objects%20in%20the%20Report)
-* [Using Linq in Reports](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Using%20Linq%20in%20Reports)
-* [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/Using%20Report%20Variables%20in%20Code)
+* [Change Theme in Avalonia](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Change%20Theme%20in%20Avalonia)
+* [Creating Chart at Runtime](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Creating%20Chart%20at%20Runtime)
+* [Creating Report at Runtime](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Creating%20Report%20at%20Runtime)
+* [Customizing the Viewer](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Customizing%20the%20Viewer)
+* [Demo](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Demo)
+* [Drilling Down Report in Live](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Drilling%20Down%20Report%20in%20Live)
+* [Exporting a Report from Code](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Exporting%20a%20Report%20from%20Code)
+* [Globalizing Reports](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Globalizing%20Reports)
+* [Managing Reports with Sub-Reports](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Managing%20Reports%20with%20Sub-Reports)
+* [Using Business Objects in the Report](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Using%20Business%20Objects%20in%20the%20Report)
+* [Using Linq in Reports](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Using%20Linq%20in%20Reports)
+* [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0/Using%20Report%20Variables%20in%20Code)
 
-All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings.
+All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings. Currently, projects are prepared for these frameworks:
+
+* [.NET 6.0](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%206.0)
+* [.NET 8.0](https://github.com/stimulsoft/Samples-Reports.AVALONIA/tree/main/NET%208.0)
 
 ## Running samples
 In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from the NuGet repository.
