@@ -1,6 +1,6 @@
 # Avalonia C# samples for Stimulsoft Reports.AVALONIA
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.AVALONIA reporting tool in the Avalonia applications, using C# code and Avalonia components. The report builder and examples are fully compatible with .NET 6.0, .NET 7.0, and .NET 8.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
+#### This repository contains source code examples demonstrating the usage of the Stimulsoft Reports.AVALONIA reporting tool in the Avalonia applications, using C# code and Avalonia components. The report builder and components are fully compatible with .NET 6.0, .NET 7.0, .NET 8.0, and .NET 9.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
 
 ## Overview
 This repository has a set of examples (Visual Studio projects), each in different folders:
