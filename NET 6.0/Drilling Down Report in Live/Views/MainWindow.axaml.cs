@@ -27,7 +27,7 @@ public partial class MainWindow : Window
 
         // How to Activate
         //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-        //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+        //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
         //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
         var dataXml = AssetLoader.Open(new Uri($@"avares://Drilling Down Report in Live/Data/Demo.xml"));
